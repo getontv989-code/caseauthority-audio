@@ -244,16 +244,18 @@ def render(post, spec):
             f'<div class="xstage">{poster}<span class="xwm" aria-hidden="true"><span class="xmark">{MARK}</span>CaseAuthority</span><div class="xscenes">{"".join(scenes)}</div></div>{bar}</section>')
 
 
-CSS = r"""
+CSS = r""".xp{container:xp/inline-size}
+
 .xpdeco{position:absolute;right:5%;bottom:0;display:flex;align-items:flex-end;gap:0;width:34%;max-width:360px}
 .xpdeco .xperson{width:50%;height:auto}
 .xbub{position:absolute;left:8%;top:-26%;background:#fff;border-radius:16px;padding:12px 16px;font-size:15px;font-weight:500;box-shadow:0 12px 30px -18px rgba(14,14,15,.3)}
 .xbub::after{content:"";position:absolute;left:28px;bottom:-8px;border:8px solid transparent;border-bottom:0;border-top-color:#fff}
-.xwith{position:relative;display:flex;align-items:flex-end;justify-content:center;gap:4px;width:100%}
-.xguy{flex:none;width:120px;margin-left:6px}
+.xwith{position:relative;display:flex;align-items:flex-end;justify-content:center;gap:10px;width:100%;min-width:0}
+.xwith>:first-child{flex:0 1 auto;min-width:0}
+.xguy{flex:0 0 auto;width:clamp(76px,10cqw,118px)}
 .xguy .xperson{width:100%;height:auto}
-.xcrowd{position:absolute;bottom:-4px;width:clamp(80px,13%,150px)}
-.xcrowd.l{left:9%}.xcrowd.r{right:6%}
+.xcrowd{position:absolute;bottom:-4px;width:clamp(64px,11cqw,140px)}
+.xcrowd.l{left:7%}.xcrowd.r{right:7%}
 .xcrowd .xperson{width:100%;height:auto}
 .xp{--xg:#CEAA32;--xk:#0E0E0F;--xc:#F5F1EA;--xs:#fff7e2;--xi:#7a5f12;--xe:cubic-bezier(.16,1,.3,1);margin:40px 0 0;font-family:inherit}
 .xstage{position:relative;aspect-ratio:16/9;border-radius:24px;overflow:hidden;background:var(--xc);color:var(--xk);isolation:isolate}
@@ -263,7 +265,7 @@ CSS = r"""
 .xpk,.xk{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--xi)}
 .xmark{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--xk)}
 .xmark svg{width:70%;height:70%}
-.xpt{max-width:15ch;font-size:clamp(28px,4.4vw,52px);line-height:1.04;font-weight:500;letter-spacing:-.03em}
+.xpt{max-width:15ch;font-size:clamp(26px,4.6cqw,52px);line-height:1.04;font-weight:500;letter-spacing:-.03em}
 .xpb{display:inline-flex;align-items:center;gap:12px;align-self:flex-start;background:var(--xk);color:#fff;border-radius:999px;padding:10px 22px 10px 10px;font-size:16px;font-weight:500;transition:transform .25s var(--xe)}
 .xposter:hover .xpb{transform:translateY(-2px)}
 .xpb i{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--xg);color:var(--xk)}
@@ -273,19 +275,20 @@ CSS = r"""
 .xwm{position:absolute;left:18px;bottom:14px;z-index:2;display:flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:#8a8a90;opacity:0;transition:opacity .4s}
 .xwm .xmark{width:18px;height:18px;border-radius:5px}
 .xp.on .xwm{opacity:1}
+.xp.on:has(.xs.xcenter.act) .xwm{opacity:0}
 .xend .xmark{display:none}
-.xs{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:5%;padding:5% 6%;opacity:0;visibility:hidden;transition:opacity .45s var(--xe),visibility 0s .45s}
+.xs{position:absolute;inset:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);align-items:center;gap:4%;padding:4% 5%;opacity:0;visibility:hidden;transition:opacity .45s var(--xe),visibility 0s .45s}
 .xs.act{opacity:1;visibility:visible;transition:opacity .45s var(--xe)}
 .xs.xcenter{grid-template-columns:1fr;justify-items:center;text-align:center}
 .xtxt{display:grid;gap:14px}
-.xintro{display:grid;justify-items:center;gap:16px;max-width:680px}
+.xintro{display:grid;justify-items:center;gap:16px;max-width:min(680px,58cqw)}
 .xintro .xmark{width:56px;height:56px;border-radius:14px}
-.xh{margin:0;font-size:clamp(22px,3vw,38px);line-height:1.1;font-weight:500;letter-spacing:-.025em}
-.xh.xbig{font-size:clamp(26px,4vw,50px)}
-.xs .xd{margin:0;font-size:clamp(15px,1.45vw,19px);line-height:1.45;color:#45454a}
+.xh{margin:0;font-size:clamp(20px,3.1cqw,38px);line-height:1.1;font-weight:500;letter-spacing:-.025em}
+.xh.xbig{font-size:clamp(24px,4.2cqw,50px)}
+.xs .xd{margin:0;font-size:clamp(14px,1.6cqw,19px);line-height:1.45;color:#45454a}
 .xcta{display:inline-flex;align-items:center;background:var(--xk);color:#fff!important;text-decoration:none;border-radius:999px;padding:14px 24px;font-size:16px;font-weight:500;margin-top:6px}
 .xcta:hover{background:#2a2a2d}
-.xvis{display:grid;place-items:center;min-width:0;height:100%}
+.xvis{display:grid;place-items:center;min-width:0;height:100%;max-height:100%}
 .xcard{width:min(100%,360px);background:#fff;border-radius:18px;padding:20px;box-shadow:0 1px 0 rgba(14,14,15,.05),0 18px 40px -24px rgba(14,14,15,.25);display:grid;gap:10px}
 .xct{margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#8a8a90}
 .xr{display:flex;align-items:center;gap:12px;font-size:15px;font-weight:500;padding:10px 12px;border-radius:12px;background:#f7f6f3}
@@ -300,10 +303,10 @@ CSS = r"""
 .xring{position:absolute;inset:0;border-radius:50%;border:2px solid var(--xg);opacity:0}
 .xs.act .xring{animation:xRing 1.6s ease-out .3s 3}
 .xs.act .xring.r2{animation-delay:.8s}
-.xv-shrink{position:relative;width:min(100%,380px);height:260px}
+.xv-shrink{position:relative;width:min(100%,380px);padding:0 0 22px}
 .xv-shrink .xcard{position:absolute;width:78%}
-.xfront{left:0;top:0;z-index:2}
-.xback{right:0;top:34px;background:#fbfaf7;opacity:.95}
+.xv-shrink .xfront{position:relative;left:0;top:0;z-index:2}
+.xback{right:0;top:34px;bottom:0;overflow:hidden;background:#fbfaf7;opacity:.95}
 .xln{display:block;height:9px;border-radius:5px;background:#ebe8e1}
 .xln:nth-of-type(odd){width:82%}
 .xbars{display:flex;align-items:flex-end;gap:12px;height:150px;padding-top:8px}
@@ -336,9 +339,9 @@ CSS = r"""
 .xs.act .a-rise{animation:xRise 1s var(--xe) var(--d,0s) both}
 .xs.act .a-slide{animation:xSlide .9s var(--xe) var(--d,0s) both}
 .xs.act .a-draw{animation:xDraw 1.1s ease-in-out var(--d,0s) both}
-.xq{display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;border:1.5px solid #e4e0d6;font-size:15px;font-weight:500}
+.xq{display:flex;align-items:center;gap:10px;min-width:0;overflow:hidden;padding:10px 14px;border-radius:999px;border:1.5px solid #e4e0d6;font-size:15px;font-weight:500}
 .xq svg{width:18px;height:18px;flex:none;color:#8a8a90}
-.xtype{display:inline-block;overflow:hidden;white-space:nowrap;max-width:0;border-right:2px solid var(--xk)}
+.xtype{display:inline-block;flex:0 1 auto;min-width:0;overflow:hidden;white-space:nowrap;max-width:0;border-right:2px solid var(--xk)}
 @media (prefers-reduced-motion:reduce){.xtype{max-width:none}}
 .xs.act .xtype{animation:xType 1.4s steps(var(--n)) .5s both}
 .xres1{display:flex;align-items:center;gap:8px;padding:9px 12px;border-radius:12px;background:#f7f6f3;font-size:14px}
@@ -363,11 +366,11 @@ CSS = r"""
 .xpg b{font-size:14px;font-weight:600}.xpg span{font-size:12px;color:#6b6b70}
 .xline{position:relative;height:96px;margin:6px 8px 0}
 .xline>i{position:absolute;left:0;right:0;top:12px;height:4px;border-radius:2px;background:var(--xg);transform-origin:left}
-.xtm{position:absolute;top:4px;width:0;display:grid;justify-items:center;text-align:center}
+.xtm{position:absolute;top:4px;display:grid;justify-items:center;text-align:center;translate:-50% 0;max-width:36%}
 .xtm i{width:20px;height:20px;border-radius:50%;background:var(--xk);border:4px solid #fff;box-sizing:border-box}
-.xtm b{white-space:nowrap;font-size:13px;font-weight:600;margin-top:8px}
-.xtm span{white-space:nowrap;font-size:12px;color:#6b6b70}
-.xtm:first-of-type{justify-items:start;text-align:left}.xtm:last-of-type{justify-items:end;text-align:right}
+.xtm b{font-size:13px;font-weight:600;margin-top:8px;line-height:1.2}
+.xtm span{font-size:12px;line-height:1.25;color:#6b6b70}
+.xtm:first-of-type{justify-items:start;text-align:left;translate:-10px 0}.xtm:last-of-type{justify-items:end;text-align:right;translate:calc(-100% + 10px) 0}
 .xsbar{display:flex;gap:4px;height:44px}
 .xsbar i{display:block;border-radius:8px;transform-origin:left}
 .xkeys{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;font-weight:500}
@@ -404,9 +407,9 @@ CSS = r"""
 .xseg:focus-visible i{outline:2px solid var(--xk);outline-offset:3px}
 .xtime{flex:none;font-size:13px;font-weight:600;color:#6b6b70;font-variant-numeric:tabular-nums;min-width:34px;text-align:right}
 @media (prefers-reduced-motion:reduce){.xs.act [class*="a-"]{animation:none!important;opacity:1;transform:none;stroke-dashoffset:0}.xs.act .xring,.xs.act .xdot{animation:none!important}.xs.act .xdot{left:calc(100% - 18px)}}
-@media (max-width:700px){.xstage{aspect-ratio:9/14;border-radius:18px}}
-@media (max-width:700px){.xpdeco{width:62%;right:2%}.xbub{font-size:13px;top:-30%}.xpt{max-width:none}.xguy{position:absolute;right:-10px;bottom:-14px;width:66px;margin:0}.xcrowd{width:74px}.xcrowd.l{left:2%}.xcrowd.r{right:2%}.xintro{padding-bottom:70px}.xph{display:none}.xwm{display:none}.xpdeco{width:48%}.xbub{display:none}}
-@media (max-width:700px){.xs{grid-template-columns:1fr;grid-template-rows:auto auto;align-content:center;padding:22px 18px 40px;gap:18px}.xs .xvis{order:-1;height:auto}.xcard{padding:14px;gap:7px;border-radius:14px}.xr{padding:7px 10px;font-size:14px}.xbars{height:110px}.xv-shrink{height:200px}.xsh{width:84px;height:98px}.xph{width:48px;height:48px}.xph svg{width:22px;height:22px}.xtxt{gap:8px}.xph{display:none}.xs .xd{font-size:14.5px}}
+@container xp (max-width:819px){.xstage{aspect-ratio:4/3}.xs{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto;align-content:center;gap:16px;padding:22px 22px 26px}.xs .xvis{order:-1;height:auto}.xcard{padding:14px;gap:7px;border-radius:14px}.xr{padding:7px 10px;font-size:14px}.xbars{height:110px}.xst{font-size:28px;gap:4px}.xsh{width:84px;height:98px}.xph{display:none}.xwm{display:none}.xcmp{grid-template-columns:minmax(0,1fr) 40px 40px;font-size:13px}.xpages{gap:8px}.xpg{padding:9px}.xpg i{height:20px}.xtile{height:80px}.xres1 i{display:none}.xintro{max-width:100%;padding-bottom:calc(11cqw * 1.45)}.xpdeco{width:44%;right:3%}.xbub{display:none}.xpt{max-width:none}}
+@container xp (max-width:559px){.xstage{aspect-ratio:3/5;border-radius:18px}.xs{padding:20px 16px 22px;gap:14px}.xguy{width:clamp(54px,16cqw,76px)}.xcrowd{width:clamp(56px,17cqw,80px)}.xcrowd.l{left:3%}.xcrowd.r{right:3%}.xintro{padding-bottom:calc(17cqw * 1.45)}.xpdeco{width:56%}.xst{font-size:24px}.xr{font-size:13.5px;gap:9px}.xchk{width:20px;height:20px}}
+@container xp (max-width:319px){.xstage{aspect-ratio:1/2}.xs{padding:18px 12px 20px;gap:12px}.xguy{width:46px}.xwith{gap:4px}.xcard{padding:11px;gap:6px}.xr{font-size:12.5px;padding:6px 8px;gap:7px}.xh{font-size:19px}.xs .xd{font-size:13.5px}.xbars{gap:6px}.xbar span{font-size:10.5px}.xmrow{font-size:12.5px;gap:6px;padding:6px}.xmrow em{display:none}.xcmp{grid-template-columns:minmax(0,1fr) 28px 28px;font-size:12px;padding:6px}.xpg b{font-size:12.5px}.xres1{font-size:12.5px}.xres1 em{display:none}.xkeys{font-size:12px}.xlane p{font-size:12.5px}.xst{font-size:20px}}
 """
 
 JS = r"""
