@@ -426,10 +426,10 @@ sg.forEach(function(b,j){b.style.setProperty('--f',j<k?1:j>k?0:Math.min(1,(t-S[j
 function tick(now){var dt=now-last;last=now;t=Math.min(T,t+dt);paint();
 if(t>=T){run=false;p.classList.add('paused','done');tg.setAttribute('aria-label','Replay');ev('explainer_complete');return}
 if(t>T/2)ev('explainer_half');raf=requestAnimationFrame(tick)}
-function play(){if(t>=T){t=0;cur=-1}p.classList.add('on');p.classList.remove('paused','done');run=true;tg.setAttribute('aria-label','Pause');
+function play(){if(t>=T)seek(0);p.classList.add('on');p.classList.remove('paused','done');run=true;tg.setAttribute('aria-label','Pause');
 last=performance.now();cancelAnimationFrame(raf);raf=requestAnimationFrame(tick);ev('explainer_play')}
 function pause(){if(!run)return;run=false;cancelAnimationFrame(raf);p.classList.add('paused');tg.setAttribute('aria-label','Play')}
-function seek(ms){t=ms;cur=-1;sc.forEach(function(s){s.classList.remove('act')});p.classList.remove('done');paint()}
+function seek(ms){t=ms;cur=-1;sc.forEach(function(s){s.classList.remove('act');s.setAttribute('aria-hidden','true')});p.classList.remove('done');paint()}
 p.querySelector('[data-xplay]').onclick=play;tg.onclick=function(){run?pause():play()};
 if(cta)cta.addEventListener('click',function(){ev('explainer_cta')});
 if('IntersectionObserver'in window)new IntersectionObserver(function(e){if(!e[0].isIntersecting)pause()},{threshold:.25}).observe(p);
