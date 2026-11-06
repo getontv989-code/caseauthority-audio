@@ -452,6 +452,29 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'website-design-for-personal-injury-lawyers': {
+  'title': 'Personal Injury Website Design in 60 Seconds',
+  'sub': 'What turns an injury firm website into calls and signed cases.',
+  'bubble': 'Here is what really matters.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Results Matter More Than Looks',
+     'p': 'The best injury firm websites load fast on a phone, make calling easy and explain clearly what the firm handles and where.',
+     'v': {'kind': 'phone', 'title': 'Your firm on a phone', 'rows': ['Tap to call', 'Free case review', 'Case types and cities']}},
+    {'h': 'Design for the Phone First', 'p': 'Most injured people find a lawyer on their phone, often soon after an accident. The site has to work there first.',
+     'v': {'kind': 'checklist', 'title': 'One-hand phone test', 'items': ['Loads in a moment', 'Phone number in view', 'Easy to read', 'Big tap targets']}},
+    {'h': 'A Slow Site Loses Cases', 'p': 'Every extra second gives a stressed visitor a reason to go back and call the next firm.',
+     'v': {'kind': 'race', 'fast': ('Page loads in a moment', 'Call to your firm'), 'slow': ('Page still loading', 'Called the next firm')}},
+    {'h': 'One Page per Case Type and City', 'p': 'Clear pages help people and Google understand what you handle and where you work.',
+     'v': {'kind': 'pages', 'pages': [('Car Accidents', 'Your main city'), ('Truck Accidents', 'Your main city'), ('Slip and Fall', 'Your main city'), ('Car Accidents', 'Nearby city')]}},
+    {'h': 'Trust Comes From Real Proof', 'p': 'Real reviews, attorney profiles and honest facts build more trust than stock photos and slogans.',
+     'v': {'kind': 'stars', 'tag': 'Real reviews from real clients', 'reviews': ['They explained everything clearly.', 'Easy to reach and always kind.']}},
+    {'h': 'Judge It by Signed Cases', 'p': 'Track calls, forms and signed cases from the site, not just visits or how it looks.',
+     'v': {'kind': 'compare', 'cols': ['Looks', 'Cases'], 'rows': [('Brings in calls', (False, True)), ('Ties to fees', (False, True)), ('Guides what to fix', (False, True))]}},
+    {'h': 'Check Your Bar Rules', 'p': 'Your website is lawyer advertising, so results, reviews and awards need care.',
+     'v': {'kind': 'shield', 'chips': ['State bar rules', 'Disclaimers', 'No promised results']}},
+  ],
+  'cta': CTA('Want to Know if Your Website Is Costing You Cases?', 'Get a free audit of how your site works on a phone and in Google.'),
+},
 'personal-injury-intake-form': {
   'title': 'Personal Injury Intake Forms in 60 Seconds',
   'sub': 'Five things every firm owner and intake manager should know.',
