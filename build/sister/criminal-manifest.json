@@ -1,0 +1,22 @@
+{
+ "dui-lawyer-seo": {
+  "file": "/blog/audio/dui-lawyer-seo.mp3?v=b5eb1f2fa6",
+  "seconds": 946,
+  "bytes": 3785511,
+  "date": "2026-11-09",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "d40a3806b332f6c448f1c4698bae48eccf00fa15",
+  "path": "sister/criminal/dui-lawyer-seo.mp3",
+  "sha1": "b5eb1f2fa683da14b91a1ad906cf109537077125"
+ },
+ "seo-keywords-for-criminal-defense-lawyers": {
+  "file": "/blog/audio/seo-keywords-for-criminal-defense-lawyers.mp3?v=0113d21841",
+  "seconds": 337,
+  "bytes": 1349721,
+  "date": "2026-11-09",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "d40a3806b332f6c448f1c4698bae48eccf00fa15",
+  "path": "sister/criminal/seo-keywords-for-criminal-defense-lawyers.mp3",
+  "sha1": "0113d2184135a4f2601b3d9c37952dd97bd3ab95"
+ }
+}
