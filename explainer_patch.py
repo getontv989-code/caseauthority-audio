@@ -452,6 +452,29 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'personal-injury-lead-generation': {
+  'title': 'Personal Injury Lead Generation in 60 Seconds',
+  'sub': 'Buying leads versus earning them, and what really decides signed cases.',
+  'bubble': 'Leads are not cases. Here is why.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Leads Only Matter if They Sign',
+     'p': 'You can buy leads, pay for them with ads, or earn them in Google and through referrals. Judge every source by signed cases.',
+     'v': {'kind': 'phone', 'title': 'New injury inquiry', 'rows': ['Hurt in a car crash', 'Where did they find you?', 'Callback in minutes']}},
+    {'h': 'Bought Leads Start Fast, Stop Fast', 'p': 'Purchased leads can fill a gap quickly, but they end the day you stop paying and are often shared.',
+     'v': {'kind': 'compare', 'cols': ['Bought', 'Earned'], 'rows': [('Starts quickly', (True, False)), ('Only your firm', (False, True)), ('Keeps working', (False, True))]}},
+    {'h': 'Shared Leads Turn Into a Race', 'p': 'When several firms get the same lead, the first helpful call usually wins the case.',
+     'v': {'kind': 'race', 'fast': ('Called back in two minutes', 'Case signed'), 'slow': ('Called back tomorrow', 'Hired another firm')}},
+    {'h': 'Ask Before You Buy', 'p': 'Get clear answers from any lead vendor before you pay for a single lead.',
+     'v': {'kind': 'checklist', 'title': 'Questions for a lead vendor', 'items': ['Exclusive or shared?', 'Where do leads come from?', 'How is consent recorded?', 'What about bad leads?']}},
+    {'h': 'Earned Leads Come Straight to You', 'p': 'Search, the Map Pack, reviews and referrals take longer, but nobody else is sold the same person.',
+     'v': {'kind': 'search', 'q': 'car accident lawyer near me', 'results': [('Your Firm', True), ('Metro Injury Law', False), ('Smith Accident Attorneys', False)]}},
+    {'h': 'Measure Cost per Signed Case', 'p': 'Record the source of every lead, then compare what each source cost with the cases it signed.',
+     'v': {'kind': 'sources', 'title': 'Signed cases by source', 'items': [('Map Pack', 100), ('Referrals', 70), ('Paid search', 55), ('Bought leads', 30)], 'tag': 'Illustrative example'}},
+    {'h': 'Check Your Bar Rules', 'p': 'Paying for leads is regulated, and rules vary by state.',
+     'v': {'kind': 'shield', 'chips': ['State bar rules', 'No paid recommendations', 'Honest lead services']}},
+  ],
+  'cta': CTA('Want More Leads That Belong Only to Your Firm?', 'Get a free audit of where your firm stands in Google and the Map Pack.'),
+},
 'website-design-for-personal-injury-lawyers': {
   'title': 'Personal Injury Website Design in 60 Seconds',
   'sub': 'What turns an injury firm website into calls and signed cases.',
