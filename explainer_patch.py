@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'mass-tort-marketing': {
+  'title': 'Mass Tort Marketing in 60 Seconds',
+  'sub': 'Where mass tort leads come from, and why intake decides the result.',
+  'bubble': 'Mass torts are won at intake. Here is why.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Find People Who Meet the Criteria',
+     'p': 'Mass tort marketing reaches many people with the same product and injury, then screens each one against the case criteria.',
+     'v': {'kind': 'checklist', 'title': 'Typical case criteria', 'items': ['Used the product', 'Within the time window', 'Specific diagnosis', 'Proof of use and injury']}},
+    {'h': 'Leads Come From Many Channels', 'p': 'TV, social media, search ads, lead companies, referrals and your own website all play a part.',
+     'v': {'kind': 'sources', 'title': 'Where inquiries come from', 'items': [('TV and radio', 90), ('Social ads', 75), ('Search ads', 60), ('Your website', 45)], 'tag': 'Illustrative example'}},
+    {'h': 'Know What You Are Buying', 'p': 'A raw lead, a screened lead and a signed case are very different products.',
+     'v': {'kind': 'compare', 'cols': ['Raw lead', 'Signed case'], 'rows': [('Lower price', (True, False)), ('Screened for criteria', (False, True)), ('Proof collected', (False, True))]}},
+    {'h': 'Intake Decides the Result', 'p': 'Fast, kind and careful screening turns responses into signed, provable cases.',
+     'v': {'kind': 'race', 'fast': ('Called back the same hour', 'Case signed'), 'slow': ('Called back next week', 'Signed elsewhere')}},
+    {'h': 'Be Found When People Research', 'p': 'Many people search the lawsuit before they call. Clear pages on your site earn that trust.',
+     'v': {'kind': 'search', 'q': 'product lawsuit do I qualify', 'results': [('Your Firm', True), ('National Claims Center', False), ('Lawsuit News Daily', False)]}},
+    {'h': 'Ads Are Watched Closely', 'p': 'Mass tort ads must follow your state bar rules and avoid misleading medical claims.',
+     'v': {'kind': 'shield', 'chips': ['State bar rules', 'Clear disclaimers', 'No false warnings']}},
+  ],
+  'cta': CTA('Want Your Firm Found When People Research a Lawsuit?', 'Get a free audit of how your firm appears in Google.'),
+},
 'personal-injury-lead-generation': {
   'title': 'Personal Injury Lead Generation in 60 Seconds',
   'sub': 'Buying leads versus earning them, and what really decides signed cases.',

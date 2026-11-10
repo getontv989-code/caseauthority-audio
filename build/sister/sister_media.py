@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'criminal-lawyer-advertising': {
+  'title': 'Criminal Lawyer Advertising in 60 Seconds',
+  'sub': 'Where defense firms spend, and what turns an ad into a client.',
+  'bubble': 'Here is where defense ads pay off.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Be There Right After the Arrest',
+     'p': 'People search soon after an arrest, often at night. Ads that show up then, and a phone that gets answered, win the case.',
+     'v': {'kind': 'search', 'q': 'criminal lawyer near me', 'results': [('Your Firm', True), ('County Defense Group', False), ('Main Street Law', False)]}},
+    {'h': 'Pick Channels by Job', 'p': 'Search ads and Local Services Ads catch people looking now. Radio and billboards help them remember your name.',
+     'v': {'kind': 'compare', 'cols': ['Search ads', 'Billboards'], 'rows': [('Reach people searching now', (True, False)), ('Build name recognition', (False, True)), ('Easy to track', (True, False))]}},
+    {'h': 'Name the Charge', 'p': 'Ads for a specific charge, sent to a matching page, beat a general criminal lawyer message.',
+     'v': {'kind': 'pages', 'pages': [('DUI Defense', 'Your county'), ('Drug Charges', 'Your county'), ('Assault', 'Your county'), ('Expungement', 'Your county')]}},
+    {'h': 'Plan for Busy Seasons', 'p': 'Arrests and searches often rise around holidays and summer. Raise budgets and cover the phones before they start.',
+     'v': {'kind': 'timeline', 'title': 'Common busy periods', 'points': [('Summer', 'July 4', 20), ('Labor Day', 'September', 45), ('Holidays', 'Nov to Dec', 72), ('New Year', 'January', 92)], 'tag': 'Varies by market'}},
+    {'h': 'Answer Every Call', 'p': 'People call several firms. The first kind, clear answer usually gets hired.',
+     'v': {'kind': 'race', 'fast': ('Answered live at 11pm', 'Client hired'), 'slow': ('Voicemail until morning', 'Hired another firm')}},
+    {'h': 'Follow the Ad Rules', 'p': 'No guarantees, careful with past results, and never identify a client without consent.',
+     'v': {'kind': 'shield', 'chips': ['State bar rules', 'No guarantees', 'Client privacy']}},
+  ],
+  'cta': CTA('Want More Calls From People Who Need a Defense Lawyer?', 'Get a free audit of your Google visibility and ads.'),
+},
 'dui-lawyer-seo': {
   'title': 'DUI Lawyer SEO in 60 Seconds',
   'sub': 'How DUI and DWI attorneys get found when people search after an arrest.',
@@ -54,6 +75,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'divorce-attorney-advertising': {
+  'title': 'Divorce Attorney Advertising in 60 Seconds',
+  'sub': 'Channels, timing and the tone that builds trust.',
+  'bubble': 'Divorce clients research first. Here is how to reach them.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'People Research Before They Call',
+     'p': 'Divorce is a considered decision. The best ads catch people ready to hire and build trust with those still deciding.',
+     'v': {'kind': 'search', 'q': 'divorce lawyer near me', 'results': [('Your Firm', True), ('Family Law Partners', False), ('Smith and Lee Law', False)]}},
+    {'h': 'Match the Channel to the Job', 'p': 'Search ads and Local Services Ads reach people ready to hire. Social media and video build familiarity over time.',
+     'v': {'kind': 'compare', 'cols': ['Search ads', 'Social ads'], 'rows': [('Ready to hire now', (True, False)), ('Builds trust over time', (False, True)), ('Easy to track', (True, False))]}},
+    {'h': 'Plan for January', 'p': 'Many people wait until after the holidays. Prepare budgets, ads and staff before the new year.',
+     'v': {'kind': 'timeline', 'title': 'When interest often rises', 'points': [('November', 'Helpful content', 15), ('December', 'Stay visible', 40), ('January', 'Busiest month', 68), ('August', 'Before school', 92)], 'tag': 'Varies by market'}},
+    {'h': 'Calm Ads Connect Best', 'p': 'Name the help you offer, where you offer it and a private first step. Skip promises and fear.',
+     'v': {'kind': 'checklist', 'title': 'A good divorce ad', 'items': ['Names the case type', 'Names your area', 'Private first step', 'Real attorney, not stock']}},
+    {'h': 'Respect Privacy in Follow Up', 'p': 'Ask when and how it is safe to contact someone, and stick to it.',
+     'v': {'kind': 'phone', 'title': 'New divorce inquiry', 'rows': ['Best time to call?', 'Okay to text?', 'Consultation booked']}},
+    {'h': 'Follow the Ad Rules', 'p': 'Each state has its own rules on lawyer ads, testimonials and client privacy.',
+     'v': {'kind': 'shield', 'chips': ['State bar rules', 'No guarantees', 'Protect children\'s privacy']}},
+  ],
+  'cta': CTA('Want More Retained Clients From Your Ads?', 'Get a free audit of your Google visibility and ads.'),
+},
 'divorce-leads': {
   'title': 'Divorce Leads in 60 Seconds',
   'sub': 'Where family law leads come from, and what turns them into clients.',
