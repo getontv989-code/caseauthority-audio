@@ -16,7 +16,7 @@ MASSTORTPOST = {
         ('Your Own Content Builds Trust', 'People research a lawsuit before they call. Clear pages on your site help them choose you.'),
         ('Track Signed, Qualified Cases', 'Judge every source by cases that meet the criteria and hold up, not by how many forms arrive.'),
     ],
-    'cta': ('Free Audit', 'Want Your Firm Found When People Research a Lawsuit?', 'We will show you how your firm appears in Google for your main case types and the lawsuits you handle, where injured people are finding other firms instead of yours, and which fixes would bring you more qualified inquiries. No obligation.', 'Get my free audit'),
+    'cta': ('Free Audit', 'Want Your Firm Found When People Research a Lawsuit?', 'We will show you how your firm appears in Google for your main case types and the lawsuits you handle, where injured people are finding other firms instead of yours, and which fixes would bring you more qualified inquiries. No obligation.'),
     'sections': [
         ('What Is Mass Tort Marketing?',
          "It is the work of finding people who may have a claim in a mass tort and getting them to contact your firm, so you can check whether they qualify.",
