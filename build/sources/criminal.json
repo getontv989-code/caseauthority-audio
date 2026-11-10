@@ -1,0 +1,64 @@
+{
+ "criminal-lawyer-advertising": {
+  "links": [
+   {
+    "text": "Reviewing the search terms report",
+    "url": "https://support.google.com/google-ads/answer/2472708?hl=en",
+    "title": "Google Ads Help: About the search terms report"
+   },
+   {
+    "text": "For lawyers, Google screens the firm before the ads go live",
+    "url": "https://support.google.com/localservices/answer/12174778?hl=en",
+    "title": "Google Local Services Help: Business screening and verification requirements"
+   },
+   {
+    "text": "Many areas see more DUI enforcement around holidays",
+    "url": "https://www.nhtsa.gov/campaign/drive-sober-or-get-pulled-over",
+    "title": "NHTSA: Drive Sober or Get Pulled Over"
+   },
+   {
+    "text": "Some states also limit contacting people directly",
+    "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_3_direct_contact_with_prospective_clients/",
+    "title": "American Bar Association: Model Rule 7.3, Solicitation of Clients"
+   }
+  ]
+ },
+ "dui-lawyer-seo": {
+  "links": [
+   {
+    "text": "Google tends to show firms close to the person searching",
+    "url": "https://support.google.com/business/answer/7091?hl=en",
+    "title": "Google Business Profile Help: Tips to improve your local ranking on Google"
+   },
+   {
+    "text": "Never offer anything in return for a review, and never write reviews yourself",
+    "url": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+    "title": "Google Maps User Generated Content Policy: Prohibited and restricted content"
+   },
+   {
+    "text": "Nobody controls Google",
+    "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+    "title": "Google Search Central: Do you need an SEO?"
+   }
+  ]
+ },
+ "seo-keywords-for-criminal-defense-lawyers": {
+  "links": [
+   {
+    "text": "Tools like Google Search Console",
+    "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+    "title": "Google Search Console Help: Performance report"
+   },
+   {
+    "text": "Use the keyword in the page title",
+    "url": "https://developers.google.com/search/docs/appearance/title-link",
+    "title": "Google Search Central: Influencing title links in Google Search"
+   },
+   {
+    "text": "Do not stuff the keyword in over and over",
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies#keyword-stuffing",
+    "title": "Google Search Central: Spam policies (keyword stuffing)"
+   }
+  ]
+ }
+}
