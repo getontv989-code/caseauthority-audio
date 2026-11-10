@@ -1,4 +1,14 @@
 {
+ "divorce-attorney-advertising": {
+  "file": "/blog/audio/divorce-attorney-advertising.mp3?v=ad0002043b",
+  "seconds": 905,
+  "bytes": 3620298,
+  "date": "2026-11-10",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "13da9a2fbc2232706483f06404a02186269ec098",
+  "path": "sister/divorce/divorce-attorney-advertising.mp3",
+  "sha1": "ad0002043bf30bfd21ceab1d708fd2b016c74560"
+ },
  "divorce-leads": {
   "file": "/blog/audio/divorce-leads.mp3?v=e3afa5ca56",
   "seconds": 899,

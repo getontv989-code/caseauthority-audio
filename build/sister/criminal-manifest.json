@@ -1,4 +1,14 @@
 {
+ "criminal-lawyer-advertising": {
+  "file": "/blog/audio/criminal-lawyer-advertising.mp3?v=a6cea9d964",
+  "seconds": 982,
+  "bytes": 3926639,
+  "date": "2026-11-10",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "13da9a2fbc2232706483f06404a02186269ec098",
+  "path": "sister/criminal/criminal-lawyer-advertising.mp3",
+  "sha1": "a6cea9d96419285c1f0f89c19498a6e52a24db60"
+ },
  "dui-lawyer-seo": {
   "file": "/blog/audio/dui-lawyer-seo.mp3?v=b5eb1f2fa6",
   "seconds": 946,
