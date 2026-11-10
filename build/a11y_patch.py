@@ -231,10 +231,20 @@ def main():
             p = os.path.join(root, f)
             h = open(p, encoding='utf-8').read()
             o = h
-            if MARK not in h and '</head>' in h:
-                h = h.replace('</head>', CSS + '</head>', 1)
-            if 'id="a11y-js"' not in h and '</body>' in h:
-                h = h.replace('</body>', JS + '</body>', 1)
+            if MARK not in h:
+                # some minified pages (PI home) omit </head> and </body>
+                if '</head>' in h:
+                    h = h.replace('</head>', CSS + '</head>', 1)
+                else:
+                    for tag in ('<body', '<header', '<main'):
+                        if tag in h:
+                            h = h.replace(tag, CSS + tag, 1)
+                            break
+            if 'id="a11y-js"' not in h:
+                h = h.replace('</body>', JS + '</body>', 1) if '</body>' in h else h.rstrip('\n') + JS + '\n'
+            if MARK not in h or 'id="a11y-js"' not in h:
+                print('a11y_patch: could not add CSS/JS to', p)
+                bad += 1
             h = fix_headings(h)
             h = footer_link(h)
             if '</footer>' in h and 'href="/accessibility"' not in h:
