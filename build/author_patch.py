@@ -55,6 +55,17 @@ CSS = ('<style id="post-author-css">'
        '.post-author .pa-li:hover span{text-decoration:underline;text-underline-offset:3px}'
        '@media (min-width:768px){.post-author{grid-template-columns:72px 1fr;gap:24px;padding:32px 34px}'
        '.post-author .pa-av{width:72px;height:72px}.post-author .pa-name{font-size:26px}.post-author .pa-bio{font-size:17px}}'
+       # Desktop-only hero layout (Mash 2026-11-10): lead/meta/audio use the full content width and the
+       # gaps between audio, explainer, summary box and article text are tighter. Mobile is unchanged.
+       '@media (min-width:1024px){'
+       '.phero .cs-hero{max-width:none}'
+       '.phero .cs-hero .phero-lead{max-width:none}'
+       '.phero .cs-hero .listen{max-width:none;margin-top:20px}'
+       '.phero section.xp{margin-top:28px;padding-top:0;padding-bottom:0}'
+       '.phero aside.aio{margin-top:28px}'
+       'section.phero{padding-bottom:40px}'
+       'section.sec.post-body{padding-top:48px}'
+       '}'
        '</style>')
 
 
