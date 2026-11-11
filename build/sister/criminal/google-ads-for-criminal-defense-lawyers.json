@@ -1,0 +1,221 @@
+{
+ "slug": "google-ads-for-criminal-defense-lawyers",
+ "keyword": "google ads for criminal defense lawyers",
+ "title": "Google Ads for Criminal Defense Lawyers: Setup Guide | CaseAuthority",
+ "meta": "Google Ads for criminal defense lawyers: campaigns by charge, keywords, negative keywords, location and hours, call ads, landing pages, ad rules and tracking.",
+ "h1": "Google Ads for Criminal Defense Lawyers: How to Set Them Up Right",
+ "nav_label": "Google Ads for Criminal Defense",
+ "tag": "Google Ads",
+ "date": "2026-11-11",
+ "lead": "When someone is arrested, they or a family member often pick up a phone and search for a lawyer within hours. Google Ads let a criminal defense firm appear at the top of those searches, in the exact county, at the exact time, for the exact charge. That is a powerful tool, but defense keywords are expensive and a loose account can burn through a budget on the wrong searches. This guide is for criminal defense attorneys who want to understand how Google Ads should be set up for a defense practice: how to split campaigns by charge, which searches to target and which to block, how to handle location and late-night hours, how to write ads that follow the bar rules, and how to tell whether the ads are bringing retained clients.",
+ "quick_answer": "Google Ads for criminal defense lawyers are paid search ads that show your firm at the top of Google when people search for help with a charge, such as a DUI lawyer near me or a drug possession attorney in a certain county. They work best when campaigns are split by charge type, ads only show in the counties and courts you cover, ads run at the hours your phone is answered live, unwanted searches like jobs, free help and public defender questions are blocked, and every ad leads to a page about that exact charge. Ads must follow your state bar rules, and results should be judged by retained clients and fees, not clicks.",
+ "takeaways": [
+  [
+   "Split by Charge.",
+   "Separate campaigns for DUI, drug charges, assault, theft and other key charges keep spending under control."
+  ],
+  [
+   "Block the Wrong Searches.",
+   "Negative keywords stop ads showing for jobs, free help, law school and other searches that never hire."
+  ],
+  [
+   "Cover the Right Counties.",
+   "Show ads where you take cases, based on where people are, not just where they are interested in."
+  ],
+  [
+   "Match Your Phone Hours.",
+   "Arrests happen at night. Only run late ads if a person answers late calls."
+  ],
+  [
+   "One Charge, One Page.",
+   "Each ad should lead to a page about that charge in that area, not your home page."
+  ],
+  [
+   "Track Retained Clients.",
+   "Count calls that turn into paid clients, not clicks, to know which ads work."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "How Do Google Ads Work for a Criminal Defense Firm?",
+   "answer": "You choose the searches you want to appear for, the places and hours your ads can show, and how much you are willing to pay. Google then shows your ad when a matching search happens and charges you when someone clicks or calls.",
+   "paras": [
+    "Google search ads appear above the regular results with a small Sponsored label. For criminal defense, they usually show for searches made soon after an arrest, a traffic stop or a letter from a court, such as a DUI attorney near me, a lawyer for a shoplifting charge or what to do after a domestic violence arrest.",
+    "Each time a search happens, Google runs a quick auction between the firms bidding on it. The price you pay depends on your bid, how many other firms are competing, and how relevant and useful Google thinks your ad and landing page are. Criminal defense is one of the more competitive areas of law in many cities, so relevance matters. A clear ad for the exact charge, sent to a page about that charge, often costs less per call than a general ad sent to the home page.",
+    "Google Ads is one part of criminal defense advertising. If you are still deciding which channels to use at all, our guide to [[a:blog/criminal-lawyer-advertising|criminal lawyer advertising]] compares search ads with Local Services Ads, radio, billboards and social media."
+   ]
+  },
+  {
+   "h2": "Why Are Criminal Defense Searches Different?",
+   "answer": "They are urgent, local, often made at night and often made by a family member, and many searchers are not ready or able to hire a private lawyer.",
+   "paras": [
+    "Someone who has just been released, or a parent whose son was arrested on a Friday night, does not browse. They search, look at the top few results and call. That is good news for search ads, because your ad can be the first thing they see. It also means a missed call is a lost client, often within minutes.",
+    "Criminal searches also attract a lot of people who will never hire you. Some want a free lawyer or a public defender. Some want to look up an inmate, pay a fine or find a court date. Some are students, job seekers or people researching a TV case. Without careful setup, these searches can eat a large share of the budget.",
+    "Finally, the stakes and the charge shape the search. Someone facing a first DUI looks for different things than someone charged with a federal drug offense or a juvenile charge. Your account should reflect the charges you actually want and the courts you actually appear in."
+   ]
+  },
+  {
+   "h2": "How Should a Criminal Defense Google Ads Account Be Structured?",
+   "answer": "Build separate campaigns for your main charge types, and inside each, group closely related searches, so each search sees an ad and page about that exact charge.",
+   "paras": [
+    "A common mistake is one campaign called criminal lawyer with every keyword inside it. That makes it impossible to control spending by charge, and it means someone searching for a DUI lawyer sees the same general ad as someone searching for a theft lawyer.",
+    "A cleaner setup looks like this. Each main charge gets its own campaign with its own budget, so you can spend more on the cases you most want. Inside each campaign, small groups of very similar searches share an ad written for that exact situation. A general criminal defense campaign can catch broader searches, with its own smaller budget.",
+    "Splitting by charge also makes reporting simple. When intake records which charge a new client has, you can see what each type of case costs to bring in and decide where to put more money."
+   ],
+   "list": [
+    "DUI and DWI, including first offense, refusal and commercial driver searches",
+    "Drug charges, such as possession, possession with intent and trafficking",
+    "Assault and domestic violence",
+    "Theft, shoplifting and burglary",
+    "Sex crimes, where your firm handles them",
+    "Juvenile charges, probation violations and warrants",
+    "Expungement and record sealing, which is less urgent but often steady",
+    "Federal charges, if you practice in federal court"
+   ]
+  },
+  {
+   "h2": "Which Keywords Should Criminal Defense Lawyers Bid On?",
+   "answer": "Focus on searches that show someone needs a lawyer for a specific charge in your area, such as the charge plus lawyer or attorney, plus a city, county or near me.",
+   "paras": [
+    "The best keywords combine three things: the charge, a word that shows they want a lawyer, and a place. Examples include DUI lawyer in a certain county, drug possession attorney near me, domestic violence defense lawyer in your city, or best criminal lawyer for a theft charge. Searches that mention a specific court or county are often very good signs, because the person knows where their case is.",
+    "Google lets you choose how closely a search has to match your keyword. Broad settings reach more searches but also more irrelevant ones. Phrase and exact settings give more control. Many defense firms start with tighter matching on their most valuable charges and only loosen it once they have negative keywords and tracking in place.",
+    "Think about how real people describe their situation. Many do not use legal terms. They search for things like got a DUI what now, arrested for possession first time or how to get a charge dropped. Some of these show strong need and are worth testing with an ad that answers the question and offers a free consultation."
+   ]
+  },
+  {
+   "h2": "What Negative Keywords Should a Defense Firm Use?",
+   "answer": "Block searches that almost never turn into paying clients, such as jobs, free or court-appointed help, inmate lookups, records searches, law school and TV cases.",
+   "paras": [
+    "Negative keywords tell Google which searches should never show your ad. For criminal defense they are one of the biggest money savers, because so many criminal searches come from people who are not looking to hire a private lawyer.",
+    "Common examples include jobs, salary, careers, internship, paralegal, law school, how to become, free, pro bono, legal aid and court appointed. Many firms also block inmate search, mugshots, arrest records, bail bonds, court dates, pay ticket, famous names from news stories and TV shows, and charges or practice areas the firm does not handle. Whether to block public defender depends on your market. Some people who search for it can afford a private lawyer once they learn the options, so some firms test it with a separate small budget instead of blocking it.",
+    "The list is never finished. Reviewing the search terms report every week shows the exact searches that triggered your ads, and anything that does not fit should be added as a negative."
+   ]
+  },
+  {
+   "h2": "How Should You Set Location Targeting for Criminal Cases?",
+   "answer": "Show ads in the counties and court areas where you take cases, and set targeting to reach people who are in or regularly in those areas.",
+   "paras": [
+    "Criminal cases are tied to the court where the charge was filed. A firm in one county may be happy to take cases in the next county over but not in a court three hours away. Your location settings should match the courts you actually cover, not a big circle on the map.",
+    "Google lets you choose between showing ads to people who are in or regularly in your target areas, and people who are simply interested in those areas. For most defense firms the first option is safer, because it stops your ads from showing to people across the country who searched for your city for some other reason. The exception is out-of-state family members. Parents searching for a lawyer for a child arrested at a college in your county are a real and valuable group, and some firms reach them with a separate campaign built around searches that name the county or the school's town.",
+    "If your firm covers several counties, consider separate campaigns or ad groups for each, so the ad and the page can name the local court. Someone charged in a certain county trusts an ad that mentions that county more than one that just says criminal lawyer."
+   ]
+  },
+  {
+   "h2": "Should Criminal Defense Ads Run 24 Hours a Day?",
+   "answer": "Only if a real person answers your phone at those hours. Late-night and weekend searches can be very valuable, but a voicemail usually sends the caller to the next firm.",
+   "paras": [
+    "Arrests happen at all hours, and many of the most urgent searches happen at night and on weekends. That makes it tempting to run ads around the clock. The question is what happens when someone calls at two in the morning.",
+    "Ad scheduling lets you choose the days and hours your ads appear, and you can raise or lower bids for certain times. If you have a live answering service or an attorney on call overnight, late-night ads can bring clients that other firms miss. If calls after hours go to voicemail, it is usually better to pause ads or switch to forms with a promise of a callback first thing in the morning, and then keep that promise.",
+    "Look at your own data. After a few weeks, compare calls and retained clients by hour and day, and move budget toward the times that actually bring paying clients."
+   ]
+  },
+  {
+   "h2": "Should You Use Call Ads and Call Assets?",
+   "answer": "Yes, for most defense firms. People in a hurry often prefer to call, and call options put your number right in the ad on a phone.",
+   "paras": [
+    "Call assets add a phone number or call button to your search ads. On a phone, someone can tap and call your firm without visiting your website at all. For criminal defense, where many searchers want to talk to someone right away, this can bring more calls for the same budget.",
+    "Use a Google forwarding number or a call tracking number so calls from ads are counted separately from other calls. Set a minimum call length that counts as a real inquiry, so wrong numbers and hang-ups do not look like success.",
+    "Some firms also run call-focused ads where the main action is a call rather than a visit to the website. These can work well on phones for urgent searches, as long as the phone is answered live. Review call recordings, where your state's rules allow recording, to see what callers ask and how intake handles them."
+   ]
+  },
+  {
+   "h2": "What Should a Criminal Defense Landing Page Include?",
+   "answer": "A clear headline about the charge and the court area, a phone number at the top, a short explanation of what happens next, reasons to trust the firm, and a simple way to call or send a message.",
+   "paras": [
+    "When someone clicks a DUI ad, they should land on a DUI page, ideally one that mentions the county or court they searched for. Sending all clicks to your home page makes people hunt for the answer, and many will leave and call the next ad instead.",
+    "A strong page for a charge usually answers the questions people have in their first hour: what the charge means, what could happen, what the next court date is likely to be, whether they should talk to the police, and how quickly you can help. It shows the attorney's name and photo, real reviews where your rules allow, and a phone number that is easy to tap on a phone.",
+    "Speed matters. A page that takes a long time to load on a phone loses people, and Google also looks at landing page experience when it decides how relevant your ad is. The same charge pages help your free search visibility too. Our page on [[a:local-seo-for-criminal-defense-lawyers|local SEO for criminal defense lawyers]] explains how they fit together."
+   ]
+  },
+  {
+   "h2": "How Do You Write Criminal Defense Ads That Follow the Rules?",
+   "answer": "Be truthful and specific, name the charge and the area, show how quickly you respond, and avoid guarantees, misleading results and specialist claims your state does not allow.",
+   "paras": [
+    "Good defense ads are short and reassuring. They name the charge, mention the county or court, say how fast someone can talk to a lawyer and invite a free consultation if you offer one. Phrases such as charged with DUI in your county, talk to a defense lawyer tonight, or former prosecutor, if true, tell the searcher they are in the right place.",
+    "Every ad is lawyer advertising and must follow your state bar rules. Do not promise outcomes such as charges dropped or case dismissed. Be careful with past results, which many states only allow with disclaimers. Do not call yourself a specialist or certified unless you hold a certification your state recognizes. Some states also require certain wording or the name of a responsible lawyer in ads.",
+    "Google has its own advertising policies as well, and every ad and landing page must stay within them. Keep a copy of every ad version, because some states require firms to keep records of their advertising."
+   ]
+  },
+  {
+   "h2": "Google Ads or Local Services Ads for Criminal Defense?",
+   "answer": "They do different jobs and many firms use both. Local Services Ads charge per lead and show reviews at the very top, while Google Ads give much more control over charges, places, hours and wording.",
+   "paras": [
+    "Local Services Ads appear at the top of many local legal searches with your rating and a Google Verified badge. You pay per lead, such as a call or a message, and Google screens the firm and its lawyers before the ads can run. Your position depends heavily on reviews, responsiveness and distance.",
+    "Regular Google Ads give you control over the exact searches, the wording of the ad, the landing page and the hours, which is very useful when you want to push certain charges or certain courts. They also let you test messages and pages and learn what works.",
+    "A common approach is to run Local Services Ads for the steady flow of local inquiries and Google Ads for the charges and areas you most want to grow. Both depend on the same thing: answering quickly and turning inquiries into consultations."
+   ]
+  },
+  {
+   "h2": "How Do You Know if Your Google Ads Are Working?",
+   "answer": "Track which clicks and calls turn into consultations and retained clients, and compare the cost of each retained client by charge, county and campaign.",
+   "paras": [
+    "Clicks and impressions only show that people saw your ad. What matters is how many of those people called, how many of those calls were real potential clients, how many booked a consultation and how many paid a retainer.",
+    "Set up conversion tracking for the actions that matter, such as calls over a certain length, form submissions and booked consultations. Many firms also send retained client data back into Google Ads, so the system learns which searches lead to paying clients rather than just calls. Even without that, recording the source of every new client in your intake or case management system lets you match spending to fees.",
+    "Review the account every week. Check the search terms report, add negatives, pause ads and keywords that spend without bringing consultations, and move budget toward the charges and areas that bring retained clients. Most of the improvement in a defense account comes from this steady weekly work, not from the first setup."
+   ]
+  },
+  {
+   "h2": "What Are the Most Common Google Ads Mistakes Defense Firms Make?",
+   "answer": "One general campaign for every charge, too few negative keywords, ads showing in courts the firm does not cover, ads running when nobody answers, and judging results by clicks.",
+   "paras": [
+    "Other common problems include sending every click to the home page, using broad keyword settings without watching the search terms, letting the ad account belong to an agency instead of the firm, and turning ads off and on so often that nothing can be learned."
+   ],
+   "list": [
+    "Make sure your firm owns the Google Ads account and can see everything in it",
+    "Ask for reports by charge and by county, not one total",
+    "Check the search terms report yourself once in a while",
+    "Call your own ad at night and on a weekend to see what a client hears",
+    "Compare spending with retained clients and fees every month"
+   ]
+  },
+  {
+   "h2": "Should You Manage Google Ads Yourself or Hire Help?",
+   "answer": "Either can work if someone checks the account every week and reports in retained clients. The bigger and more competitive your market, the more that time and skill matter.",
+   "paras": [
+    "Some solo defense lawyers run a small, tight campaign themselves, especially in a smaller market with a single court. Others hire a specialist or an agency, particularly in big cities where every click is expensive and the account needs constant attention.",
+    "Whoever runs it, ask for full access to the account, clear reports by charge and county, and honest answers about what is being tested. Be wary of anyone who promises a fixed number of clients. Nobody can promise results, and your bar rules do not let your firm promise them either.",
+    "Google Ads also work better alongside free visibility. A firm that ranks in the map and the regular results for its main charges can lower its reliance on paid clicks over time. You can read more in our guide to [[a:criminal-defense-marketing|criminal defense marketing]] and in our post on [[a:blog/dui-lawyer-seo|DUI lawyer SEO]]."
+   ]
+  },
+  {
+   "h2": "A Note on This Guide",
+   "answer": "This article is general information about marketing, not legal or ethics advice.",
+   "paras": [
+    "Advertising results depend on your market, competition, charges, budget, reviews, website, intake and the work done. Nothing here is a promise of any result.",
+    "Rules on lawyer advertising, client confidentiality, case results and contacting people after an arrest vary by state and change over time. Check your state bar's rules and Google's advertising policies before launching or changing any ads."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Do Google Ads Work for Criminal Defense Lawyers?",
+   "a": "They can work very well because they put your firm in front of people right when they search for help with a charge. Results depend on a tight setup by charge and area, strong negative keywords, a matching landing page for each charge and fast, live call handling."
+  },
+  {
+   "q": "How Much Do Google Ads Cost for Criminal Defense?",
+   "a": "Costs vary a lot by city, charge and competition, and change over time. Instead of focusing on the price of a click, track the cost of each retained client by charge, and grow the campaigns where that number makes sense for your fees."
+  },
+  {
+   "q": "What Is the Best Keyword for a Criminal Defense Lawyer?",
+   "a": "There is no single best keyword. The strongest searches usually combine a specific charge, a word like lawyer or attorney, and a place, such as a DUI lawyer in a certain county. Test these first, then expand carefully."
+  },
+  {
+   "q": "Should Criminal Defense Ads Run at Night?",
+   "a": "Only if someone answers your phone live at night. Late-night searches can be very valuable after an arrest, but a voicemail usually sends the caller to another firm. Match your ad hours to your phone coverage."
+  },
+  {
+   "q": "Can I Mention My Past Case Results in Google Ads?",
+   "a": "It depends on your state. Many states allow it only with disclaimers or limits, and short ads leave little room for them. Most firms keep result claims off the ad and put carefully worded, compliant results on the landing page instead."
+  },
+  {
+   "q": "Are Local Services Ads Better Than Google Ads for Defense Firms?",
+   "a": "Neither is always better. Local Services Ads charge per lead and lean on reviews and responsiveness, while Google Ads give more control over charges, areas, hours and wording. Many defense firms use both."
+  }
+ ],
+ "related": [
+  "criminal-defense-marketing",
+  "local-seo-for-criminal-defense-lawyers",
+  "digital-marketing-for-criminal-defense-attorneys",
+  "criminal-lawyer-marketing"
+ ]
+}

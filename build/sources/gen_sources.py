@@ -39,6 +39,16 @@ S = {
  'PEW': ('https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/', 'Pew Research Center: 34% of U.S. adults have used ChatGPT, about double the share in 2023'),
  'WHITESPARK': ('https://whitespark.ca/local-search-ranking-factors/', 'Whitespark: Local Search Ranking Factors report'),
  'BRIGHTLOCAL': ('https://www.brightlocal.com/research/local-consumer-review-survey/', 'BrightLocal: Local Consumer Review Survey'),
+ 'BATES': ('https://www.law.cornell.edu/supremecourt/text/433/350', 'Cornell Law School LII: Bates v. State Bar of Arizona, 433 U.S. 350 (1977)'),
+ 'WENTFORIT': ('https://www.law.cornell.edu/supremecourt/text/515/618', 'Cornell Law School LII: Florida Bar v. Went For It, Inc., 515 U.S. 618 (1995)'),
+ 'GADPOL': ('https://support.google.com/adspolicy/answer/6008942?hl=en', 'Google Advertising Policies Help: Google Ads policies'),
+ 'GNEG': ('https://support.google.com/google-ads/answer/2453972?hl=en', 'Google Ads Help: About negative keywords'),
+ 'GLOC': ('https://support.google.com/google-ads/answer/2453995?hl=en', 'Google Ads Help: About targeting geographic locations'),
+ 'GSCHED': ('https://support.google.com/google-ads/answer/2404244?hl=en', 'Google Ads Help: About ad scheduling'),
+ 'GCALL': ('https://support.google.com/google-ads/answer/2453991?hl=en', 'Google Ads Help: About call assets'),
+ 'GCONV': ('https://support.google.com/google-ads/answer/1722022?hl=en', 'Google Ads Help: About conversion measurement'),
+ 'CANSPAM': ('https://www.law.cornell.edu/uscode/text/15/7704', 'Cornell Law School LII: 15 U.S. Code 7704, Other protections for users of commercial electronic mail (CAN-SPAM Act)'),
+ 'GMAILSEND': ('https://support.google.com/a/answer/81126?hl=en', 'Gmail Help: Email sender guidelines'),
 }
 
 SCREENED = ('Google Screened badge', 'Google Verified badge')
@@ -50,6 +60,11 @@ def L(text, key):
 
 
 PI = {
+ 'personal-injury-lawyer-advertising': {
+  'links': [L('Bates v. State Bar of Arizona', 'BATES'),
+            L('Rule 7.1 says a lawyer must not make false or misleading statements about their services', 'ABA71'),
+            L('Florida Bar v. Went For It', 'WENTFORIT'),
+            L('Google also has its own advertising policies', 'GADPOL')]},
  'why-seo-for-personal-injury-lawyers-matters': {
   'edits': [{'old': 'Local Services Ads sit above everything else with a Google Screened badge',
              'new': 'Local Services Ads sit at the top of the page with a Google Verified badge'}],
@@ -132,6 +147,13 @@ PI = {
 }
 
 CRIMINAL = {
+ 'google-ads-for-criminal-defense-lawyers': {
+  'links': [L('Negative keywords tell Google which searches should never show your ad', 'GNEG'),
+            L('Google lets you choose between showing ads to people who are in or regularly in your target areas', 'GLOC'),
+            L('Ad scheduling lets you choose the days and hours your ads appear', 'GSCHED'),
+            L('Call assets add a phone number or call button to your search ads', 'GCALL'),
+            L('Set up conversion tracking for the actions that matter', 'GCONV'),
+            L('Google has its own advertising policies as well', 'GADPOL')]},
  'criminal-lawyer-advertising': {
   'links': [L('Reviewing the search terms report', 'ADSST'),
             L('For lawyers, Google screens the firm before the ads go live', 'LSASCREEN'),
@@ -148,6 +170,11 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'email-marketing-for-divorce-lawyers': {
+  'links': [L('the CAN-SPAM Act sets basic rules for commercial email', 'CANSPAM'),
+            L('sender guidelines, for example, ask senders to set up email authentication', 'GMAILSEND'),
+            L('National Domestic Violence Hotline', 'HOTLINE'),
+            L('Most states do not let lawyers pay or give anything of value for a recommendation', 'ABA72')]},
  'divorce-attorney-advertising': {
   'edits': [{'old': 'Some markets also see more interest in late summer, before children go back to school.',
              'new': 'Some markets also see more interest in late summer, before children go back to school. A University of Washington study of divorce filings found they peaked in March and August, the periods after the winter and summer holidays.'}],

@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'personal-injury-lawyer-advertising': {
+  'title': 'Personal Injury Lawyer Advertising in 60 Seconds',
+  'sub': 'Which channels do which job, and how to tell what brings signed cases.',
+  'bubble': 'Here is where injury ads pay off.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Every Channel Has a Job',
+     'p': 'Search ads catch people looking for a lawyer now. TV, radio and billboards make your name familiar for later.',
+     'v': {'kind': 'compare', 'cols': ['Search ads', 'TV and billboards'], 'rows': [('Reach people searching now', (True, False)), ('Build name recognition', (False, True)), ('Easy to track', (True, False))]}},
+    {'h': 'Be There Right After the Accident', 'p': 'Injured people search on their phone and call one of the first firms they trust.',
+     'v': {'kind': 'search', 'q': 'car accident lawyer near me', 'results': [('Your Firm', True), ('Highway Injury Group', False), ('Main Street Law', False)]}},
+    {'h': 'Name the Case Type', 'p': 'Ads for truck crashes, motorcycle accidents or dog bites, sent to a matching page, beat a general message.',
+     'v': {'kind': 'pages', 'pages': [('Truck Accidents', 'Your city'), ('Motorcycle Crashes', 'Your city'), ('Dog Bites', 'Your city'), ('Slip and Fall', 'Your city')]}},
+    {'h': 'Follow the Bar Rules', 'p': 'No guarantees, care with past results, and extra rules for contacting accident victims directly.',
+     'v': {'kind': 'shield', 'chips': ['State bar rules', 'No guarantees', 'Mail waiting periods']}},
+    {'h': 'Answer Every Call', 'p': 'Injured people call more than one firm. The first kind, clear answer usually signs the case.',
+     'v': {'kind': 'race', 'fast': ('Answered live at 9pm', 'Case signed'), 'slow': ('Voicemail until Monday', 'Signed elsewhere')}},
+    {'h': 'Judge by Signed Cases', 'p': 'Use a tracking number per channel and ask every client how they found you.',
+     'v': {'kind': 'sources', 'title': 'Signed cases by channel', 'items': [('Search ads', 85), ('Local Services Ads', 70), ('TV', 55), ('Billboards', 35)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know Which of Your Ads Bring Real Cases?', 'Get a free audit of your Google visibility and ads.'),
+},
 'mass-tort-marketing': {
   'title': 'Mass Tort Marketing in 60 Seconds',
   'sub': 'Where mass tort leads come from, and why intake decides the result.',

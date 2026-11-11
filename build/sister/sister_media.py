@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'google-ads-for-criminal-defense-lawyers': {
+  'title': 'Google Ads for Criminal Defense in 60 Seconds',
+  'sub': 'How to set up search ads that bring retained clients, not wasted clicks.',
+  'bubble': 'Here is how defense ads should be built.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Show Up for the Exact Charge',
+     'p': 'People search right after an arrest. Your ad should name their charge and their county.',
+     'v': {'kind': 'search', 'q': 'dui lawyer near me', 'results': [('Your Firm', True), ('County Defense Group', False), ('Main Street Law', False)]}},
+    {'h': 'Split Campaigns by Charge', 'p': 'Separate campaigns for DUI, drug charges, assault and theft keep spending under control.',
+     'v': {'kind': 'pages', 'pages': [('DUI Defense', 'Own budget'), ('Drug Charges', 'Own budget'), ('Assault', 'Own budget'), ('Theft', 'Own budget')]}},
+    {'h': 'Block the Wrong Searches', 'p': 'Negative keywords stop ads showing for jobs, free help, inmate lookups and law school.',
+     'v': {'kind': 'checklist', 'title': 'Common negative keywords', 'items': ['jobs and salary', 'free or pro bono', 'inmate search', 'law school']}},
+    {'h': 'Match Ads to Your Phone Hours', 'p': 'Late-night ads only pay off if a real person answers late-night calls.',
+     'v': {'kind': 'race', 'fast': ('Answered live at 2am', 'Client retained'), 'slow': ('Voicemail until morning', 'Hired another firm')}},
+    {'h': 'Follow the Ad Rules', 'p': 'No promised outcomes, careful with past results, no specialist claims your state does not allow.',
+     'v': {'kind': 'shield', 'chips': ['State bar rules', 'No guarantees', 'Google ad policies']}},
+    {'h': 'Track Retained Clients', 'p': 'Count calls that become paying clients, by charge and by county, not clicks.',
+     'v': {'kind': 'sources', 'title': 'Retained clients by campaign', 'items': [('DUI', 85), ('Drug charges', 65), ('Assault', 50), ('General', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want Your Google Ads to Bring Retained Clients?', 'Get a free audit of your Google visibility and ads.'),
+},
 'criminal-lawyer-advertising': {
   'title': 'Criminal Lawyer Advertising in 60 Seconds',
   'sub': 'Where defense firms spend, and what turns an ad into a client.',
@@ -75,6 +96,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'email-marketing-for-divorce-lawyers': {
+  'title': 'Email Marketing for Divorce Lawyers in 60 Seconds',
+  'sub': 'Stay helpful while people decide, without putting anyone at risk.',
+  'bubble': 'Divorce decisions take time. Email helps.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Divorce Decisions Take Time',
+     'p': 'Many people research for months. Helpful emails keep your firm remembered until they are ready.',
+     'v': {'kind': 'timeline', 'title': 'A typical path to hiring', 'points': [('Search', 'Week 1', 15), ('Guide download', 'Week 3', 40), ('Consultation', 'Month 2', 68), ('Retainer', 'Month 4', 92)], 'tag': 'Varies by person'}},
+    {'h': 'Only Email People Who Asked', 'p': 'Consultation requests, guide downloads, past clients and referral partners. Never bought lists.',
+     'v': {'kind': 'checklist', 'title': 'Who belongs on your list', 'items': ['Consultation requests', 'Guide downloads', 'Past clients who opted in', 'Referral partners']}},
+    {'h': 'Keep Every Email Safe', 'p': 'Ask for a safe address, use discreet subject lines and keep case details out of marketing emails.',
+     'v': {'kind': 'shield', 'chips': ['Safe address', 'Discreet subject', 'No case details']}},
+    {'h': 'Follow Up After Consultations', 'p': 'A short, kind sequence brings back people who went quiet while they decided.',
+     'v': {'kind': 'phone', 'title': 'Your checklist from our office', 'rows': ['Documents to gather', 'How custody usually works', 'Book a time when ready']}},
+    {'h': 'Stay Close to Referrers', 'p': 'Therapists, financial planners and other lawyers refer to firms they remember.',
+     'v': {'kind': 'compare', 'cols': ['Newsletter', 'No contact'], 'rows': [('Remembered by referrers', (True, False)), ('Past clients come back', (True, False)), ('Builds trust over time', (True, False))]}},
+    {'h': 'Measure Consultations', 'p': 'Track booked consultations and retainers from email, not open rates.',
+     'v': {'kind': 'sources', 'title': 'Consultations by list', 'items': [('Consultation follow-up', 85), ('Guide downloads', 60), ('Past clients', 45), ('Referral partners', 40)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want More Consultations From People Already Researching You?', 'Get a free audit of your Google visibility and website.'),
+},
 'divorce-attorney-advertising': {
   'title': 'Divorce Attorney Advertising in 60 Seconds',
   'sub': 'Channels, timing and the tone that builds trust.',

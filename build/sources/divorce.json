@@ -1,4 +1,28 @@
 {
+ "email-marketing-for-divorce-lawyers": {
+  "links": [
+   {
+    "text": "the CAN-SPAM Act sets basic rules for commercial email",
+    "url": "https://www.law.cornell.edu/uscode/text/15/7704",
+    "title": "Cornell Law School LII: 15 U.S. Code 7704, Other protections for users of commercial electronic mail (CAN-SPAM Act)"
+   },
+   {
+    "text": "sender guidelines, for example, ask senders to set up email authentication",
+    "url": "https://support.google.com/a/answer/81126?hl=en",
+    "title": "Gmail Help: Email sender guidelines"
+   },
+   {
+    "text": "National Domestic Violence Hotline",
+    "url": "https://www.thehotline.org/",
+    "title": "National Domestic Violence Hotline"
+   },
+   {
+    "text": "Most states do not let lawyers pay or give anything of value for a recommendation",
+    "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_2_advertising/",
+    "title": "American Bar Association: Model Rule 7.2, Communications Concerning a Lawyer's Services: Specific Rules"
+   }
+  ]
+ },
  "divorce-attorney-advertising": {
   "edits": [
    {
