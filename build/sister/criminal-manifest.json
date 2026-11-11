@@ -1,4 +1,14 @@
 {
+ "google-ads-for-criminal-defense-lawyers": {
+  "file": "/blog/audio/google-ads-for-criminal-defense-lawyers.mp3?v=70c18df7d5",
+  "seconds": 1267,
+  "bytes": 5069715,
+  "date": "2026-11-11",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "3ee85f855fc0704cc6e0c12284bc73e7a939fa57",
+  "path": "sister/criminal/google-ads-for-criminal-defense-lawyers.mp3",
+  "sha1": "70c18df7d51487651ce67b706f72122aa7e5d69e"
+ },
  "criminal-lawyer-advertising": {
   "file": "/blog/audio/criminal-lawyer-advertising.mp3?v=a6cea9d964",
   "seconds": 982,

@@ -1,4 +1,14 @@
 {
+ "email-marketing-for-divorce-lawyers": {
+  "file": "/blog/audio/email-marketing-for-divorce-lawyers.mp3?v=93874be68f",
+  "seconds": 1098,
+  "bytes": 4394361,
+  "date": "2026-11-11",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "3ee85f855fc0704cc6e0c12284bc73e7a939fa57",
+  "path": "sister/divorce/email-marketing-for-divorce-lawyers.mp3",
+  "sha1": "93874be68f140aa9b0f71261fbd67c88e1c4275a"
+ },
  "divorce-attorney-advertising": {
   "file": "/blog/audio/divorce-attorney-advertising.mp3?v=ad0002043b",
   "seconds": 905,
