@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'google-business-profile-for-criminal-defense-lawyers': {
+  'title': 'Google Business Profile for Defense Lawyers in 60 Seconds',
+  'sub': 'How to show up in the map when someone has just been arrested.',
+  'bubble': 'Here is how the map brings defense calls.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'The Map Gets the First Calls',
+     'p': 'Families search on their phone right after an arrest and call one of the first firms they see.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Defense Group', 'Main Street Law']}},
+    {'h': 'Real Name, Real Office', 'p': 'No keywords in your name and no virtual offices. Both can get a profile suspended.',
+     'v': {'kind': 'shield', 'chips': ['Real firm name', 'Staffed office', 'One profile per office']}},
+    {'h': 'Pick the Right Categories', 'p': 'Criminal justice attorney as the main category, plus only what you truly handle.',
+     'v': {'kind': 'checklist', 'title': 'Profile basics', 'items': ['Main category', 'Honest hours', 'Services by charge', 'Real photos']}},
+    {'h': 'Ask for Reviews Privately', 'p': 'Clients value discretion. They never need to mention their charge.',
+     'v': {'kind': 'phone', 'title': 'A note from our office', 'rows': ['Your case is resolved', 'No need to mention your case', 'Share how we treated you']}},
+    {'h': 'Never Confirm a Client', 'p': 'Reply to every review without names, charges, courts or outcomes.',
+     'v': {'kind': 'compare', 'cols': ['General reply', 'Detailed reply'], 'rows': [('Protects the client', (True, False)), ('Follows confidentiality rules', (True, False)), ('Looks professional', (True, False))]}},
+    {'h': 'Track Retained Clients', 'p': 'Count calls from your profile that become paying clients, by charge.',
+     'v': {'kind': 'sources', 'title': 'Retained clients from the map', 'items': [('DUI', 80), ('Drug charges', 60), ('Assault', 45), ('Theft', 35)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want More Calls From the Google Map?', 'Get a free audit of your Google Business Profile and local visibility.'),
+},
 'google-ads-for-criminal-defense-lawyers': {
   'title': 'Google Ads for Criminal Defense in 60 Seconds',
   'sub': 'How to set up search ads that bring retained clients, not wasted clicks.',
@@ -96,6 +117,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'family-law-intake-form': {
+  'title': 'Family Law Intake Forms in 60 Seconds',
+  'sub': 'Ask the right questions, keep people safe and win more consultations.',
+  'bubble': 'Intake is where clients are won.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Intake Is Where Clients Are Won',
+     'p': 'People often contact several firms. The first clear, kind reply usually books the consultation.',
+     'v': {'kind': 'race', 'fast': ('Reply within the hour', 'Consultation booked'), 'slow': ('Reply next afternoon', 'Booked with another firm')}},
+    {'h': 'Keep the First Form Short', 'p': 'Ask what you need for the consultation. Save detailed finances for later.',
+     'v': {'kind': 'checklist', 'title': 'First intake form', 'items': ['Safe contact details', 'Other party for conflict check', 'Type of matter and children', 'Urgent issues and court dates']}},
+    {'h': 'Check Conflicts First', 'p': 'Get the other party’s name before the person tells their story.',
+     'v': {'kind': 'timeline', 'title': 'Order of intake', 'points': [('Names', 'Step 1', 20), ('Conflict check', 'Step 2', 45), ('Short story', 'Step 3', 70), ('Consultation', 'Step 4', 92)], 'tag': 'Typical order'}},
+    {'h': 'Ask How to Reach Them Safely', 'p': 'A safe phone and email, and whether messages are okay to leave.',
+     'v': {'kind': 'shield', 'chips': ['Safe phone', 'Safe email', 'Discreet messages']}},
+    {'h': 'Follow Up With Care', 'p': 'Confirm the consultation, explain fees simply and check in with people still deciding.',
+     'v': {'kind': 'phone', 'title': 'Your consultation is booked', 'rows': ['Date and time', 'What to bring', 'How our fees work']}},
+    {'h': 'Measure Every Step', 'p': 'Form starts, completions, consultations and retainers, by source.',
+     'v': {'kind': 'sources', 'title': 'Intake by step', 'items': [('Forms started', 90), ('Forms completed', 70), ('Consultations held', 50), ('Retainers signed', 35)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want More Consultations to Become Clients?', 'Get a free audit of your website, forms and Google visibility.'),
+},
 'email-marketing-for-divorce-lawyers': {
   'title': 'Email Marketing for Divorce Lawyers in 60 Seconds',
   'sub': 'Stay helpful while people decide, without putting anyone at risk.',

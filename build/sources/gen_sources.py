@@ -49,6 +49,12 @@ S = {
  'GCONV': ('https://support.google.com/google-ads/answer/1722022?hl=en', 'Google Ads Help: About conversion measurement'),
  'CANSPAM': ('https://www.law.cornell.edu/uscode/text/15/7704', 'Cornell Law School LII: 15 U.S. Code 7704, Other protections for users of commercial electronic mail (CAN-SPAM Act)'),
  'GMAILSEND': ('https://support.google.com/a/answer/81126?hl=en', 'Gmail Help: Email sender guidelines'),
+ 'FTCBUY': ('https://www.law.cornell.edu/cfr/text/16/465.4', 'Cornell Law School LII: 16 CFR 465.4, Buying positive or negative consumer reviews (FTC rule)'),
+ 'FTCSUPP': ('https://www.law.cornell.edu/cfr/text/16/465.7', 'Cornell Law School LII: 16 CFR 465.7, Review suppression (FTC rule)'),
+ 'GREPLY': ('https://support.google.com/business/answer/3474050?hl=en', 'Google Business Profile Help: Manage customer reviews'),
+ 'GVERIFY': ('https://support.google.com/business/answer/7107242?hl=en', 'Google Business Profile Help: Verify your business on Google'),
+ 'CONFLICT': ('https://www.law.cornell.edu/wex/conflict_of_interest', 'Cornell Law School LII Wex: Conflict of interest'),
+ 'PRIV': ('https://www.law.cornell.edu/wex/attorney-client_privilege', 'Cornell Law School LII Wex: Attorney-client privilege'),
 }
 
 SCREENED = ('Google Screened badge', 'Google Verified badge')
@@ -60,6 +66,12 @@ def L(text, key):
 
 
 PI = {
+ 'reputation-management-for-attorneys': {
+  'links': [L('reviews must reflect a genuine experience', 'GREV'),
+            L('rule on consumer reviews makes it an unfair or deceptive practice to buy reviews', 'FTCBUY'),
+            L('groundless legal threats or intimidation to get a review removed', 'FTCSUPP'),
+            L('You can reply to reviews once your profile is verified', 'GREPLY'),
+            L('Most states do not let lawyers give anything of value for a recommendation', 'ABA72')]},
  'personal-injury-lawyer-advertising': {
   'links': [L('Bates v. State Bar of Arizona', 'BATES'),
             L('Rule 7.1 says a lawyer must not make false or misleading statements about their services', 'ABA71'),
@@ -147,6 +159,12 @@ PI = {
 }
 
 CRIMINAL = {
+ 'google-business-profile-for-criminal-defense-lawyers': {
+  'links': [L('Google offers several ways to verify a business', 'GVERIFY'),
+            L('including unnecessary information in your business name is not permitted', 'GBPG'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('you can submit an appeal through', 'GSUSP'),
+            L('offering incentives in exchange for reviews is strictly prohibited', 'GREV')]},
  'google-ads-for-criminal-defense-lawyers': {
   'links': [L('Negative keywords tell Google which searches should never show your ad', 'GNEG'),
             L('Google lets you choose between showing ads to people who are in or regularly in your target areas', 'GLOC'),
@@ -170,6 +188,11 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'family-law-intake-form': {
+  'links': [L('check for potential conflicts before accepting someone as a client', 'CONFLICT'),
+            L('if a third party is present during a privileged communication', 'PRIV'),
+            L('National Domestic Violence Hotline', 'HOTLINE'),
+            L('explain the scope of the work and the basis of the fee, preferably in writing', 'ABA15')]},
  'email-marketing-for-divorce-lawyers': {
   'links': [L('the CAN-SPAM Act sets basic rules for commercial email', 'CANSPAM'),
             L('sender guidelines, for example, ask senders to set up email authentication', 'GMAILSEND'),

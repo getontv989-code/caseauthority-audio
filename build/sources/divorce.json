@@ -1,4 +1,28 @@
 {
+ "family-law-intake-form": {
+  "links": [
+   {
+    "text": "check for potential conflicts before accepting someone as a client",
+    "url": "https://www.law.cornell.edu/wex/conflict_of_interest",
+    "title": "Cornell Law School LII Wex: Conflict of interest"
+   },
+   {
+    "text": "if a third party is present during a privileged communication",
+    "url": "https://www.law.cornell.edu/wex/attorney-client_privilege",
+    "title": "Cornell Law School LII Wex: Attorney-client privilege"
+   },
+   {
+    "text": "National Domestic Violence Hotline",
+    "url": "https://www.thehotline.org/",
+    "title": "National Domestic Violence Hotline"
+   },
+   {
+    "text": "explain the scope of the work and the basis of the fee, preferably in writing",
+    "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_5_fees/",
+    "title": "American Bar Association: Model Rule 1.5, Fees"
+   }
+  ]
+ },
  "email-marketing-for-divorce-lawyers": {
   "links": [
    {

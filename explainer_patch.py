@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'reputation-management-for-attorneys': {
+  'title': 'Reputation Management for Attorneys in 60 Seconds',
+  'sub': 'How injury firms earn honest reviews and stay safe when replying.',
+  'bubble': 'Here is how clients check you out.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Clients Check Before They Call',
+     'p': 'Injured people compare stars, recent reviews and replies before picking a firm.',
+     'v': {'kind': 'stars', 'tag': 'Reviews from real clients', 'reviews': ['They kept me informed every step.', 'Answered my call the same day.']}},
+    {'h': 'Ask Every Finished Client', 'p': 'A short personal text with a direct review link, sent right after the case closes.',
+     'v': {'kind': 'phone', 'title': 'Thank you from our office', 'rows': ['Your case is complete', 'Would you share your experience?', 'Leave a review']}},
+    {'h': 'Never Buy or Fake Reviews', 'p': 'Google policy, federal rules and most bar rules all forbid rewards for reviews.',
+     'v': {'kind': 'shield', 'chips': ['No incentives', 'No fake reviews', 'No review gating']}},
+    {'h': 'Reply Without Revealing Anything', 'p': 'Thank people, stay calm and never confirm that someone was a client.',
+     'v': {'kind': 'checklist', 'title': 'A safe reply', 'items': ['Thank them for the feedback', 'Say rules limit what you can share', 'Invite them to call the office', 'No case details']}},
+    {'h': 'Flag Reviews That Break the Rules', 'p': 'Report fake, off-topic or competitor reviews. Never threaten a reviewer.',
+     'v': {'kind': 'compare', 'cols': ['Flag it', 'Fight it'], 'rows': [('Follows Google rules', (True, False)), ('Protects your license', (True, False)), ('Looks good to readers', (True, False))]}},
+    {'h': 'Track Reviews and Calls', 'p': 'New reviews, reply times and calls from your profile, month by month.',
+     'v': {'kind': 'sources', 'title': 'Monthly reputation check', 'items': [('New reviews', 80), ('Replies sent', 90), ('Calls from profile', 65), ('Signed cases', 45)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know What Clients See When They Look You Up?', 'Get a free audit of your Google profile and reviews.'),
+},
 'personal-injury-lawyer-advertising': {
   'title': 'Personal Injury Lawyer Advertising in 60 Seconds',
   'sub': 'Which channels do which job, and how to tell what brings signed cases.',
