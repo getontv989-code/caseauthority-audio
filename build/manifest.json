@@ -1,4 +1,13 @@
 {
+ "reputation-management-for-attorneys": {
+  "file": "/blog/audio/reputation-management-for-attorneys.mp3?v=0dcaae4c35",
+  "seconds": 1364,
+  "bytes": 5457091,
+  "date": "2026-11-12",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "4adefaf3cb2fbea9b5dcf7da4d2f580ff187cc7f",
+  "sha1": "0dcaae4c353a3a20d6ec2ea333843e9886316621"
+ },
  "personal-injury-lawyer-advertising": {
   "file": "/blog/audio/personal-injury-lawyer-advertising.mp3?v=94c38cdee1",
   "seconds": 1345,
