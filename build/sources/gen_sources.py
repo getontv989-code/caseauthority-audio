@@ -54,6 +54,7 @@ S = {
  'GREPLY': ('https://support.google.com/business/answer/3474050?hl=en', 'Google Business Profile Help: Manage customer reviews'),
  'GVERIFY': ('https://support.google.com/business/answer/7107242?hl=en', 'Google Business Profile Help: Verify your business on Google'),
  'CONFLICT': ('https://www.law.cornell.edu/wex/conflict_of_interest', 'Cornell Law School LII Wex: Conflict of interest'),
+ 'GPERS': ('https://support.google.com/adspolicy/answer/143465?hl=en', 'Google Advertising Policies Help: Restricted targeting in personalized advertising'),
  'PRIV': ('https://www.law.cornell.edu/wex/attorney-client_privilege', 'Cornell Law School LII Wex: Attorney-client privilege'),
 }
 
@@ -66,6 +67,11 @@ def L(text, key):
 
 
 PI = {
+ 'law-firm-marketing-trends': {
+  'links': [L('A Pew Research Center survey found that about a third of U.S. adults had used ChatGPT', 'PEW'),
+            L('Google says the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('leads come in as phone calls and messages sent through the ad', 'LSA'),
+            L('Statements must not be false or misleading', 'ABA71')]},
  'reputation-management-for-attorneys': {
   'links': [L('reviews must reflect a genuine experience', 'GREV'),
             L('rule on consumer reviews makes it an unfair or deceptive practice to buy reviews', 'FTCBUY'),
@@ -159,6 +165,11 @@ PI = {
 }
 
 CRIMINAL = {
+ 'criminal-defense-attorney-website-design': {
+  'links': [L('measure real-world user experience for loading performance, interactivity and visual stability', 'CWV'),
+            L('Web Content Accessibility Guidelines, known as WCAG 2', 'WCAG'),
+            L('a lawyer must not make false or misleading statements about their services', 'ABA71'),
+            L('Words like specialist, expert or certified are restricted in many states', 'ABA72')]},
  'google-business-profile-for-criminal-defense-lawyers': {
   'links': [L('Google offers several ways to verify a business', 'GVERIFY'),
             L('including unnecessary information in your business name is not permitted', 'GBPG'),
@@ -188,6 +199,12 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'family-law-ppc': {
+  'links': [L('Negative keywords let you exclude search terms from your campaigns', 'GNEG'),
+            L('Google lets you choose between showing ads to people who are in or regularly in your target areas', 'GLOC'),
+            L('A University of Washington study of divorce filings', 'UW'),
+            L('Google lists relationship hardships among its sensitive interest categories', 'GPERS'),
+            L('Google can track calls directly from your ads', 'GCONV')]},
  'family-law-intake-form': {
   'links': [L('check for potential conflicts before accepting someone as a client', 'CONFLICT'),
             L('if a third party is present during a privileged communication', 'PRIV'),

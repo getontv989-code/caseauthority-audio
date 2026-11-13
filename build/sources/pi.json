@@ -1,4 +1,28 @@
 {
+ "law-firm-marketing-trends": {
+  "links": [
+   {
+    "text": "A Pew Research Center survey found that about a third of U.S. adults had used ChatGPT",
+    "url": "https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/",
+    "title": "Pew Research Center: 34% of U.S. adults have used ChatGPT, about double the share in 2023"
+   },
+   {
+    "text": "Google says the best practices for SEO remain relevant for AI features in Google Search",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "title": "Google Search Central: AI features and your website"
+   },
+   {
+    "text": "leads come in as phone calls and messages sent through the ad",
+    "url": "https://support.google.com/localservices/answer/6224841?hl=en",
+    "title": "Google Local Services Help: Getting started with Local Services Ads"
+   },
+   {
+    "text": "Statements must not be false or misleading",
+    "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_1_communication_concerning_a_lawyer_s_services/",
+    "title": "American Bar Association: Model Rule 7.1, Communications Concerning a Lawyer's Services"
+   }
+  ]
+ },
  "reputation-management-for-attorneys": {
   "links": [
    {

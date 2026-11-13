@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'criminal-defense-attorney-website-design': {
+  'title': 'Criminal Defense Website Design in 60 Seconds',
+  'sub': 'What a defense firm website needs in the hours after an arrest.',
+  'bubble': 'Here is what the site must do.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Built for the Hours After an Arrest',
+     'p': 'Worried families search on a phone, often at night, and call the clearest firm they find.',
+     'v': {'kind': 'search', 'q': 'dui lawyer near me', 'results': [('Your Firm', True), ('County Defense Group', False), ('Main Street Law', False)]}},
+    {'h': 'Make Calling Effortless', 'p': 'A visible number, click to call and a short, discreet form on every page.',
+     'v': {'kind': 'phone', 'title': 'Call us now', 'rows': ['We answer 24/7', 'Free consultation', 'Do not share case details here']}},
+    {'h': 'One Page per Charge', 'p': 'Separate pages for each key charge, tied to the courts you cover.',
+     'v': {'kind': 'pages', 'pages': [('DUI Defense', 'Your county'), ('Drug Charges', 'Your county'), ('Assault', 'Your county'), ('DUI Defense', 'Nearby county')]}},
+    {'h': 'Privacy Builds Trust', 'p': 'Ask only for a name and a safe way to reach them. No case details before you talk.',
+     'v': {'kind': 'shield', 'chips': ['Short forms', 'Secure site', 'Discreet wording']}},
+    {'h': 'Fast Pages Keep Visitors', 'p': 'Every extra second gives a stressed visitor a reason to leave.',
+     'v': {'kind': 'race', 'fast': ('Page loads quickly', 'Consultation booked'), 'slow': ('Page loads slowly', 'Back to search results')}},
+    {'h': 'Track Retained Clients', 'p': 'Count calls and forms from each page that become paying clients.',
+     'v': {'kind': 'sources', 'title': 'Retained clients by page', 'items': [('DUI page', 80), ('Drug charges', 60), ('Assault', 45), ('Home page', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Is Your Website Costing You Clients?', 'Get a free audit of your website, Google visibility and calls.'),
+},
 'google-business-profile-for-criminal-defense-lawyers': {
   'title': 'Google Business Profile for Defense Lawyers in 60 Seconds',
   'sub': 'How to show up in the map when someone has just been arrested.',
@@ -117,6 +138,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'family-law-ppc': {
+  'title': 'Family Law PPC in 60 Seconds',
+  'sub': 'How to run Google Ads that bring retained clients, not wasted clicks.',
+  'bubble': 'Here is how to set up family law ads.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Split Campaigns by Matter',
+     'p': 'Separate campaigns for divorce, custody and support keep the budget under control.',
+     'v': {'kind': 'split', 'title': 'Example budget split', 'parts': [('Divorce', 5, G), ('Custody', 3, K), ('Support', 2, S)], 'tag': 'Illustrative example'}},
+    {'h': 'Block the Wrong Searches', 'p': 'Negative keywords stop ads showing for free forms and do it yourself divorce.',
+     'v': {'kind': 'checklist', 'title': 'Negative keywords', 'items': ['free', 'forms and papers', 'do it yourself', 'jobs and paralegal']}},
+    {'h': 'Stay in Your Counties', 'p': 'Show ads only where you take cases, to people who are actually there.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Family Law', 'Main Street Law']}},
+    {'h': 'Match the Page to the Search', 'p': 'A custody ad leads to a custody page, not the home page.',
+     'v': {'kind': 'search', 'q': 'child custody lawyer near me', 'results': [('Your Firm', True), ('County Family Law', False), ('Divorce Forms Online', False)]}},
+    {'h': 'Protect Privacy', 'p': 'Discreet ads, safe contact details and care with remarketing on shared devices.',
+     'v': {'kind': 'shield', 'chips': ['Safe phone', 'Discreet ads', 'No remarketing']}},
+    {'h': 'Measure Retainers', 'p': 'Track calls, consultations and signed retainers by campaign.',
+     'v': {'kind': 'sources', 'title': 'From click to client', 'items': [('Clicks', 95), ('Calls and forms', 65), ('Consultations', 45), ('Retainers signed', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want Your Ads to Bring Retained Clients?', 'Get a free audit of your ads, website and Google visibility.'),
+},
 'family-law-intake-form': {
   'title': 'Family Law Intake Forms in 60 Seconds',
   'sub': 'Ask the right questions, keep people safe and win more consultations.',

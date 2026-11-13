@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'law-firm-marketing-trends': {
+  'title': 'Law Firm Marketing Trends for 2027 in 60 Seconds',
+  'sub': 'What is changing in how injured people find and hire a lawyer.',
+  'bubble': 'Here is what to plan for next year.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'AI Answers Come First More Often',
+     'p': 'Many people now read an AI summary in Google before they click any website.',
+     'v': {'kind': 'search', 'q': 'what to do after a car accident', 'results': [('Your Firm', True), ('Metro Injury Law', False), ('Accident Help Guide', False)]}},
+    {'h': 'The Map Still Wins Calls', 'p': 'Google Maps, reviews and Local Services Ads remain central for injury firms.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Highway Injury Group', 'Main Street Law']}},
+    {'h': 'Real Faces Build Trust', 'p': 'Short, honest attorney videos help people feel they know you before they call.',
+     'v': {'kind': 'checklist', 'title': 'Simple video ideas', 'items': ['What to do after a crash', 'Meet the attorney', 'How a claim works', 'Your first call with us']}},
+    {'h': 'Speed Wins the Case', 'p': 'Injured people often contact more than one firm. The first good reply often signs them.',
+     'v': {'kind': 'race', 'fast': ('Call answered live', 'Case signed'), 'slow': ('Voicemail until tomorrow', 'Signed with another firm')}},
+    {'h': 'Spanish Pages Done Right', 'p': 'Well written Spanish pages and a Spanish speaking intake reach clients many firms miss.',
+     'v': {'kind': 'pages', 'pages': [('Car Accidents', 'English'), ('Accidentes de Auto', 'Spanish'), ('Truck Accidents', 'English'), ('Accidentes de Camion', 'Spanish')]}},
+    {'h': 'Judge Every Channel by Cases', 'p': 'Move budget based on signed cases and fees, not clicks or leads.',
+     'v': {'kind': 'sources', 'title': 'Signed cases by channel', 'items': [('Google Maps', 85), ('Referrals', 70), ('Search ads', 55), ('Video', 35)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Planning Your 2027 Marketing Budget?', 'Get a free audit of how your firm shows up in search, the map and AI answers.'),
+},
 'reputation-management-for-attorneys': {
   'title': 'Reputation Management for Attorneys in 60 Seconds',
   'sub': 'How injury firms earn honest reviews and stay safe when replying.',

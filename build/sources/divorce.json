@@ -1,4 +1,33 @@
 {
+ "family-law-ppc": {
+  "links": [
+   {
+    "text": "Negative keywords let you exclude search terms from your campaigns",
+    "url": "https://support.google.com/google-ads/answer/2453972?hl=en",
+    "title": "Google Ads Help: About negative keywords"
+   },
+   {
+    "text": "Google lets you choose between showing ads to people who are in or regularly in your target areas",
+    "url": "https://support.google.com/google-ads/answer/2453995?hl=en",
+    "title": "Google Ads Help: About targeting geographic locations"
+   },
+   {
+    "text": "A University of Washington study of divorce filings",
+    "url": "https://www.washington.edu/news/2016/08/21/is-divorce-seasonal-uw-research-shows-biannual-spike-in-divorce-filings/",
+    "title": "University of Washington: Is divorce seasonal? UW research shows biannual spike in divorce filings"
+   },
+   {
+    "text": "Google lists relationship hardships among its sensitive interest categories",
+    "url": "https://support.google.com/adspolicy/answer/143465?hl=en",
+    "title": "Google Advertising Policies Help: Restricted targeting in personalized advertising"
+   },
+   {
+    "text": "Google can track calls directly from your ads",
+    "url": "https://support.google.com/google-ads/answer/1722022?hl=en",
+    "title": "Google Ads Help: About conversion measurement"
+   }
+  ]
+ },
  "family-law-intake-form": {
   "links": [
    {

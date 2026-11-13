@@ -1,4 +1,28 @@
 {
+ "criminal-defense-attorney-website-design": {
+  "links": [
+   {
+    "text": "measure real-world user experience for loading performance, interactivity and visual stability",
+    "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+    "title": "Google Search Central: Understanding Core Web Vitals and Google search results"
+   },
+   {
+    "text": "Web Content Accessibility Guidelines, known as WCAG 2",
+    "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+    "title": "W3C Web Accessibility Initiative: WCAG 2 overview"
+   },
+   {
+    "text": "a lawyer must not make false or misleading statements about their services",
+    "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_1_communication_concerning_a_lawyer_s_services/",
+    "title": "American Bar Association: Model Rule 7.1, Communications Concerning a Lawyer's Services"
+   },
+   {
+    "text": "Words like specialist, expert or certified are restricted in many states",
+    "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_2_advertising/",
+    "title": "American Bar Association: Model Rule 7.2, Communications Concerning a Lawyer's Services: Specific Rules"
+   }
+  ]
+ },
  "google-business-profile-for-criminal-defense-lawyers": {
   "links": [
    {
