@@ -3,7 +3,7 @@
 # Any failure exits 1, so the build fails and nothing goes live.
 import hashlib, json, os, sys, time, urllib.request
 man = json.load(open('audio/manifest.json'))
-PATCHES = {'audio_patch.py': '5d554d6f70574bb34021f19927023b5348d9ce54', 'explainer_patch.py': '41df1a8d73ee38e94bb64e6957413592e5b818c7'}
+PATCHES = {'audio_patch.py': '5d554d6f70574bb34021f19927023b5348d9ce54', 'explainer_patch.py': '5b8026edae71c0e5655a19ff76ad8d8f4b5f10e6'}
 any_a = next(iter(man.values()))
 def get(name, sha1):
     url = 'https://raw.githubusercontent.com/%s/%s/%s' % (any_a['repo'], any_a['commit'], name)

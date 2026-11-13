@@ -1,4 +1,13 @@
 {
+ "law-firm-marketing-trends": {
+  "file": "/blog/audio/law-firm-marketing-trends.mp3?v=4e9253fe49",
+  "seconds": 1221,
+  "bytes": 4883776,
+  "date": "2026-11-13",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "915507ac2cac0bd9800323deda70ff59cfff978a",
+  "sha1": "4e9253fe49435edfa2cd4f46ceb551209b474a4f"
+ },
  "reputation-management-for-attorneys": {
   "file": "/blog/audio/reputation-management-for-attorneys.mp3?v=0dcaae4c35",
   "seconds": 1364,
