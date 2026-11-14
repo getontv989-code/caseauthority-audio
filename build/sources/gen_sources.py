@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds pi.json, criminal.json, divorce.json for sources_patch.py.
+"""Builds pi.json, criminal.json, divorce.json, estate.json for sources_patch.py.
 Every URL here was opened and checked against the claim it backs on 2026-11-10.
 New post: add an entry with about 3 links to sources a reader can verify."""
 import json, os
@@ -37,6 +37,7 @@ S = {
  'UW': ('https://www.washington.edu/news/2016/08/21/is-divorce-seasonal-uw-research-shows-biannual-spike-in-divorce-filings/', 'University of Washington: Is divorce seasonal? UW research shows biannual spike in divorce filings'),
  'HOTLINE': ('https://www.thehotline.org/', 'National Domestic Violence Hotline'),
  'PEW': ('https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/', 'Pew Research Center: 34% of U.S. adults have used ChatGPT, about double the share in 2023'),
+ 'GALLUP': ('https://news.gallup.com/poll/351500/how-many-americans-have-will.aspx', 'Gallup: How Many Americans Have a Will?'),
  'WHITESPARK': ('https://whitespark.ca/local-search-ranking-factors/', 'Whitespark: Local Search Ranking Factors report'),
  'BRIGHTLOCAL': ('https://www.brightlocal.com/research/local-consumer-review-survey/', 'BrightLocal: Local Consumer Review Survey'),
  'BATES': ('https://www.law.cornell.edu/supremecourt/text/433/350', 'Cornell Law School LII: Bates v. State Bar of Arizona, 433 U.S. 350 (1977)'),
@@ -233,7 +234,15 @@ DIVORCE = {
 }
 
 here = os.path.dirname(os.path.abspath(__file__))
-for name, m in (('pi', PI), ('criminal', CRIMINAL), ('divorce', DIVORCE)):
+ESTATE = {
+ 'estate-planning-marketing-ideas': {
+  'links': [L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
+            L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('Never pay for reviews or offer anything in return', 'GREV'),
+            L('Most states do not let lawyers pay or give anything of value for a recommendation', 'ABA72')]},
+}
+
+for name, m in (('pi', PI), ('criminal', CRIMINAL), ('divorce', DIVORCE), ('estate', ESTATE)):
     with open(os.path.join(here, name + '.json'), 'w', encoding='utf-8') as f:
         json.dump(m, f, ensure_ascii=False, indent=1)
 print('wrote', len(PI), len(CRIMINAL), len(DIVORCE))

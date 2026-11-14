@@ -263,9 +263,32 @@ SISTER_SPECS = {
   'cta': CTA('Want to Know Which Ideas Will Help Your Firm Most?', 'Get a free audit of your Google visibility and reviews.'),
 },
 },
+'estate': {
+'estate-planning-marketing-ideas': {
+  'title': 'Estate Planning Marketing Ideas in 60 Seconds',
+  'sub': 'How estate planning firms get found and chosen.',
+  'bubble': 'Here is what works.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Be There When They Decide',
+     'p': 'People put off planning for years, then search fast after a life event.',
+     'v': {'kind': 'search', 'q': 'estate planning attorney near me', 'results': [('Your Firm', True), ('Legacy Law Group', False), ('Main Street Wills', False)]}},
+    {'h': 'Win the Map', 'p': 'A complete Google profile and steady reviews put you in the top three.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Legacy Law Group', 'Main Street Wills']}},
+    {'h': 'One Page per Service', 'p': 'Wills, trusts, probate and powers of attorney each get a clear page.',
+     'v': {'kind': 'pages', 'pages': [('Wills', 'Your county'), ('Living Trusts', 'Your county'), ('Probate', 'Your county'), ('Powers of Attorney', 'Your county')]}},
+    {'h': 'Ask for Honest Reviews', 'p': 'Ask right after signing, with a short link. Never pay for reviews.',
+     'v': {'kind': 'stars', 'tag': 'Reviews from real clients', 'reviews': ['Made a hard topic simple.', 'Our trust was done in two weeks.']}},
+    {'h': 'Build Adviser Referrals', 'p': 'Financial advisers and CPAs send clients who already trust you.',
+     'v': {'kind': 'split', 'title': 'Example client mix', 'parts': [('Search and Maps', 5, G), ('Referrals', 3, S), ('Seminars', 2, K)], 'tag': 'Illustrative example'}},
+    {'h': 'Answer Fast', 'p': 'The first firm to call back often books the consultation.',
+     'v': {'kind': 'race', 'fast': ('Call back in minutes', 'Consultation booked'), 'slow': ('Call back next week', 'Hired another firm')}},
+  ],
+  'cta': CTA('Want to Know Which Ideas Fit Your Firm?', 'Get a free audit of your Google visibility and reviews.'),
+},
+},
 }
 
-SITES = {'criminal': 'https://seocriminaldefenselawyer.com', 'divorce': 'https://seodivorcelawyer.com'}
+SITES = {'criminal': 'https://seocriminaldefenselawyer.com', 'divorce': 'https://seodivorcelawyer.com', 'estate': 'https://seoestatelawyer.com'}
 
 
 def fetch(url, sha1):
