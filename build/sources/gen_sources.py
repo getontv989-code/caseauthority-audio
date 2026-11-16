@@ -68,6 +68,11 @@ def L(text, key):
 
 
 PI = {
+ 'how-long-does-seo-take-for-law-firms': {
+  'links': [L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('if anyone guarantees first place in search results', 'DOINEED'),
+            L('The Search Console Performance report', 'GSC'),
+            L('Buying links, stuffing pages with keywords', 'LINKSPAM')]},
  'law-firm-marketing-trends': {
   'links': [L('A Pew Research Center survey found that about a third of U.S. adults had used ChatGPT', 'PEW'),
             L('Google says the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
@@ -166,6 +171,11 @@ PI = {
 }
 
 CRIMINAL = {
+ 'how-to-get-criminal-defense-clients': {
+  'links': [L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('through a link or QR code', 'GREV'),
+            L('Google says the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('Most states do not let lawyers pay or give anything of value for a recommendation', 'ABA72')]},
  'criminal-defense-attorney-website-design': {
   'links': [L('measure real-world user experience for loading performance, interactivity and visual stability', 'CWV'),
             L('Web Content Accessibility Guidelines, known as WCAG 2', 'WCAG'),
@@ -200,6 +210,12 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'how-to-get-family-law-clients': {
+  'links': [L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('through a link or QR code', 'GREV'),
+            L('A University of Washington study of divorce filings', 'UW'),
+            L('National Domestic Violence Hotline', 'HOTLINE'),
+            L('Most states do not let lawyers pay or give anything of value for a recommendation', 'ABA72')]},
  'family-law-ppc': {
   'links': [L('Negative keywords let you exclude search terms from your campaigns', 'GNEG'),
             L('Google lets you choose between showing ads to people who are in or regularly in your target areas', 'GLOC'),
@@ -235,6 +251,11 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'how-to-get-estate-planning-clients': {
+  'links': [L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
+            L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('Google says the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('Most states do not let lawyers pay or give anything of value for a recommendation', 'ABA72')]},
  'estate-planning-marketing-ideas': {
   'links': [L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
             L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),

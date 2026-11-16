@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'how-long-does-seo-take-for-law-firms': {
+  'title': 'How Long Does SEO Take for Law Firms in 60 Seconds',
+  'sub': 'A realistic timeline for personal injury firms, from first fixes to steady cases.',
+  'bubble': 'Here is what to expect month by month.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Months, Not Weeks',
+     'p': 'Most firms see early movement in three to six months and steady cases in six to twelve.',
+     'v': {'kind': 'timeline', 'title': 'A typical SEO timeline', 'points': [('Month 1', 'Fix the basics', 0), ('Month 3 to 6', 'Early movement', 50), ('Month 6 to 12', 'Steady cases', 100)], 'tag': 'Illustrative timeline'}},
+    {'h': 'First, Fix the Foundations', 'p': 'Speed, page structure, your Google profile and tracking come first.',
+     'v': {'kind': 'checklist', 'title': 'First 90 days', 'items': ['Fix slow and broken pages', 'Clean up your Google profile', 'One page per case type', 'Track calls and cases']}},
+    {'h': 'The Map Often Moves First', 'p': 'Reviews and profile work can show up in the map before the biggest rankings.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Highway Injury Group', 'Main Street Law']}},
+    {'h': 'Competition Sets the Pace', 'p': 'Big city injury terms take longer than smaller towns and narrow case types.',
+     'v': {'kind': 'compare', 'cols': ['Small town', 'Big city'], 'rows': [('Fewer firms competing', (True, False)), ('Faster early wins', (True, False)), ('Needs more time', (False, True))]}},
+    {'h': 'No Safe Shortcuts', 'p': 'Bought links, fake reviews and keyword stuffing can set you back months.',
+     'v': {'kind': 'shield', 'chips': ['No guaranteed rankings', 'No bought links', 'No fake reviews']}},
+    {'h': 'Judge It by Signed Cases', 'p': 'Track calls and cases from search, not just rankings, over a full year.',
+     'v': {'kind': 'sources', 'title': 'What to watch', 'items': [('Impressions', 85), ('Clicks', 65), ('Calls', 45), ('Signed cases', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want a Realistic Timeline for Your Firm?', 'Get a free audit of where you stand in search and the map today.'),
+},
 'law-firm-marketing-trends': {
   'title': 'Law Firm Marketing Trends for 2027 in 60 Seconds',
   'sub': 'What is changing in how injured people find and hire a lawyer.',

@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'how-to-get-criminal-defense-clients': {
+  'title': 'How to Get Criminal Defense Clients in 60 Seconds',
+  'sub': 'Where defense clients come from and how to get chosen after an arrest.',
+  'bubble': 'Here is how defense firms get chosen.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Be Found Right After an Arrest',
+     'p': 'Families search on a phone, often at night, and call one of the first firms they trust.',
+     'v': {'kind': 'search', 'q': 'dui lawyer near me', 'results': [('Your Firm', True), ('County Defense Group', False), ('Main Street Law', False)]}},
+    {'h': 'Win the Google Map', 'p': 'A complete Google profile and steady reviews bring many defense calls.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Defense Group', 'Main Street Law']}},
+    {'h': 'One Page per Charge and Court', 'p': 'Clear pages for each key charge, tied to the courts you cover.',
+     'v': {'kind': 'pages', 'pages': [('DUI Defense', 'Your county'), ('Drug Charges', 'Your county'), ('Assault', 'Your county'), ('Theft', 'Nearby county')]}},
+    {'h': 'Reviews Build Trust', 'p': 'Honest reviews help a scared person pick up the phone.',
+     'v': {'kind': 'stars', 'tag': 'Reviews from real clients', 'reviews': ['Answered my call at midnight.', 'Explained every step of court.']}},
+    {'h': 'Answer Fast, Day or Night', 'p': 'People call more than one firm. The first helpful answer often wins.',
+     'v': {'kind': 'race', 'fast': ('Call answered live', 'Consultation booked'), 'slow': ('Voicemail until morning', 'Hired another firm')}},
+    {'h': 'Track Retained Clients', 'p': 'Record where every caller came from and which ones retained you.',
+     'v': {'kind': 'sources', 'title': 'Retained clients by source', 'items': [('Google map', 85), ('Search results', 65), ('Referrals', 50), ('Ads', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want More Retained Clients?', 'Get a free audit of your Google visibility, website and calls.'),
+},
 'criminal-defense-attorney-website-design': {
   'title': 'Criminal Defense Website Design in 60 Seconds',
   'sub': 'What a defense firm website needs in the hours after an arrest.',
@@ -138,6 +159,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'how-to-get-family-law-clients': {
+  'title': 'How to Get Family Law Clients in 60 Seconds',
+  'sub': 'How divorce lawyers get found, trusted and chosen.',
+  'bubble': 'Here is how family law firms get chosen.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Almost Everyone Searches First',
+     'p': 'Even referred clients look you up on Google before they call.',
+     'v': {'kind': 'search', 'q': 'divorce lawyer near me', 'results': [('Your Firm', True), ('County Family Law', False), ('Main Street Law', False)]}},
+    {'h': 'Show Up in the Map', 'p': 'A complete Google profile and honest reviews put you in front of people nearby.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Family Law', 'Main Street Law']}},
+    {'h': 'One Page per Matter', 'p': 'Separate pages for divorce, custody, support and each county you serve.',
+     'v': {'kind': 'pages', 'pages': [('Divorce', 'Your county'), ('Child Custody', 'Your county'), ('Child Support', 'Your county'), ('Divorce', 'Nearby county')]}},
+    {'h': 'Referrals Still Matter', 'p': 'Past clients, therapists, advisors and other lawyers send good matters.',
+     'v': {'kind': 'checklist', 'title': 'Common referral sources', 'items': ['Past clients', 'Other attorneys', 'Therapists and counselors', 'Financial advisors']}},
+    {'h': 'Private, Fast Replies', 'p': 'Safe contact details, short forms and quick, kind replies win consultations.',
+     'v': {'kind': 'shield', 'chips': ['Safe phone number', 'Short forms', 'Reply within minutes']}},
+    {'h': 'Track Retainers', 'p': 'Follow every inquiry through to a signed retainer, by source.',
+     'v': {'kind': 'sources', 'title': 'From search to retainer', 'items': [('Searches', 95), ('Calls and forms', 65), ('Consultations', 45), ('Retainers signed', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want More Family Law Clients?', 'Get a free audit of your Google visibility, website and intake.'),
+},
 'family-law-ppc': {
   'title': 'Family Law PPC in 60 Seconds',
   'sub': 'How to run Google Ads that bring retained clients, not wasted clicks.',
@@ -264,6 +306,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'how-to-get-estate-planning-clients': {
+  'title': 'How to Get Estate Planning Clients in 60 Seconds',
+  'sub': 'Be the firm people find and trust when they finally decide to act.',
+  'bubble': 'Here is how estate firms get chosen.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Demand Is Big but Quiet',
+     'p': 'Most adults need a plan, but many wait until a life event pushes them to act.',
+     'v': {'kind': 'checklist', 'title': 'Common triggers', 'items': ['A new baby', 'Buying a home', 'A diagnosis', 'Losing a parent']}},
+    {'h': 'Be There When They Search', 'p': 'When the moment comes, most people start with Google.',
+     'v': {'kind': 'search', 'q': 'estate planning attorney near me', 'results': [('Your Firm', True), ('Legacy Law Group', False), ('Main Street Wills', False)]}},
+    {'h': 'One Page per Service', 'p': 'Wills, trusts, powers of attorney, probate and each county you serve.',
+     'v': {'kind': 'pages', 'pages': [('Wills', 'Your county'), ('Living Trusts', 'Your county'), ('Power of Attorney', 'Your county'), ('Probate', 'Nearby county')]}},
+    {'h': 'Trust Wins the Call', 'p': 'Real attorney profiles, honest reviews and clear steps ease the worry.',
+     'v': {'kind': 'stars', 'tag': 'Reviews from real clients', 'reviews': ['Made a hard subject feel simple.', 'Patient with every question.']}},
+    {'h': 'Make It Easy to Say Yes', 'p': 'Fast replies, easy booking and kind follow up stop people putting it off again.',
+     'v': {'kind': 'race', 'fast': ('Booked the same day', 'Plan signed'), 'slow': ('No reply for a week', 'Put it off again')}},
+    {'h': 'Measure Signed Plans', 'p': 'Track which sources lead to signed plans, not just inquiries.',
+     'v': {'kind': 'sources', 'title': 'Signed plans by source', 'items': [('Google map', 80), ('Advisor referrals', 65), ('Search results', 55), ('Seminars', 35)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want More Estate Planning Clients?', 'Get a free audit of your Google visibility, website and intake.'),
+},
 'estate-planning-marketing-ideas': {
   'title': 'Estate Planning Marketing Ideas in 60 Seconds',
   'sub': 'How estate planning firms get found and chosen.',
