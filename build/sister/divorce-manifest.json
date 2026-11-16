@@ -1,4 +1,14 @@
 {
+ "how-to-get-family-law-clients": {
+  "file": "/blog/audio/how-to-get-family-law-clients.mp3?v=9bbd9c0cab",
+  "seconds": 881,
+  "bytes": 3522585,
+  "date": "2026-11-16",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "7e09abd291d1f2a125e36344d19396a238936bf5",
+  "path": "sister/divorce/how-to-get-family-law-clients.mp3",
+  "sha1": "9bbd9c0cabc74cc8b2e74c1aace2c03dfe2d6b28"
+ },
  "family-law-ppc": {
   "file": "/blog/audio/family-law-ppc.mp3?v=96edb73e2b",
   "seconds": 1151,
