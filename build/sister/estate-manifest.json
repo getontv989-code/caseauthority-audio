@@ -1,4 +1,14 @@
 {
+ "martindale-av-rating": {
+  "file": "/blog/audio/martindale-av-rating.mp3?v=2f9e4165c2",
+  "seconds": 983,
+  "bytes": 3934530,
+  "date": "2026-11-17",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "82b52164b11daa2c7fbddede2cc3274fbad93e7d",
+  "path": "sister/estate/martindale-av-rating.mp3",
+  "sha1": "2f9e4165c25a75638c0617acc5d67a2932014903"
+ },
  "how-to-get-estate-planning-clients": {
   "file": "/blog/audio/how-to-get-estate-planning-clients.mp3?v=1a3e9b47f5",
   "seconds": 909,
