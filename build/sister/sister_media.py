@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'how-to-improve-avvo-rating': {
+  'title': 'How to Improve Your Avvo Rating in 60 Seconds',
+  'sub': 'Strengthen your directory profile and make it point clients to you.',
+  'bubble': 'Here is how to make your profile work for you.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Your Profile Is Already Out There',
+     'p': 'People look you up fast after an arrest, and directory profiles often show up.',
+     'v': {'kind': 'search', 'q': 'your name criminal lawyer', 'results': [('Your Website', True), ('Your Avvo Profile', False), ('Other Directories', False)]}},
+    {'h': 'Claim It and Complete It', 'p': 'Accurate details give people a clear, trustworthy picture.',
+     'v': {'kind': 'checklist', 'title': 'Profile basics', 'items': ['Claim and verify', 'Charges and courts you cover', 'Experience and honors', 'Link to your website']}},
+    {'h': 'Honest Reviews and Endorsements', 'p': 'Ask kindly, protect privacy and never pay for reviews.',
+     'v': {'kind': 'stars', 'tag': 'Reviews from real clients', 'reviews': ['Explained every step.', 'Answered my call at night.']}},
+    {'h': 'Same Details Everywhere', 'p': 'Matching name, address and phone support your local SEO.',
+     'v': {'kind': 'shield', 'chips': ['Same firm name', 'Same address', 'Same phone number']}},
+    {'h': 'Your Google Profile Matters Most', 'p': 'The Google map usually brings far more defense calls than any directory.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Defense Group', 'Main Street Law']}},
+    {'h': 'Send People Home', 'p': 'Every profile should point to your site and phone, then answer fast.',
+     'v': {'kind': 'race', 'fast': ('Clicked through to your site', 'Called you directly'), 'slow': ('Stayed on the directory', 'Called another firm')}},
+  ],
+  'cta': CTA('Want Clients Who Find You Directly?', 'Get a free audit of your Google visibility, profiles and calls.'),
+},
 'how-to-get-criminal-defense-clients': {
   'title': 'How to Get Criminal Defense Clients in 60 Seconds',
   'sub': 'Where defense clients come from and how to get chosen after an arrest.',
@@ -159,6 +180,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'divorce-month': {
+  'title': 'Divorce Month in 60 Seconds',
+  'sub': 'How family law firms get their SEO ready for the January rush.',
+  'bubble': 'Here is how to be ready before January.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'January Starts the Research',
+     'p': 'After the holidays, many people quietly start searching about divorce.',
+     'v': {'kind': 'search', 'q': 'how much does a divorce cost', 'results': [('Your Firm', True), ('County Family Law', False), ('Main Street Law', False)]}},
+    {'h': 'Filings Often Peak Later', 'p': 'Research on court records found peaks around March and August.',
+     'v': {'kind': 'timeline', 'title': 'A typical season', 'points': [('November', 'Prepare your SEO', 0), ('January', 'Research starts', 50), ('March', 'Filings peak', 100)], 'tag': 'Illustrative timeline'}},
+    {'h': 'Refresh Your Key Pages', 'p': 'Divorce, custody, support, each county and how a consultation works.',
+     'v': {'kind': 'pages', 'pages': [('Divorce', 'Your county'), ('Child Custody', 'Your county'), ('First Consultation', 'What to expect'), ('Divorce', 'Nearby county')]}},
+    {'h': 'Win the Map Nearby', 'p': 'A complete Google profile and fresh reviews help you show up.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Family Law', 'Main Street Law']}},
+    {'h': 'Get Intake Ready', 'p': 'Quick, private, kind replies turn a nervous search into a consultation.',
+     'v': {'kind': 'race', 'fast': ('Reply within the hour', 'Consultation booked'), 'slow': ('Reply in two days', 'Hired another firm')}},
+    {'h': 'Track Every Retainer', 'p': 'Follow each inquiry to a signed retainer and plan next season.',
+     'v': {'kind': 'sources', 'title': 'From search to retainer', 'items': [('Searches', 95), ('Calls and forms', 65), ('Consultations', 45), ('Retainers signed', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Ready for Divorce Month?', 'Get a free audit of your Google visibility, pages and intake.'),
+},
 'how-to-get-family-law-clients': {
   'title': 'How to Get Family Law Clients in 60 Seconds',
   'sub': 'How divorce lawyers get found, trusted and chosen.',
@@ -306,6 +348,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'martindale-av-rating': {
+  'title': 'Martindale AV Rating in 60 Seconds',
+  'sub': 'What AV rated means and how to turn trust into signed plans.',
+  'bubble': 'Here is how to make the rating work for you.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'A Peer Rating',
+     'p': 'Martindale says peers assess your legal ability and ethical standards.',
+     'v': {'kind': 'checklist', 'title': 'Martindale rating levels', 'items': ['AV Preeminent', 'Distinguished', 'Notable', 'Client Champion (client reviews)']}},
+    {'h': 'Trust Matters in Estate Planning', 'p': 'Cautious clients and referral partners look for signs of credibility.',
+     'v': {'kind': 'stars', 'tag': 'What clients look for', 'reviews': ['Respected by other lawyers.', 'Patient with every question.']}},
+    {'h': 'Show It Accurately', 'p': 'Display it as awarded, follow usage rules and your state bar rules.',
+     'v': {'kind': 'shield', 'chips': ['Exact rating name', 'Correct lawyer', 'Kept up to date']}},
+    {'h': 'But First, Be Found', 'p': 'Most people start with Google. If you do not rank, they never see it.',
+     'v': {'kind': 'search', 'q': 'estate planning attorney near me', 'results': [('Your Firm', True), ('Legacy Law Group', False), ('Main Street Wills', False)]}},
+    {'h': 'Directories Point Home', 'p': 'Consistent profiles that link to your site support local SEO.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Legacy Law Group', 'Main Street Wills']}},
+    {'h': 'Measure Signed Plans', 'p': 'Track which pages and sources lead to signed plans.',
+     'v': {'kind': 'sources', 'title': 'Signed plans by source', 'items': [('Google map', 80), ('Advisor referrals', 65), ('Search results', 55), ('Directories', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want More Estate Planning Clients?', 'Get a free audit of your Google visibility, profiles and intake.'),
+},
 'how-to-get-estate-planning-clients': {
   'title': 'How to Get Estate Planning Clients in 60 Seconds',
   'sub': 'Be the firm people find and trust when they finally decide to act.',

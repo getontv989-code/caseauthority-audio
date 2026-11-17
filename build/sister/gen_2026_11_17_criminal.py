@@ -1,0 +1,115 @@
+#!/usr/bin/env python3
+"""2026-11-17 criminal post: how to improve your Avvo rating (Semrush 110/mo KD 17, + 'avvo rating' 140 KD 26, 'is avvo worth it' 20, 'how to delete avvo profile' 20, 'avvo profile' 30). Mash: creative, lean towards the firm's own SEO lead generation, 2000+ words, query fan-out, legal disclaimer for third-party brands.
+Cluster: how to improve avvo rating, avvo rating, what is an avvo rating, does avvo rating matter, is avvo worth it, claim avvo profile, avvo reviews, avvo vs google reviews, delete avvo profile, avvo and seo.
+Facts used (checked 2026-11-17): avvo.com/for-lawyers describes a 1 to 10 rating and says Avvo is part of the Martindale-Avvo legal network. Nothing else about how the rating is calculated is stated as fact."""
+import json, os
+P = {
+ 'slug': 'how-to-improve-avvo-rating',
+ 'keyword': 'how to improve avvo rating',
+ 'title': 'How to Improve Your Avvo Rating as a Defense Lawyer',
+ 'meta': 'How criminal defense lawyers can improve their Avvo rating and profile, and use directory listings to support the SEO that brings in their own clients.',
+ 'h1': 'How to Improve Your Avvo Rating: A Guide for Criminal Defense Lawyers',
+ 'nav_label': 'How to Improve Your Avvo Rating',
+ 'tag': 'Directories and SEO',
+ 'date': '2026-11-17',
+ 'lead': "If you practice criminal defense, there is a good chance a potential client has already seen your Avvo profile, whether you set it up or not. People facing charges often research lawyers quickly, and directory profiles regularly appear in Google results for a lawyer's name. That makes your Avvo rating and profile worth a look. But a directory profile should never be the main way clients find you. This guide explains what the Avvo rating is, practical steps defense attorneys take to strengthen their profile, how Avvo fits with Google reviews and your Google Business Profile, and how to use directory listings to support the SEO that brings clients straight to your own website and phone line.",
+ 'quick_answer': 'Avvo describes its rating as a 1 to 10 score meant to help people understand a lawyer\'s professional experience. To improve how your Avvo profile looks, claim it, make every detail accurate and complete, add your practice areas, experience, education and any honors or publications, ask satisfied clients for honest reviews and collect endorsements from lawyers who know your work. Avvo explains the factors behind its rating in its own help pages, so check them for the current details. Then use the profile to support your own SEO: link to your website, keep your name, address and phone number consistent everywhere and put most of your effort into the website and Google profile that bring clients directly to you.',
+ 'takeaways': [
+  ['Your Profile Probably Exists Already.', 'Many directories list lawyers from public bar records, so check what people see.'],
+  ['Claim It and Complete It.', 'Accurate, complete details give people and search engines a clear picture of your practice.'],
+  ['Reviews and Endorsements Help.', 'Honest client reviews and peer endorsements build trust on the profile.'],
+  ['Consistency Supports Local SEO.', 'The same name, address and phone number everywhere helps Google trust your details.'],
+  ['Link Back to Your Own Site.', 'A directory should send people to your website and phone, not keep them there.'],
+  ['Your Own SEO Matters Most.', 'Your website and Google profile bring clients you do not share with other firms.'],
+ ],
+ 'sections': [
+  {'h2': 'What Is an Avvo Rating?',
+   'answer': 'Avvo describes it as a 1 to 10 rating that helps people understand a lawyer\'s professional experience, shown on the lawyer\'s Avvo profile.',
+   'paras': [
+    'Avvo is an online lawyer directory where people can look up attorneys, read reviews and ask legal questions. On its page for lawyers, Avvo describes an industry standard 1 to 10 rating that helps consumers and AI quickly understand a lawyer\'s professional experience. Avvo is part of the Martindale-Avvo legal network, which also includes other legal directories.',
+    'The rating appears on each lawyer\'s profile, next to details such as practice areas, years licensed, client reviews and endorsements from other lawyers. People comparing defense attorneys may glance at the rating along with everything else on the page.',
+    'Avvo publishes its own explanation of what goes into the rating and how it is updated. The details can change over time, so if you want to know exactly how your score is worked out, read Avvo\'s current help pages rather than relying on what a colleague told you years ago.',
+   ]},
+  {'h2': 'Does Your Avvo Rating Matter for a Criminal Defense Practice?',
+   'answer': 'It can matter as one trust signal among many, because people facing charges often check several sources quickly before they call a lawyer.',
+   'paras': [
+    'Criminal defense searches are urgent. Someone has been arrested, a family member is in custody or a court date has arrived in the mail. In that moment, people look for signs that a lawyer is experienced and trustworthy, and they often look fast. A directory profile with a clear rating, reviews and a complete history can help, and an empty or out of date profile can raise doubts.',
+    'Directory profiles also tend to appear in Google when someone searches for a lawyer by name. If a friend recommends you, the person will often search your name before calling, and they may see your website, your Google Business Profile and one or more directory profiles on the same page. Each one should tell the same, accurate story.',
+    'That said, a rating is only one part of the picture. Most people decide based on a mix of things: how quickly you answer, how clearly you explain their situation, your reviews on Google and whether your website shows that you handle their exact charge in their court. The rating can support that picture, but it cannot replace it.',
+   ]},
+  {'h2': 'How Do You Claim and Complete Your Avvo Profile?',
+   'answer': 'Find your existing listing, follow Avvo\'s steps to claim it, then fill in every section with accurate, current information about your practice.',
+   'paras': [
+    'Many lawyers are surprised to find they already have a profile they never created. Directories often build listings from public information, such as state bar records. Search for your name on Avvo and see what a potential client would see today.',
+    'If the profile is not yet claimed, follow Avvo\'s process to claim it and verify that you are the attorney listed. Once you have access, work through every section. Add a professional photo, your current firm name, office address and phone number, the courts and counties you cover and a clear, plain description of the charges you handle, such as DUI, drug charges, assault, theft and probation violations.',
+    'Add your education, bar admissions, years in practice, work history, honors, publications, speaking engagements and professional memberships where they apply. Keep the wording factual and within your state bar rules. Avoid words like expert or specialist unless your state allows them for your certification, and do not make claims about results you cannot back up.',
+   ]},
+  {'h2': 'What Can You Do to Improve Your Avvo Rating?',
+   'answer': 'Make sure Avvo has complete, accurate information about your experience and record, keep it up to date and build honest reviews and peer endorsements over time.',
+   'paras': [
+    'Because the rating is meant to reflect your professional background, the most practical step is to make sure the information Avvo has about you is complete and correct. Missing years of practice, an old firm name or a blank experience section can leave people with the wrong impression, whatever the number says.',
+    'Add the things that genuinely show your experience: the types of cases you handle, notable professional roles, awards you have received from recognized organizations, articles you have written and talks you have given. Update the profile when something changes, such as a new office, a new practice area or a new honor.',
+    'Check Avvo\'s own help pages for the current list of factors and how often the rating updates. Be wary of anyone who promises to raise your score quickly for a fee. There is no shortcut that replaces an accurate profile and a real record of good work, and anything that misrepresents your experience can create problems with both the directory and your state bar.',
+   ]},
+  {'h2': 'How Do Client Reviews Work for Criminal Defense Lawyers?',
+   'answer': 'Ask satisfied clients for honest reviews in a simple, private way, respect their confidentiality and never pay for or write reviews yourself.',
+   'paras': [
+    'Reviews are one of the first things people read before choosing a defense lawyer, on Avvo, on Google and elsewhere. Defense clients can be reluctant to leave reviews, because they may not want their name linked to a criminal case. Make it easy and respectful. Ask at a natural moment, such as after a dismissal, a good outcome or the close of a case, and explain that a first name or initials is fine.',
+    'Do not spread your requests too thin. For most defense firms, Google reviews matter most, because they appear in the Google map where many new clients start. Google suggests asking customers to leave a review through a link or QR code, which makes it quick to do from a phone. You can mention your Avvo profile too, but focus first on the platform that brings you the most calls.',
+    'Never pay for reviews, offer anything in return or write reviews yourself, and never ask staff or family to post them. Rules from the Federal Trade Commission ban buying positive or negative consumer reviews, and many state bars treat fake or incentivized reviews as misleading advertising. When you reply to any review, keep it short and professional, and never confirm that the reviewer was a client or share details of their case.',
+   ]},
+  {'h2': 'What Are Peer Endorsements and Should You Ask for Them?',
+   'answer': 'Endorsements are short notes from other lawyers vouching for your work, and they can help, as long as they are genuine and from people who know you.',
+   'paras': [
+    'Avvo lets lawyers endorse each other on their profiles. For a defense attorney, an endorsement from a respected colleague, a former prosecutor now in private practice or a lawyer who has co counseled a case with you can carry real weight with people reading your profile.',
+    'Ask lawyers who genuinely know your work, and offer to endorse them in return only if you can honestly vouch for theirs. Keep endorsements specific and truthful. A short note about how you prepare for trial or treat clients is more convincing than a generic line.',
+    'Do not trade endorsements in bulk with people you have never worked with. It adds little value for readers and can make a profile look less credible, not more.',
+   ]},
+  {'h2': 'How Does Avvo Fit With Your Google Business Profile and Local SEO?',
+   'answer': 'Directory listings like Avvo support your local SEO when your details match everywhere, but your Google Business Profile usually brings far more calls.',
+   'paras': [
+    'Local SEO is the work of helping your firm show up in the Google map and local search results for people nearby. Google says local results are mainly based on relevance, distance and popularity. Your Google Business Profile is the center of that. For most defense firms, it brings in more calls than any directory.',
+    'Directory listings, sometimes called citations, play a supporting role. When your firm name, address and phone number appear the same way on Avvo, other directories, your website and your Google profile, it is easier for search engines and people to trust that your details are correct. Mismatched details, such as an old address on one directory and a new one on another, can cause confusion.',
+    'Make a simple list of every directory where your firm appears and check each one once or twice a year. Update old addresses, phone numbers and firm names. Make sure each profile links to your website. That small habit supports your local SEO and stops people calling an old number.',
+   ]},
+  {'h2': 'Is Avvo Worth It for Criminal Defense Lawyers?',
+   'answer': 'A free, claimed and complete profile is usually worth the time, while paid upgrades are a business decision you should judge by retained clients, not clicks.',
+   'paras': [
+    'Claiming and completing your basic profile costs time rather than money, and it controls what people see when they look you up. For most defense attorneys, that makes it a sensible step.',
+    'Avvo, like many directories, also sells advertising and profile upgrades. Whether those are worth it depends on your market, your budget and how many retained clients they bring. Track it the same way you would any marketing: give the listing its own tracking phone number or ask every caller how they found you, then compare the cost with the fees from clients who actually retained you.',
+    'Keep one thing in mind. Directory traffic often happens on a page that also shows other lawyers, and people may compare several firms before calling. Clients who find you through your own website or Google profile are usually looking at you alone. That is why your own SEO should come first, with directories in a supporting role.',
+   ]},
+  {'h2': 'Can You Delete Your Avvo Profile?',
+   'answer': 'Directories set their own policies on removing listings, so check Avvo\'s current terms and help pages, and consider whether a claimed, accurate profile serves you better.',
+   'paras': [
+    'Some lawyers would prefer not to appear on directories at all. Whether a listing can be removed, hidden or changed is set by each directory\'s own terms and policies, which can change. If removal matters to you, read Avvo\'s current help pages and terms of use, or contact Avvo directly, rather than relying on old forum posts.',
+    'Before you try to remove a profile, think about what people will see instead. If your name is searched and there is no profile, people may still find other directories, news stories or court records. A claimed, accurate and complete profile that links to your website often puts you in a stronger position than no profile at all.',
+    'If something on your profile is wrong, such as an old address or an incorrect practice area, the fastest fix is usually to claim the profile and correct it. If you see a review that you believe breaks the directory\'s rules, use the directory\'s reporting process and stay professional in any public reply.',
+   ]},
+  {'h2': 'How Do You Turn Directory Visibility Into Your Own Leads?',
+   'answer': 'Use directories to send people to your website and phone, and invest most of your effort in your own site, your Google profile and fast intake.',
+   'paras': [
+    'Think of every directory profile as a signpost that points to your firm. It should link to your website, show your direct phone number and describe your practice in a way that matches your own site. When someone clicks through, they should land on a page that answers their question and makes it easy to call.',
+    'Your own website is where you build lasting lead generation. A page for each main charge, such as DUI, drug charges and assault, pages for the courts and counties you cover, helpful answers to the questions people ask after an arrest and strong attorney profiles all help you rank in Google. Google says the best practices for SEO remain relevant for AI features in Google Search, so clear, well organized pages help with AI answers too.',
+    'Finally, answer fast. People facing charges often call more than one firm, sometimes late at night. A live answering service or after hours coverage, a short discreet contact form and a quick reply can decide who gets hired. A strong rating gets you noticed. Fast, kind intake turns that attention into a retained client.',
+   ]},
+  {'h2': 'A Note on Trademarks, Independence and Bar Rules',
+   'answer': 'Avvo is a trademark of its owner, CaseAuthority is not affiliated with it and this guide is general information, not legal advice.',
+   'paras': [
+    'Avvo, Martindale-Avvo and any other company names mentioned in this article are trademarks of their respective owners. CaseAuthority is not affiliated with, endorsed by or sponsored by Avvo or any other directory or company named here, and we receive nothing for mentioning them. Descriptions of how Avvo works are based on what Avvo says publicly on its own website at the time of writing and may change, so check Avvo\'s own pages for current details. This article does not rate or review any company.',
+    'Lawyer advertising is regulated and the rules vary by state, including rules on ratings, reviews, testimonials, endorsements and words like expert or specialist. The ideas in this guide describe common practices in legal marketing. They are not legal advice and do not promise any result. Check your state bar\'s current rules or speak to an ethics counsel if you are unsure.',
+   ]},
+ ],
+ 'faq': [
+  {'q': 'What Is a Good Avvo Rating?', 'a': 'Avvo describes its rating on a 1 to 10 scale, with higher numbers shown as stronger. What matters more to most clients is a complete profile, honest reviews and how quickly and clearly you respond when they call.'},
+  {'q': 'How Do I Raise My Avvo Rating?', 'a': 'Claim your profile, make every section complete and accurate, add your experience, honors and publications and keep it updated. Check Avvo\'s own help pages for the current factors behind the rating.'},
+  {'q': 'Can I Pay to Improve My Avvo Rating?', 'a': 'Be careful with anyone who promises a higher score for a fee. Avvo sells advertising and profile products, but you should check Avvo\'s own pages for how its rating works and never misrepresent your experience.'},
+  {'q': 'Do Avvo Reviews Help My Google Ranking?', 'a': 'Reviews on your Google Business Profile matter most for the Google map. Directory profiles like Avvo support your local SEO mainly by showing consistent firm details and linking to your website.'},
+  {'q': 'Should Criminal Defense Lawyers Pay for Avvo Advertising?', 'a': 'It depends on your market and budget. Track calls and retained clients from any paid listing and compare the cost with your own SEO and Google profile, which bring clients you do not share with other firms.'},
+  {'q': 'Can I Remove My Avvo Profile?', 'a': 'Removal is governed by Avvo\'s own terms and policies, which can change. Check Avvo\'s current help pages or contact Avvo. Many lawyers find a claimed, accurate profile serves them better than no profile.'},
+ ],
+ 'related': ['local-seo-for-criminal-defense-lawyers', 'criminal-defense-marketing', 'seo-for-criminal-lawyers', 'criminal-law-seo'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'criminal', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])

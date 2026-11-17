@@ -57,6 +57,11 @@ S = {
  'CONFLICT': ('https://www.law.cornell.edu/wex/conflict_of_interest', 'Cornell Law School LII Wex: Conflict of interest'),
  'GPERS': ('https://support.google.com/adspolicy/answer/143465?hl=en', 'Google Advertising Policies Help: Restricted targeting in personalized advertising'),
  'PRIV': ('https://www.law.cornell.edu/wex/attorney-client_privilege', 'Cornell Law School LII Wex: Attorney-client privilege'),
+ 'SLSEL': ('https://www.superlawyers.com/about/selection-process/', 'Super Lawyers: Selection process'),
+ 'SLFAQ': ('https://www.superlawyers.com/about/attorney-faq/', 'Super Lawyers: Attorney FAQ'),
+ 'BLM': ('https://www.bestlawyers.com/methodology', 'Best Lawyers: Methodology'),
+ 'AVVOL': ('https://www.avvo.com/for-lawyers', 'Avvo: For lawyers'),
+ 'MHR': ('https://www.martindale.com/ratings-and-reviews/', 'Martindale-Hubbell: Ratings and reviews'),
 }
 
 SCREENED = ('Google Screened badge', 'Google Verified badge')
@@ -68,6 +73,12 @@ def L(text, key):
 
 
 PI = {
+ 'is-super-lawyers-legit': {
+  'links': [L('uses a patented multiphase process', 'SLSEL'),
+            L('maintains strict separation between research and advertising', 'SLFAQ'),
+            L('Best Lawyers says recognition is based entirely on peer review', 'BLM'),
+            L('links bought or traded to manipulate rankings break its spam policies', 'LINKSPAM'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'how-long-does-seo-take-for-law-firms': {
   'links': [L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
             L('if anyone guarantees first place in search results', 'DOINEED'),
@@ -171,6 +182,11 @@ PI = {
 }
 
 CRIMINAL = {
+ 'how-to-improve-avvo-rating': {
+  'links': [L('Avvo describes an industry standard 1 to 10 rating', 'AVVOL'),
+            L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('through a link or QR code', 'GREV'),
+            L('ban buying positive or negative consumer reviews', 'FTCBUY')]},
  'how-to-get-criminal-defense-clients': {
   'links': [L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
             L('through a link or QR code', 'GREV'),
@@ -210,6 +226,12 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'divorce-month': {
+  'links': [L('A University of Washington study of divorce filings', 'UW'),
+            L('Google says the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('National Domestic Violence Hotline', 'HOTLINE'),
+            L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('through a link or QR code', 'GREV')]},
  'how-to-get-family-law-clients': {
   'links': [L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
             L('through a link or QR code', 'GREV'),
@@ -251,6 +273,11 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'martindale-av-rating': {
+  'links': [L('the 1887 edition of Martindale', 'MHR'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71'),
+            L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('through a link or QR code', 'GREV')]},
  'how-to-get-estate-planning-clients': {
   'links': [L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
             L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),

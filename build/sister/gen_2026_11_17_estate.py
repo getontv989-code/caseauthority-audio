@@ -1,0 +1,115 @@
+#!/usr/bin/env python3
+"""2026-11-17 estate post: Martindale AV rating (Semrush 170/mo KD 1, + 'martindale hubbell rating' 260 KD 28, 'av preeminent' 110 KD 22, 'av preeminent rating' 70 KD 6, 'what does av rated mean' 70 KD 0, 'is martindale hubbell worth it' 20). Mash: creative, lean towards the firm's own SEO lead generation, 2000+ words, query fan-out, legal disclaimer for third-party brands.
+Cluster: martindale av rating, what does av rated mean, av preeminent, martindale hubbell rating, how to get an av rating, is martindale worth it, client champion, displaying the av badge, ratings and seo.
+Facts used (checked 2026-11-17 on martindale.com/ratings-and-reviews): AV Preeminent = highest peer rating standard; Distinguished and Notable levels; peer review survey of legal ability and ethical standards; first ratings in the 1887 edition of Martindale's American Law Directory; Client Champion Platinum/Gold/Silver thresholds. Avvo is part of the Martindale-Avvo network (avvo.com/for-lawyers)."""
+import json, os
+P = {
+ 'slug': 'martindale-av-rating',
+ 'keyword': 'martindale av rating',
+ 'title': 'Martindale AV Rating: What It Means for Estate Planners',
+ 'meta': 'What a Martindale AV rating means, how peer review ratings work and how estate planning attorneys can use an AV rating to support their own SEO and leads.',
+ 'h1': 'Martindale AV Rating: What It Means and How Estate Planning Lawyers Can Use It',
+ 'nav_label': 'Martindale AV Rating',
+ 'tag': 'Trust and SEO',
+ 'date': '2026-11-17',
+ 'lead': "Estate planning is built on trust. People are sharing details about their money, their health and their family, and they want a lawyer they can rely on for years. That is one reason many estate planning attorneys value a Martindale-Hubbell AV Preeminent rating, a peer rating that has been part of the legal profession for well over a century. But a rating only helps your practice if the right people see it and it supports a clear path to your door. This guide explains what an AV rating is, what AV rated means, how peer review ratings work, how to display a rating responsibly and how estate planning firms can use ratings to strengthen the SEO and lead generation that brings clients straight to their own website.",
+ 'quick_answer': 'A Martindale AV rating is a peer review rating from Martindale-Hubbell. AV Preeminent is described by Martindale as its highest peer rating standard, given to lawyers whose peers rate their legal ability and ethical standards very highly. The other levels are Distinguished and Notable. Ratings come from a peer review survey of other lawyers, so they cannot simply be bought. For an estate planning firm, an AV rating can be a strong trust signal for cautious clients and referral partners. To get real value from it, show it accurately on your own website, keep your directory profiles consistent, link them to your site and pair the rating with helpful pages, reviews and a strong Google Business Profile that bring people directly to you.',
+ 'takeaways': [
+  ['AV Preeminent Is the Top Peer Rating.', 'Martindale describes it as its highest peer rating standard.'],
+  ['Peers Decide, Not Marketing.', 'Ratings come from other lawyers assessing your legal ability and ethics.'],
+  ['Trust Matters in Estate Planning.', 'Cautious clients and referral partners often look for signs of credibility.'],
+  ['Show It Accurately.', 'Display the rating as awarded and follow your state bar\'s rules.'],
+  ['Make Directories Point Home.', 'Consistent profiles that link to your website support your local SEO.'],
+  ['Pair It With Your Own SEO.', 'Ratings help most alongside strong pages, reviews and a good Google profile.'],
+ ],
+ 'sections': [
+  {'h2': 'What Is a Martindale AV Rating?',
+   'answer': 'It is a peer review rating from Martindale-Hubbell that reflects how other lawyers rate an attorney\'s legal ability and ethical standards.',
+   'paras': [
+    'Martindale-Hubbell is one of the oldest names in legal directories. According to Martindale, the 1887 edition of Martindale\'s American Law Directory was the first publication to provide ratings of attorneys, and the company has been evaluating lawyers for more than 130 years. Martindale-Hubbell is now part of the Martindale-Avvo legal network, which also includes other legal directories.',
+    'Today, Martindale explains that a lawyer\'s ethical standards and legal ability in a specific area of practice are assessed by their peers through a secure online peer review survey. The result is a peer rating that appears on the lawyer\'s Martindale profile and is often recognized across the legal profession.',
+    'For estate planning attorneys, the rating carries extra weight because so much of the practice depends on trust and referrals. Financial advisors, accountants and other lawyers often look for signs that the attorney they refer clients to is respected by peers.',
+   ]},
+  {'h2': 'What Does AV Rated Mean?',
+   'answer': 'AV rated refers to the AV Preeminent rating, which Martindale describes as its highest peer rating standard for legal ability and ethics.',
+   'paras': [
+    'The letters come from Martindale\'s older rating system. Martindale explains that, historically, an A rating related to legal ability and required at least 10 years of practice, and a V meant peers rated the lawyer\'s ethical standards as very high. Together, AV became shorthand for a lawyer at the top of both measures.',
+    'Today the top level is called AV Preeminent. Martindale describes it as the highest peer rating standard, reflecting legal expertise, communication skills and ethical standards as judged by peers. When people say a lawyer is AV rated, this is usually what they mean.',
+    'Because the rating comes from peers rather than clients, it tells a different story from online reviews. Reviews show how clients felt about working with you. A peer rating shows how other lawyers see your skill and integrity. Many estate planning clients find both reassuring.',
+   ]},
+  {'h2': 'What Are the Other Martindale Rating Levels?',
+   'answer': 'Below AV Preeminent, Martindale lists Distinguished and Notable, and it also has a separate Client Champion award based on client reviews.',
+   'paras': [
+    'Martindale describes Distinguished as an excellent rating for an attorney who has some experience and is widely respected by their peers. Notable is described as a rating given to a lawyer who has been recognized by a large number of their peers for their strong ethical standards.',
+    'Separately, Martindale offers Client Champion awards, which are based on client reviews rather than peer reviews. According to Martindale, Platinum requires at least 10 client reviews with an average of 4.5 or higher, Gold at least 6 with 4.2 or higher and Silver at least 3 with 4.0 or higher.',
+    'These rules are set by Martindale and can change, so check Martindale\'s own pages for the current criteria before you mention any level in your marketing.',
+   ]},
+  {'h2': 'How Do You Get a Martindale AV Rating?',
+   'answer': 'Ratings come through Martindale\'s peer review process, so the route is to take part in that process and build a strong reputation with other lawyers over time.',
+   'paras': [
+    'Because the rating is based on peer review, there is no quick way to earn it. Martindale says lawyers who wish to receive a rating go through its review process, where peers are asked to assess their legal ability and ethical standards. Check Martindale\'s current pages for how to request a review and how long it takes.',
+    'In practice, the attorneys who earn strong peer ratings are usually the ones other lawyers know and respect. For an estate planner, that might come from years of careful work, teaching continuing legal education sessions, writing about trusts and probate, serving on bar committees or working with other lawyers on estates and trust disputes.',
+    'Be wary of any service that promises to get you a rating quickly. A peer rating is meant to reflect genuine peer opinion. Anything that tries to shortcut that process undermines the value of the rating and could create problems with the directory and your state bar.',
+   ]},
+  {'h2': 'Is a Martindale AV Rating Worth It for Estate Planning Lawyers?',
+   'answer': 'For many estate planners it is a useful trust signal, but it brings the most value when people can easily see it and when it supports a strong website and Google presence.',
+   'paras': [
+    'Estate planning clients are often cautious. They may be planning for the first time after a diagnosis, the birth of a child or the loss of a parent, and they want to be sure they are in safe hands. A peer rating can help a nervous person feel confident about calling, especially when it sits alongside clear information and good reviews.',
+    'Ratings can also help with referral partners. Financial advisors, accountants and other professionals often want to protect their own reputation by referring clients to respected attorneys. Mentioning an AV rating, where allowed, can make that decision easier.',
+    'A rating on its own will not bring clients if nobody sees it. Most people who need a will or trust start with a Google search. If your firm does not show up there, the rating may never be noticed. That is why the rating works best as part of a wider plan to be found and chosen online.',
+   ]},
+  {'h2': 'How Should You Display Your AV Rating?',
+   'answer': 'Show the rating exactly as awarded, keep it current, follow any usage rules from Martindale and make sure it meets your state bar\'s advertising rules.',
+   'paras': [
+    'Many estate planning firms show their rating on their attorney bio pages, in the footer of their website and in email signatures. If you do, display the rating exactly as Martindale awarded it, with the correct name and level. Do not suggest a higher level than you hold or imply that the rating applies to every lawyer in the firm if it does not.',
+    'Directories that provide ratings and badges often have their own rules for how the marks may be used. Check Martindale\'s current guidance before you use its badge or logo, and remove or update it if your rating changes.',
+    'State bar rules also matter. ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication about the lawyer or the lawyer\'s services, and many states have specific rules about how ratings and awards can be mentioned, sometimes requiring the name of the rating organization or other details. Check your state\'s current rules before you publish.',
+   ]},
+  {'h2': 'How Does Martindale Fit With Your Local SEO?',
+   'answer': 'Directory profiles support local SEO when your firm details match everywhere and link to your website, but your Google Business Profile usually matters more.',
+   'paras': [
+    'Local SEO is the work of helping your firm show up in the Google map and local search results for people nearby. Google says local results are mainly based on relevance, distance and popularity. Your Google Business Profile is at the center of that, and for many estate planning firms it brings more calls than any directory.',
+    'Directory listings, sometimes called citations, play a supporting role. When your firm name, address and phone number appear the same way on Martindale, other directories, your website and your Google profile, search engines and people can trust that your details are correct. An old address on one directory and a new one on another can cause confusion.',
+    'Claim your profiles, update them when anything changes and make sure each one links to your website. Add your practice areas, such as wills, living trusts, powers of attorney, probate and elder law, so the profile matches the services on your own site.',
+   ]},
+  {'h2': 'How Can a Rating Help Your Website Turn Visitors Into Clients?',
+   'answer': 'Place the rating where it supports trust, near your attorney profiles and calls to action, alongside reviews, clear service pages and an easy way to book.',
+   'paras': [
+    'A rating does its best work at the moment someone is deciding whether to contact you. That usually happens on your attorney bio page, your home page and your service pages for wills, trusts and probate. Placing a correctly displayed rating near a clear call to action, such as booking a consultation, can make that decision easier.',
+    'Pair it with the things people look for. Clear pages that explain each service in simple words, real photos of your team, honest client reviews and answers to common questions, such as what happens if I die without a will or do I need a trust, all build trust. Together they make your website the place people choose to act.',
+    'Clear, well organized pages also help with AI answers. Google says the best practices for SEO remain relevant for AI features in Google Search, so the same helpful content that ranks in search can be picked up by AI summaries too.',
+   ]},
+  {'h2': 'How Do Ratings Fit With Google Reviews?',
+   'answer': 'They do different jobs: peer ratings show what lawyers think of you, while Google reviews show what clients think and help you rank in the map.',
+   'paras': [
+    'Google reviews are part of how Google judges popularity in local results, and they are one of the first things people read before they call. For most estate planning firms, a steady flow of recent, honest Google reviews brings more new clients than any directory rating.',
+    'Ask satisfied clients for reviews at a natural moment, such as when their plan is signed. Google suggests asking customers to leave a review through a link or QR code, which makes it easy from a phone. Never pay for reviews, offer anything in return or write reviews yourself, as that breaks Google\'s rules and can break your state bar rules too.',
+    'Then let the two work together. A visitor who sees strong Google reviews and a peer rating on your site gets a fuller picture: clients trust you and so do your peers.',
+   ]},
+  {'h2': 'What Matters More Than a Rating for Estate Planning Leads?',
+   'answer': 'Being found when people search, clear service pages, a strong Google profile, honest reviews, referral relationships and fast, kind follow up.',
+   'paras': [
+    'Many people know they need an estate plan for years before they act. When something finally pushes them, such as a new baby, a home purchase or a health scare, they usually start with Google. The firms that appear for searches like estate planning attorney near me or how much does a living trust cost in their state get the first chance to help.',
+    'Build your website around those searches. A page for each main service, pages for the counties you serve and helpful articles that answer common questions help you rank and give visitors confidence. Keep your Google Business Profile complete and active, and keep earning honest reviews.',
+    'Finally, make it easy to say yes. Reply quickly to calls and forms, offer simple booking and follow up kindly with people who are still thinking it over. A strong rating gets you noticed. Clear pages, a good Google profile and responsive intake are what turn that trust into signed plans.',
+   ]},
+  {'h2': 'A Note on Trademarks, Independence and Bar Rules',
+   'answer': 'Martindale-Hubbell, AV Preeminent and related marks belong to their owners, CaseAuthority is not affiliated with them and this guide is general information, not legal advice.',
+   'paras': [
+    'Martindale-Hubbell, Martindale, AV, AV Preeminent, Distinguished, Notable, Client Champion, Martindale-Avvo and any other company or rating names mentioned in this article are trademarks of their respective owners. CaseAuthority is not affiliated with, endorsed by or sponsored by Martindale-Hubbell or any other company named here, and we receive nothing for mentioning them. Descriptions of how ratings work are based on what Martindale says publicly on its own website at the time of writing and may change, so check Martindale\'s own pages for current details. This article does not rate or review any company.',
+    'Lawyer advertising is regulated and the rules vary by state, including rules on how ratings, awards and badges can be mentioned. The ideas in this guide describe common practices in legal marketing. They are not legal advice and do not promise any result. Check your state bar\'s current rules or speak to an ethics counsel if you are unsure.',
+   ]},
+ ],
+ 'faq': [
+  {'q': 'What Does AV Preeminent Mean?', 'a': 'Martindale describes AV Preeminent as its highest peer rating standard, given to lawyers whose peers rate their legal expertise, communication skills and ethical standards very highly.'},
+  {'q': 'What Did the Letters in AV Originally Mean?', 'a': 'Under Martindale\'s older system, the A related to legal ability and required at least 10 years of practice, and the V meant very high ethical standards. Today Martindale uses AV Preeminent, Distinguished and Notable.'},
+  {'q': 'Can You Pay for a Martindale AV Rating?', 'a': 'The rating is based on peer review, where other lawyers assess your legal ability and ethics. Check Martindale\'s own pages for how its process works, and be wary of anyone who promises a rating for a fee.'},
+  {'q': 'Does an AV Rating Help With SEO?', 'a': 'Not directly as a ranking factor that we know of. It helps as a trust signal that can turn visitors into clients, while a consistent, linked directory profile supports your local SEO.'},
+  {'q': 'Can I Put the AV Badge on My Website?', 'a': 'Many firms do, but follow Martindale\'s current usage guidance and your state bar\'s rules, display the rating exactly as awarded and update it if it changes.'},
+  {'q': 'Is a Martindale Rating More Important Than Google Reviews?', 'a': 'They do different jobs. Google reviews help you rank in the map and show client experience, while a peer rating shows how other lawyers see you. Most estate firms benefit from both.'},
+ ],
+ 'related': ['estate-planning-marketing', 'estate-planning-attorney-marketing', 'estate-planning-seo-company', 'digital-marketing-for-estate-planning-lawyers'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'estate', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])

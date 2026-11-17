@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'is-super-lawyers-legit': {
+  'title': 'Is Super Lawyers Legit in 60 Seconds',
+  'sub': 'How selection works and how to turn recognition into signed cases.',
+  'bubble': 'Here is what the badge can and cannot do.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'A Real, Published Process',
+     'p': 'Super Lawyers describes nominations, research and peer evaluation each year.',
+     'v': {'kind': 'checklist', 'title': 'How selection works, per Super Lawyers', 'items': ['Peer nominations', 'Research on 12 indicators', 'Peer evaluation', 'Final selection by firm size']}},
+    {'h': 'Selection Is Not Sold', 'p': 'Super Lawyers says lawyers do not pay to be published. Upgrades are optional.',
+     'v': {'kind': 'shield', 'chips': ['No pay to be selected', 'Research kept separate', 'Upgrades optional']}},
+    {'h': 'Two Different Methods', 'p': 'Super Lawyers mixes research and peer review. Best Lawyers says it is purely peer review.',
+     'v': {'kind': 'compare', 'cols': ['Super Lawyers', 'Best Lawyers'], 'rows': [('Peer input', (True, True)), ('Independent research step', (True, False)), ('Self nomination allowed', (False, True))]}},
+    {'h': 'A Badge Does Not Get You Found', 'p': 'Injured people start with Google. If you do not rank, they never see it.',
+     'v': {'kind': 'search', 'q': 'car accident lawyer near me', 'results': [('Your Firm', True), ('Highway Injury Group', False), ('Main Street Law', False)]}},
+    {'h': 'Put It Where People Decide', 'p': 'Attorney bios and case pages, next to reviews and a clear call to action.',
+     'v': {'kind': 'pages', 'pages': [('Attorney Bio', 'Badge and year'), ('Car Accidents', 'Near the call button'), ('About Us', 'Team awards'), ('Home', 'One clean mark')]}},
+    {'h': 'Judge It by Signed Cases', 'p': 'Track calls from your pages and compare paid upgrades with your SEO.',
+     'v': {'kind': 'sources', 'title': 'From search to signed case', 'items': [('Searches', 95), ('Visits', 70), ('Calls', 45), ('Signed cases', 25)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want Your Recognition to Bring in Cases?', 'Get a free audit of your Google visibility, attorney pages and calls.'),
+},
 'how-long-does-seo-take-for-law-firms': {
   'title': 'How Long Does SEO Take for Law Firms in 60 Seconds',
   'sub': 'A realistic timeline for personal injury firms, from first fixes to steady cases.',

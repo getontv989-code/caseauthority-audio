@@ -1,0 +1,120 @@
+#!/usr/bin/env python3
+"""2026-11-17 divorce post: Divorce Month (Semrush 140/mo KD 3, + 'january divorce month' 50 KD 4, 'divorce season' 70). Mash: creative, lean towards the firm's own SEO lead generation, 2000+ words, query fan-out.
+Cluster: divorce month, when is divorce month, january divorce month, divorce season, why do divorces spike in january, when do most divorces happen, how family law firms prepare for divorce month, divorce month marketing, divorce month seo."""
+import json, os
+P = {
+ 'slug': 'divorce-month',
+ 'keyword': 'divorce month',
+ 'title': 'Divorce Month: How Family Law Firms Prepare Their SEO',
+ 'meta': 'Divorce Month is the January rush of people looking into divorce. How family law firms get their SEO, Google profile and intake ready to win those clients.',
+ 'h1': 'Divorce Month: How Family Law Firms Get Their SEO Ready for the January Rush',
+ 'nav_label': 'Divorce Month',
+ 'tag': 'Seasonal SEO',
+ 'date': '2026-11-17',
+ 'lead': "Every year, family lawyers hear the same thing: January is Divorce Month. After the holidays, many people who have been unhappy for a long time decide it is time to look into their options, and a lot of them start with a Google search. For a family law firm, that makes the weeks before and after New Year one of the most important stretches of the year to be found online. This guide explains what Divorce Month is, what the research actually says about when divorces happen, and how a family law firm can get its SEO, Google Business Profile and intake ready so more of those searches turn into consultations with your firm instead of the firm down the street.",
+ 'quick_answer': 'Divorce Month is the name often given to January, when many people start looking into divorce after the holidays. Research on court records suggests divorce filings peak later, around March and August, so January is better seen as the start of the research season rather than the filing peak. For a family law firm, that means the best time to prepare is November and December: refresh your divorce and custody pages, answer the questions people ask early, tidy up your Google Business Profile, ask for honest reviews and make sure your intake can handle more calls and forms. Firms that rank well and reply quickly when the research starts are often the ones hired months later.',
+ 'takeaways': [
+  ['January Starts the Research.', 'Many people begin looking into divorce after the holidays, often quietly and online.'],
+  ['Filings Often Peak Later.', 'Research on court records found filings peaking around March and August.'],
+  ['Prepare in November and December.', 'SEO changes take time, so the work has to be done before the rush.'],
+  ['Answer the Early Questions.', 'People ask about cost, timing, custody and the house long before they call.'],
+  ['Win the Map in Your County.', 'A complete Google profile and fresh reviews help you show up nearby.'],
+  ['Intake Decides Who Gets Hired.', 'Quick, private, kind replies turn a nervous search into a consultation.'],
+ ],
+ 'sections': [
+  {'h2': 'What Is Divorce Month?',
+   'answer': 'Divorce Month is a popular name for January, when many people who are unhappy in their marriage start looking into divorce after the holidays.',
+   'paras': [
+    'The idea of Divorce Month comes from a pattern many family lawyers notice every year. The holidays are often a time when couples try to keep things together for the children, the in laws or simply the season. Once the holidays are over, many people feel ready to face a decision they have been putting off for months or even years.',
+    'You will also hear January called divorce season, and the first working Monday of the year is sometimes nicknamed Divorce Day in the media. The names are informal. There is no official start date, and every firm sees a slightly different pattern. What matters for a family law firm is the behavior behind the label: in the weeks after New Year, more people start quietly researching what a divorce would mean for them.',
+    'That research usually happens online, often late at night and often on a phone. People type questions they would not feel comfortable asking a friend. For a firm that wants more divorce clients, being the helpful answer to those searches is the real opportunity of Divorce Month.',
+   ]},
+  {'h2': 'When Do Most Divorces Actually Happen?',
+   'answer': 'Research on court records suggests filings peak around March and August, so January is often when the thinking and research starts, not when most cases are filed.',
+   'paras': [
+    'A University of Washington study of divorce filings looked at more than a decade of court records in Washington state and found a consistent pattern: filings rose to peaks in March and August, after the winter and summer holidays. The researchers linked the pattern to the family calendar, as people tend to wait until after the holidays and then take some time to act.',
+    'This is useful for family lawyers to understand. Someone who starts researching divorce in January may speak to a lawyer in February, gather documents, talk to a financial advisor and only file in March or later. Someone who decides over the summer may wait until the children are back at school.',
+    'For your marketing, this means Divorce Month is not a single week of calls. It is the start of a season of research, consultations and decisions that can run for months. The firms that show up early, earn trust and stay in touch are the ones best placed when people are finally ready to retain a lawyer. Patterns differ by state and county, so look at your own call and consultation records from past years to see when your busy periods really are.',
+   ]},
+  {'h2': 'Why Does SEO Matter So Much During Divorce Month?',
+   'answer': 'Because most people start with a private Google search, and they usually contact one of the first firms they find and trust.',
+   'paras': [
+    'Divorce is personal. Many people do not want to ask friends or family for a lawyer recommendation, at least not at first. A private search on Google feels safer. They might search for divorce lawyer near me, how much does a divorce cost in their state, or what happens to the house in a divorce.',
+    'The firms that appear for those searches, in the Google map and in the regular results, get the first chance to help. Paid ads can buy visibility, but many people skip past ads, and click costs for divorce terms often rise when demand is high. Strong organic rankings keep bringing in visitors without paying for every click.',
+    'SEO, the work of helping your firm show up in Google search, also supports every other source of clients. Even people referred by a friend or a therapist usually look your firm up before they call. If your website, reviews and Google profile look strong at that moment, more of those referrals turn into consultations.',
+   ]},
+  {'h2': 'When Should a Family Law Firm Start Preparing for Divorce Month?',
+   'answer': 'Ideally in October or November, because changes to your website and Google profile take time to be found, tested and trusted by Google.',
+   'paras': [
+    'SEO does not switch on overnight. When you publish a new page or improve an old one, Google has to crawl it, understand it and decide where it fits. That can take weeks. Reviews and links build up over months. If you wait until the second week of January to start, much of the season will have passed before your changes have any effect.',
+    'A good rule of thumb is to treat November and December as preparation months. Update your key pages, publish the articles you want ranking in January, fix technical problems and make sure your Google Business Profile is complete. Then use January and February to watch your results, respond to every inquiry quickly and add more content where you see demand.',
+    'If you are reading this late in December or even in January, it is still worth acting. The research season runs well into spring, so improvements made now can still help with the March peak and the rest of the year.',
+   ]},
+  {'h2': 'Which Pages Should a Divorce Lawyer Update Before January?',
+   'answer': 'Your main divorce page, child custody and support pages, county or court pages and a clear page that explains how a first consultation works.',
+   'paras': [
+    'Start with the pages that match what people search most: divorce, child custody, child support, spousal support and property division. Each one should explain the topic in simple words, describe how the process usually works in your state, answer common worries and make it easy to contact you. Avoid legal jargon. A worried parent wants to understand what will happen, not read a law review article.',
+    'If you serve more than one county, a page for each county or courthouse helps people and Google see that you are truly local. Explain where the court is, what to expect at a first hearing and anything specific to that county, such as parenting classes or mediation programs.',
+    'Finally, make sure you have a page that explains your first consultation: what it covers, how long it takes, whether it is in person or by video, what to bring and how to book. Many people delay calling a lawyer because they do not know what to expect. A clear, calm consultation page removes that worry and turns more visitors into calls.',
+   ]},
+  {'h2': 'What Questions Do People Search Before They Call a Divorce Lawyer?',
+   'answer': 'They ask about cost, timing, children, the house, money and how to start, so answering those questions clearly brings people to your site early.',
+   'paras': [
+    'In the early weeks of research, people ask a lot of questions. How much does a divorce cost? How long does a divorce take in my state? Who gets the house? How is custody decided? Do I have to go to court? Can I get a divorce if my spouse does not agree? What should I do before I tell my spouse?',
+    'Each of these questions is a search, and each search is a chance for your firm to be the one that answers. Helpful articles, and short question and answer sections on your service pages, bring in this early traffic. They also help with AI answers in Google and AI chat tools, which often draw on clear, well organized pages. Google says the best practices for SEO remain relevant for AI features in Google Search, so good, accurate content serves both.',
+    'Write with care. People reading about divorce are often anxious, and some may be in an unsafe situation. Use calm, simple language, explain general rules for your state without promising outcomes and include a gentle next step, such as booking a confidential consultation. If you mention safety, point people to the National Domestic Violence Hotline as well as your firm.',
+   ]},
+  {'h2': 'How Can Your Google Business Profile Help You Win Divorce Month?',
+   'answer': 'A complete, accurate profile with fresh reviews helps you appear in the Google map when people nearby search for a divorce lawyer.',
+   'paras': [
+    'The Google map, the box of local results with pins, is often the first thing people see when they search for a divorce lawyer near them. Google says local results are mainly based on relevance, distance and popularity. You cannot change how close your office is to every searcher, but you can improve relevance and popularity.',
+    'Before January, check the basics. Use your real firm name, choose the right primary category, list accurate hours and a local phone number, add real photos of your office and team and write a clear description of the family law services you offer. Add your services, such as divorce, custody, support and mediation. Keep your name, address and phone number the same everywhere online.',
+    'Post a short update in December, for example about how your consultations work or what to bring to a first meeting. Answer any questions people have asked on your profile. Small signs of activity show both Google and visitors that your firm is open, active and ready to help in the new year.',
+   ]},
+  {'h2': 'How Do Reviews Help a Family Law Firm in January?',
+   'answer': 'Recent, honest reviews help you rank in the map and give nervous people the confidence to contact you, so ask past clients well before the rush.',
+   'paras': [
+    'Reviews matter for two reasons. They are part of how Google judges popularity in local results, and they are one of the first things people read before deciding which lawyer to call. A steady flow of recent reviews tells a nervous visitor that real people have trusted your firm and felt it was worth it.',
+    'Family law clients can be private about their case, so make asking easy and respectful. Ask at a natural point, such as when a matter closes on good terms. Explain that a first name or initials is fine. Google suggests asking customers to leave a review through a link or QR code, which makes it quick to do from a phone.',
+    'Never pay for reviews, offer gifts in return or write reviews yourself. That breaks Google\'s rules and can break your state bar rules too. When you reply to reviews, keep it short and professional, and never confirm that the reviewer was a client or share any detail about their case.',
+   ]},
+  {'h2': 'Is Your Intake Ready for More Divorce Inquiries?',
+   'answer': 'More searches only help if someone answers quickly and kindly, so plan your phone coverage, form replies and consultation booking before January.',
+   'paras': [
+    'Many family law firms spend money and effort on getting more inquiries and then lose them at the first step. A call goes to voicemail. A web form waits two days for a reply. A nervous person who finally reached out simply moves on to the next firm.',
+    'Before Divorce Month, decide who answers calls during busy weeks, including evenings if you can. Aim to reply to web forms within minutes or hours, not days. Keep forms short and do not ask people to write out their whole story. Offer a safe way to contact them, such as asking which number and time are safe to call.',
+    'Track every inquiry from first contact to signed retainer, and record where each one came from. If your January calls jump but consultations do not, the problem may be intake rather than marketing. If calls stay flat, your SEO may need more work before the next season.',
+   ]},
+  {'h2': 'Should You Run Ads During Divorce Month?',
+   'answer': 'Ads can add calls during the busiest weeks, but they cost more when demand rises, so they work best on top of strong SEO, not instead of it.',
+   'paras': [
+    'Some family law firms raise their Google Ads budget in January to catch the extra searches. That can work, especially for a newer firm that does not rank well yet. But when many firms compete for the same searches at the same time, click costs often go up, and the budget can run out quickly.',
+    'If you do run ads, send people to a page about their exact need, such as divorce or custody in their county, not your home page. Show ads only in the areas you actually serve, and track which ads lead to consultations and retainers, not just clicks.',
+    'Over time, many firms find that strong organic rankings and a well run Google profile bring in Divorce Month clients at a lower cost than ads. Ads can fill the gaps while SEO builds, and SEO keeps working long after the ad budget is spent.',
+   ]},
+  {'h2': 'What Should You Do After Divorce Month?',
+   'answer': 'Review what worked, keep publishing helpful answers and stay ready for the next peaks in spring and late summer.',
+   'paras': [
+    'In February, look back at your numbers. Which pages brought the most visitors? Which searches showed up in your Search Console reports? How many inquiries became consultations, and how many consultations became clients? This tells you where to focus next.',
+    'Remember that the research season does not end with January. Many people who looked into divorce in January will act in the spring, and another wave often comes after the summer. Keep your content fresh, keep asking for reviews and keep replying quickly. Each season builds on the last, so a firm that prepares well this year usually starts stronger next year.',
+    'Finally, treat Divorce Month as a yearly reminder rather than a one off campaign. A family law firm with strong pages, a complete Google profile, honest reviews and reliable intake is ready for every busy season, not just January.',
+   ]},
+  {'h2': 'A Note on Figures, Bar Rules and Results',
+   'answer': 'The patterns in this guide are general observations, not predictions for your firm, and every idea must follow your state bar\'s advertising rules.',
+   'paras': [
+    'Seasonal patterns in divorce research and filings vary by state, county and year. The research mentioned here describes one study of court records and does not predict how many inquiries any firm will receive. The ideas in this guide describe common practices in legal marketing. They are not legal advice and do not promise any result. Lawyer advertising is regulated and the rules vary by state, so be careful with claims about results, words like expert or specialist and testimonials, and check your state\'s current rules or speak to an ethics counsel if you are unsure.',
+   ]},
+ ],
+ 'faq': [
+  {'q': 'Why Is January Called Divorce Month?', 'a': 'Because many people who are unhappy in their marriage wait until after the holidays and then start looking into divorce in January. The name is informal and the pattern varies from place to place.'},
+  {'q': 'What Is Divorce Day?', 'a': 'Divorce Day is a media nickname for the first working Monday in January, when some family lawyers report a rise in new inquiries after the holiday break. It is not an official date.'},
+  {'q': 'What Month Has the Most Divorce Filings?', 'a': 'A University of Washington study of court records found filings peaking around March and August. Patterns differ by state, so check your own firm\'s records to see when your busy periods are.'},
+  {'q': 'When Should a Family Law Firm Start Preparing for Divorce Month?', 'a': 'Ideally in October or November. SEO changes, reviews and new content take weeks or months to take effect, so the work needs to be in place before January.'},
+  {'q': 'Do Family Law Firms Get More Calls in January?', 'a': 'Many firms report more inquiries in the weeks after New Year, but it differs by firm and market. The best guide is your own call and consultation data from previous years.'},
+  {'q': 'Is SEO or Google Ads Better for Divorce Month?', 'a': 'They work well together. Ads can add calls quickly during busy weeks, while SEO and a strong Google profile bring steady inquiries without paying for every click, during Divorce Month and all year.'},
+ ],
+ 'related': ['family-law-seo', 'local-seo-for-divorce-lawyers', 'divorce-lawyer-marketing', 'family-law-marketing'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'divorce', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])
