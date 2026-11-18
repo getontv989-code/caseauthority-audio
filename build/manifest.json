@@ -1,4 +1,13 @@
 {
+ "million-dollar-advocates-forum": {
+  "file": "/blog/audio/million-dollar-advocates-forum.mp3?v=08ee110dc8",
+  "seconds": 971,
+  "bytes": 3886176,
+  "date": "2026-11-18",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "cc6d38257ee866e96996d528c7df13a306d3c19f",
+  "sha1": "08ee110dc8a4510538c25548414c4a37fd3cbc04"
+ },
  "is-super-lawyers-legit": {
   "file": "/blog/audio/is-super-lawyers-legit.mp3?v=9b9bb0db6d",
   "seconds": 1029,

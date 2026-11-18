@@ -1,4 +1,14 @@
 {
+ "estate-planning-seminars": {
+  "file": "/blog/audio/estate-planning-seminars.mp3?v=b61d0e030e",
+  "seconds": 1063,
+  "bytes": 4252199,
+  "date": "2026-11-18",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "cc6d38257ee866e96996d528c7df13a306d3c19f",
+  "path": "sister/estate/estate-planning-seminars.mp3",
+  "sha1": "b61d0e030e79332a4b0c6fcaf749a27d79a42fa2"
+ },
  "martindale-av-rating": {
   "file": "/blog/audio/martindale-av-rating.mp3?v=2f9e4165c2",
   "seconds": 983,
