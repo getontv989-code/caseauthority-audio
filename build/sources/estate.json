@@ -1,4 +1,28 @@
 {
+ "estate-planning-seminars": {
+  "links": [
+   {
+    "text": "Gallup found that 46% of U.S. adults have a will",
+    "url": "https://news.gallup.com/poll/351500/how-many-americans-have-will.aspx",
+    "title": "Gallup: How Many Americans Have a Will?"
+   },
+   {
+    "text": "events must take place at a physical location",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/event",
+    "title": "Google Search Central: Event structured data"
+   },
+   {
+    "text": "ABA Model Rule 7.3 limits soliciting clients",
+    "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_7_3_direct_contact_with_prospective_clients/",
+    "title": "American Bar Association: Model Rule 7.3, Solicitation of Clients"
+   },
+   {
+    "text": "through a link or QR code",
+    "url": "https://support.google.com/business/answer/3474122?hl=en",
+    "title": "Google Business Profile Help: Tips to get more reviews"
+   }
+  ]
+ },
  "martindale-av-rating": {
   "links": [
    {

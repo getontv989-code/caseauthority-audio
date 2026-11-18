@@ -62,6 +62,11 @@ S = {
  'BLM': ('https://www.bestlawyers.com/methodology', 'Best Lawyers: Methodology'),
  'AVVOL': ('https://www.avvo.com/for-lawyers', 'Avvo: For lawyers'),
  'MHR': ('https://www.martindale.com/ratings-and-reviews/', 'Martindale-Hubbell: Ratings and reviews'),
+ 'MDAF': ('https://www.milliondollaradvocates.com/', 'Million Dollar Advocates Forum: Home page'),
+ 'MDAFQ': ('https://www.milliondollaradvocates.com/Membership-Application-&-Qualification-Procedure', 'Million Dollar Advocates Forum: Membership application and qualification procedure'),
+ 'IACPE': ('https://www.collaborativepractice.com/ethics-standards', 'International Academy of Collaborative Professionals: Ethics and standards'),
+ 'UCLA': ('https://www.collaborativepractice.com/UCLA', 'International Academy of Collaborative Professionals: Uniform Collaborative Law Act'),
+ 'EVENT': ('https://developers.google.com/search/docs/appearance/structured-data/event', 'Google Search Central: Event structured data'),
 }
 
 SCREENED = ('Google Screened badge', 'Google Verified badge')
@@ -73,6 +78,11 @@ def L(text, key):
 
 
 PI = {
+ 'million-dollar-advocates-forum': {
+  'links': [L('it was established in 1993', 'MDAF'),
+            L('the Multi-Million Dollar Advocates Forum was added in 2007', 'MDAFQ'),
+            L('links bought or traded to manipulate rankings break its spam policies', 'LINKSPAM'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'is-super-lawyers-legit': {
   'links': [L('uses a patented multiphase process', 'SLSEL'),
             L('maintains strict separation between research and advertising', 'SLFAQ'),
@@ -182,6 +192,11 @@ PI = {
 }
 
 CRIMINAL = {
+ 'google-screened': {
+  'links': [L('signaling to consumers that your business has passed', 'LSA'),
+            L('state bar license checks for each criminal lawyer in the firm', 'LSASCREEN'),
+            L('provider listings in Local Services are ranked based on an auction', 'LSARANK'),
+            L('through a link or QR code', 'GREV')]},
  'how-to-improve-avvo-rating': {
   'links': [L('Avvo describes an industry standard 1 to 10 rating', 'AVVOL'),
             L('Google says local results are mainly based on relevance, distance and popularity', 'GLR'),
@@ -226,6 +241,11 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'collaborative-law-training': {
+  'links': [L('IACP publishes ethics and standards for collaborative practice', 'IACPE'),
+            L('28 jurisdictions in the United States had passed the act', 'UCLA'),
+            L('Google says the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('generally does not allow a lawyer to give anything of value for recommending them', 'ABA72')]},
  'divorce-month': {
   'links': [L('A University of Washington study of divorce filings', 'UW'),
             L('Google says the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
@@ -273,6 +293,11 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'estate-planning-seminars': {
+  'links': [L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
+            L('events must take place at a physical location', 'EVENT'),
+            L('ABA Model Rule 7.3 limits soliciting clients', 'ABA73'),
+            L('through a link or QR code', 'GREV')]},
  'martindale-av-rating': {
   'links': [L('the 1887 edition of Martindale', 'MHR'),
             L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71'),

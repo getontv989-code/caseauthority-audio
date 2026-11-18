@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'million-dollar-advocates-forum': {
+  'title': 'Million Dollar Advocates Forum in 60 Seconds',
+  'sub': 'How membership works and how to turn big results into signed cases.',
+  'bubble': 'Here is what the badge can and cannot do.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'A Group Built on Results',
+     'p': 'The forum says members have won verdicts or settlements of one million dollars or more.',
+     'v': {'kind': 'checklist', 'title': 'How to qualify, per the forum', 'items': ['Verdict, award or settlement', 'One million dollars or more', 'You were principal counsel', 'Case details for verification']}},
+    {'h': 'Two Tiers', 'p': 'The Multi-Million Dollar tier covers cases of two million dollars or more.',
+     'v': {'kind': 'compare', 'cols': ['Million', 'Multi-Million'], 'rows': [('One million dollars or more', (True, True)), ('Two million dollars or more', (False, True)), ('One-time fee, no annual dues', (True, True))]}},
+    {'h': 'A Badge Does Not Get You Found', 'p': 'Injured people start with Google. If you do not rank, they never see it.',
+     'v': {'kind': 'search', 'q': 'truck accident lawyer near me', 'results': [('Your Firm', True), ('Highway Injury Group', False), ('Main Street Law', False)]}},
+    {'h': 'Put Results Where People Decide', 'p': 'Attorney bios, a case results page and your main case pages.',
+     'v': {'kind': 'pages', 'pages': [('Attorney Bio', 'Badge and tier'), ('Case Results', 'Real context'), ('Truck Accidents', 'Near the call button'), ('Home', 'One clean mark')]}},
+    {'h': 'Follow the Rules', 'p': 'Show results accurately, with the disclaimers your state bar requires.',
+     'v': {'kind': 'shield', 'chips': ['Correct lawyer and tier', 'No confidential details', 'Past results disclaimer']}},
+    {'h': 'Judge It by Signed Cases', 'p': 'Track calls from your results pages and compare them with your SEO.',
+     'v': {'kind': 'sources', 'title': 'From search to signed case', 'items': [('Searches', 95), ('Visits', 70), ('Calls', 45), ('Signed cases', 25)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want Your Results to Bring in Cases?', 'Get a free audit of your Google visibility, results pages and calls.'),
+},
 'is-super-lawyers-legit': {
   'title': 'Is Super Lawyers Legit in 60 Seconds',
   'sub': 'How selection works and how to turn recognition into signed cases.',

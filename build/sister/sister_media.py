@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'google-screened': {
+  'title': 'Google Screened in 60 Seconds',
+  'sub': 'What the badge is called now, how to get it and how it works with SEO.',
+  'bubble': 'Here is how to make the top of Google work for you.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Google Screened Is Now Google Verified',
+     'p': 'Same idea, new name: a badge for firms that pass Google checks.',
+     'v': {'kind': 'search', 'q': 'dui lawyer near me', 'results': [('Your Firm, Google Verified', True), ('County Defense Group', False), ('Main Street Law', False)]}},
+    {'h': 'The Checks for Criminal Lawyers', 'p': 'Google lists identity, insurance and a bar license check for each lawyer.',
+     'v': {'kind': 'checklist', 'title': 'Per Google help pages', 'items': ['Owner identity verification', 'Professional liability insurance', 'State bar license checks', 'Verified Google Business Profile']}},
+    {'h': 'You Pay Per Lead', 'p': 'Google charges for leads related to your services, not for clicks.',
+     'v': {'kind': 'compare', 'cols': ['Local Services Ads', 'Google Ads'], 'rows': [('Pay per lead', (True, False)), ('Pay per click', (False, True)), ('Badge shown', (True, False))]}},
+    {'h': 'Answer Every Call', 'p': 'Google says missed calls can hurt your responsiveness and ranking.',
+     'v': {'kind': 'race', 'fast': ('Answered live', 'Consultation booked'), 'slow': ('Went to voicemail', 'Called another firm')}},
+    {'h': 'Reviews Count Twice', 'p': 'Honest reviews help your ad profile and your Google map ranking.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Defense Group', 'Main Street Law']}},
+    {'h': 'SEO Keeps the Calls Coming', 'p': 'Charge and court pages bring clients without a fee per lead.',
+     'v': {'kind': 'pages', 'pages': [('DUI', 'Your county'), ('Drug Charges', 'Your county'), ('Assault', 'Your court'), ('Attorney Bio', 'Experience')]}},
+  ],
+  'cta': CTA('Want Calls Without a Fee Per Lead?', 'Get a free audit of your Google visibility, profile and calls.'),
+},
 'how-to-improve-avvo-rating': {
   'title': 'How to Improve Your Avvo Rating in 60 Seconds',
   'sub': 'Strengthen your directory profile and make it point clients to you.',
@@ -180,6 +201,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'collaborative-law-training': {
+  'title': 'Collaborative Law Training in 60 Seconds',
+  'sub': 'How divorce lawyers get trained and get found for collaborative divorce.',
+  'bubble': 'Here is how to start and get found.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Settle Outside Court',
+     'p': 'Each spouse has a lawyer, and everyone agrees not to litigate.',
+     'v': {'kind': 'checklist', 'title': 'What training covers', 'items': ['The participation agreement', 'Interest based negotiation', 'Working with a team', 'Screening for fit']}},
+    {'h': 'Follow Published Standards', 'p': 'IACP publishes standards, and local groups may add their own.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('Step 1', 'Introductory training', 0), ('Step 2', 'Join a practice group', 50), ('Step 3', 'First cases', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Build the Team', 'p': 'Financial neutrals and coaches are partners and a referral source.',
+     'v': {'kind': 'shield', 'chips': ['Collaborative lawyers', 'Financial neutral', 'Divorce coach']}},
+    {'h': 'Few Firms Rank for It', 'p': 'Collaborative divorce searches often face less competition.',
+     'v': {'kind': 'search', 'q': 'collaborative divorce lawyer near me', 'results': [('Your Firm', True), ('County Family Law', False), ('Main Street Law', False)]}},
+    {'h': 'A Page for Each City', 'p': 'Explain the process, the team and the local court on every page.',
+     'v': {'kind': 'pages', 'pages': [('Collaborative Divorce', 'Your city'), ('Collaborative Divorce', 'Nearby county'), ('Mediation', 'How it differs'), ('Attorney Bio', 'Training')]}},
+    {'h': 'Win the Map Nearby', 'p': 'List the service on your Google profile and ask for honest reviews.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Family Law', 'Main Street Law']}},
+  ],
+  'cta': CTA('Want More Collaborative Divorce Clients?', 'Get a free audit of your Google visibility, pages and intake.'),
+},
 'divorce-month': {
   'title': 'Divorce Month in 60 Seconds',
   'sub': 'How family law firms get their SEO ready for the January rush.',
@@ -348,6 +390,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'estate-planning-seminars': {
+  'title': 'Estate Planning Seminars in 60 Seconds',
+  'sub': 'How to fill the room and turn attendees into signed plans.',
+  'bubble': 'Here is how to fill every seat.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Seminars Still Work',
+     'p': 'People who choose to attend are often ready to plan.',
+     'v': {'kind': 'stars', 'tag': 'What attendees say', 'reviews': ['Finally understood trusts.', 'Clear, patient answers.']}},
+    {'h': 'Every Event Needs a Page', 'p': 'Title, date, time, place and a quick way to register.',
+     'v': {'kind': 'pages', 'pages': [('Living Trust Seminar', 'Your city'), ('Avoiding Probate', 'Webinar'), ('All Seminars', 'Upcoming'), ('Past Events', 'Guides')]}},
+    {'h': 'Get Found in Search', 'p': 'Match what people type, like free estate planning seminar near me.',
+     'v': {'kind': 'search', 'q': 'free estate planning seminar near me', 'results': [('Your Firm', True), ('Legacy Law Group', False), ('Main Street Wills', False)]}},
+    {'h': 'Use Your Google Profile', 'p': 'Post each event and keep the profile complete and active.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Legacy Law Group', 'Main Street Wills']}},
+    {'h': 'Teach, Then Follow Up', 'p': 'Keep it educational and follow up within a day or two.',
+     'v': {'kind': 'race', 'fast': ('Follow up next day', 'Consultation booked'), 'slow': ('Follow up in weeks', 'Interest faded')}},
+    {'h': 'Measure Signed Plans', 'p': 'Track each event from registration to signed plan.',
+     'v': {'kind': 'sources', 'title': 'From seminar to signed plan', 'items': [('Registrations', 95), ('Attended', 70), ('Consultations', 45), ('Signed plans', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want Fuller Seminars?', 'Get a free audit of your Google visibility, event pages and intake.'),
+},
 'martindale-av-rating': {
   'title': 'Martindale AV Rating in 60 Seconds',
   'sub': 'What AV rated means and how to turn trust into signed plans.',
