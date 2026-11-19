@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'seo-guarantee': {
+  'title': 'SEO Guarantees in 60 Seconds',
+  'sub': 'What an agency can and cannot promise a personal injury firm.',
+  'bubble': 'Here is what a fair promise looks like.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'No One Can Guarantee Number One',
+     'p': 'Google says no one can guarantee a top ranking in its search results.',
+     'v': {'kind': 'search', 'q': 'car accident lawyer near me', 'results': [('Your Firm', True), ('Highway Injury Group', False), ('Main Street Law', False)]}},
+    {'h': 'Read the Fine Print', 'p': 'Check the keywords, how rankings are measured and what a refund covers.',
+     'v': {'kind': 'checklist', 'title': 'Before you accept a guarantee', 'items': ['Which keywords, and who chose them', 'How rankings are measured', 'When the clock starts', 'What you get if it misses']}},
+    {'h': 'Promise the Work Instead', 'p': 'A good agency can promise pages, fixes, profile work and clear reports.',
+     'v': {'kind': 'compare', 'cols': ['Ranking promise', 'Work promise'], 'rows': [('Agency controls it', (False, True)), ('You can check it', (False, True)), ('Ties to signed cases', (False, True))]}},
+    {'h': 'Watch for Red Flags', 'p': 'Secret methods, a special relationship with Google and pressure to sign.',
+     'v': {'kind': 'shield', 'chips': ['No secret methods', 'No bought links', 'You own your site']}},
+    {'h': 'Give It Honest Time', 'p': 'Google says some changes take several months to show.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('Early', 'Fixes and pages', 0), ('Next', 'Visibility grows', 50), ('Later', 'More calls', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Judge It by Signed Cases', 'p': 'Track calls and signed cases from search, not rankings alone.',
+     'v': {'kind': 'sources', 'title': 'From search to signed case', 'items': [('Searches', 95), ('Visits', 70), ('Calls', 45), ('Signed cases', 25)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want Honest Answers About Your Rankings?', 'Get a free audit of your Google visibility, pages and calls.'),
+},
 'million-dollar-advocates-forum': {
   'title': 'Million Dollar Advocates Forum in 60 Seconds',
   'sub': 'How membership works and how to turn big results into signed cases.',

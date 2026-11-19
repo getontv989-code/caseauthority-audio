@@ -1,4 +1,28 @@
 {
+ "seo-retainer": {
+  "links": [
+   {
+    "text": "a review of your site content or structure",
+    "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+    "title": "Google Search Central: Do you need an SEO?"
+   },
+   {
+    "text": "you likely want to wait a few weeks to assess whether your work had beneficial effects",
+    "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "title": "Google Search Central: SEO starter guide"
+   },
+   {
+    "text": "the scope of the representation and the basis or rate of the fee should be communicated to the client",
+    "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_5_fees/",
+    "title": "American Bar Association: Model Rule 1.5, Fees"
+   },
+   {
+    "text": "through a link or QR code",
+    "url": "https://support.google.com/business/answer/3474122?hl=en",
+    "title": "Google Business Profile Help: Tips to get more reviews"
+   }
+  ]
+ },
  "estate-planning-seminars": {
   "links": [
    {

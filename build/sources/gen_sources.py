@@ -66,6 +66,8 @@ S = {
  'MDAFQ': ('https://www.milliondollaradvocates.com/Membership-Application-&-Qualification-Procedure', 'Million Dollar Advocates Forum: Membership application and qualification procedure'),
  'IACPE': ('https://www.collaborativepractice.com/ethics-standards', 'International Academy of Collaborative Professionals: Ethics and standards'),
  'UCLA': ('https://www.collaborativepractice.com/UCLA', 'International Academy of Collaborative Professionals: Uniform Collaborative Law Act'),
+ 'STARTER': ('https://developers.google.com/search/docs/fundamentals/seo-starter-guide', 'Google Search Central: SEO starter guide'),
+ 'GSCPERM': ('https://support.google.com/webmasters/answer/7687615?hl=en', 'Google Search Console Help: Managing owners, users, and permissions'),
  'EVENT': ('https://developers.google.com/search/docs/appearance/structured-data/event', 'Google Search Central: Event structured data'),
 }
 
@@ -78,6 +80,10 @@ def L(text, key):
 
 
 PI = {
+ 'seo-guarantee': {
+  'links': [L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
+            L('there are no secrets that will automatically rank your site first', 'STARTER'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'million-dollar-advocates-forum': {
   'links': [L('it was established in 1993', 'MDAF'),
             L('the Multi-Million Dollar Advocates Forum was added in 2007', 'MDAFQ'),
@@ -192,6 +198,11 @@ PI = {
 }
 
 CRIMINAL = {
+ 'questions-to-ask-when-hiring-an-seo-company': {
+  'links': [L('can you show me examples of your previous work and share some success stories', 'DOINEED'),
+            L('who has simple view rights on most data', 'GSCPERM'),
+            L('some changes might take effect in a few hours, others could take several months', 'STARTER'),
+            L('Google says the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT')]},
  'google-screened': {
   'links': [L('signaling to consumers that your business has passed', 'LSA'),
             L('state bar license checks for each criminal lawyer in the firm', 'LSASCREEN'),
@@ -241,6 +252,10 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'seo-contract': {
+  'links': [L('an owner has full control over properties in Search Console', 'GSCPERM'),
+            L('you are responsible for the actions of any companies you hire', 'DOINEED'),
+            L('the scope of the representation and the basis or rate of the fee should be communicated to the client', 'ABA15')]},
  'collaborative-law-training': {
   'links': [L('IACP publishes ethics and standards for collaborative practice', 'IACPE'),
             L('28 jurisdictions in the United States had passed the act', 'UCLA'),
@@ -293,6 +308,11 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'seo-retainer': {
+  'links': [L('a review of your site content or structure', 'DOINEED'),
+            L('you likely want to wait a few weeks to assess whether your work had beneficial effects', 'STARTER'),
+            L('the scope of the representation and the basis or rate of the fee should be communicated to the client', 'ABA15'),
+            L('through a link or QR code', 'GREV')]},
  'estate-planning-seminars': {
   'links': [L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
             L('events must take place at a physical location', 'EVENT'),

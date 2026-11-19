@@ -1,4 +1,23 @@
 {
+ "seo-contract": {
+  "links": [
+   {
+    "text": "an owner has full control over properties in Search Console",
+    "url": "https://support.google.com/webmasters/answer/7687615?hl=en",
+    "title": "Google Search Console Help: Managing owners, users, and permissions"
+   },
+   {
+    "text": "you are responsible for the actions of any companies you hire",
+    "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+    "title": "Google Search Central: Do you need an SEO?"
+   },
+   {
+    "text": "the scope of the representation and the basis or rate of the fee should be communicated to the client",
+    "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_5_fees/",
+    "title": "American Bar Association: Model Rule 1.5, Fees"
+   }
+  ]
+ },
  "collaborative-law-training": {
   "links": [
    {

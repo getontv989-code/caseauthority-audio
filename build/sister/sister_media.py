@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'questions-to-ask-when-hiring-an-seo-company': {
+  'title': 'Hiring an SEO Company in 60 Seconds',
+  'sub': 'The questions criminal defense firms should ask before signing.',
+  'bubble': 'Here is what to ask on the first call.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Ask Before You Sign',
+     'p': 'A few good questions show whether an agency understands criminal defense.',
+     'v': {'kind': 'chat', 'title': 'First call', 'q': 'How will you rank us for DUI cases in our county?', 'a': 'Charge pages, court pages and a strong Google profile.'}},
+    {'h': 'Ask About Your Practice', 'p': 'Charges, courts and cities matter more than general SEO talk.',
+     'v': {'kind': 'pages', 'pages': [('DUI', 'Your county'), ('Drug Charges', 'Your court'), ('Assault', 'Your city'), ('Attorney Bio', 'Experience')]}},
+    {'h': 'Ask How They Measure', 'p': 'Calls and retained clients beat rankings and traffic charts.',
+     'v': {'kind': 'sources', 'title': 'From search to retained client', 'items': [('Searches', 95), ('Visits', 70), ('Calls', 45), ('Retained', 25)], 'tag': 'Illustrative example'}},
+    {'h': 'Ask Who Owns What', 'p': 'Your site, content and Google profile should stay in your name.',
+     'v': {'kind': 'shield', 'chips': ['Your domain', 'Your website', 'Your Google profile']}},
+    {'h': 'Ask About the Map', 'p': 'Many criminal defense calls come straight from the Google map.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Defense Group', 'Main Street Law']}},
+    {'h': 'Know When to Walk Away', 'p': 'Guaranteed rankings, secret methods and no references are red flags.',
+     'v': {'kind': 'checklist', 'title': 'Red flags', 'items': ['Guaranteed number one spot', 'Special relationship with Google', 'No law firm references', 'They keep your site if you leave']}},
+  ],
+  'cta': CTA('Want Straight Answers to These Questions?', 'Get a free audit of your Google visibility, pages and calls.'),
+},
 'google-screened': {
   'title': 'Google Screened in 60 Seconds',
   'sub': 'What the badge is called now, how to get it and how it works with SEO.',
@@ -201,6 +222,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'seo-contract': {
+  'title': 'SEO Contracts in 60 Seconds',
+  'sub': 'What family law firms should check before they sign.',
+  'bubble': 'Here is how to read it like a lawyer.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Read It Like Any Agreement',
+     'p': 'Scope, term, exit and ownership deserve the care you give a client.',
+     'v': {'kind': 'checklist', 'title': 'What a good contract covers', 'items': ['The work each month', 'Term and renewal', 'How to leave', 'Who owns your site and accounts']}},
+    {'h': 'Own Your Assets', 'p': 'Your domain, site, content and Google profile should stay yours.',
+     'v': {'kind': 'shield', 'chips': ['Your domain', 'Your content', 'Your Google profile']}},
+    {'h': 'Long Term or Month to Month', 'p': 'Judge the term by the deliverables and the way out.',
+     'v': {'kind': 'compare', 'cols': ['Long term', 'Month to month'], 'rows': [('Time for SEO to build', (True, False)), ('Easy to leave', (False, True)), ('Needs clear deliverables', (True, True))]}},
+    {'h': 'Put Reporting in Writing', 'p': 'Know what you will see each month and from which accounts.',
+     'v': {'kind': 'sources', 'title': 'What a report should show', 'items': [('Work done', 95), ('Visibility', 70), ('Calls and forms', 45), ('Consultations', 30)], 'tag': 'Illustrative example'}},
+    {'h': 'Question Guarantees', 'p': 'Google says no one can guarantee a number one ranking.',
+     'v': {'kind': 'search', 'q': 'divorce lawyer near me', 'results': [('Your Firm', True), ('County Family Law', False), ('Main Street Law', False)]}},
+    {'h': 'Check the Exit', 'p': 'Auto renewals, notice periods and leaving fees matter.',
+     'v': {'kind': 'timeline', 'title': 'Before you sign', 'points': [('Step 1', 'Read every clause', 0), ('Step 2', 'Ask in writing', 50), ('Step 3', 'Sign with confidence', 100)], 'tag': 'Illustrative path'}},
+  ],
+  'cta': CTA('Want a Clear Plan Before You Sign?', 'Get a free audit of your Google visibility, pages and intake.'),
+},
 'collaborative-law-training': {
   'title': 'Collaborative Law Training in 60 Seconds',
   'sub': 'How divorce lawyers get trained and get found for collaborative divorce.',
@@ -390,6 +432,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'seo-retainer': {
+  'title': 'SEO Retainers in 60 Seconds',
+  'sub': 'What an estate planning firm should get every month.',
+  'bubble': 'Here is what your retainer should cover.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'A Retainer Funds Ongoing Work',
+     'p': 'SEO is steady work each month, not a one time switch.',
+     'v': {'kind': 'checklist', 'title': 'Monthly deliverables', 'items': ['New or improved pages', 'Technical fixes', 'Google profile updates', 'A plain monthly report']}},
+    {'h': 'Pages for Real Questions', 'p': 'Wills, trusts, probate and the towns you serve come first.',
+     'v': {'kind': 'pages', 'pages': [('Living Trusts', 'Your city'), ('Wills', 'Your state'), ('Probate', 'Your county'), ('Powers of Attorney', 'Guide')]}},
+    {'h': 'Keep Your Profile Active', 'p': 'Many local clients find you in the Google map first.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Legacy Law Group', 'Main Street Wills']}},
+    {'h': 'Retainer or Project', 'p': 'A project fixes one problem. A retainer keeps the work going.',
+     'v': {'kind': 'compare', 'cols': ['One time project', 'Monthly retainer'], 'rows': [('Fixes a set problem', (True, True)), ('Ongoing pages and reviews', (False, True)), ('Monthly reporting', (False, True))]}},
+    {'h': 'Give It Time', 'p': 'Google says some changes take several months to show.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('Early', 'Fixes and pages', 0), ('Next', 'More impressions', 50), ('Later', 'More consultations', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Measure Signed Plans', 'p': 'Tie the work to calls, consultations and signed plans.',
+     'v': {'kind': 'sources', 'title': 'From search to signed plan', 'items': [('Searches', 95), ('Visits', 70), ('Consultations', 45), ('Signed plans', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know What Your Retainer Should Cover?', 'Get a free audit of your Google visibility, pages and intake.'),
+},
 'estate-planning-seminars': {
   'title': 'Estate Planning Seminars in 60 Seconds',
   'sub': 'How to fill the room and turn attendees into signed plans.',

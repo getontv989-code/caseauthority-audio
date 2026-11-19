@@ -1,0 +1,129 @@
+#!/usr/bin/env python3
+"""2026-11-19 divorce post: SEO contract (Semrush 'seo contract' 2,400/mo KD 8 CPC $15.53, + 'seo contracts' 390 KD 28, 'no contract seo' 390 KD 0, 'long term seo contracts' 210 KD 3, 'seo contract agreement' 140 KD 13, 'seo agency without contracts' 110 KD 0, 'seo no contract company' 110 KD 0, 'questions to ask before signing an seo contract' 90 KD 0, cluster about 3,700). Mash approved: tailored to divorce and family law firms, written from the law firm's side.
+Cluster: what an SEO contract should include, scope and deliverables, term length, long term vs month to month vs no contract SEO, cancellation and notice, ownership of domain, site, content, GBP, Search Console and analytics, access levels, reporting, guarantees, confidentiality, bar rules, questions to ask before signing, red flags.
+Facts used (checked 2026-11-19): Google Search Central 'Do you need an SEO?' (you are responsible for the actions of any companies you hire; no one can guarantee a #1 ranking; only grant read access to Search Console at audit stage); Search Console Help users and permissions (Owner has full control over properties in Search Console); ABA Model Rule 1.5(b) (scope of the representation and basis or rate of the fee communicated, preferably in writing; verified 2026-11-10). No CaseAuthority contract terms or pricing stated."""
+import json, os
+P = {
+ 'slug': 'seo-contract',
+ 'keyword': 'seo contract',
+ 'title': 'SEO Contract: What Family Law Firms Should Check Before Signing',
+ 'meta': 'What a family law firm should check in an SEO contract: scope, term length, cancellation, who owns your site and accounts, reporting and the clauses to question.',
+ 'h1': 'SEO Contract Guide: What Divorce and Family Law Firms Should Check Before Signing',
+ 'nav_label': 'SEO Contracts',
+ 'tag': 'Hiring an SEO Agency',
+ 'date': '2026-11-19',
+ 'lead': "Family lawyers spend their days reading agreements. You spot vague terms, one sided clauses and missing details in settlement drafts and parenting plans without thinking twice. Yet many firms sign SEO contracts after a single sales call, without the same care. That can lead to long terms you cannot leave, unclear work, reports that say little and, worst of all, an agency that keeps your website or Google profile when you go. This guide walks through what a good SEO contract should cover for a divorce or family law firm, how long term contracts compare with month to month and no contract SEO, which clauses deserve a second look and the questions to ask before you sign, so the agreement protects your firm and supports the SEO that brings in new clients.",
+ 'quick_answer': 'A good SEO contract for a family law firm should clearly state the work the agency will do, how long the agreement runs, how either side can end it and with how much notice, what reporting you will get and, above all, that your firm owns its domain, website, content, Google Business Profile, Google Search Console and analytics. Check how fees and any setup costs work, what happens if you cancel early, what any guarantee really covers and how the agency will handle confidential client information and your state bar rules. Longer terms are not always bad, since SEO takes time, but they should come with clear deliverables and a fair way out. Read it the way you would read any agreement for a client.',
+ 'takeaways': [
+  ['Scope Comes First.', 'The contract should say what work you are paying for.'],
+  ['Own Your Assets.', 'Your site, content and Google profile should stay yours.'],
+  ['Check the Exit.', 'Know the term, the notice period and the cost of leaving.'],
+  ['Reporting in Writing.', 'Put what you will see each month into the agreement.'],
+  ['Question Guarantees.', 'Google says no one can guarantee a number one ranking.'],
+  ['Read It Like a Lawyer.', 'Give it the care you give a client\'s agreement.'],
+ ],
+ 'sections': [
+  {'h2': 'What Is an SEO Contract?',
+   'answer': 'It is the agreement between your firm and an SEO company that sets out the work, fees, term, ownership, reporting and how the relationship can end.',
+   'paras': [
+    'An SEO contract, sometimes called an SEO agreement or SEO services agreement, is the document that sets the rules for working with an SEO company or agency. It usually covers the services, the monthly fee and any setup costs, the length of the agreement, cancellation, who owns what and how results will be reported.',
+    'For a divorce or family law firm, it matters more than it might seem. Your website and Google Business Profile are often where new clients first find you, sometimes at the hardest point in their lives. If the contract gives an agency control of those assets, or locks you in when the work is not delivering, it can affect the flow of new consultations for months.',
+    'A clear contract protects both sides. The agency knows what it has agreed to deliver, and you know what you are paying for and how to measure it. The rest of this guide covers the parts that deserve the most attention.',
+   ]},
+  {'h2': 'What Should an SEO Contract Include?',
+   'answer': 'At a minimum: the scope of work, fees and payment terms, the term and renewal, cancellation and notice, ownership of assets and data, reporting, access and confidentiality.',
+   'paras': [
+    'Think of the contract as a checklist. It should name the services, such as page writing, technical fixes, Google Business Profile work, local SEO, link earning and reporting. It should state the fees, when they are due and whether there are setup or one time costs. It should give the start date, the length of the term and whether it renews automatically.',
+    'It should also explain how either side can end the agreement, with how much notice and at what cost. It should say clearly that your firm owns its domain, website, content and accounts, and what happens to them if you leave. It should set out what reports you will get, how often and what they will include.',
+    'Finally, it should cover access and confidentiality. Which accounts will the agency need, and at what level? How will it protect any client details it might see, such as names in call recordings or form submissions? Family law matters are deeply personal, so this is not a small point.',
+   ]},
+  {'h2': 'How Clear Should the Scope of Work Be?',
+   'answer': 'Clear enough that you could check whether the work was done, such as the pages, fixes and profile tasks the agency will complete, even if the plan changes over time.',
+   'paras': [
+    'Vague scope is the most common problem in SEO contracts. Phrases like ongoing optimization, authority building or full service SEO sound reassuring but are hard to check. Ask for the main activities to be listed in plain words, with a rough idea of how much of each you can expect.',
+    'For a family law firm, that might include pages for divorce, child custody, child support, spousal support, property division and mediation, pages for the counties and courts you serve, improvements to your Google Business Profile, a plan for honest reviews and work on your site\'s speed and structure. Our guide to [[a:blog/how-to-get-family-law-clients|how to get family law clients]] covers why each of these matters.',
+    'There is a fair balance to strike. SEO plans should change as results come in, so a contract does not need to fix every task for a year. But it should state the core work and say how changes will be agreed. This mirrors a principle you know well: ABA Model Rule 1.5 says the scope of the representation and the basis or rate of the fee should be communicated to the client, preferably in writing. You deserve the same clarity from your vendors.',
+   ]},
+  {'h2': 'Long Term SEO Contracts vs Month to Month: Which Is Better?',
+   'answer': 'Neither is always better: longer terms can suit work that takes time, while month to month gives you flexibility, so judge the term by the deliverables and the exit.',
+   'paras': [
+    'Many SEO companies ask for six or twelve month terms. Their reasoning is that SEO takes time to show results, and Google\'s own SEO starter guide says some changes might take effect in a few hours, others could take several months. A longer term also lets the agency plan work and spread setup costs.',
+    'Month to month agreements give you more freedom. If the work is not good, you can leave without waiting out a long term. That flexibility can keep an agency focused on delivering, but some agencies price month to month higher or do less up front work because they cannot count on keeping you.',
+    'The term itself matters less than what comes with it. A twelve month contract with clear deliverables, monthly reporting and a fair early exit can be safer than a month to month plan where you never know what was done. Ask what happens if the agency misses agreed work, and whether you can leave early in that case.',
+   ]},
+  {'h2': 'Is No Contract SEO a Good Idea?',
+   'answer': 'It can be, as long as the work, reporting and ownership are still written down, because no contract does not mean no terms.',
+   'paras': [
+    'No contract SEO usually means you can cancel at any time, often with a short notice period. That sounds ideal, and for some firms it is. You keep control, and the agency has to earn your business every month.',
+    'But even a no contract arrangement has terms. There will be an order form, an email setting out the services or terms and conditions on the agency\'s website. Read those just as carefully. Check how much notice is needed, whether any setup fees are refundable and, most importantly, who owns the website, content and accounts if you leave.',
+    'Be wary of no contract offers that come with hidden strings, such as a website the agency hosts and keeps, a domain registered in its name or a Google Business Profile it controls. Leaving may be easy on paper but costly in practice if you lose the assets that bring in your clients.',
+   ]},
+  {'h2': 'Who Should Own Your Website, Content and Accounts?',
+   'answer': 'Your firm should own its domain, website, content, Google Business Profile, Google Search Console and analytics, and the contract should say so in plain words.',
+   'paras': [
+    'This is the clause that matters most. Some marketing companies build sites on their own platforms, register domains in their own name or create Google profiles they control. When the firm leaves, it can lose its site, its content and years of reviews, and have to start again.',
+    'Ask for the contract to state that your firm owns the domain name, the website and its content, any photos or videos made for you, your Google Business Profile, your Google Search Console property and your analytics accounts. If the agency hosts your site, the contract should say how it will be handed over if you leave, and in what form.',
+    'Ownership also means access. In Google Search Console, an owner has full control over properties in Search Console, including adding and removing users. Your firm should be the owner, and the agency should be added as a user. The same applies to your Google Business Profile and analytics. You can always add an agency, but taking back an account you never owned can be slow and stressful.',
+   ]},
+  {'h2': 'What Access Should an SEO Company Get?',
+   'answer': 'Give only the access each task needs, starting with read access for any audit, and add more once you have signed and know who will use it.',
+   'paras': [
+    'Google\'s guide to hiring an SEO suggests that if an SEO offers to do an audit for you, you should only grant read access to Search Console at that stage, not write access. That is good advice for every account. Start small and widen access only when there is a clear reason.',
+    'Once you have signed, add the agency to each account as a user or manager, using named accounts rather than shared passwords. Keep a simple list of who has access to what. That makes it easy to remove access if you change agencies or a staff member leaves.',
+    'The contract should also say how the agency will treat your data. Call tracking, form submissions and chat logs can contain names and sensitive details about a divorce or custody matter. Ask how this information is stored, who can see it and how long it is kept, and make sure that fits your own confidentiality duties.',
+   ]},
+  {'h2': 'What Reporting Should the Contract Promise?',
+   'answer': 'A regular report that shows the work done, changes in visibility and the calls and forms from search, written so you can understand it without a glossary.',
+   'paras': [
+    'Reporting is how you hold an agency to its contract, so put it in writing. Agree how often you will get a report, what it will include and whether there will be a call to go through it. Monthly is common, with a deeper review every quarter.',
+    'A useful report for a family law firm covers the work completed that month, changes in impressions and clicks from your own Google Search Console, calls and form fills from your website and Google profile and, where your intake system allows, how many became consultations and retained clients. It should also explain what comes next.',
+    'Ask to see a sample report before you sign. If it is full of charts with no explanation, or uses only the agency\'s own tools rather than your Google accounts, ask for changes. Clear reporting is one of the best signs of an agency you can trust.',
+   ]},
+  {'h2': 'What About Guarantees in an SEO Contract?',
+   'answer': 'Read any ranking guarantee very carefully, because Google says no one can guarantee a number one ranking, and many guarantees cover far less than they seem.',
+   'paras': [
+    'Some SEO contracts include a guarantee, such as first page rankings for a list of keywords within a set time, with a refund or free work if the target is missed. Google is clear on this point: no one can guarantee a #1 ranking on Google, and it warns people to beware of SEOs that claim to guarantee rankings.',
+    'If a contract includes a guarantee, check which keywords are covered and who chose them, how rankings will be measured, when the clock starts and what you actually get if the target is missed. A guarantee for phrases nobody searches does little for a divorce firm that wants more consultations.',
+    'A better promise is one the agency can control: the work it will do, the reporting it will give you and the way it will explain every change. Those belong in the contract. A ranking promise often belongs in the sales pitch.',
+   ]},
+  {'h2': 'Which Clauses Deserve a Second Look?',
+   'answer': 'Automatic renewals, long notice periods, early termination fees, broad ownership claims by the agency, vague scope and limits on what the agency is responsible for.',
+   'paras': [
+    'Automatic renewal clauses can roll a contract over for another full term unless you give notice in a narrow window. Check the dates and set a reminder. Long notice periods and early termination fees can make leaving expensive, so ask whether they can be shortened or waived if agreed work is not delivered.',
+    'Watch for clauses that give the agency ownership of content, designs or code it creates for you, or that let it keep your site after you leave. Watch for scope that is so vague you could never prove the work was not done. And read any limits on liability, especially if the agency will work on your live site.',
+    'Remember who carries the risk. Google says that ultimately, you are responsible for the actions of any companies you hire. If an agency uses tactics that break Google\'s spam policies, your rankings suffer, not the agency\'s. A contract that commits the agency to follow Google\'s guidelines is worth having.',
+   ]},
+  {'h2': 'How Do Bar Rules Affect an SEO Contract?',
+   'answer': 'Your website and profile are lawyer advertising, so the contract should make you the final approver of content and keep the agency within your state\'s rules.',
+   'paras': [
+    'Everything an agency publishes for you, from pages to Google posts to replies to reviews, is part of your firm\'s marketing. Your state bar\'s advertising rules apply, including rules on claims about results, testimonials and words like expert or specialist. ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication about the lawyer or the lawyer\'s services, and states have their own versions.',
+    'Ask for a clause that says you approve all content before it goes live, or at least have the right to review and remove it. Make sure the agency knows that replies to reviews must never confirm that someone was a client or mention details of their case. In family law, a careless reply can harm a client and your firm.',
+    'Also check how leads are handled. Some arrangements pay an agency per lead or per case, which can raise questions under your state\'s rules on paying for referrals. If a contract ties fees to clients you sign, check your state bar\'s guidance first.',
+   ]},
+  {'h2': 'What Questions Should You Ask Before Signing an SEO Contract?',
+   'answer': 'Ask what work is included, how long the term is, how to leave, who owns everything, what reports you will get and what happens to your data if you go.',
+   'paras': [
+    'Before you sign, ask the agency to walk you through the contract and answer a few questions in writing. What exactly will you do each month? How long is the term, and does it renew automatically? How much notice do we need to give, and is there any fee for leaving early?',
+    'Then ask about ownership and access. Who owns our domain, website, content, Google Business Profile, Search Console and analytics? If you host our site, how will it be handed over? Which accounts do you need, and at what level? How will you protect any client information you see?',
+    'Finally, ask about results. How will you measure success? What will our monthly report include? Can we see a sample? What happens if agreed work is not delivered? If the answers are clear and match the contract, that is a good sign. If they are vague, or the contract says something different, ask for changes before you sign.',
+   ]},
+  {'h2': 'A Note on Figures, Independence and Legal Advice',
+   'answer': 'This guide is general information, CaseAuthority is not affiliated with Google and nothing here is legal advice about any specific contract.',
+   'paras': [
+    'Google, Google Search Console and Google Business Profile are trademarks of Google LLC. CaseAuthority is not affiliated with, endorsed by or sponsored by Google. Descriptions of what Google says are based on its own public pages at the time of writing, which may change. SEO results vary by market, competition and many other factors, and no part of this guide promises any ranking, number of clients or outcome.',
+    'This guide describes common points in SEO agreements. It is not legal advice about any specific contract and does not replace your own review. Lawyer advertising and fee arrangements are regulated and the rules vary by state. Check your state bar\'s current rules or speak to an ethics counsel if you are unsure.',
+   ]},
+ ],
+ 'faq': [
+  {'q': 'How Long Is a Typical SEO Contract?', 'a': 'Terms vary. Many agencies ask for six or twelve months, while others offer month to month or no contract plans. Judge the term by the work included and how easily you can leave.'},
+  {'q': 'Are Long Term SEO Contracts Bad?', 'a': 'Not necessarily. SEO takes time, so a longer term can make sense, but it should come with clear deliverables, regular reporting and a fair way out if the work is not done.'},
+  {'q': 'What Is No Contract SEO?', 'a': 'It usually means you can cancel at any time with short notice. There are still terms, so check notice periods, setup fees and who owns your site and accounts.'},
+  {'q': 'Who Owns My Website if I Cancel My SEO Contract?', 'a': 'It depends on the contract. Your firm should own the domain, website, content and accounts, and the agreement should say so and explain how everything is handed over.'},
+  {'q': 'Should an SEO Contract Include a Ranking Guarantee?', 'a': 'Be cautious. Google says no one can guarantee a #1 ranking. A contract that promises clear work and reporting is often more useful than a ranking guarantee.'},
+  {'q': 'What Should I Do Before Signing an SEO Contract?', 'a': 'Read it fully, ask the agency to explain the scope, term, exit and ownership in writing, ask for a sample report and check anything that touches your state bar rules.'},
+ ],
+ 'related': ['family-law-seo', 'family-law-marketing-agency', 'seo-audit-for-family-law-firms', 'family-law-website-design'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'divorce', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])

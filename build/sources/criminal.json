@@ -1,4 +1,28 @@
 {
+ "questions-to-ask-when-hiring-an-seo-company": {
+  "links": [
+   {
+    "text": "can you show me examples of your previous work and share some success stories",
+    "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+    "title": "Google Search Central: Do you need an SEO?"
+   },
+   {
+    "text": "who has simple view rights on most data",
+    "url": "https://support.google.com/webmasters/answer/7687615?hl=en",
+    "title": "Google Search Console Help: Managing owners, users, and permissions"
+   },
+   {
+    "text": "some changes might take effect in a few hours, others could take several months",
+    "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "title": "Google Search Central: SEO starter guide"
+   },
+   {
+    "text": "Google says the best practices for SEO remain relevant for AI features in Google Search",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "title": "Google Search Central: AI features and your website"
+   }
+  ]
+ },
  "google-screened": {
   "links": [
    {
