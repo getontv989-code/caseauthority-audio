@@ -1,4 +1,14 @@
 {
+ "is-seo-still-relevant": {
+  "file": "/blog/audio/is-seo-still-relevant.mp3?v=39577e863b",
+  "seconds": 1088,
+  "bytes": 4354238,
+  "date": "2026-11-20",
+  "repo": "getontv989-code/caseauthority-audio",
+  "commit": "e97fe05ddb110b5e6294fd125fe7d5e444e6441e",
+  "path": "sister/divorce/is-seo-still-relevant.mp3",
+  "sha1": "39577e863bdfdfdf1ad5c3b787fcc4ac00658495"
+ },
  "seo-contract": {
   "file": "/blog/audio/seo-contract.mp3?v=0311719d5b",
   "seconds": 1117,
