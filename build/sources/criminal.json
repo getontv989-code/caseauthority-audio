@@ -1,4 +1,23 @@
 {
+ "how-to-rank-in-ai-overviews": {
+  "links": [
+   {
+    "text": "issuing multiple related searches across subtopics and data sources",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "title": "Google Search Central: AI features and your website"
+   },
+   {
+    "text": "the Search Console Performance report",
+    "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+    "title": "Google Search Console Help: Performance report"
+   },
+   {
+    "text": "spam policies on keyword stuffing",
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies#keyword-stuffing",
+    "title": "Google Search Central: Spam policies (keyword stuffing)"
+   }
+  ]
+ },
  "questions-to-ask-when-hiring-an-seo-company": {
   "links": [
    {

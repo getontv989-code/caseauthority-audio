@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'how-to-rank-in-ai-overviews': {
+  'title': 'AI Overviews in 60 Seconds',
+  'sub': 'How criminal defense firms get cited in Google AI answers.',
+  'bubble': 'Here is how Google picks its sources.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Google Answers First',
+     'p': 'An AI Overview sums up the question and links to the pages behind it.',
+     'v': {'kind': 'search', 'q': 'what happens after a first dui', 'results': [('Your Firm', True), ('County Defense Group', False), ('Legal Directory', False)]}},
+    {'h': 'No Secret Formula', 'p': 'Google says normal SEO best practices apply, with no special files or schema.',
+     'v': {'kind': 'shield', 'chips': ['Indexed pages', 'Snippet allowed', 'Helpful content']}},
+    {'h': 'Cover Every Charge', 'p': 'Detailed charge and court pages answer more of the questions people ask.',
+     'v': {'kind': 'pages', 'pages': [('DUI Penalties', 'Your state'), ('Expungement', 'Your county'), ('Probation Violations', 'Your court'), ('Bail Hearings', 'Your city')]}},
+    {'h': 'Answer in the First Lines', 'p': 'A short, accurate answer at the top is easy for Google to quote.',
+     'v': {'kind': 'checklist', 'title': 'A page Google can cite', 'items': ['Direct answer first', 'State and court details', 'Current penalties', 'Easy way to call']}},
+    {'h': 'Keep the Map Strong', 'p': 'Near me searches still lean on your Google Business Profile.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Defense Group', 'Main Street Law']}},
+    {'h': 'Track It in Search Console', 'p': 'Google counts AI Overview clicks in your normal search data.',
+     'v': {'kind': 'sources', 'title': 'From AI answer to retained client', 'items': [('Impressions', 95), ('Clicks', 60), ('Calls', 38), ('Retained', 22)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want Your Firm Cited in AI Overviews?', 'Get a free audit of your pages, rankings and map visibility.'),
+},
 'questions-to-ask-when-hiring-an-seo-company': {
   'title': 'Hiring an SEO Company in 60 Seconds',
   'sub': 'The questions criminal defense firms should ask before signing.',
@@ -222,6 +243,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'is-seo-still-relevant': {
+  'title': 'Is SEO Still Relevant in 60 Seconds',
+  'sub': 'What AI search really changes for divorce and family law firms.',
+  'bubble': 'Here is what changed and what did not.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'SEO Is Not Dead',
+     'p': 'Google says SEO best practices still apply to its AI features.',
+     'v': {'kind': 'chat', 'title': 'A common question', 'q': 'Is SEO still worth it now that people use AI?', 'a': 'Yes. AI answers still draw on websites they can trust.'}},
+    {'h': 'Questions Got Longer', 'p': 'People ask full questions about custody, support and timing.',
+     'v': {'kind': 'search', 'q': 'can i move out of state with my kids during a divorce', 'results': [('Your Firm', True), ('County Family Law', False), ('Legal Directory', False)]}},
+    {'h': 'Local Still Rules', 'p': 'Divorce lawyer near me searches still lean on the map.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Family Law', 'Main Street Law']}},
+    {'h': 'SEO and GEO Overlap', 'p': 'One strategy can help you rank in search and get cited by AI.',
+     'v': {'kind': 'compare', 'cols': ['Search results', 'AI answers'], 'rows': [('Clear answer pages', (True, True)), ('Reviews and mentions', (True, True)), ('Fast mobile site', (True, True))]}},
+    {'h': 'Stop the Old Shortcuts', 'p': 'Thin posts, keyword stuffing and cheap links are worth less than ever.',
+     'v': {'kind': 'checklist', 'title': 'What still works', 'items': ['Deep pages for your state', 'Service and county pages', 'Genuine reviews', 'Trusted local mentions']}},
+    {'h': 'Measure Consultations', 'p': 'Judge SEO by booked consultations, not traffic alone.',
+     'v': {'kind': 'sources', 'title': 'From search to consultation', 'items': [('Impressions', 95), ('Visits', 62), ('Calls', 40), ('Consultations', 26)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know If Your SEO Is Still Working?', 'Get a free audit of your search, map and AI visibility.'),
+},
 'seo-contract': {
   'title': 'SEO Contracts in 60 Seconds',
   'sub': 'What family law firms should check before they sign.',
@@ -432,6 +474,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'how-to-rank-in-google-ai-mode': {
+  'title': 'Google AI Mode in 60 Seconds',
+  'sub': 'How estate planning firms get linked in Google AI answers.',
+  'bubble': 'Here is how AI Mode picks its sources.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Built for Big Questions',
+     'p': 'Google says AI Mode helps with comparisons and questions that need reasoning.',
+     'v': {'kind': 'chat', 'title': 'Asking AI Mode', 'q': 'Should I get a will or a living trust?', 'a': 'It depends on your goals and your state. Here is how they compare.'}},
+    {'h': 'No Special Tricks', 'p': 'Google says normal SEO best practices apply, with no extra requirements.',
+     'v': {'kind': 'shield', 'chips': ['Indexed pages', 'Snippet allowed', 'Helpful content']}},
+    {'h': 'Explain the Choices', 'p': 'Comparison pages match the way people use AI Mode.',
+     'v': {'kind': 'compare', 'cols': ['Will', 'Living trust'], 'rows': [('Names guardians for children', (True, False)), ('Can help avoid probate', (False, True)), ('Needs funding with assets', (False, True))]}},
+    {'h': 'Cover the Follow Ups', 'p': 'Answer the next question as well as the first one.',
+     'v': {'kind': 'pages', 'pages': [('Wills vs Trusts', 'Comparison'), ('Probate', 'Your state'), ('Powers of Attorney', 'Guide'), ('Funding a Trust', 'Steps')]}},
+    {'h': 'Stay Local', 'p': 'State rules and an accurate Business Profile help you stand out.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Legacy Law Group', 'Main Street Wills']}},
+    {'h': 'Measure Signed Plans', 'p': 'Google counts AI Mode visits in your Search Console data.',
+     'v': {'kind': 'sources', 'title': 'From AI answer to signed plan', 'items': [('Impressions', 95), ('Visits', 60), ('Consultations', 38), ('Signed plans', 24)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want Your Firm Linked in Google AI Mode?', 'Get a free audit of your pages, rankings and local visibility.'),
+},
 'seo-retainer': {
   'title': 'SEO Retainers in 60 Seconds',
   'sub': 'What an estate planning firm should get every month.',

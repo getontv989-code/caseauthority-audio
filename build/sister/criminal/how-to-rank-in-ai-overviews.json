@@ -1,0 +1,197 @@
+{
+ "slug": "how-to-rank-in-ai-overviews",
+ "keyword": "how to rank in ai overviews",
+ "title": "How to Rank in AI Overviews: A Guide for Criminal Defense Lawyers",
+ "meta": "How criminal defense firms get cited in Google AI Overviews: what Google says, the pages that get quoted, local signals, tracking and what to avoid.",
+ "h1": "How to Rank in AI Overviews: Getting Your Criminal Defense Firm Cited by Google AI",
+ "nav_label": "How to Rank in AI Overviews",
+ "tag": "AI Search",
+ "date": "2026-11-20",
+ "lead": "Search for what happens after a first DUI, can a misdemeanor be expunged or do I need a lawyer for a probation violation, and Google often answers before you reach a single website. That answer is an AI Overview, a short summary at the top of the page with a few links underneath. For criminal defense firms, those links are valuable ground. The people asking these questions are often days away from a court date and deciding who to call. This guide explains what AI Overviews are, what Google says about how sites get included, the pages that tend to get cited for criminal defense questions, how your Google Business Profile fits in, how to track the traffic and the mistakes that can keep your firm out.",
+ "quick_answer": "To rank in AI Overviews, a criminal defense firm needs pages that Google already trusts for the question being asked. Google says there are no special requirements or tricks for AI Overviews: a page must be indexed and eligible to show a snippet in search, and the same SEO best practices apply. In practice, that means clear charge pages and court pages for the places you practice, answers to common questions written in the first few lines, accurate and current details for your state, fast mobile pages, strong internal links and a complete Google Business Profile. You cannot buy or force a place in an AI Overview, but firms that rank well for detailed criminal defense questions are the ones Google tends to link to.",
+ "takeaways": [
+  [
+   "No Secret Formula.",
+   "Google says SEO best practices apply to AI Overviews."
+  ],
+  [
+   "Answer First.",
+   "Open each page with a short, direct answer to the question."
+  ],
+  [
+   "Be Local and Specific.",
+   "Charge, court and state details beat general legal content."
+  ],
+  [
+   "Keep It Current.",
+   "Outdated penalties or procedures are a reason not to cite you."
+  ],
+  [
+   "Mind the Map.",
+   "Near me searches still lean on your Google Business Profile."
+  ],
+  [
+   "Track It in Search Console.",
+   "AI Overview clicks are counted in your normal search data."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "What Are Google AI Overviews?",
+   "answer": "They are AI written summaries at the top of some Google results that answer a question and link to the websites behind the answer.",
+   "paras": [
+    "An AI Overview is a short answer that Google writes with AI and places above the regular results for some searches. It pulls together information from several pages and shows links to those pages, so people can read more or check the source.",
+    "Google says AI Overviews are designed to help people get the gist of a complicated topic quickly and give them a jumping off point to explore. They do not appear for every search. Google says they are only shown when its systems decide they add something beyond the regular results, so many searches never trigger one.",
+    "For criminal defense, AI Overviews tend to show up on question searches rather than simple ones like DUI lawyer near me. Think of searches about penalties, procedures, rights and next steps. Those are exactly the questions people ask in the hours and days after an arrest."
+   ]
+  },
+  {
+   "h2": "Why Do AI Overviews Matter for Criminal Defense Firms?",
+   "answer": "Because people facing charges research their situation before they call, and the sites linked in an AI Overview get seen first.",
+   "paras": [
+    "Someone who has just been charged rarely knows the process. They search what an arraignment is, whether they will lose their license, if a first offense means jail and how long a case takes. If your firm is linked in the answer, you are the first lawyer they meet, at the moment they are deciding whether they need help.",
+    "Being cited also builds trust. A link inside Google's own summary acts as a quiet endorsement. When the same person later searches for a lawyer in their county, a firm they already recognize from the AI Overview has an advantage over one they have never seen.",
+    "There is a flip side. If an AI Overview answers the question well enough, some people will not click anything. That makes it even more important to be one of the few sources named, and to make the click worthwhile with a page that clearly invites a confidential call."
+   ]
+  },
+  {
+   "h2": "How Does Google Choose Sites for AI Overviews?",
+   "answer": "It looks for helpful pages that already rank and qualify for a snippet, often running several related searches to build the answer.",
+   "paras": [
+    "Google says both AI Overviews and AI Mode may use a technique called query fan-out, issuing multiple related searches across subtopics and data sources to develop a response. A question about a first DUI might lead Google to look at penalties, license suspension, court steps and diversion programs at the same time.",
+    "That has a practical meaning for your firm. A single thin page about DUI is unlikely to cover all those subtopics. A strong DUI section, with pages or clear sections on penalties, license hearings, first offenses, refusals and your local courts, gives Google many chances to find your firm useful across the fan-out.",
+    "To be eligible at all, Google says a page must be indexed and eligible to be shown in Google Search with a snippet. If a page is blocked from crawling, marked noindex or set to hide its snippet, it cannot be used as a supporting link. That is the first thing to check if your firm never appears."
+   ]
+  },
+  {
+   "h2": "Do You Need Special Optimization for AI Overviews?",
+   "answer": "No. Google says there are no extra requirements, special files or special schema, and that normal SEO best practices still apply.",
+   "paras": [
+    "This is the part many agencies skip. Google's own guidance says the best practices for SEO remain relevant for AI features in Google Search, and that there are no additional requirements to appear in AI Overviews or AI Mode. Google adds that you do not need to create new machine readable files, AI text files or markup to appear, and that there is no special schema you must add.",
+    "So when someone sells AI Overview optimization as a separate secret service, ask what they will actually do. The real work looks a lot like good criminal defense SEO: technical health, useful pages, good internal links, a fast mobile site and a trusted local presence.",
+    "What does change is the emphasis. AI Overviews reward pages that answer questions directly and cover a topic fully. That pushes you to write with more clarity and more depth, which also helps the people reading your site and the way you rank in classic results. Our guide to [[a:blog/dui-lawyer-seo|DUI lawyer SEO]] shows what that depth looks like for one charge."
+   ]
+  },
+  {
+   "h2": "Which Criminal Defense Questions Trigger AI Overviews?",
+   "answer": "Mostly informational questions about penalties, processes, rights and records, rather than short searches for a lawyer.",
+   "paras": [
+    "You will see AI Overviews most often on questions such as what happens at a first court appearance, can you refuse a breathalyzer, how long a DUI stays on your record, what is the difference between a misdemeanor and a felony, how bail works or can a theft charge be dropped. Many of these include a state, a county or a charge name.",
+    "Searches like criminal lawyer near me or DUI attorney in a city more often show the map, ads and regular results. Those are still vital for calls, and they depend heavily on your Google Business Profile and local SEO.",
+    "To find your own opportunities, look at the Search Console Performance report for the questions that already bring impressions to your site. Then search them yourself and see whether an AI Overview appears and which sites it cites. Those are the pages worth improving first."
+   ]
+  },
+  {
+   "h2": "How Should You Write Pages That AI Overviews Can Cite?",
+   "answer": "Put a short, accurate answer at the top, then explain the detail in clear sections with your state and local courts in mind.",
+   "paras": [
+    "Start each page or section with a two or three sentence answer to the main question. Then go deeper with headings that match the follow up questions people ask, such as what the penalties are, what happens to your license and what to do next. This structure makes it easy for Google to find the part that answers each piece of a query.",
+    "Be specific to your state. Criminal law varies a great deal from one state to the next, and a vague national answer is less useful than one that names your state's terms, the relevant court and the usual steps in your county. Where you give penalties or timelines, say they depend on the facts and the court, and keep them current.",
+    "Write in plain, calm language. People reading these pages are often frightened. Short paragraphs, clear steps and a visible way to call for a confidential consultation serve the reader and give Google clean text to quote."
+   ]
+  },
+  {
+   "h2": "Do Charge Pages and Court Pages Help You Show Up?",
+   "answer": "Yes. Detailed pages for each charge and each court you handle give Google more relevant, local sources to link to.",
+   "paras": [
+    "A firm with separate, well written pages for DUI, drug possession, assault, theft, domestic violence, probation violations and expungement covers far more questions than a firm with one criminal defense page. Each page can rank for its own questions and feed AI Overviews on that topic.",
+    "Court pages add local depth. A page about the courthouse you appear in most, with what to expect, where it is and how cases usually move there, answers real questions that general legal sites cannot. Keep any procedural details accurate and avoid advice that depends on a client's specific facts.",
+    "Link these pages together. Your DUI page should link to your license hearing page, your county court page and your attorney bios. Google says making content easy to find through internal links is one of the SEO basics that still matters for AI features."
+   ]
+  },
+  {
+   "h2": "How Does Your Google Business Profile Fit In?",
+   "answer": "It powers your map listing and local results, and Google tells site owners to keep Business Profile information up to date.",
+   "paras": [
+    "Many criminal defense calls still come straight from the Google map, especially late at night and on weekends. Google's guidance on AI features lists checking that your Business Profile information is up to date among the SEO basics worth doing, and AI answers about local services often draw on the same local information.",
+    "Keep your categories, hours, phone number and website link accurate, add real photos of your office and team and post updates when you have something useful to share. If you answer calls around the clock, say so clearly. Our guide to the [[a:blog/google-business-profile-for-criminal-defense-lawyers|Google Business Profile for criminal defense lawyers]] covers the full setup.",
+    "Reviews matter here too. Ask satisfied clients for honest reviews where your state rules allow, and reply in a way that never confirms someone was a client or reveals case details. Confidentiality comes first in criminal defense, even in review replies."
+   ]
+  },
+  {
+   "h2": "Does Schema Markup Help You Rank in AI Overviews?",
+   "answer": "It can help Google read your pages, but Google says no special schema is needed, and it must match what visitors see.",
+   "paras": [
+    "Structured data such as LegalService, Attorney, FAQ and Article markup helps search engines understand your firm and your content. It is a good habit, and it supports rich results in classic search where they are available.",
+    "Google is clear that there is no special schema required for AI Overviews, and that any structured data should match the visible text on the page. Marking up facts that are not on the page, or adding reviews you did not earn, can create problems rather than solve them.",
+    "Treat schema as a support for strong content, not a replacement. A well structured page with no real answer will not be cited. A clear, useful page with accurate markup gives Google every reason to understand and trust it."
+   ]
+  },
+  {
+   "h2": "Can AI Overviews Reduce Calls to Your Firm?",
+   "answer": "They can reduce clicks on simple questions, but the people who do click are often more serious, and the right pages still lead to calls.",
+   "paras": [
+    "If an AI Overview fully answers a simple question, fewer people need to click through. That can lower traffic to some of your general information pages. It is one reason traffic alone is a poor way to judge criminal defense SEO.",
+    "Google says that when people click from search results pages with AI Overviews, those clicks tend to be higher quality, meaning people are more likely to spend more time on the site. For a criminal defense firm, a reader who wants to know more about their own situation is exactly the person you want on the page.",
+    "Make every cited page earn its click. Add a clear next step, such as a short note on why the details of a case matter and a tap to call button. The goal is not just to be quoted. It is to turn the person who reads the quote into a consultation."
+   ]
+  },
+  {
+   "h2": "How Do You Track AI Overview Traffic?",
+   "answer": "Google counts AI Overview clicks and impressions inside your normal Search Console data, under the Web search type.",
+   "paras": [
+    "Google says sites appearing in AI features are included in the overall search traffic in Search Console, in the Performance report within the Web search type. There is no separate AI Overview report, so you track it the same way you track regular search.",
+    "Watch the question searches that bring impressions to your charge and court pages. If impressions rise while clicks stay flat, an AI Overview may be answering the question. Check the result yourself, see who is cited and improve your page so it deserves a place.",
+    "Then connect it to the business. Track calls and forms from search in your analytics, and ask every new client how they found the firm. A criminal defense practice runs on retained clients, so measure that, not just how often Google mentions you."
+   ]
+  },
+  {
+   "h2": "What Should Criminal Defense Firms Avoid?",
+   "answer": "Keyword stuffing, copied pages, outdated legal details, careless advice and anything that risks client confidentiality.",
+   "paras": [
+    "Stuffing pages with phrases like best DUI lawyer near me breaks Google's spam policies on keyword stuffing and makes pages harder to read. Copying the same page for every town with only the name changed rarely helps and can hold the whole site back.",
+    "Be careful with legal detail. A page that states old penalty ranges or a procedure that has changed can be quoted in an AI answer and mislead someone. Review your pages on a schedule, note when they were last updated and keep the advice general with a clear invitation to speak with a lawyer about specific facts.",
+    "Never use real client stories in a way that could identify someone, and follow your state bar's rules on results, testimonials and words like specialist. AI tools can repeat what your pages say, so the same care you give a court filing belongs on your website."
+   ]
+  },
+  {
+   "h2": "How Long Does It Take to Appear in AI Overviews?",
+   "answer": "Pages that already rank can appear quickly, while new pages and new topics usually take a few months to build trust.",
+   "paras": [
+    "If you already rank well for a question and you improve the page so it answers more directly, Google may start citing it once it recrawls the page. Google notes that crawling can take anywhere from several days to several months, depending on how often its systems decide a page needs refreshing.",
+    "New pages take longer. They need to be found, indexed and trusted, and they compete with established legal sites and other firms. For a new charge section or a new county, think in months, not weeks.",
+    "Steady work wins. Firms that keep improving their key pages, add the questions clients really ask and build a strong local presence tend to see their AI Overview citations grow alongside their regular rankings."
+   ]
+  },
+  {
+   "h2": "A Note on Google, Figures and Bar Rules",
+   "answer": "Google owns its trademarks, AI search changes quickly and nothing here promises a citation, a ranking or a client.",
+   "paras": [
+    "Google, Google Search, AI Overviews, AI Mode and Google Business Profile are trademarks of Google LLC. CaseAuthority is not affiliated with, endorsed by or sponsored by Google. Descriptions of what Google says are based on its own public pages at the time of writing, which may change. Results vary by market, competition, the condition of a website and many other factors, and no part of this guide promises any citation, ranking, number of clients or outcome.",
+    "Lawyer advertising is regulated and the rules vary by state, including rules on website content, reviews, case results and words like expert or specialist. The ideas in this guide describe common practices in legal marketing. They are not legal advice. Check your state bar's current rules or speak to an ethics counsel if you are unsure."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I Pay to Appear in Google AI Overviews?",
+   "a": "No. Google says the same SEO best practices apply and there are no special requirements. The sites cited are chosen by Google from pages it already finds helpful for the question."
+  },
+  {
+   "q": "Why Does Google Cite Legal Directories Instead of My Firm?",
+   "a": "Directories often have deep, well linked pages on common questions. Detailed, state specific charge and court pages with clear answers give Google a reason to cite your firm instead."
+  },
+  {
+   "q": "Do AI Overviews Show Up for Searches Like DUI Lawyer Near Me?",
+   "a": "Less often. Short searches for a lawyer usually show the map and regular results. AI Overviews appear more on questions about penalties, processes and rights."
+  },
+  {
+   "q": "Can I Stop Google Using My Pages in AI Overviews?",
+   "a": "Google says snippet controls such as nosnippet and data-nosnippet limit what is shown. Blocking them also limits how your pages appear in regular results, so think carefully first."
+  },
+  {
+   "q": "Is Ranking in AI Overviews Different from Regular SEO?",
+   "a": "Not much. Google says SEO best practices remain relevant. The difference is emphasis: direct answers, full coverage of a topic and accurate local detail matter even more."
+  },
+  {
+   "q": "How Do I Know If My Firm Appears in AI Overviews?",
+   "a": "Search your key questions yourself and note which sites are cited. In Search Console, watch impressions and clicks for those questions over time."
+  }
+ ],
+ "related": [
+  "criminal-law-seo",
+  "criminal-defense-law-firm-seo",
+  "local-seo-for-criminal-defense-lawyers",
+  "criminal-defense-content-marketing"
+ ]
+}

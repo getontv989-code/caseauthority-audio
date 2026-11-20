@@ -1,4 +1,23 @@
 {
+ "how-to-rank-in-google-ai-mode": {
+  "links": [
+   {
+    "text": "AI Mode is particularly helpful for queries where further exploration, reasoning, or complex comparisons are needed",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "title": "Google Search Central: AI features and your website"
+   },
+   {
+    "text": "Gallup found that 46% of U.S. adults have a will",
+    "url": "https://news.gallup.com/poll/351500/how-many-americans-have-will.aspx",
+    "title": "Gallup: How Many Americans Have a Will?"
+   },
+   {
+    "text": "the Search Console Performance report",
+    "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+    "title": "Google Search Console Help: Performance report"
+   }
+  ]
+ },
  "seo-retainer": {
   "links": [
    {

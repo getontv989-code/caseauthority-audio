@@ -68,6 +68,7 @@ S = {
  'UCLA': ('https://www.collaborativepractice.com/UCLA', 'International Academy of Collaborative Professionals: Uniform Collaborative Law Act'),
  'STARTER': ('https://developers.google.com/search/docs/fundamentals/seo-starter-guide', 'Google Search Central: SEO starter guide'),
  'GSCPERM': ('https://support.google.com/webmasters/answer/7687615?hl=en', 'Google Search Console Help: Managing owners, users, and permissions'),
+ 'OAIBOTS': ('https://platform.openai.com/docs/bots', 'OpenAI: Overview of OpenAI crawlers'),
  'EVENT': ('https://developers.google.com/search/docs/appearance/structured-data/event', 'Google Search Central: Event structured data'),
 }
 
@@ -80,6 +81,11 @@ def L(text, key):
 
 
 PI = {
+ 'how-to-rank-in-chatgpt': {
+  'links': [L('sites that are opted out of OAI-SearchBot will not be shown in ChatGPT search answers', 'OAIBOTS'),
+            L('34% of U.S. adults have used ChatGPT, about double the share in 2023', 'PEW'),
+            L('you do not need to create new machine readable files, AI text files or markup', 'AIFEAT'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'seo-guarantee': {
   'links': [L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
             L('there are no secrets that will automatically rank your site first', 'STARTER'),
@@ -198,6 +204,10 @@ PI = {
 }
 
 CRIMINAL = {
+ 'how-to-rank-in-ai-overviews': {
+  'links': [L('issuing multiple related searches across subtopics and data sources', 'AIFEAT'),
+            L('the Search Console Performance report', 'GSC'),
+            L('spam policies on keyword stuffing', 'KWSTUFF')]},
  'questions-to-ask-when-hiring-an-seo-company': {
   'links': [L('can you show me examples of your previous work and share some success stories', 'DOINEED'),
             L('who has simple view rights on most data', 'GSCPERM'),
@@ -252,6 +262,11 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'is-seo-still-relevant': {
+  'links': [L('the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('local results are mainly based on relevance, distance, and popularity', 'GLR'),
+            L('34% of U.S. adults have used ChatGPT, about double the share in 2023', 'PEW'),
+            L('OpenAI uses its own search crawler to surface websites in ChatGPT search', 'OAIBOTS')]},
  'seo-contract': {
   'links': [L('an owner has full control over properties in Search Console', 'GSCPERM'),
             L('you are responsible for the actions of any companies you hire', 'DOINEED'),
@@ -308,6 +323,10 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'how-to-rank-in-google-ai-mode': {
+  'links': [L('AI Mode is particularly helpful for queries where further exploration, reasoning, or complex comparisons are needed', 'AIFEAT'),
+            L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
+            L('the Search Console Performance report', 'GSC')]},
  'seo-retainer': {
   'links': [L('a review of your site content or structure', 'DOINEED'),
             L('you likely want to wait a few weeks to assess whether your work had beneficial effects', 'STARTER'),

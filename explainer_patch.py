@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'how-to-rank-in-chatgpt': {
+  'title': 'Ranking in ChatGPT in 60 Seconds',
+  'sub': 'How a personal injury firm gets named when people ask AI for a lawyer.',
+  'bubble': 'Here is how ChatGPT picks a firm.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'ChatGPT Searches Before It Answers',
+     'p': 'It reads pages about the question and names the firms that look clear and trusted.',
+     'v': {'kind': 'chat', 'title': 'Asking ChatGPT', 'q': 'Who is the best car accident lawyer near me?', 'a': 'Here are a few well reviewed firms in your area.'}},
+    {'h': 'Let the Crawler In', 'p': 'OpenAI says sites that block its search crawler will not be shown in ChatGPT search answers.',
+     'v': {'kind': 'checklist', 'title': 'Quick technical check', 'items': ['Allow OAI-SearchBot in robots.txt', 'Nothing on your host blocks it', 'Key details are in text', 'Pages load fast on a phone']}},
+    {'h': 'Answer Real Questions', 'p': 'Case type and city pages give AI something specific to quote.',
+     'v': {'kind': 'pages', 'pages': [('Car Accidents', 'Your city'), ('Truck Accidents', 'Your county'), ('Dog Bites', 'Your city'), ('Attorney Bio', 'Experience')]}},
+    {'h': 'Earn Trust Across the Web', 'p': 'Reviews, directories and local mentions tell AI your firm is real and respected.',
+     'v': {'kind': 'stars', 'tag': 'Signals AI can see', 'reviews': ['They handled my crash claim with care.', 'Called me back within the hour.']}},
+    {'h': 'SEO Still Does the Work', 'p': 'Firms that rank well in search tend to be the ones AI names.',
+     'v': {'kind': 'compare', 'cols': ['Weak SEO', 'Strong SEO'], 'rows': [('Clear case type pages', (False, True)), ('Consistent details', (False, True)), ('Trusted mentions', (False, True))]}},
+    {'h': 'Track Signed Cases', 'p': 'Test your questions monthly and ask every new client how they found you.',
+     'v': {'kind': 'sources', 'title': 'From AI answer to signed case', 'items': [('Mentions', 95), ('Visits', 65), ('Calls', 40), ('Signed cases', 22)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know What ChatGPT Says About Your Firm?', 'Get a free audit of your AI, search and map visibility.'),
+},
 'seo-guarantee': {
   'title': 'SEO Guarantees in 60 Seconds',
   'sub': 'What an agency can and cannot promise a personal injury firm.',

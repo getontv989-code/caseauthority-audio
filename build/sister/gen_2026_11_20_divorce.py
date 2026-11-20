@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+"""2026-11-20 divorce post: is SEO still relevant (Semrush 320/mo KD 18, + 'is seo dead' 2,400 KD 26, 'will ai replace seo' 260 KD 32, 'seo in the age of ai' 140 KD 29, 'is seo dying' 90 KD 32, 'will ai kill seo' 70 KD 33, 'is seo dead 2026' 50 KD 18, 'is seo still relevant in 2026' 40 KD 46, cluster about 3,370). Mash approved: GEO angle tailored to divorce and family law firms, leaning towards SEO.
+Facts used (checked 2026-11-20): Google Search Central 'AI features and your website' (SEO best practices remain relevant for AI features; no additional requirements; AI feature traffic counted in Search Console Web search type; query fan-out); Google Business Profile Help 'Tips to improve your local ranking' (local results mainly based on relevance, distance and popularity); Pew Research Center 2025 (34% of U.S. adults have used ChatGPT); OpenAI crawler overview (OAI-SearchBot surfaces sites in ChatGPT search). Links go to divorce posts how-to-get-family-law-clients and family-law-ppc."""
+import json, os
+P = {
+ 'slug': 'is-seo-still-relevant',
+ 'keyword': 'is seo still relevant',
+ 'title': 'Is SEO Still Relevant for Family Law Firms in the Age of AI?',
+ 'meta': 'Is SEO dead now that people ask ChatGPT and Google AI? What has changed for divorce and family law firms, what has not and where to focus now.',
+ 'h1': 'Is SEO Still Relevant? What AI Search Means for Divorce and Family Law Firms',
+ 'nav_label': 'Is SEO Still Relevant?',
+ 'tag': 'AI Search',
+ 'date': '2026-11-20',
+ 'lead': "Every few months someone announces that SEO is dead. First it was social media, then voice search, and now it is AI. People ask ChatGPT about custody, Google writes AI summaries at the top of the page and some firms wonder whether working on their website still makes sense. If you run a divorce or family law practice, it is a fair question, because you need to know where the next consultation will come from. The short version is that SEO is not dead, but it has changed. This guide explains what has really changed in search, what Google itself says about SEO and AI, why family law is still a search driven practice, how SEO now overlaps with AI answers and where a family law firm should focus its effort today.",
+ 'quick_answer': "Yes, SEO is still relevant for family law firms, and AI has made the basics more important, not less. Google says the best practices for SEO remain relevant for its AI features, such as AI Overviews and AI Mode, and those features link to the websites they draw from. AI tools like ChatGPT also search the web and lean on the same signals: clear pages, a strong local presence, reviews and trusted mentions. What has changed is how people search. They ask longer questions, compare options in AI answers and may click less on simple questions. For a divorce firm, that means clear answers to real family law questions, strong local SEO and the map, a trustworthy reputation and measuring consultations, not just traffic.",
+ 'takeaways': [
+  ['SEO Is Not Dead.', 'Google says SEO best practices still apply to its AI features.'],
+  ['AI Answers Use Websites.', 'AI tools link to and draw from pages that are easy to trust.'],
+  ['Local Still Rules.', 'Divorce lawyer near me searches still lean on the map.'],
+  ['Questions Got Longer.', 'People ask full questions about custody, support and timing.'],
+  ['Reputation Counts More.', 'Reviews and mentions help both search and AI answers.'],
+  ['Measure Consultations.', 'Judge SEO by booked consultations, not traffic charts.'],
+ ],
+ 'sections': [
+  {'h2': 'Is SEO Dead?',
+   'answer': 'No. People still search for divorce lawyers every day, and both Google and AI tools still rely on websites to answer them.',
+   'paras': [
+    "The claim that SEO is dead usually means one thing: search looks different than it used to. That is true. But someone going through a divorce still needs to find a lawyer they trust, and most of them still start by searching, whether on Google, in the map, in an AI tool or all three.",
+    "Every one of those paths depends on information from websites and profiles. Google's AI features link to supporting pages. ChatGPT searches the web before it answers local questions. The Google map ranks Business Profiles. The firms that show up in all of these places are the ones with strong, well built online foundations, which is exactly what SEO creates.",
+    "So the better question is not whether SEO is dead, but which parts of SEO matter most now. Some old tactics, such as stuffing pages with keywords or buying cheap links, stopped working long ago. The parts that serve real people well have become more valuable.",
+   ]},
+  {'h2': 'Will AI Replace SEO?',
+   'answer': 'AI is changing how results look, but it still needs trustworthy sources to answer from, and SEO is how your firm becomes one.',
+   'paras': [
+    "AI tools do not invent a list of good family lawyers. They look for sources. Google says AI Overviews and AI Mode may run several related searches, a technique it calls query fan-out, and then show links to the pages behind the answer. OpenAI uses its own search crawler to surface websites in ChatGPT search. In both cases, being findable and credible is the price of entry.",
+    "What AI does replace is some of the clicking. If a parent asks how child support is calculated and gets a clear summary, they may not visit five websites to read the same thing. That means general information pages may get fewer visits, while the firms named in the answer gain more attention.",
+    "That is why many marketers now talk about GEO, or generative engine optimization, as an extension of SEO. It is not a separate world. It is the same work aimed at being cited by AI as well as ranked by search engines.",
+   ]},
+  {'h2': 'What Has Actually Changed in Search?',
+   'answer': 'Results pages now include AI summaries, people use AI chat tools for research and searches have become longer and more conversational.',
+   'paras': [
+    "Google now shows AI Overviews on many question searches and offers AI Mode for deeper, back and forth questions. Outside Google, a Pew Research Center survey found that 34% of U.S. adults have used ChatGPT, about double the share in 2023. More people are asking AI tools to explain things before they decide who to call.",
+    "The questions themselves have changed too. Instead of typing divorce lawyer, people ask whether they can move out of state with their kids during a divorce, how long a contested divorce takes in their state or whether mediation is cheaper than going to court. These longer questions are a gift to firms that publish clear, specific answers.",
+    "What has not changed is the decision at the end. A spouse who has been served papers, or a parent worried about custody, still wants a real lawyer nearby who seems competent, calm and trustworthy. Search and AI only shape who they consider.",
+   ]},
+  {'h2': 'What Does Google Say About SEO and AI Search?',
+   'answer': 'Google says SEO best practices still apply to AI Overviews and AI Mode, with no special requirements or tricks.',
+   'paras': [
+    "Google's own guide for site owners is direct: the best practices for SEO remain relevant for AI features in Google Search, such as AI Overviews and AI Mode. Google says there are no additional requirements to appear in them and no special optimizations needed, though reviewing the fundamentals is always worthwhile.",
+    "Those fundamentals include letting Google crawl your site, making content easy to find through internal links, giving visitors a good page experience, keeping important content in text, making sure structured data matches the page and keeping your Business Profile up to date. None of this is new. It is simply more important now that AI summaries pick from the best of it.",
+    "Google also says traffic from AI features is counted inside your normal Search Console data. That matters because it means SEO results are still measurable in the tools you already have.",
+   ]},
+  {'h2': 'Why Does SEO Still Matter for Divorce and Family Law Firms?',
+   'answer': 'Because family law is local, personal and trust driven, and search is still where most people go to find and vet a lawyer.',
+   'paras': [
+    "Family law clients usually hire someone near them who knows the local court and judges. That makes local search, including the map, especially important. A firm that shows up for divorce lawyer near me, custody lawyer in a county and similar searches is in front of people at the moment they are choosing.",
+    "These are also sensitive decisions. People read reviews, look at attorney bios and study how a firm talks about difficult topics before they call. A well built website with clear, compassionate answers does that work for you around the clock, and AI tools draw on the same content when they summarize your firm.",
+    "And unlike many paid channels, the value of good SEO builds over time. Strong pages, reviews and a trusted reputation keep working month after month, while paid ads stop the day the budget does. Our guide to [[a:blog/family-law-ppc|family law PPC]] covers how the two can work together.",
+   ]},
+  {'h2': 'How Do People Find a Divorce Lawyer Today?',
+   'answer': 'Through a mix of search, the map, reviews, AI tools and referrals, often several of them before they ever call.',
+   'paras': [
+    "A typical path might look like this. Someone asks an AI tool what to do first in a divorce, reads a Google result about their state's waiting period, then searches for a divorce lawyer in their city, compares a few firms in the map and reads reviews. Later, a friend mentions a name, and they search that firm to check it out.",
+    "Every step touches your online presence. AI answers, Google results, your Business Profile, your reviews and your website all need to tell the same clear story about who you are and what you do. Even a personal referral usually ends with a search, and a weak result can lose a client who was already recommended to you.",
+    "That is why it helps to think of SEO as your firm's public record online, not just a ranking. Our guide on [[a:blog/how-to-get-family-law-clients|how to get family law clients]] shows how search fits with referrals and reviews.",
+   ]},
+  {'h2': 'Does SEO Still Work for Searches Like Divorce Lawyer Near Me?',
+   'answer': 'Yes. Local searches still show the map and local results, and Google says local ranking rests on relevance, distance and popularity.',
+   'paras': [
+    "For local searches, Google says local results are mainly based on relevance, distance, and popularity. Relevance is how well your profile matches the search. Distance is how far you are from the searcher. The third factor is how well known your firm is, which Google says is based on info like how many websites link to your business and how many reviews you have.",
+    "Every one of those can be strengthened with local SEO. Choosing the right categories, writing pages for each service and county, earning genuine reviews and getting mentioned by local organizations all help your firm compete in the map. AI tools that answer local questions draw on similar signals.",
+    "This is one area where AI has not reduced the value of search at all. When someone needs a divorce lawyer near them today, the map is still one of the first places they look.",
+   ]},
+  {'h2': 'Is SEO Still Worth the Investment for a Family Law Practice?',
+   'answer': 'For most firms, yes, as long as the work is aimed at consultations from your market rather than traffic for its own sake.',
+   'paras': [
+    "SEO is worth it when it brings in the cases you want, from the places you serve, at a cost that makes sense for your practice. That is true whether people find you in a classic result, an AI answer or the map. What is not worth it is SEO that chases national traffic, vanity keywords or rankings that never turn into calls.",
+    "The way to judge value has shifted slightly. Because AI answers can reduce clicks on simple questions, a drop in visits to general pages is not always a bad sign. Look instead at calls, forms, booked consultations and retained clients from search, and at how often your firm appears for the questions that matter.",
+    "If your current SEO reports only show rankings and traffic, ask for more. A good partner should be able to connect the work to consultations, using your own analytics and intake records.",
+   ]},
+  {'h2': 'What Is GEO, and Is It Different from SEO?',
+   'answer': 'GEO means optimizing to be cited in AI answers. It shares the same foundations as SEO, with more emphasis on clear answers and reputation.',
+   'paras': [
+    "GEO, or generative engine optimization, is a newer name for making your firm show up in AI generated answers, such as Google AI Overviews, AI Mode and ChatGPT. You may also hear AEO, for answer engine optimization. They describe the same direction: being the source an AI chooses to quote or recommend.",
+    "In practice, GEO and SEO overlap heavily. AI tools need to find your pages, understand them and trust them, which is what SEO has always aimed for. The extra emphasis in GEO is on writing direct answers, covering a topic thoroughly, keeping facts current and building a reputation that other websites confirm.",
+    "For a family law firm, there is no need to run two separate programs. A single strategy that builds strong pages, local visibility and a trusted reputation covers both.",
+   ]},
+  {'h2': 'What SEO Work Matters Most for Family Law Firms Now?',
+   'answer': 'Clear answer pages, service and location pages, a strong Google Business Profile, genuine reviews, trusted mentions and a fast mobile site.',
+   'paras': [
+    "Start with pages for each service you offer, such as divorce, custody, child support, spousal support, mediation and modifications, and for each county or city you serve. Open each one with a short, plain answer before the detail, and add the questions clients really ask in consultations.",
+    "Next, look after the local signals. Keep your Google Business Profile complete and active, ask satisfied clients for honest reviews where your state's rules allow and earn mentions from local organizations, bar groups and community resources. These help in the map, in classic results and in AI answers.",
+    "Finally, keep the technical side healthy. Make sure Google and AI search crawlers can reach your pages, that your site is fast on a phone and that every page makes it easy to call or book a confidential consultation.",
+   ]},
+  {'h2': 'What Should Family Law Firms Stop Doing?',
+   'answer': 'Chasing thin content, keyword stuffing, cheap links and reports that measure activity instead of consultations.',
+   'paras': [
+    "Publishing dozens of short, generic posts that repeat what every other site says is less useful than ever, because an AI summary can give people that general answer in seconds. Fewer, deeper pages that reflect your state, your courts and your experience will do more.",
+    "Old shortcuts such as stuffing pages with phrases like best divorce lawyer near me or buying low quality links can hurt your rankings and add nothing an AI would trust. Fake or incentivized reviews break platform rules and can create problems with your bar.",
+    "Also stop judging SEO by traffic alone. If the work is not producing calls, forms and consultations from your market, the reports should say so, and the plan should change.",
+   ]},
+  {'h2': 'How Do You Know If Your SEO Is Still Working?',
+   'answer': 'Track impressions and clicks in Search Console, calls and forms in analytics and how each new client found you.',
+   'paras': [
+    "Google says sites that appear in its AI features are counted in the overall search traffic in Search Console, within the Web search type. So your Search Console Performance report still shows whether your pages are being seen and clicked, including visits that come through AI Overviews and AI Mode.",
+    "Look for patterns. Rising impressions with fewer clicks on general questions may mean AI is answering them, while steady or rising calls show the important pages are still doing their job. Visits from ChatGPT often appear as referrals from chatgpt.com in your analytics.",
+    "Most important, ask every new client how they found your firm and record it, with AI tools as one of the options. Consultations and retained clients are the real measure of whether SEO is still relevant for your practice.",
+   ]},
+  {'h2': 'A Note on Google, AI Tools and Bar Rules',
+   'answer': 'Trademarks belong to their owners, search changes quickly and nothing here promises a ranking, a citation or a client.',
+   'paras': [
+    "Google, Google Search, AI Overviews, AI Mode and Google Business Profile are trademarks of Google LLC. ChatGPT is a trademark of OpenAI. CaseAuthority is not affiliated with, endorsed by or sponsored by Google or OpenAI. Descriptions of what these companies say are based on their own public pages at the time of writing, which may change. The survey figure quoted comes from the Pew Research Center source linked in this guide.",
+    "Results from SEO vary by market, competition, the condition of a website and many other factors, and no part of this guide promises any ranking, citation, number of clients or outcome. Lawyer advertising rules vary by state, including rules on reviews and words like expert or specialist. This guide is not legal advice. Check your state bar's current rules if you are unsure.",
+   ]},
+ ],
+ 'faq': [
+  {'q': 'Is SEO Dead in 2026?', 'a': 'No. Search looks different, with AI summaries and AI chat tools, but both still draw on websites. Google says SEO best practices remain relevant for its AI features.'},
+  {'q': 'Will AI Replace SEO for Law Firms?', 'a': 'AI is changing how results look, not the need to be found. AI tools rely on sources they can find and trust, and SEO is how a family law firm becomes one.'},
+  {'q': 'Is SEO Still Worth It for a Small Family Law Firm?', 'a': 'Usually, yes, if it is focused on your local market and measured by consultations. Local search and the map are still key ways people find a family lawyer.'},
+  {'q': 'What Is the Difference Between SEO and GEO?', 'a': 'SEO aims to rank in search results. GEO aims to be cited in AI answers. They share the same foundations, so one strategy can cover both.'},
+  {'q': 'Why Is My Website Traffic Down if My Rankings Are the Same?', 'a': 'AI summaries can answer simple questions without a click. Check whether calls and consultations from search have held up before deciding the SEO has stopped working.'},
+  {'q': 'Should Family Law Firms Stop Blogging?', 'a': 'No, but write fewer, deeper articles that answer real client questions for your state and courts. Generic posts that repeat common information are worth less now.'},
+ ],
+ 'related': ['family-law-seo', 'local-seo-for-divorce-lawyers', 'family-law-marketing-agency', 'divorce-attorney-content-marketing'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'divorce', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])
