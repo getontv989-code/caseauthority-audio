@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'get-found-online-first-seo-for-criminal-defense-attorneys': {
+  'title': 'Getting Found First in 60 Seconds',
+  'sub': 'How a criminal defense firm shows up first after an arrest.',
+  'bubble': 'Here is how families find a defense lawyer.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'First Found Gets the Call',
+     'p': 'After an arrest, families search on a phone and call one of the first firms they see.',
+     'v': {'kind': 'search', 'q': 'dui lawyer near me', 'results': [('Your Firm', True), ('County Defense Group', False), ('Legal Directory', False)]}},
+    {'h': 'Win the Map', 'p': 'Relevance, distance and popularity decide who shows up on the map.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Defense Group', 'Main Street Law']}},
+    {'h': 'Charge and Court Pages', 'p': 'A clear page for each charge and court gives Google a match for every search.',
+     'v': {'kind': 'pages', 'pages': [('DUI Defense', 'Your county'), ('Drug Charges', 'Your state'), ('Assault', 'Your court'), ('Warrants', 'Your city')]}},
+    {'h': 'Answer Fast', 'p': 'Many searches happen at night. The firm that answers first often wins.',
+     'v': {'kind': 'race', 'fast': ('Answered live at 11pm', 'Client retained'), 'slow': ('Voicemail until Monday', 'Hired another firm')}},
+    {'h': 'Steady Work Wins', 'p': 'Nobody can guarantee first place. Results build over months.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('Early', 'Profile and pages', 0), ('Next', 'Visibility grows', 50), ('Later', 'More clients', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Count Retained Clients', 'p': 'Track calls and retained clients from search, not just traffic.',
+     'v': {'kind': 'sources', 'title': 'From search to retained client', 'items': [('Impressions', 95), ('Visits', 62), ('Calls', 40), ('Retained', 22)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know Where Your Firm Shows Up Today?', 'Get a free audit of your map, search and AI visibility.'),
+},
 'how-to-rank-in-ai-overviews': {
   'title': 'AI Overviews in 60 Seconds',
   'sub': 'How criminal defense firms get cited in Google AI answers.',
@@ -243,6 +264,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'get-found-online-first-seo-for-divorce-attorneys': {
+  'title': 'Getting Found First in 60 Seconds',
+  'sub': 'How a divorce firm becomes the name people trust while they research.',
+  'bubble': 'Here is how people find a divorce lawyer.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Be the Familiar Name',
+     'p': 'People research divorce for weeks and call the firm they keep seeing.',
+     'v': {'kind': 'search', 'q': 'how does custody work in a divorce', 'results': [('Your Firm', True), ('County Family Law', False), ('Legal Directory', False)]}},
+    {'h': 'Win the Map', 'p': 'Relevance, distance and popularity decide who shows up on the map.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Family Law', 'Main Street Law']}},
+    {'h': 'A Page for Each Matter', 'p': 'Divorce, custody and support pages give Google a match for every search.',
+     'v': {'kind': 'pages', 'pages': [('Divorce', 'Your county'), ('Child Custody', 'Your state'), ('Child Support', 'Your state'), ('Property Division', 'Your county')]}},
+    {'h': 'Earn Trust', 'p': 'Genuine reviews, asked for with care, help you rank and get chosen.',
+     'v': {'kind': 'stars', 'tag': 'Signals Google can see', 'reviews': ['Calm and clear the whole way through.', 'They explained every step.']}},
+    {'h': 'Steady Work Wins', 'p': 'Nobody can guarantee first place. Results build over months.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('Early', 'Profile and pages', 0), ('Next', 'Visibility grows', 50), ('Later', 'More consultations', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Count Consultations', 'p': 'Track booked consultations from search, not just traffic.',
+     'v': {'kind': 'sources', 'title': 'From search to consultation', 'items': [('Impressions', 95), ('Visits', 62), ('Calls', 40), ('Consultations', 26)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know Where Your Firm Shows Up Today?', 'Get a free audit of your map, search and AI visibility.'),
+},
 'is-seo-still-relevant': {
   'title': 'Is SEO Still Relevant in 60 Seconds',
   'sub': 'What AI search really changes for divorce and family law firms.',
@@ -474,6 +516,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'get-found-online-first-seo-for-estate-planning-attorneys': {
+  'title': 'Getting Found First in 60 Seconds',
+  'sub': 'How an estate planning firm shows up first when families start planning.',
+  'bubble': 'Here is how families find an estate planning lawyer.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Life Events Start the Search',
+     'p': 'A new baby or a parent in care pushes families to search, and they call who they find first.',
+     'v': {'kind': 'search', 'q': 'will vs living trust', 'results': [('Your Firm', True), ('Legacy Law Group', False), ('Legal Directory', False)]}},
+    {'h': 'Win the Map', 'p': 'Relevance, distance and popularity decide who shows up on the map.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Legacy Law Group', 'Main Street Wills']}},
+    {'h': 'A Page for Each Service', 'p': 'Wills, trusts and probate pages give Google a match for every search.',
+     'v': {'kind': 'pages', 'pages': [('Wills', 'Your state'), ('Living Trusts', 'Your county'), ('Probate', 'Your state'), ('Power of Attorney', 'Guide')]}},
+    {'h': 'Explain the Choices', 'p': 'Clear comparisons help families trust you before the first call.',
+     'v': {'kind': 'compare', 'cols': ['Will', 'Living trust'], 'rows': [('Names guardians for children', (True, False)), ('Can help avoid probate', (False, True)), ('Needs funding with assets', (False, True))]}},
+    {'h': 'Steady Work Wins', 'p': 'Nobody can guarantee first place. Results build over months.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('Early', 'Profile and pages', 0), ('Next', 'Visibility grows', 50), ('Later', 'More signed plans', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Count Signed Plans', 'p': 'Track consultations and signed plans from search, not just traffic.',
+     'v': {'kind': 'sources', 'title': 'From search to signed plan', 'items': [('Impressions', 95), ('Visits', 60), ('Consultations', 38), ('Signed plans', 24)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know Where Your Firm Shows Up Today?', 'Get a free audit of your map, search and AI visibility.'),
+},
 'how-to-rank-in-google-ai-mode': {
   'title': 'Google AI Mode in 60 Seconds',
   'sub': 'How estate planning firms get linked in Google AI answers.',

@@ -1,0 +1,142 @@
+#!/usr/bin/env python3
+"""2026-11-23 estate post: Get Found Online First: SEO for Estate Planning Attorneys (Semrush 'seo for estate planning attorneys' 260 KD 9 CPC $35.59 + 'estate planning attorney seo' 110 KD 12 + 'seo for estate attorneys' 90 KD 8, cluster about 460). Mash approved, matching the PI post 'get found online first: seo for personal injury lawyers'. Awareness guide about getting found first; uses the attorney wording and links UP to the home page (which targets 'estate planning seo' / 'seo for estate planning lawyers') so it does not compete with it.
+Facts used (sources_patch, keys verified earlier): Gallup (46% of U.S. adults have a will), Google SEO starter guide (no secrets that automatically rank a site first), Google Do you need an SEO (no one can guarantee a #1 ranking), Google Business Profile local ranking (relevance, distance and popularity), Google AI features (SEO best practices remain relevant), ABA Model Rule 7.1."""
+import json, os
+P = {
+ 'slug': 'get-found-online-first-seo-for-estate-planning-attorneys',
+ 'keyword': 'seo for estate planning attorneys',
+ 'title': 'Get Found Online First: SEO for Estate Planning Attorneys',
+ 'meta': 'Why the estate planning firm found first online often gets the consultation, and the SEO steps that put your firm in front of families first.',
+ 'h1': 'Get Found Online First: A Starter Guide to SEO for Estate Planning Attorneys',
+ 'nav_label': 'Get Found Online First',
+ 'tag': 'SEO Basics',
+ 'date': '2026-11-23',
+ 'lead': "People rarely wake up wanting an estate plan. Something nudges them: a new baby, a diagnosis, a parent moving into care, a house purchase or a friend dealing with probate. Then they search. They type will vs living trust, do I need a lawyer to make a will or estate planning attorney near me, and they start reading. The firms that show up first, with clear answers, are the ones families come back to when they are ready to book. This guide explains what getting found first means for an estate planning firm, where people look, how Google decides who shows up, the SEO steps that move your firm up and how to measure it. It is written for attorneys and firm owners, not SEO specialists.",
+ 'quick_answer': "To get found online first, an estate planning firm needs to show up where families search when they start thinking about wills, trusts and probate: the Google map, the regular search results and AI answers. That is the job of SEO. Complete your Google Business Profile, publish clear pages for wills, trusts, powers of attorney, probate and the other services you offer, add pages for the areas you serve, answer the questions families ask in simple words, keep your site fast and easy on a phone, build genuine reviews and earn mentions from trusted local and legal websites. No one can guarantee a first place ranking, and it takes months of steady work. But firms that do these basics well become the trusted name families call.",
+ 'takeaways': [
+  ['Life Events Start the Search.', 'Families search when something prompts them to plan.'],
+  ['Three Places to Show Up.', 'The map, the search results and AI answers.'],
+  ['Pages for Each Service.', 'Wills, trusts, probate and each area you serve.'],
+  ['Explain the Choices.', 'Clear comparisons help families trust you early.'],
+  ['Reviews Build Confidence.', 'Steady genuine reviews help you rank and get chosen.'],
+  ['Measure Signed Plans.', 'Track consultations and signed plans, not just traffic.'],
+ ],
+ 'sections': [
+  {'h2': 'What Does It Mean to Get Found Online First?',
+   'answer': 'It means your firm is one of the first names families see when they search for estate planning help, on the map, in the results or in an AI answer.',
+   'paras': [
+    "Getting found online first is not about one ranking report. It means that when a family near you searches for help with a will, a trust or probate, your firm is in the small group of names they see. On a phone, that group is small: a few map listings, a few website results and often an AI written answer.",
+    "Estate planning searches tend to start with questions rather than a request for a lawyer. People want to understand the difference between a will and a trust, what probate involves or whether they need a lawyer at all. If your firm answers those questions clearly, you are found first in a way that builds trust before the first call.",
+    "SEO, short for search engine optimization, is the work that helps Google understand your firm, trust it and show it to the right people. Our main page on [[a:index|SEO for estate planning lawyers]] covers the full service side. This guide focuses on the first step: being found.",
+   ]},
+  {'h2': 'Why Does Being Found First Matter for Estate Planning Firms?',
+   'answer': 'Because many families have no plan yet, and the firm that answers their first questions often becomes the firm they hire.',
+   'paras': [
+    "There is a large gap to fill. Gallup found that 46% of U.S. adults have a will, which leaves many families without even a basic plan. When a life event pushes them to act, they usually start online, and the firms they find first shape how they think about the decision.",
+    "Estate planning is also a trust decision. Families are sharing details about money, health and relationships. They want a firm that feels steady and clear. Showing up first, with helpful answers, gives you a head start on that trust.",
+    "Many estate planning clients also research for a while before they book. A family that reads your guide to trusts this month may call you next quarter. Those early visits matter even when they do not turn into an immediate call.",
+   ]},
+  {'h2': 'Where Do Families Look for an Estate Planning Attorney Online?',
+   'answer': 'Mostly on Google, in the map listings, the regular results and, more and more, AI answers.',
+   'paras': [
+    "The map listings, often called the local pack, show up for searches like estate planning attorney near me or will lawyer in a city. They show a few firms, their star ratings and a call button. Many people choose from these without scrolling.",
+    "The regular results matter most for questions, such as will vs living trust, how probate works in a state or what a power of attorney does. People reading these answers are often early in the process, and a clear page from your firm can start the relationship.",
+    "AI answers are now a third place. Google AI Overviews, AI Mode and tools like ChatGPT answer many estate planning questions directly and link a few sources. Our guide on [[a:blog/how-to-rank-in-google-ai-mode|how to rank in Google AI Mode]] covers that side. The same SEO work helps in all three places.",
+   ]},
+  {'h2': 'How Does Google Decide Which Estate Planning Firm Shows Up First?',
+   'answer': 'Google shows the pages and profiles it believes best match the search, are most trusted and, for local searches, are close to the person searching.',
+   'paras': [
+    "Google does not sell the top unpaid spots. Ads are labelled as sponsored. For the regular results, Google weighs how well a page matches the question, how useful and trustworthy the page and site seem and how easy the page is to use on a phone.",
+    "For the map, Google spells out the main factors. Google says local results are mainly based on relevance, distance and popularity. Relevance is how well your profile matches the search, distance is how close you are to the person searching and popularity is how well known your firm is, including reviews and mentions.",
+    "There is no shortcut. Google's own SEO starter guide says there are no secrets that will automatically rank your site first in Google. Firms that rank first usually do the basics well and keep improving them.",
+   ]},
+  {'h2': 'What Is the First Step to Getting Found Online?',
+   'answer': 'Claim, verify and fully complete your Google Business Profile, because it is the quickest route into the map listings.',
+   'paras': [
+    "Your Google Business Profile is the listing that shows your firm on Google Maps and in the map pack. Claim and verify it, then complete every relevant field: your exact firm name, a main category such as estate planning attorney, address, phone, hours, website and a clear description of your services.",
+    "Keep your name, address and phone exactly the same everywhere. Add real photos of your office and team, and mention practical details families care about, such as parking, accessibility or home visits if you offer them. Answer the questions people ask on your profile.",
+    "Review the profile each month, and keep it accurate when hours change or you add a new office. Small details make a nervous first call easier.",
+   ]},
+  {'h2': 'What Pages Does an Estate Planning Website Need to Get Found?',
+   'answer': 'A page for each main service, pages for the areas you serve and pages that answer the questions families ask before they call.',
+   'paras': [
+    "Google ranks pages, not firms. One general page that mentions wills, trusts, probate, guardianship and elder law will find it hard to rank for any of them. A firm that wants to be found for living trusts in a county needs a page about living trusts, with local detail where it helps.",
+    "Start with your main services, such as wills, revocable living trusts, powers of attorney, health care directives, probate and trust administration, if you offer them. Then add pages for the cities or counties you serve.",
+    "Then add pages that compare and explain. Will vs trust, what happens if you die without a will in your state and how long probate usually takes are searched constantly. Clear, accurate answers to them help you get found earlier and trusted sooner.",
+   ]},
+  {'h2': 'How Should You Write Pages So Families and Google Understand Them?',
+   'answer': 'Answer the question first, use the words families actually use and keep each page focused on one topic.',
+   'paras': [
+    "Families reading about estate planning want clarity, not legal theory. Start each page with a short, direct answer, then add the detail underneath. If the page is about will vs living trust, the first lines should explain the main difference.",
+    "Use everyday words. People type will and living trust, not testamentary instrument. Put the main phrase in the page title, main heading and naturally in the text, but do not repeat it over and over. Pages written for people perform best over time.",
+    "Link related pages together. A trust page can link to a page on funding a trust, a page on probate and a page on your county. These links help families find their next answer and help Google see how your pages fit together.",
+   ]},
+  {'h2': 'Do Website Speed and Mobile Design Affect Getting Found?',
+   'answer': 'Yes. Many families research on phones, and a slow or hard to read site loses both rankings and consultations.',
+   'paras': [
+    "Many people read about wills and trusts on their phones, sometimes in a hospital waiting room or after a hard conversation with a parent. If your site loads slowly or the text is hard to read, they move on.",
+    "Google also considers the experience a page gives people. Fast, simple, mobile friendly pages compete better. Large text, good contrast and a clear button to call or book help older readers and their adult children alike.",
+    "Test your site on your own phone the way a client would. Search for your firm, open a service page and try to book a consultation. Fix anything slow or confusing.",
+   ]},
+  {'h2': 'How Do Reviews Help an Estate Planning Firm Get Found First?',
+   'answer': 'Reviews help you rank on the map and help families choose you, so ask for them steadily and respectfully.',
+   'paras': [
+    "Star ratings appear next to your firm's name on the map, and reviews are part of the popularity signal Google uses for local results. A steady flow of genuine reviews makes your firm look established and caring.",
+    "Estate planning clients are often happy to leave a review once their plan is signed, because the process brings relief. Ask at that moment, make it easy with a direct link and never pressure anyone. Reply politely without sharing any detail about a client's plan.",
+    "Never buy reviews, write fake ones or offer anything in return for them. That breaks Google's rules and can break your state bar's rules too.",
+   ]},
+  {'h2': 'Do Links and Mentions From Other Websites Still Matter?',
+   'answer': 'Yes. Mentions from trusted local and legal websites help Google and AI tools see your firm as established.',
+   'paras': [
+    "Think of links and mentions as references. A talk at a local library, a mention in a community newsletter or a listing with your bar association all tell Google your firm is real and respected locally. Our guide to [[a:blog/estate-planning-seminars|estate planning seminars]] covers one way many firms earn those mentions.",
+    "Quality matters more than numbers. A few genuine local and legal mentions beat many links from unrelated sites. Buying links or joining link schemes breaks Google's spam policies and can hurt your rankings.",
+    "These mentions also help with AI answers, because AI tools look for signs that a firm is trusted across the web before naming it.",
+   ]},
+  {'h2': 'How Do AI Answers Change Getting Found Online?',
+   'answer': 'They add another place to show up, but they lean on the same SEO basics, so one plan covers both.',
+   'paras': [
+    "Estate planning questions are a natural fit for AI answers, because people ask long questions that compare options. Being one of the sources those answers link is the new version of being found first.",
+    "Google says the best practices for SEO remain relevant for AI features in Google Search. Clear service and comparison pages, accurate state details, a strong local profile and trusted mentions help in both regular results and AI answers.",
+    "So you do not need a separate plan for AI. Do SEO well, answer real questions clearly and keep your pages current when laws or your services change.",
+   ]},
+  {'h2': 'How Long Does It Take to Get Found Online First?',
+   'answer': 'Usually months. Profile and page fixes can help quickly, but ranking first in a competitive market takes steady work.',
+   'paras': [
+    "Some changes can help within weeks, such as completing your Google Business Profile, fixing contact details and improving your main service pages. Ranking first for competitive searches like estate planning attorney in a large city usually takes many months of consistent work.",
+    "The timeline depends on your market, your competitors, the state of your website and how consistently the work is done. A new firm in a busy metro area faces a longer road than an established firm in a smaller town.",
+    "Be wary of anyone who promises fast results or a guaranteed first place. Google says no one can guarantee a #1 ranking on Google. A good partner explains the plan, how they will measure it and what is realistic.",
+   ]},
+  {'h2': 'How Do You Know If Your Firm Is Getting Found?',
+   'answer': 'Check where you appear for your main searches, track calls and bookings and, most of all, count signed plans from search.',
+   'paras': [
+    "Search for your main services and areas on your own phone and note where your firm appears on the map and in the results. Results vary by location and device, so treat it as a rough check.",
+    "Google Search Console, a free Google tool, shows which searches your site appears for and how often people click. Your Google Business Profile shows calls, direction requests and website clicks from the map.",
+    "The numbers that matter most are booked consultations and signed plans. Ask every new client how they found you and record the answer. Our guide on [[a:blog/how-to-get-estate-planning-clients|how to get estate planning clients]] covers how search fits with referrals and other sources.",
+   ]},
+  {'h2': 'What Mistakes Keep Estate Planning Firms From Being Found?',
+   'answer': 'An incomplete map profile, one page for every service, slow or hard to read pages, few reviews and shortcuts that break Google rules.',
+   'paras': [
+    "Common mistakes include an unclaimed or half finished Google Business Profile, contact details that do not match across the web and a site with one general estate planning page instead of clear pages for each service and area.",
+    "Another is writing for search engines instead of people: repeating the same phrase, publishing thin pages or copying content. Google's spam policies warn against these tactics, and they put off families looking for clear guidance.",
+    "The last is stopping too soon. SEO builds over time, and the firms that keep improving month after month are usually the ones found first.",
+   ]},
+  {'h2': 'A Note on Figures, Trademarks and Bar Rules',
+   'answer': 'This guide describes common practices and does not promise any ranking or result.',
+   'paras': [
+    "Google, Google Business Profile, Google Search Console, AI Overviews and AI Mode are trademarks of Google LLC. ChatGPT is a trademark of OpenAI. CaseAuthority is not affiliated with, endorsed by or sponsored by Google, OpenAI or Gallup. Descriptions of these products are based on what each company says on its own public pages at the time of writing, which may change. The survey figure quoted comes from the Gallup source linked in this guide.",
+    "Search results vary by market, competition, location, device and the condition of a website. Timelines here are general estimates for illustration only, and nothing in this guide promises any ranking, number of clients or outcome. ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication about the lawyer's services, and states have their own rules on websites, reviews and claims. Check your state bar's current rules before making changes. This guide is not legal advice.",
+   ]},
+ ],
+ 'faq': [
+  {'q': 'What Is the Fastest Way to Get My Estate Planning Firm Found Online?', 'a': 'Complete your Google Business Profile, keep your name, address and phone consistent everywhere and ask clients for a review once their plan is signed. These steps can help the map listings sooner than most website work.'},
+  {'q': 'Can I Pay Google to Rank First for Estate Planning Attorney Near Me?', 'a': 'You can run ads, which are labelled as sponsored, but you cannot pay for a higher place in the regular results or the main map listings. Those come from SEO.'},
+  {'q': 'Should I Have Separate Pages for Wills and Trusts?', 'a': 'Yes. Separate pages give Google a clear match for each search, and a comparison page helps families who are still deciding.'},
+  {'q': 'Is SEO Worth It for a Solo Estate Planning Attorney?', 'a': 'It often is, because a solo attorney can compete well in one city or county. Focusing on core services and nearby areas is more realistic than trying to rank everywhere.'},
+  {'q': 'Do Seminars and Talks Help My SEO?', 'a': 'They can. Talks at libraries, community groups and senior centers often lead to local mentions and links, which help Google see your firm as trusted locally.'},
+  {'q': 'Will AI Search Replace SEO for Estate Planning Attorneys?', 'a': 'No. Google says SEO best practices still apply to its AI features, and AI tools lean on websites they trust. Good SEO helps in both places.'},
+ ],
+ 'related': ['estate-planning-seo-company', 'estate-planning-marketing', 'digital-marketing-for-estate-planning-lawyers', 'estate-planning-attorney-marketing'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'estate', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])

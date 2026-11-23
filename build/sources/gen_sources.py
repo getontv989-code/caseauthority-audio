@@ -81,6 +81,12 @@ def L(text, key):
 
 
 PI = {
+ 'get-found-online-first-seo-for-personal-injury-lawyers': {
+  'links': [L('there are no secrets that will automatically rank your site first', 'STARTER'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
+            L('the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'how-to-rank-in-chatgpt': {
   'links': [L('sites that are opted out of OAI-SearchBot will not be shown in ChatGPT search answers', 'OAIBOTS'),
             L('34% of U.S. adults have used ChatGPT, about double the share in 2023', 'PEW'),
@@ -204,6 +210,12 @@ PI = {
 }
 
 CRIMINAL = {
+ 'get-found-online-first-seo-for-criminal-defense-attorneys': {
+  'links': [L('there are no secrets that will automatically rank your site first', 'STARTER'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
+            L('the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'how-to-rank-in-ai-overviews': {
   'links': [L('issuing multiple related searches across subtopics and data sources', 'AIFEAT'),
             L('the Search Console Performance report', 'GSC'),
@@ -262,6 +274,12 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'get-found-online-first-seo-for-divorce-attorneys': {
+  'links': [L('there are no secrets that will automatically rank your site first', 'STARTER'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
+            L('the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'is-seo-still-relevant': {
   'links': [L('the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
             L('local results are mainly based on relevance, distance, and popularity', 'GLR'),
@@ -323,6 +341,13 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'get-found-online-first-seo-for-estate-planning-attorneys': {
+  'links': [L('there are no secrets that will automatically rank your site first', 'STARTER'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
+            L('the best practices for SEO remain relevant for AI features in Google Search', 'AIFEAT'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71'),
+            L('Gallup found that 46% of U.S. adults have a will', 'GALLUP')]},
  'how-to-rank-in-google-ai-mode': {
   'links': [L('AI Mode is particularly helpful for queries where further exploration, reasoning, or complex comparisons are needed', 'AIFEAT'),
             L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),

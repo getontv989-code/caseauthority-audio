@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'get-found-online-first-seo-for-personal-injury-lawyers': {
+  'title': 'Getting Found First in 60 Seconds',
+  'sub': 'How a personal injury firm shows up first when injured people search.',
+  'bubble': 'Here is how injured people find a lawyer.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'First Found Gets the Call',
+     'p': 'After a crash, most people search on a phone and call one of the first firms they see.',
+     'v': {'kind': 'search', 'q': 'car accident lawyer near me', 'results': [('Your Firm', True), ('City Injury Group', False), ('Legal Directory', False)]}},
+    {'h': 'Win the Map', 'p': 'Relevance, distance and popularity decide who shows up on the map.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'City Injury Group', 'Main Street Law']}},
+    {'h': 'One Page per Case Type', 'p': 'Clear case type and city pages give Google a match for every search.',
+     'v': {'kind': 'pages', 'pages': [('Car Accidents', 'Your city'), ('Truck Accidents', 'Your county'), ('Dog Bites', 'Your city'), ('Slip and Fall', 'Your city')]}},
+    {'h': 'Earn Trust', 'p': 'Steady genuine reviews help you rank and help people choose you.',
+     'v': {'kind': 'stars', 'tag': 'Signals Google can see', 'reviews': ['They handled my claim with care.', 'Called me back within the hour.']}},
+    {'h': 'Steady Work Wins', 'p': 'Nobody can guarantee first place. Results build over months.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('Early', 'Profile and pages', 0), ('Next', 'Visibility grows', 50), ('Later', 'More signed cases', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Count Signed Cases', 'p': 'Track calls and signed cases from search, not just traffic.',
+     'v': {'kind': 'sources', 'title': 'From search to signed case', 'items': [('Impressions', 95), ('Visits', 62), ('Calls', 40), ('Signed cases', 22)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know Where Your Firm Shows Up Today?', 'Get a free audit of your map, search and AI visibility.'),
+},
 'how-to-rank-in-chatgpt': {
   'title': 'Ranking in ChatGPT in 60 Seconds',
   'sub': 'How a personal injury firm gets named when people ask AI for a lawyer.',

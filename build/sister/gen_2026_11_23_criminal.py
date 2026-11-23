@@ -1,0 +1,142 @@
+#!/usr/bin/env python3
+"""2026-11-23 criminal post: Get Found Online First: SEO for Criminal Defense Attorneys (Semrush 'seo for criminal defense attorneys' 110 KD 16 + 'criminal defense attorney seo' 390 KD 15, cluster about 500). Mash approved, matching the PI post 'get found online first: seo for personal injury lawyers'. Awareness guide about getting found first; uses the attorney wording and links UP to the home page (which targets 'seo for criminal defense lawyers') so it does not compete with it.
+Facts used (sources_patch, all keys verified earlier): Google SEO starter guide (no secrets that automatically rank a site first), Google Do you need an SEO (no one can guarantee a #1 ranking), Google Business Profile local ranking (relevance, distance and popularity), Google AI features (SEO best practices remain relevant), ABA Model Rule 7.1."""
+import json, os
+P = {
+ 'slug': 'get-found-online-first-seo-for-criminal-defense-attorneys',
+ 'keyword': 'seo for criminal defense attorneys',
+ 'title': 'Get Found Online First: SEO for Criminal Defense Attorneys',
+ 'meta': 'Why the criminal defense firm found first online usually gets the call after an arrest, and the SEO steps that put your firm in front of people first.',
+ 'h1': 'Get Found Online First: A Starter Guide to SEO for Criminal Defense Attorneys',
+ 'nav_label': 'Get Found Online First',
+ 'tag': 'SEO Basics',
+ 'date': '2026-11-23',
+ 'lead': "When someone is arrested, the search for a lawyer usually starts within hours. Often it is not even the person charged. It is a parent, a partner or a friend, sitting with a phone late at night, typing DUI lawyer near me, what happens at an arraignment or how to get someone out of jail. They call one of the first firms that looks like it can help. That makes being found first online one of the most valuable things a criminal defense firm can work on. This guide explains what getting found first means, where people look, how Google decides who shows up, the SEO steps that move your firm up and how to measure it. It is written for attorneys and firm owners, not SEO specialists.",
+ 'quick_answer': "To get found online first, a criminal defense firm needs to show up where people search after an arrest: the Google map, the regular search results and AI answers. That is the job of SEO. Complete your Google Business Profile, publish a clear page for each charge you defend and each court or county you practice in, answer the urgent questions people ask in simple words, keep your site fast on a phone with an easy way to call, build genuine reviews and earn mentions from trusted local and legal websites. No one can guarantee a first place ranking, and it takes steady work over months. But firms that do these basics well are the ones people find first when they need a defense lawyer fast.",
+ 'takeaways': [
+  ['Speed Wins.', 'People often call one of the first firms they see after an arrest.'],
+  ['Three Places to Show Up.', 'The map, the search results and AI answers.'],
+  ['Charge and Court Pages.', 'One clear page for each charge and each court you cover.'],
+  ['Answer Urgent Questions.', 'Bail, arraignment and first steps are searched constantly.'],
+  ['Reviews With Care.', 'Ask for reviews while respecting client privacy.'],
+  ['Measure Retained Clients.', 'Track calls and signed clients, not just traffic.'],
+ ],
+ 'sections': [
+  {'h2': 'What Does It Mean to Get Found Online First?',
+   'answer': 'It means your firm is one of the first names a person sees when they search for a defense lawyer, on the map, in the results or in an AI answer.',
+   'paras': [
+    "Getting found online first is not about one ranking report. It means that when someone in your area searches for the kind of help you offer, your firm is in the small group of names they see before they pick up the phone. On a phone screen, that group is tiny. A few map listings, a few website results and sometimes an AI written answer are all most people look at.",
+    "For a criminal defense firm, that moment decides a lot. People rarely spend days comparing lawyers after an arrest. They are scared, the clock is running and they want someone to tell them what happens next. Many call the first firm that looks credible and answers. If your firm is not in that first group, it may never be considered.",
+    "SEO, short for search engine optimization, is the work that helps Google understand your firm, trust it and show it to the right people. Our main page on [[a:index|SEO for criminal defense lawyers]] explains the full service side. This guide focuses on the first and most important part: being found.",
+   ]},
+  {'h2': 'Why Does Being Found First Matter So Much in Criminal Defense?',
+   'answer': 'Because criminal searches are urgent, often happen outside office hours and lead to fast decisions, so the first credible firm has a big advantage.',
+   'paras': [
+    "Criminal matters move fast. An arrest on a Friday night can mean a hearing on Monday morning. Families want to know about bail, release and what to say, right now. Those searches are made with a strong intent to act, which is why the firms at the top of the page get so many of the calls.",
+    "Many of these searches also happen at night and on weekends. A firm that shows up first and answers the phone, or at least makes it very easy to leave a message or book a call, often wins the client before competitors open on Monday.",
+    "Being found first also signals that a firm is established. Fair or not, many people assume the firms at the top are the experienced ones. That first impression gives you a head start before anyone has read your attorney bio.",
+   ]},
+  {'h2': 'Where Do People Look for a Criminal Defense Attorney Online?',
+   'answer': 'Mostly on Google, in the map listings, the regular results and, increasingly, AI answers, plus some legal directories.',
+   'paras': [
+    "The map listings, often called the local pack, show up for searches like criminal defense attorney near me or DUI lawyer in a city. They show a few firms, their star ratings and a call button. On a phone, many people tap one of these without scrolling any further.",
+    "The regular results matter most for longer questions, such as what happens after a first DUI in a state, can a misdemeanor be expunged or what to do if you have a warrant. People searching these questions are earlier in the process, and a clear answer from your firm can turn into a call.",
+    "AI answers are now a third place. Google AI Overviews and tools like ChatGPT answer many legal questions directly and link a few sources. Our guide on [[a:blog/how-to-rank-in-ai-overviews|how to rank in AI Overviews]] covers that side. The same SEO work helps in all three places.",
+   ]},
+  {'h2': 'How Does Google Decide Which Defense Firm Shows Up First?',
+   'answer': 'Google shows the pages and profiles it believes best match the search, are most trusted and, for local searches, are close to the searcher.',
+   'paras': [
+    "Google does not sell the top unpaid spots. Ads are labelled as sponsored. For the regular results, Google's systems weigh how well a page matches the question, how useful and trustworthy the page and site seem and how easy the page is to use, especially on mobile.",
+    "For the map, Google spells out the main factors. Google says local results are mainly based on relevance, distance and popularity. Relevance is how well your profile matches the search, distance is how close you are to the person searching and popularity is how well known your firm is, including reviews and mentions.",
+    "There is no trick that skips this. Google's own SEO starter guide says there are no secrets that will automatically rank your site first in Google. Firms that rank first usually do the basics well and keep doing them better than their local competitors.",
+   ]},
+  {'h2': 'What Is the First Step to Getting Found Online?',
+   'answer': 'Claim, verify and fully complete your Google Business Profile, because it is the fastest route into the map listings.',
+   'paras': [
+    "Your Google Business Profile is the listing that shows your firm on Google Maps and in the map pack. Claim and verify it, then fill in every relevant field: your exact firm name, a main category such as criminal justice attorney, address, phone, hours, website and a clear description of the charges you defend.",
+    "If you take calls after hours, make that clear in your hours and on your website, as long as it is true. Add real photos of your office and attorneys. Keep your name, address and phone exactly the same on your site, your profile and the directories you are listed in.",
+    "Treat the profile as part of your front door and review it monthly. Our guide to the [[a:blog/google-business-profile-for-criminal-defense-lawyers|Google Business Profile for criminal defense lawyers]] walks through each part in more detail.",
+   ]},
+  {'h2': 'What Pages Does a Criminal Defense Website Need to Get Found?',
+   'answer': 'A page for each main charge you defend, a page for each court or county you practice in and pages that answer the urgent questions people ask.',
+   'paras': [
+    "Google ranks pages, not firms. One general page that lists DUI, drug crimes, assault, theft and domestic violence will struggle to rank for any of them. A firm that wants to be found for DUI defense in a county needs a page about DUI defense in that county.",
+    "Start with the charges you most want to defend. Then add pages for the courts and counties where you practice, with local detail people find useful, such as how the process usually works there and what to bring to a first meeting. Keep details accurate and current, and avoid anything that could read as a promise of an outcome.",
+    "Then add pages for urgent questions: how bail works in your state, what happens at an arraignment, what to do if you have a warrant and whether to talk to the police. These are searched every day. Our guide on [[a:blog/seo-keywords-for-criminal-defense-lawyers|SEO keywords for criminal defense lawyers]] shows how to find the questions worth answering.",
+   ]},
+  {'h2': 'How Should You Write Pages So People and Google Understand Them?',
+   'answer': 'Give the direct answer first, use the words people actually search with and keep each page focused on one topic.',
+   'paras': [
+    "A worried family member reading on a phone wants a clear answer in seconds. Start each page with a short answer to the main question, then add detail below. If the page is about what happens after a DUI arrest in your state, the first lines should explain what happens, not the history of your firm.",
+    "Use everyday words. People type DUI lawyer, not driving under the influence defense counsel. Put the main phrase in the title, the main heading and naturally in the text, but never stuff it. Pages written for people tend to perform better over time.",
+    "Link related pages together. A DUI page can link to a page on license suspension, a page on your county court and a page on first time offenses. These links help people find what they need and help Google understand how your pages fit together.",
+   ]},
+  {'h2': 'Do Website Speed and Mobile Design Affect Getting Found?',
+   'answer': 'Yes. Most urgent criminal searches happen on phones, and a slow site loses calls even when it ranks.',
+   'paras': [
+    "Someone searching from a police station lobby or at two in the morning will not wait for a slow page. If your site takes too long to load or the phone number is hard to tap, they go back and call the next firm.",
+    "Google also considers the experience a page gives people. Fast, simple, mobile friendly pages compete better. Heavy images, bloated page builders and pop ups slow a site down. A click to call button and a short contact form near the top are simple wins.",
+    "Test your own site on your phone the way a client would. Search for your firm, open a charge page and try to call. Fix anything slow or confusing. Being found first only helps if people can reach you right away.",
+   ]},
+  {'h2': 'How Do Reviews Work for Criminal Defense Firms?',
+   'answer': 'Reviews help you rank and get chosen, but many clients want privacy, so ask carefully and never pressure anyone.',
+   'paras': [
+    "Star ratings appear right next to your name on the map, and reviews are part of the popularity signal Google uses for local results. A steady flow of genuine reviews makes your firm look established and trusted.",
+    "Criminal clients often do not want their name tied to a case. Respect that. Ask satisfied clients privately, explain that they can use a first name or initials if Google allows it and never push. Reply to reviews politely without confirming that anyone was a client or sharing any detail about a case.",
+    "Never buy reviews, write fake ones or offer anything in return. That breaks Google's rules and can break your state bar's rules as well.",
+   ]},
+  {'h2': 'Do Links and Mentions From Other Websites Still Matter?',
+   'answer': 'Yes. Mentions from trusted local and legal websites help Google and AI tools see your firm as established.',
+   'paras': [
+    "Think of links and mentions as references. A quote in local news about a court change, a listing with your bar association or a talk at a community event all tell Google your firm is real and respected locally.",
+    "Quality beats quantity. A handful of genuine local and legal mentions is worth more than many links from unrelated sites. Buying links or joining link schemes breaks Google's spam policies and can hurt your rankings.",
+    "These mentions also help with AI answers. AI tools look for signs that a firm is trusted across the web, not just on its own site, before they name it in an answer.",
+   ]},
+  {'h2': 'How Do AI Answers Change Getting Found Online?',
+   'answer': 'They add another place to show up, but they rely on the same SEO basics, so one plan covers both.',
+   'paras': [
+    "More people now see an AI written answer before any website. Google shows AI Overviews for many legal questions, and tools like ChatGPT answer questions directly. Being one of the sources they link is the new version of being found first.",
+    "Google says the best practices for SEO remain relevant for AI features in Google Search. Clear charge and court pages, accurate state details, a strong local profile and trusted mentions help you in both regular results and AI answers.",
+    "So there is no need for a separate AI plan. Do SEO well, answer real questions clearly and keep your information current.",
+   ]},
+  {'h2': 'How Long Does It Take to Get Found Online First?',
+   'answer': 'Usually months. Profile and page fixes can help quickly, but ranking first in a competitive market takes steady work.',
+   'paras': [
+    "Some changes show results fast, such as completing your Google Business Profile, correcting contact details and improving your main charge pages. Ranking first for competitive searches like DUI lawyer in a big city usually takes many months of consistent work.",
+    "The timeline depends on your market, your competitors, the state of your website and how consistently the work gets done. A new firm in a crowded city has a longer road than an established firm in a smaller county.",
+    "Be wary of anyone who promises fast results or a guaranteed first place. Google says no one can guarantee a #1 ranking on Google. A good partner explains the plan, how they will measure it and what is realistic.",
+   ]},
+  {'h2': 'How Do You Know If Your Firm Is Getting Found?',
+   'answer': 'Check where you appear for your main searches, track calls and forms and, most of all, count retained clients from search.',
+   'paras': [
+    "Search your main charges and cities on your own phone and note where your firm appears on the map and in the results. Results vary by location and device, so treat it as a rough check.",
+    "Google Search Console, a free Google tool, shows which searches your site appears for and how often people click. Your Google Business Profile shows calls, direction requests and website clicks from the map.",
+    "The number that matters most is retained clients. Ask every new client how they found you, record it and connect it to your intake records. If calls go up and retained clients follow, your SEO is doing its job.",
+   ]},
+  {'h2': 'What Mistakes Keep Defense Firms From Being Found?',
+   'answer': 'An incomplete map profile, one page for every charge, slow mobile pages, few reviews and shortcuts that break Google rules.',
+   'paras': [
+    "The most common mistakes are an unclaimed or half finished Google Business Profile, contact details that do not match across the web and a website with one general practice page instead of clear charge and court pages.",
+    "Another is writing for search engines instead of people: repeating the same phrase, publishing thin pages or copying content. Google's spam policies warn against these tactics, and they put off worried readers too.",
+    "The last is stopping too soon. SEO builds over time. Firms that keep improving their pages, profile and reputation month after month are usually the ones found first.",
+   ]},
+  {'h2': 'A Note on Figures, Trademarks and Bar Rules',
+   'answer': 'This guide describes common practices and does not promise any ranking or result.',
+   'paras': [
+    "Google, Google Business Profile, Google Search Console and AI Overviews are trademarks of Google LLC. ChatGPT is a trademark of OpenAI. CaseAuthority is not affiliated with, endorsed by or sponsored by Google or OpenAI. Descriptions of these products are based on what each company says on its own public pages at the time of writing, which may change.",
+    "Search results vary by market, competition, location, device and the condition of a website. Timelines here are general estimates for illustration only, and nothing in this guide promises any ranking, number of clients or outcome. ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication about the lawyer's services, and states have their own rules on websites, reviews and claims. Check your state bar's current rules before making changes. This guide is not legal advice.",
+   ]},
+ ],
+ 'faq': [
+  {'q': 'What Is the Fastest Way to Get My Defense Firm Found Online?', 'a': 'Complete your Google Business Profile, make your name, address and phone consistent everywhere and make it easy to call at any hour. These steps can help the map listings sooner than most website work.'},
+  {'q': 'Can I Pay Google to Rank First for DUI Lawyer Near Me?', 'a': 'You can run ads, which are labelled as sponsored, but you cannot pay for a higher place in the regular results or the main map listings. Those come from SEO.'},
+  {'q': 'Do I Need a Separate Page for Every Charge?', 'a': 'For the charges you most want to defend, yes. A focused page for each main charge, and for the courts you practice in, gives Google a clear match for each search.'},
+  {'q': 'Is SEO Worth It for a Solo Criminal Defense Attorney?', 'a': 'It often is, because a solo attorney can compete well in a single county. Focusing on a few charges and nearby courts is more realistic than trying to rank everywhere.'},
+  {'q': 'How Do I Get Reviews When Clients Want Privacy?', 'a': 'Ask satisfied clients privately, never pressure them and let them choose how much to share. Reply to every review without confirming anyone was a client.'},
+  {'q': 'Will AI Search Replace SEO for Criminal Defense Firms?', 'a': 'No. Google says SEO best practices still apply to its AI features, and AI tools lean on websites they trust. Good SEO helps in both places.'},
+ ],
+ 'related': ['local-seo-for-criminal-defense-lawyers', 'criminal-defense-law-firm-seo', 'criminal-law-seo', 'criminal-defense-content-marketing'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'criminal', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])
