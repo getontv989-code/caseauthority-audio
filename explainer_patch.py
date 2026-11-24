@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'why-is-my-law-firm-website-not-ranking-on-google': {
+  'title': 'Not Ranking on Google? 60 Seconds',
+  'sub': 'The usual reasons a personal injury firm website does not rank, and the order to fix them.',
+  'bubble': 'Here is how to find what is holding your site back.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Check Before You Worry',
+     'p': 'Your own searches are shaped by where you are. Use real data from Search Console.',
+     'v': {'kind': 'search', 'q': 'truck accident lawyer in my city', 'results': [('City Injury Group', False), ('Legal Directory', False), ('Your Firm', True)]}},
+    {'h': 'Indexing Comes First', 'p': 'A page Google has not stored cannot show up at all.',
+     'v': {'kind': 'checklist', 'title': 'Order of checks', 'items': ['Pages indexed in Search Console', 'Old pages redirected after a redesign', 'One clear page per case type', 'Fast and easy on a phone']}},
+    {'h': 'One Page per Search', 'p': 'A page for each case type and city gives Google a clear match.',
+     'v': {'kind': 'pages', 'pages': [('Car Accidents', 'Your city'), ('Truck Accidents', 'Your county'), ('Dog Bites', 'Your city'), ('Slip and Fall', 'Your city')]}},
+    {'h': 'Slow Pages Lose Calls', 'p': 'People on a phone leave a slow page and call someone else.',
+     'v': {'kind': 'race', 'fast': ('Loads in a blink', 'Caller dials you'), 'slow': ('Still loading', 'Calls the next firm')}},
+    {'h': 'Trust Comes From Others', 'p': 'Genuine local and legal mentions help Google trust your firm.',
+     'v': {'kind': 'shield', 'chips': ['Real local mentions', 'No bought links', 'Complete map profile']}},
+    {'h': 'Fix in Order', 'p': 'Blocking problems first, then pages, speed, profile and links.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('First', 'Blocking issues', 0), ('Next', 'Pages and speed', 50), ('Later', 'Links and reputation', 100)], 'tag': 'Illustrative path'}},
+  ],
+  'cta': CTA('Want to Know Why Your Site Is Not Ranking?', 'Get a free audit of your indexing, pages, speed and local profile.'),
+},
 'get-found-online-first-seo-for-personal-injury-lawyers': {
   'title': 'Getting Found First in 60 Seconds',
   'sub': 'How a personal injury firm shows up first when injured people search.',

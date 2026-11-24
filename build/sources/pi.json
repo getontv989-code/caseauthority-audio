@@ -1,4 +1,38 @@
 {
+ "why-is-my-law-firm-website-not-ranking-on-google": {
+  "links": [
+   {
+    "text": "If page addresses change without proper redirects",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+    "title": "Google Search Central: Site moves and migrations"
+   },
+   {
+    "text": "measure real-world user experience for loading performance, interactivity and visual stability",
+    "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+    "title": "Google Search Central: Understanding Core Web Vitals and Google search results"
+   },
+   {
+    "text": "local results are mainly based on relevance, distance and popularity",
+    "url": "https://support.google.com/business/answer/7091?hl=en",
+    "title": "Google Business Profile Help: Tips to improve your local ranking on Google"
+   },
+   {
+    "text": "The Search Console Performance report",
+    "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+    "title": "Google Search Console Help: Performance report"
+   },
+   {
+    "text": "no one can guarantee a #1 ranking on Google",
+    "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+    "title": "Google Search Central: Do you need an SEO?"
+   },
+   {
+    "text": "there are no secrets that will automatically rank your site first",
+    "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "title": "Google Search Central: SEO starter guide"
+   }
+  ]
+ },
  "get-found-online-first-seo-for-personal-injury-lawyers": {
   "links": [
    {

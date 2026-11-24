@@ -1,0 +1,106 @@
+# New blog post 2026-11-24: why is my law firm website not ranking on google (Semrush 2026-11-17: 40 KD 0; Zutrix generic "why is my website not ranking on google" 20 KD 2 CPC $25.61, "website not ranking on google" 30 KD 5). Mash approved 2026-11-24 after cannibalization check against all 151 live URLs: nearest page is blog/how-long-does-seo-take-for-law-firms (timelines), this post is a diagnosis guide (what is broken and how to check). Facts used (sources_patch): Google SEO starter guide (no secrets that will automatically rank a site first), Google "Do you need an SEO?" (no one can guarantee a #1 ranking), Google Business Profile local ranking (relevance, distance, popularity), Search Console Performance report, Core Web Vitals, site moves. No pricing figures. Deployed as src/posts__z18-why-is-my-law-firm-website-not-ranking-on-google.py so it shows first on /blog.
+NOTRANKPOST = {
+    'slug': 'blog/why-is-my-law-firm-website-not-ranking-on-google',
+    'title': 'Why Is My Law Firm Website Not Ranking on Google? | CaseAuthority',
+    'meta': "The most common reasons a personal injury firm's website does not rank on Google, how to check each one yourself and what to fix first.",
+    'h1': 'Why Is My Law Firm Website Not Ranking on Google? A Diagnosis Guide for Personal Injury Firms',
+    'date': '2026-11-24', 'date_h': '24 November 2026', 'read': '12 min read',
+    'accent': 'navy', 'icon': 'search', 'tag': 'SEO Problems',
+    'lead': "You paid for a good looking website. You search car accident lawyer and your city, and your firm is nowhere. Competitors you have never heard of sit above you, and some of them have worse websites. It is one of the most frustrating problems a personal injury firm owner runs into, and it usually has a small number of causes. This guide walks through the reasons a law firm website does not rank on Google, how to check each one yourself in plain steps and what to fix first. It is written for firm owners, not SEO specialists.",
+    'short_answer': "A law firm website usually fails to rank for one of a handful of reasons: Google cannot find or index the pages, the pages do not clearly match what people search for, the site is slow or hard to use on a phone, the firm has too few trusted mentions from other websites, the Google Business Profile is weak, or the market is simply more competitive than the site is ready for. Start by checking that your pages are indexed in Google Search Console, then make sure each case type and city you want has its own clear page, then fix speed, local signals and links. No one can guarantee a first place ranking, but most ranking problems can be found and fixed once you know where to look.",
+    'takeaways': [
+        ('Check Indexing First', 'A page Google has not indexed cannot rank at all.'),
+        ('One Page per Search', 'Each case type and city needs its own clear page.'),
+        ('Phones Decide', 'Slow or clumsy mobile pages lose rankings and calls.'),
+        ('Links Show Trust', 'Mentions from trusted sites help Google trust you.'),
+        ('Map Is Separate', 'Your Google Business Profile ranks on its own signals.'),
+        ('Fix in Order', 'Start with the problems that block everything else.'),
+    ],
+    'cta': ('Free Audit', 'Want to Know Why Your Site Is Not Ranking?', "We will check your indexing, pages, speed, local profile and links for your main case types and cities, and show you what is holding your firm back."),
+    'sections': [
+        ('Is Your Website Really Not Ranking, or Just Not Ranking Where You Look?', "Check properly before you worry, because personal searches, location and device all change what you see.", [
+            "Before you change anything, make sure the problem is real. When you search on your own phone or office computer, Google shapes the results around your location, your device and sometimes your past searches. You might be missing from a search near your office but showing up well a few miles away, or the other way around.",
+            "A better check is to use a private browser window, search the exact phrases a client would use and repeat the test from a few places your clients actually live. Write down where your website appears, where your map listing appears and which firms show up above you. That gives you a baseline you can compare against later.",
+            "The most reliable check is data rather than spot searches. Google offers a free tool called Search Console that shows which searches your site appears for, how often and in what average position. If you do not have access to it, ask whoever built or manages your website to give you owner access. It belongs to your firm.",
+        ]),
+        ('Can Google Find and Index Your Pages?', "If Google has not indexed a page, it cannot rank, so this is always the first thing to check.", [
+            "Indexing means Google has found a page, read it and stored it so it can show it in results. A surprising number of law firm websites have pages that are not indexed at all. Common causes are a setting left on from when the site was being built, a page blocked by mistake, a missing sitemap or a page that no other page links to.",
+            "You can do a quick check by searching site:yourdomain.com in Google. That shows a rough list of the pages Google knows about. For a proper answer, use the Pages report and the URL Inspection tool in Search Console, which tell you whether a page is indexed and, if not, why.",
+            "If your key pages are missing, fix that before anything else. No amount of new content or link building helps a page that Google is not allowed to show. This is one of the few ranking problems that can sometimes be fixed in a day once someone spots it.",
+        ]),
+        ('Did a Website Redesign or Move Break Your Rankings?', "Yes, a redesign or domain change often causes a drop if old page addresses were not redirected to the new ones.", [
+            "Many firms first notice ranking problems right after a new website goes live. The new site looks better, but calls slow down. The usual cause is that the page addresses changed. If page addresses change without proper redirects, Google may treat the new pages as brand new and drop the old ones it had trusted for years.",
+            "Ask your developer for a list of every old page address and where it now points. Each important old page should have a permanent redirect to the closest new page. Check that your best old pages, the ones that used to bring calls, still exist in some form.",
+            "Redesigns can also remove content without anyone noticing. A practice area page that used to have detailed, helpful text might have been cut down to a few lines to suit the new design. If rankings fell after a redesign, compare the old and new versions of your main pages side by side.",
+        ]),
+        ('Does Each Page Clearly Match What People Search For?', "Google ranks pages, not firms, so a page needs to clearly answer one search to rank for it.", [
+            "One of the most common reasons a personal injury website does not rank is that it has one general practice areas page listing car accidents, truck accidents, dog bites, slip and falls and more. That page is trying to match a dozen different searches and usually matches none of them well.",
+            "If you want to rank for truck accident lawyer in your city, you need a page that is clearly about truck accidents in your city. It should say so in the page title and main heading, explain how those cases work in plain words and answer the questions people ask. The same goes for every case type and city that matters to your firm.",
+            "Check your main pages against the searches you care about. Read the title and first paragraph and ask whether a stranger would know exactly what the page is about. If not, Google may not either. Our guide on [[a:local-seo-personal-injury-lawyers|local SEO for personal injury lawyers]] explains how city pages fit into this.",
+        ]),
+        ('Is Your Content Thin, Copied or Written for Search Engines?', "Pages with little real substance, copied text or forced keywords tend to rank poorly and convert poorly.", [
+            "Some law firm websites are built from templates where the same text is reused across many firms, with only the name and city changed. Others have city pages that are identical except for the city name. Google is good at spotting this, and these pages rarely rank for long.",
+            "Thin pages are another problem. A page with three short paragraphs about car accidents gives Google and readers very little. Helpful pages answer real questions, such as what to do after a crash, how fault works in your state and how long a claim usually takes, in a clear and honest way.",
+            "The opposite mistake is stuffing the same phrase into every sentence. It reads badly and can work against you. Write for an injured person who is stressed and reading on a phone. Pages that genuinely help that person tend to perform better over time.",
+        ]),
+        ('Is Your Website Too Slow or Hard to Use on a Phone?', "A slow or awkward mobile site can hold back rankings and lose calls even when it does rank.", [
+            "Most injury searches happen on phones, often right after an accident. If your page takes a long time to load, jumps around while loading or makes the phone number hard to tap, people leave and call someone else.",
+            "Google also looks at the experience a page gives people. Its Core Web Vitals measure real-world user experience for loading performance, interactivity and visual stability. You can see how your site performs in the Core Web Vitals report in Search Console or by testing a page in Google's free PageSpeed Insights tool.",
+            "Common causes of slow law firm sites are huge images, heavy page builders, too many plugins, chat widgets and video backgrounds. Fixing these is usually a job for your developer, but it is worth asking for. Our article on [[a:blog/website-design-for-personal-injury-lawyers|website design for personal injury lawyers]] covers what matters most.",
+        ]),
+        ('Are Technical Problems Holding Your Site Back?', "Broken links, duplicate pages and mixed signals about which page is the main one can confuse Google.", [
+            "Beyond indexing and speed, a handful of technical issues come up again and again on law firm sites. The same page might be reachable at several addresses, such as with and without www, which splits its signals. Old pages might return errors. Important pages might be buried deep in the site with no links pointing to them.",
+            "You do not need to understand every technical detail. Search Console flags many problems for you, and a good SEO audit lists the rest in order of importance. The goal is simple: every important page should load properly, live at one clear address and be easy to reach from your main menu or from related pages.",
+            "Internal links matter more than most firm owners think. Linking your car accident page to your city pages, your FAQ pages and your case results helps people find their way and helps Google understand which pages matter most.",
+        ]),
+        ('Do Other Websites Trust and Mention Your Firm?', "Links and mentions from trusted local and legal websites are a major reason some firms outrank others.", [
+            "Two websites can have similar pages, and one still ranks far higher. Very often the difference is reputation across the web. Links from local news sites, bar associations, community organizations and respected legal publications tell Google your firm is real, established and trusted.",
+            "In competitive personal injury markets, the top firms have often built up these mentions over many years. A new or quiet firm may have very few. That gap does not close overnight, but it does close with steady work, such as sharing useful local safety information, speaking at community events and contributing expert comment to the press.",
+            "Be careful with shortcuts. Google treats links bought or traded to manipulate rankings as a breach of its spam policies, and they can hurt more than they help. A handful of genuine, relevant mentions is worth far more than a pile of links from unrelated sites.",
+        ]),
+        ('Is Your Google Business Profile Holding Back Your Map Rankings?', "The map listings rank on their own signals, so a weak profile can keep you out of the map even if your website is strong.", [
+            "Many firm owners mix up two different rankings. The regular website results and the map listings are related, but they use different signals. A firm can rank well in one and poorly in the other.",
+            "For the map, Google says local results are mainly based on relevance, distance and popularity. That means a complete, accurate profile with the right main category, consistent contact details, real photos and a steady flow of genuine reviews. Distance from the person searching matters too, and that part you cannot control.",
+            "If your website ranks but your map listing does not, start with the profile. Our page on [[a:google-business-profile-optimization-for-personal-injury-lawyers|Google Business Profile optimization for personal injury lawyers]] explains what a strong profile looks like.",
+        ]),
+        ('Is Your Market Simply More Competitive Than You Think?', "Sometimes nothing is broken, and the firms above you have simply done more work for longer.", [
+            "Personal injury is one of the most competitive areas in local search. In a large city, the top firms may have hundreds of helpful pages, years of reviews and strong links. A newer site with a dozen pages is not broken. It is just not yet ready to compete for the hardest searches.",
+            "The smart move is to look at where you can win now. Longer, more specific searches, such as a case type in a particular neighborhood or a common question about your state's rules, are often easier to rank for and still bring in good cases.",
+            "Look at the firms that rank above you and compare honestly. How many pages do they have on the case types you want? How many reviews? How long has their site been around? That tells you how much ground you need to make up and where to start.",
+        ]),
+        ('Could a Google Update or Penalty Explain a Sudden Drop?', "A sudden fall can come from a Google update, a technical change or, more rarely, a manual action.", [
+            "Google updates its systems regularly. Some updates shift rankings across many sites at once. If your traffic dropped suddenly, check whether it lined up with a known update, a website change or a technical problem before assuming the worst.",
+            "Manual actions are less common. They happen when someone at Google reviews a site and finds it breaks Google's rules, for example through paid links or spammy content. If your site has one, Search Console tells you in the Manual actions report, along with what needs fixing.",
+            "Whatever the cause, avoid panic changes. Rewriting the whole site or deleting pages in a hurry can make things worse. Work out what changed, when and on which pages, then fix the cause.",
+        ]),
+        ('How Can You Tell Which Problem You Have?', "Work through the checks in order, starting with indexing and ending with competition, and use Search Console data at every step.", [
+            "Think of it as a short checklist. First, are your important pages indexed? Second, did anything change recently, such as a redesign or a new domain? Third, does each case type and city have its own clear page? Fourth, is the site fast and easy to use on a phone? Fifth, how strong are your links and your Google Business Profile compared with the firms above you?",
+            "The Search Console Performance report helps at every step. It shows which searches you already appear for, which pages get seen and where you rank on average. A page that appears in position 15 for an important search is often a better opportunity than a page that does not appear at all.",
+            "If you find more than one problem, which is common, fix them in order. Indexing and redirect issues come first because they block everything else. Content, speed, local signals and links come next.",
+        ]),
+        ('How Long Will It Take to Fix a Website That Is Not Ranking?', "Some fixes work quickly, but building rankings in a competitive market usually takes months of steady work.", [
+            "Fixing a blocked page or broken redirects can bring rankings back fairly quickly once Google recrawls the site. Improving content, speed and local signals takes longer to show results. Building links and reputation is the slowest part and keeps paying off for years.",
+            "The timeline depends on your market, your competitors and how much needs fixing. Our guide on [[a:blog/how-long-does-seo-take-for-law-firms|how long SEO takes for law firms]] goes into this in more detail.",
+            "Be wary of anyone who promises fast, guaranteed results. Google itself says no one can guarantee a #1 ranking on Google. A good partner will explain what they found, what they will fix first and how you will measure progress.",
+        ]),
+        ('When Should You Get Expert Help?', "When the basic checks do not reveal the problem, when the fix is technical or when you do not have time to do the work consistently.", [
+            "Some checks are easy for a firm owner to do, such as searching for your own firm, opening Search Console and reading your main pages with fresh eyes. Others, such as finding redirect problems, fixing speed issues or building a steady flow of quality mentions, take time and experience.",
+            "Google's own SEO starter guide says there are no secrets that will automatically rank your site first in Google. Ranking comes from doing many ordinary things well, consistently, over time. Many busy firms find it is worth bringing in help so the work actually gets done while they focus on clients.",
+            "If you do hire help, ask for a clear diagnosis first, in plain words, before any long term plan. You should understand what is wrong, why it matters and what will be fixed first. Our page on [[a:recommended-seo-services-personal-injury-law-firms|personal injury SEO services]] explains how we approach it.",
+        ]),
+        ('A Note on Figures, Trademarks and Bar Rules', "This guide describes common causes and checks and does not promise any ranking or result.", [
+            "Google, Google Search Console, Google Business Profile and PageSpeed Insights are trademarks of Google LLC. CaseAuthority is not affiliated with, endorsed by or sponsored by Google. Descriptions of how these products work are based on what Google says on its own public pages at the time of writing, which may change.",
+            "Search results vary by market, competition, location, device and the condition of a website. Timelines in this guide are general estimates for illustration only. Nothing here promises a ranking, a number of calls, a number of cases or any outcome. Lawyer advertising rules vary by state, so check your state bar's current rules before changing your website. This guide is not legal advice.",
+        ]),
+    ],
+    'faq': [
+        {'q': 'Why Is My Law Firm Website Not Showing Up on Google at All?', 'a': "The most common cause is that the pages are not indexed, often because of a setting left on after the site was built or a blocked page. Check the Pages report in Google Search Console to see which pages Google has indexed and why others are missing."},
+        {'q': 'Why Do Competitors With Worse Websites Rank Above Me?', 'a': "Rankings depend on more than design. Competitors may have more focused pages, more reviews, a stronger Google Business Profile or more links from trusted sites built up over years."},
+        {'q': 'Did My New Website Hurt My Rankings?', 'a': "It can if old page addresses were not redirected to the new ones or if helpful content was removed. Ask your developer for a redirect list and compare your old and new main pages."},
+        {'q': 'Why Does My Firm Show Up in Search but Not on the Map?', 'a': "The map listings use different signals, mainly relevance, distance and popularity. A weak or incomplete Google Business Profile or few reviews can keep you out of the map even when your website ranks."},
+        {'q': 'Can I Fix a Website That Is Not Ranking Myself?', 'a': "Some checks, like Search Console and reviewing your main pages, are easy to do yourself. Technical fixes, speed work and link building usually take more time and experience."},
+        {'q': 'How Quickly Will Rankings Improve Once Problems Are Fixed?', 'a': "Blocking issues can recover fairly quickly once Google recrawls the site. Content, local signals and links take months to build, especially in competitive personal injury markets."},
+    ],
+    'related': ['index', 'local-seo-personal-injury-lawyers', 'personal-injury-law-firm-website-design', 'case-studies', 'sales'],
+}
+POSTS.insert(0, NOTRANKPOST)

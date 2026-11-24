@@ -1,0 +1,135 @@
+#!/usr/bin/env python3
+"""2026-11-24 criminal post: How to Read a Monthly SEO Report (Zutrix: 'monthly seo report' 320 KD 0 CPC $26.24, 'seo monthly report' 320 KD 6, 'how to read an seo report' 30, 'how to read seo report' 40). Mash approved after a cannibalization check against all 151 live URLs: nearest page is blog/questions-to-ask-when-hiring-an-seo-company (before hiring); this post is for after hiring, written from the firm owner's side.
+Facts used (sources_patch, all keys verified earlier): Search Console Performance report, Google Business Profile local ranking (relevance, distance and popularity), Google Do you need an SEO (no one can guarantee a #1 ranking), Google SEO starter guide (no secrets), ABA Model Rule 7.1."""
+import json, os
+P = {
+ 'slug': 'how-to-read-a-monthly-seo-report',
+ 'keyword': 'monthly seo report',
+ 'title': 'How to Read a Monthly SEO Report: A Defense Firm Guide',
+ 'meta': 'How criminal defense attorneys can read a monthly SEO report, which numbers matter, which ones can mislead and what to ask about each month.',
+ 'h1': 'How to Read a Monthly SEO Report: A Guide for Criminal Defense Firms',
+ 'nav_label': 'Monthly SEO Report',
+ 'tag': 'SEO Reporting',
+ 'date': '2026-11-24',
+ 'lead': "Every month the report lands in your inbox. Charts go up, charts go down, there are terms like impressions, sessions and average position, and somewhere near the end a line says things are on track. Most criminal defense attorneys skim it, close it and get back to court. That is understandable, but it means you may not know whether your SEO is actually bringing in retained clients. This guide explains how to read a monthly SEO report in plain words: what each section means, which numbers matter for a defense firm, which ones can mislead and the questions worth asking every month.",
+ 'quick_answer': "A good monthly SEO report should answer three questions for a criminal defense firm: are more of the right people finding us, are more of them calling or filling in a form and are more of those leads becoming retained clients. Look first at calls, forms and retained clients from search, then at visibility for the charges and courts you care about, then at the work done that month and the plan for the next. Treat traffic, keyword counts and rankings as supporting signals, not the result. If a report is full of charts but cannot tell you whether retained clients from search went up, ask for that to be added.",
+ 'takeaways': [
+  ['Start With Clients.', 'Retained clients from search matter more than any chart.'],
+  ['Calls and Forms Next.', 'Leads show whether visitors are the right people.'],
+  ['Visibility for Your Charges.', 'Track the charges and courts you actually want.'],
+  ['Traffic Can Mislead.', 'More visits are not always more of the right visits.'],
+  ['Work Done and Next.', 'Every report should show what was done and what is next.'],
+  ['Ask Plain Questions.', 'A good partner can explain every number simply.'],
+ ],
+ 'sections': [
+  {'h2': 'What Is a Monthly SEO Report For?',
+   'answer': 'It should show whether your SEO is bringing in more of the right clients, what work was done and what happens next.',
+   'paras': [
+    "A monthly SEO report is your window into work you cannot easily see. SEO, short for search engine optimization, happens in the background: pages get written and improved, technical problems get fixed, your Google Business Profile gets updated and your firm gets mentioned on other websites. The report is where all of that should connect back to your business.",
+    "For a criminal defense firm, the business question is simple. After an arrest, are more people finding your firm, calling you and hiring you because of search? Everything else in the report is there to help answer that question or explain why the answer is changing.",
+    "A report is not a scorecard to be filed away. It is a monthly conversation starter. If you finish reading it and still do not know whether things are getting better, the report is not doing its job yet.",
+   ]},
+  {'h2': 'Which Numbers Matter Most for a Criminal Defense Firm?',
+   'answer': 'Calls, form submissions and retained clients from search, followed by visibility for the charges and courts you want.',
+   'paras': [
+    "Put the numbers in order of how close they are to money. At the top are retained clients who found you through search. Next are the calls, form submissions and chat leads that came from search. Then come the visits to your most important pages, and only after that the broader numbers like total traffic and keyword counts.",
+    "Many reports flip this order. They lead with traffic charts because traffic is easy to measure and tends to go up. But a jump in visits from people reading a general article about criminal law in another state does little for a defense firm in your county.",
+    "Ask for the report to start with leads and retained clients, even if those numbers are smaller and move more slowly. Those are the numbers you would use to judge any other part of your practice, and SEO should be judged the same way.",
+   ]},
+  {'h2': 'What Do Impressions, Clicks and Average Position Mean?',
+   'answer': 'Impressions are how often your site appeared in search, clicks are how often people chose it and average position is roughly where it appeared.',
+   'paras': [
+    "These three numbers usually come from Google Search Console, a free Google tool. The Search Console Performance report shows how often your pages appeared in Google results, how many people clicked and the average position of your pages for each search.",
+    "Impressions going up means Google is showing your site for more searches or more often. That is a good early sign, but it is not a result by itself. Clicks show whether people actually chose your firm from the results. Click through rate, clicks divided by impressions, hints at whether your page titles and descriptions are appealing.",
+    "Average position needs care. It is an average across every search and every location, so it can move for reasons that have nothing to do with your real rankings for important searches. A new low position for a rare search can drag the average down even when your key pages are improving. Ask to see positions for your main charges and cities separately.",
+   ]},
+  {'h2': 'How Should Rankings Be Reported for Charges and Courts?',
+   'answer': 'By listing the specific searches that bring defense clients, such as charge plus city, and showing how they moved over time.',
+   'paras': [
+    "A list of hundreds of keywords is not useful to a busy attorney. A short list of the searches that actually bring cases is. For a defense firm, those are usually a charge plus a place, such as DUI lawyer plus your county, drug charge attorney plus your city or assault lawyer near a particular court.",
+    "Rankings for these searches should be shown over several months, not just this month against last month. Search results move around from week to week. A three or six month view shows the real direction.",
+    "Remember that rankings vary by location. A firm can rank well near its office and poorly across town. A good report explains where rankings were measured. If you practice in several counties, ask for rankings in each.",
+   ]},
+  {'h2': 'Why Is the Map Pack Reported Separately?',
+   'answer': 'Because the map listings use different signals from the regular results and often bring the most urgent calls.',
+   'paras': [
+    "For searches like criminal defense attorney near me, Google usually shows a map with a few firms before any websites. These map listings come from your Google Business Profile, not your website, and they rank on their own signals.",
+    "Google says local results are mainly based on relevance, distance and popularity. So the map section of a report should cover your profile's visibility, calls and direction requests from the profile, website clicks from the profile and new reviews that month.",
+    "Calls from the map are often the most urgent calls a defense firm gets, because people search right after an arrest and tap the call button. If your report does not include your profile data, ask for it. Our guide to the [[a:blog/google-business-profile-for-criminal-defense-lawyers|Google Business Profile for criminal defense lawyers]] explains what each part of the profile does.",
+   ]},
+  {'h2': 'How Do You Know If Traffic Is the Right Traffic?',
+   'answer': 'Look at which pages get the visits, where visitors are located and whether those visits lead to calls and forms.',
+   'paras': [
+    "Total traffic is the number most likely to mislead you. A blog post that ranks nationally for a general legal question can bring thousands of visits from people who will never need a lawyer in your state. The chart looks great, but your phone does not ring more.",
+    "Ask for traffic to be broken down by page and by location. Visits to your DUI page, your county pages and your bail and arraignment guides are worth far more than visits to a general article. Visits from inside your practice area are worth more than visits from across the country.",
+    "Then connect visits to actions. Of the people who visited your charge pages from search, how many called, filled in a form or started a chat? That ratio tells you whether your pages are persuading the right people.",
+   ]},
+  {'h2': 'How Should Calls and Form Leads Be Tracked?',
+   'answer': 'With call tracking and form tracking that separate search leads from other sources, checked against your intake records.',
+   'paras': [
+    "Most defense clients call. If your report counts form submissions but not phone calls, it is missing most of the picture. Call tracking, which uses a unique number on your website and profile, can show how many calls came from search and from which pages.",
+    "Tracking should be set up carefully. Call recordings and lead details may include sensitive information, so think about privacy and confidentiality before turning on features like recording. Check your state bar's guidance on client information and make sure your vendors handle data securely.",
+    "Not every call is a lead. Some are existing clients, wrong numbers or vendors. A good report separates real new leads from other calls, ideally with a quick review by your intake team, so the numbers reflect potential clients rather than noise.",
+   ]},
+  {'h2': 'Why Should Retained Clients Be in the Report?',
+   'answer': 'Because retained clients are the real result, and only your intake records can connect search leads to signed cases.',
+   'paras': [
+    "Your SEO partner can see visits, calls and forms. Only your firm knows which of those people became clients. Closing that loop is the single most useful thing you can do to judge whether SEO is working.",
+    "The simplest way is to ask every new client how they found you and record it in your intake system. A better way is to match tracked search leads against your new client list each month. Either way, the report should include a line for retained clients from search, even if you have to add that number yourself.",
+    "Once you see leads and retained clients side by side, you can spot problems that have nothing to do with SEO. If search leads go up but retained clients do not, the issue may be how quickly calls are answered, especially at night and on weekends.",
+   ]},
+  {'h2': 'What Should the Work Done Section Show?',
+   'answer': 'A clear list of what was actually done that month, linked to the goals it supports, not a vague list of activities.',
+   'paras': [
+    "Every report should say what work happened. That might include new or improved charge and court pages, technical fixes, Google Business Profile updates, review requests and new mentions earned on other websites. You should be able to click through and see the pages or mentions yourself.",
+    "Be wary of reports that only say things like ongoing optimization or monitoring with no detail. Those words might describe real work, but you cannot tell. Ask what specifically changed on your site and profile this month.",
+    "The work should connect to the goals. If your priority is DUI cases in two counties, most of the work should support that. A good report makes it obvious why each task was chosen.",
+   ]},
+  {'h2': 'What Should the Plan for Next Month Include?',
+   'answer': 'The main priorities for the coming month and why they were chosen, based on what this month showed.',
+   'paras': [
+    "A report that only looks back is half a report. The best ones end with a short plan: the pages to be written or improved next, the technical items to fix, the profile updates and any outreach planned.",
+    "The plan should respond to the data. If a charge page is close to the top of page one, improving it might be the priority. If calls from the map dropped, the profile might need attention. You should be able to see the reasoning.",
+    "This is also where you add what only you know. Tell your SEO partner about the cases you want more of, changes at local courts, new attorneys joining or practice areas you are dropping. That keeps next month's work pointed at your real goals.",
+   ]},
+  {'h2': 'What Red Flags Should You Look For in an SEO Report?',
+   'answer': 'Reports with no lead data, only vanity numbers, unexplained drops, no work detail or promises of guaranteed rankings.',
+   'paras': [
+    "One red flag is a report built only on numbers that always look good, such as total impressions or the number of keywords tracked, with no mention of calls, forms or clients. Another is a report that never explains drops. Rankings and traffic do fall at times, and a good partner explains why and what they are doing about it.",
+    "A third is a report that changes what it measures every month, which makes it impossible to compare progress. A fourth is missing access. You should own your Google Search Console, analytics and Google Business Profile, and you should be able to see the same data your partner sees.",
+    "Finally, be careful with any report or partner that talks about guaranteed positions. Google says no one can guarantee a #1 ranking on Google. Honest reports talk about direction, effort and results, not promises.",
+   ]},
+  {'h2': 'What Questions Should You Ask About Your Report Each Month?',
+   'answer': 'A few simple questions about clients, leads, visibility and next steps are enough to keep the report useful.',
+   'paras': [
+    "You do not need to understand every chart. Five questions cover most of it. How many leads and retained clients came from search this month compared with the last few months? Which charges and courts improved, and which slipped? What was done this month? What is planned next and why? Is there anything you need from us?",
+    "Ask for the answers in plain words. A good SEO partner can explain what the numbers mean for your practice without jargon. If the explanation always needs more charts, that is a sign the report is built around activity rather than results.",
+    "Many firms find a short monthly call works better than a long document. Fifteen minutes to walk through the main numbers and agree on next month's priorities is often enough.",
+   ]},
+  {'h2': 'How Long Before a Monthly Report Should Show Results?',
+   'answer': 'Early reports usually show work and visibility, while leads and retained clients tend to build over several months.',
+   'paras': [
+    "In the first few months, most of the change is under the surface. Pages are being improved, technical problems fixed and profiles completed. Reports in this period should focus on work done and early signs such as more impressions and better positions for key searches.",
+    "As those improvements build, clicks, calls and forms should follow. In competitive markets, it can take many months before search becomes a steady source of retained clients. Our guide on [[a:blog/questions-to-ask-when-hiring-an-seo-company|questions to ask when hiring an SEO company]] covers how to set expectations at the start.",
+    "Whatever the timeline, each report should show movement in the right direction or explain clearly why not. Google's own SEO starter guide says there are no secrets that will automatically rank your site first in Google. Progress comes from steady work, and the report is how you see it.",
+   ]},
+  {'h2': 'A Note on Figures, Trademarks and Bar Rules',
+   'answer': 'This guide describes common reporting practices and does not promise any ranking or result.',
+   'paras': [
+    "Google, Google Search Console, Google Analytics and Google Business Profile are trademarks of Google LLC. CaseAuthority is not affiliated with, endorsed by or sponsored by Google. Descriptions of these products are based on what Google says on its own public pages at the time of writing, which may change.",
+    "Search results and report numbers vary by market, competition, location, device and tracking setup. Any timelines here are general estimates for illustration only, and nothing in this guide promises a ranking, a number of leads or any outcome. ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication about the lawyer's services, and states have their own rules on advertising and client information. Check your state bar's current rules. This guide is not legal advice.",
+   ]},
+ ],
+ 'faq': [
+  {'q': 'What Should a Monthly SEO Report Include for a Defense Firm?', 'a': 'Leads and retained clients from search, visibility for your main charges and courts, map listing data, the work done that month and the plan for next month.'},
+  {'q': 'Is More Traffic Always a Good Sign?', 'a': 'Not always. Traffic from outside your practice area or to general articles may not bring clients. Look at visits to your charge and court pages and whether they lead to calls.'},
+  {'q': 'Why Did My Average Position Go Down When Calls Went Up?', 'a': 'Average position blends every search your site appears for. New appearances for rare searches can pull the average down even while your important pages improve.'},
+  {'q': 'Should I Have My Own Access to Search Console?', 'a': 'Yes. Your firm should own its Search Console, analytics and Google Business Profile, and you should see the same data your SEO partner sees.'},
+  {'q': 'How Do I Know Which Retained Clients Came From Search?', 'a': 'Ask every new client how they found you and record it, or match tracked search leads against your new client list each month.'},
+  {'q': 'How Often Should We Review the SEO Report Together?', 'a': 'Monthly works for most firms. A short call to go through leads, visibility and next steps is often more useful than a long document.'},
+ ],
+ 'related': ['criminal-defense-law-firm-seo', 'local-seo-for-criminal-defense-lawyers', 'criminal-law-seo', 'criminal-defense-marketing'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'criminal', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])

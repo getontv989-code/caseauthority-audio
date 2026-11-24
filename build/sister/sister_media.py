@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'how-to-read-a-monthly-seo-report': {
+  'title': 'Your SEO Report in 60 Seconds',
+  'sub': 'Which numbers in a monthly SEO report matter for a criminal defense firm.',
+  'bubble': 'Here is how to read your report in a few minutes.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Start With Clients',
+     'p': 'The first question is simple: did search bring more retained clients this month?',
+     'v': {'kind': 'sources', 'title': 'From search to retained client', 'items': [('Impressions', 95), ('Visits', 60), ('Calls', 38), ('Retained', 20)], 'tag': 'Illustrative example'}},
+    {'h': 'Your Charges and Courts', 'p': 'Track the searches that bring cases, like a charge plus your county.',
+     'v': {'kind': 'pages', 'pages': [('DUI Defense', 'Your county'), ('Drug Charges', 'Your city'), ('Assault', 'Your court'), ('Warrants', 'Your county')]}},
+    {'h': 'The Map Counts Too', 'p': 'Calls from your map listing are often the most urgent ones.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Defense Group', 'Main Street Law']}},
+    {'h': 'Traffic Can Mislead', 'p': 'Visits from far away readers look good on a chart but rarely call.',
+     'v': {'kind': 'compare', 'cols': ['Charge page visit', 'General article visit'], 'rows': [('Inside your county', (True, False)), ('Likely to call', (True, False)), ('Looks big on a chart', (False, True))]}},
+    {'h': 'Work Done and Next', 'p': 'Each report should list the work done and the plan for next month.',
+     'v': {'kind': 'checklist', 'title': 'Five monthly questions', 'items': ['Leads and clients from search', 'Which charges moved', 'What was done', 'What is next and why']}},
+    {'h': 'Ask in Plain Words', 'p': 'A good partner explains every number without jargon.',
+     'v': {'kind': 'shield', 'chips': ['You own your data', 'No guaranteed positions', 'Clear monthly plan']}},
+  ],
+  'cta': CTA('Not Sure What Your SEO Report Is Telling You?', 'Get a free audit and a plain review of where your firm stands.'),
+},
 'get-found-online-first-seo-for-criminal-defense-attorneys': {
   'title': 'Getting Found First in 60 Seconds',
   'sub': 'How a criminal defense firm shows up first after an arrest.',
@@ -264,6 +285,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'google-business-profile-suspended': {
+  'title': 'Profile Suspended? 60 Seconds',
+  'sub': 'How a family law firm gets a suspended Google profile back on the map.',
+  'bubble': 'Here is what to do when your listing disappears.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Do Not Delete It',
+     'p': 'Deleting or recreating the profile throws away reviews and can make it worse.',
+     'v': {'kind': 'map', 'names': ['County Family Law', 'Main Street Law', 'Your Firm']}},
+    {'h': 'Find the Cause', 'p': 'Most suspensions trace back to the name, the address or a duplicate.',
+     'v': {'kind': 'checklist', 'title': 'Common causes', 'items': ['Extra words in the name', 'Virtual or shared address', 'Duplicate listings', 'Many changes at once']}},
+    {'h': 'Fix It First', 'p': 'Bring every detail in line with the guidelines before you appeal.',
+     'v': {'kind': 'compare', 'cols': ['Before', 'After'], 'rows': [('Real firm name only', (False, True)), ('Staffed office address', (False, True)), ('One listing per office', (False, True))]}},
+    {'h': 'Appeal With Proof', 'p': 'Licenses, a lease or utility bill and signage photos make the case.',
+     'v': {'kind': 'shield', 'chips': ['Business registration', 'Signage photos', 'Matching name everywhere']}},
+    {'h': 'Then Wait', 'p': 'Send one clear appeal and avoid new edits while it is reviewed.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('First', 'Find and fix', 0), ('Next', 'Appeal with proof', 50), ('Later', 'Back on the map', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Stay Clean After', 'p': 'Keep details consistent and skip shortcuts that trigger repeats.',
+     'v': {'kind': 'stars', 'tag': 'Signals Google can see', 'reviews': ['Calm and clear the whole way through.', 'They explained every step.']}},
+  ],
+  'cta': CTA('Is Your Profile at Risk of Suspension?', 'Get a free audit of your Google profile and local listings.'),
+},
 'get-found-online-first-seo-for-divorce-attorneys': {
   'title': 'Getting Found First in 60 Seconds',
   'sub': 'How a divorce firm becomes the name people trust while they research.',
@@ -516,6 +558,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'link-building-for-law-firms': {
+  'title': 'Link Building in 60 Seconds',
+  'sub': 'How estate planning firms earn links that help them rank.',
+  'bubble': 'Here is how links build trust with Google.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Links Are References',
+     'p': 'When trusted sites point to your firm, Google sees it as real and established.',
+     'v': {'kind': 'search', 'q': 'estate planning attorney near me', 'results': [('Your Firm', True), ('Legacy Law Group', False), ('Legal Directory', False)]}},
+    {'h': 'Where Good Links Come From', 'p': 'Local news, bar groups, community groups and professional partners.',
+     'v': {'kind': 'pages', 'pages': [('Local News', 'Expert quote'), ('Bar Association', 'Listing'), ('Senior Center', 'Talk'), ('Adviser Blog', 'Guest piece')]}},
+    {'h': 'Quality Over Quantity', 'p': 'A few relevant local links beat a pile of random ones.',
+     'v': {'kind': 'compare', 'cols': ['Earned link', 'Bought link'], 'rows': [('Relevant to your area', (True, False)), ('Safe with Google', (True, False)), ('Fine with bar rules', (True, False))]}},
+    {'h': 'Be the Local Expert', 'p': 'Explain new laws to reporters and run community talks.',
+     'v': {'kind': 'checklist', 'title': 'Ways to earn links', 'items': ['Answer local reporters', 'Run community seminars', 'Write useful state guides', 'Work with trusted advisers']}},
+    {'h': 'Steady Wins', 'p': 'Links add up over months and keep paying off for years.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('Early', 'First mentions', 0), ('Next', 'Pages climb', 50), ('Later', 'More signed plans', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Measure Signed Plans', 'p': 'Track consultations and signed plans from search, not just links.',
+     'v': {'kind': 'sources', 'title': 'From search to signed plan', 'items': [('Impressions', 95), ('Visits', 60), ('Consultations', 38), ('Signed plans', 24)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to Know How Your Firm Compares?', 'Get a free audit of your links, local profile and search visibility.'),
+},
 'get-found-online-first-seo-for-estate-planning-attorneys': {
   'title': 'Getting Found First in 60 Seconds',
   'sub': 'How an estate planning firm shows up first when families start planning.',

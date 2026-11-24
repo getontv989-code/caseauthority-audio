@@ -1,0 +1,135 @@
+#!/usr/bin/env python3
+"""2026-11-24 divorce post: Google Business Profile Suspended (Zutrix: 'google business profile suspended' 320 KD 4 CPC $12.04, + 'fix suspended google business profile' 70, 'suspended google business profile' 70, 'suspended for deceptive content' 50, 'why was my google business profile suspended' 30, 'why did my google business profile get suspended' 30, 'suspended due to policy violation' 30; cluster about 600). Mash approved after a cannibalization check against all 151 live URLs: nearest page is /local-seo-for-divorce-lawyers (setting up the map listing); this post is about recovering a suspended profile.
+Facts used (sources_patch, all keys verified earlier): Google Business Profile guidelines (unnecessary information in the business name is not permitted), Fix suspended or disabled profiles (you can submit an appeal), local ranking (relevance, distance and popularity), verify your business, ABA Model Rule 7.1."""
+import json, os
+P = {
+ 'slug': 'google-business-profile-suspended',
+ 'keyword': 'google business profile suspended',
+ 'title': 'Google Business Profile Suspended? A Family Law Firm Guide',
+ 'meta': "Why a family law firm's Google Business Profile gets suspended, how to find the cause, how to appeal and how to protect your map rankings afterward.",
+ 'h1': 'Google Business Profile Suspended? How Family Law Firms Find the Cause and Get Back on the Map',
+ 'nav_label': 'GBP Suspended',
+ 'tag': 'Local SEO',
+ 'date': '2026-11-24',
+ 'lead': "One morning the calls stop. You search your firm's name and the map listing with all your reviews is gone, or it shows a notice that the profile is suspended. For a divorce or family law firm, the Google Business Profile is often the biggest single source of new consultations, so a suspension can hurt fast. The good news is that many suspensions have a clear cause and can be fixed. This guide explains why family law firm profiles get suspended, how to find the cause, how to prepare a strong appeal and how to protect your map rankings once you are back. It is written for attorneys and firm owners, not SEO specialists.",
+ 'quick_answer': "A Google Business Profile is usually suspended because Google believes something on it breaks its guidelines. For law firms the most common causes are extra keywords in the business name, an address Google does not accept, such as a virtual office or shared suite with no staffed presence, duplicate listings, or a burst of changes that triggers a review. Do not delete the profile or create a new one. Find the likely cause, fix it so the profile follows Google's guidelines, gather proof that your firm is a real business at that address and submit an appeal through Google. Once the profile is restored, keep it clean, keep details consistent everywhere and avoid shortcuts that could trigger another suspension.",
+ 'takeaways': [
+  ['Do Not Delete It.', 'Deleting or recreating the profile usually makes things worse.'],
+  ['Find the Cause.', 'Most suspensions trace back to a guideline issue.'],
+  ['Name Exactly as Is.', 'Extra keywords in the name are a common trigger.'],
+  ['Prove Your Address.', 'Google wants proof of a real, eligible location.'],
+  ['Appeal With Evidence.', 'A clear appeal with documents has the best chance.'],
+  ['Stay Clean After.', 'Consistent details and no shortcuts prevent repeats.'],
+ ],
+ 'sections': [
+  {'h2': 'What Does It Mean When a Google Business Profile Is Suspended?',
+   'answer': 'It means Google has restricted the profile because it believes something about the profile or the business breaks its guidelines.',
+   'paras': [
+    "Your Google Business Profile is the listing that shows your firm on Google Maps and in the map results, with your reviews, hours, phone number and directions. When Google suspends it, the listing may disappear from the map entirely, stop showing your reviews or remain visible but locked so you cannot manage it.",
+    "Google does not always explain the exact reason in detail. You might see a notice in your account, an email or simply notice that the profile has gone from search. Either way, the effect is the same: fewer people find your firm when they search for a divorce lawyer near them.",
+    "A suspension is not the same as a ranking drop. If your profile still appears but lower than before, that is a ranking issue. A suspension is a policy issue, and it needs a different fix.",
+   ]},
+  {'h2': 'Why Does a Suspension Hurt Family Law Firms So Much?',
+   'answer': 'Because many people looking for a divorce or custody lawyer choose from the map listings, and reviews there carry a lot of trust.',
+   'paras': [
+    "When someone searches for a divorce lawyer, a child custody attorney or a family law firm near them, Google usually shows a map with a few firms before any websites. Many people call or visit one of those firms without scrolling further.",
+    "For a family law firm, the profile also carries years of reviews. People going through a divorce want to know that a firm is calm, clear and trustworthy, and reviews are often how they judge that. Losing the listing hides that trust signal at the moment it matters most.",
+    "Google says local results are mainly based on relevance, distance and popularity. A suspended profile cannot compete on any of them, so the faster you fix it, the less ground you lose to nearby firms.",
+   ]},
+  {'h2': 'What Are the Most Common Reasons Law Firm Profiles Get Suspended?',
+   'answer': 'Keyword stuffed names, ineligible addresses, duplicate listings, misleading details and sudden changes that trigger a review.',
+   'paras': [
+    "The most common cause for law firms is the business name. Some firms add words like divorce lawyer, family law attorney or a city name to the profile name to rank better, even though those words are not part of the firm's real name. Google's guidelines say including unnecessary information in your business name is not permitted.",
+    "The second common cause is the address. Google expects a real location where the business serves clients in person, staffed during business hours. Virtual offices, mailbox services and some shared or coworking spaces can be flagged, especially if several businesses list the same address.",
+    "Other causes include duplicate listings for the same firm or attorney, a website or phone number that does not match the business, categories that do not fit and making many big changes at once, such as name, address and category on the same day.",
+   ]},
+  {'h2': 'Can a Suspension Happen Even if You Did Nothing Wrong?',
+   'answer': 'Yes. Automated checks sometimes flag legitimate firms, especially after changes, moves or reports from others.',
+   'paras': [
+    "Google reviews profiles with automated systems as well as people. Those systems sometimes catch legitimate businesses. A move to a new office, a name change after a partner leaves or a new phone number can all trigger a review.",
+    "Competitors or members of the public can also suggest edits or report listings. Most of the time this is harmless, but a wave of edits or reports can lead to a closer look.",
+    "If you believe your profile followed the guidelines, the appeal process is how you show it. The key is to stay calm, gather evidence and avoid making more changes while you wait.",
+   ]},
+  {'h2': 'What Should You Do First When Your Profile Is Suspended?',
+   'answer': 'Do not delete it, do not create a new one and do not make a flurry of edits. Review it calmly against the guidelines.',
+   'paras': [
+    "The instinct is to fix things fast, and that can make it worse. Deleting the profile throws away your reviews and history. Creating a new profile for the same firm can look like a duplicate and lead to more problems.",
+    "Instead, sign in and note exactly what you see: any message from Google, the current name, address, phone, website, categories and hours. Take screenshots. Check your email for any notice from Google about the profile.",
+    "Then read Google's guidelines for representing your business and compare them line by line with your profile. In most cases, the likely cause becomes clear quickly.",
+   ]},
+  {'h2': 'How Do You Find Out Why Your Profile Was Suspended?',
+   'answer': 'Compare every detail of your profile with Google\'s guidelines, check recent changes and look for duplicates or address issues.',
+   'paras': [
+    "Start with the name. Is it exactly the firm's real name as it appears on your signage, letterhead and bar registration? If it includes extra words like divorce attorney or a city name, that is a strong candidate.",
+    "Next, the address. Is it a real office where clients can meet you during stated hours? Is it shared with other businesses? Is it a virtual office or mailbox? Then check whether other listings exist for your firm, your attorneys or an old address.",
+    "Finally, look at what changed recently. A suspension that follows a move, a new name or a new phone number is often linked to that change. Knowing the likely cause shapes both the fix and the appeal.",
+   ]},
+  {'h2': 'How Do You Fix the Profile Before Appealing?',
+   'answer': 'Bring the profile fully in line with the guidelines first, so the appeal shows a compliant listing.',
+   'paras': [
+    "If the name has extra keywords, change it to the firm's real name. If the category does not fit, choose the closest accurate one, such as family law attorney or divorce lawyer. Make sure the phone number and website belong to the firm and match the details on your website.",
+    "If the address is the problem, the fix depends on your situation. Firms with a real, staffed office should make sure the address is exact, including the suite number, and matches signage and documents. Firms that work from home or meet clients elsewhere may need to list as a service area business and hide the address, if they qualify under Google's rules.",
+    "Remove or report duplicate listings where you can. Then stop editing. Every extra change while a suspension is under review can slow things down.",
+   ]},
+  {'h2': 'What Evidence Helps a Suspension Appeal Succeed?',
+   'answer': 'Documents and photos that prove the firm is real, operates under that name and serves clients at that address.',
+   'paras': [
+    "Google wants to see that your business is what the profile says it is. Useful evidence often includes a business license or registration, a utility bill or lease in the firm's name at that address, and bar registration showing the firm or attorney name.",
+    "Photos help too. A clear photo of exterior signage with the firm name, a photo of the office entrance or suite and a photo of the interior can show that clients can actually visit. Make sure the name in every document matches the name on the profile.",
+    "Keep everything clear and consistent. Blurry photos, mismatched names or documents for a different address weaken an appeal. Prepare the evidence before you start the appeal so you can upload it in one go.",
+   ]},
+  {'h2': 'How Do You Submit an Appeal to Google?',
+   'answer': 'Through Google\'s official process for suspended profiles, with a clear explanation and your evidence attached.',
+   'paras': [
+    "Google's help center has a page on fixing suspended or disabled profiles, and you can submit an appeal through Google's appeals tool linked from that page. Use the account that owns the profile, and only submit one appeal at a time.",
+    "Keep the explanation short and factual. Say what the firm is, how long it has operated at that address, what you changed to follow the guidelines and what evidence you have attached. Avoid emotional or angry language. The goal is to make the reviewer's job easy.",
+    "After you submit, wait. Reviews can take days or longer. Do not submit repeated appeals or create a new profile while you wait. If Google asks for more information, respond with exactly what is requested.",
+   ]},
+  {'h2': 'What Happens After the Appeal?',
+   'answer': 'If the appeal is approved, the profile returns, usually with its reviews. If not, you can improve the evidence and try again.',
+   'paras': [
+    "When an appeal is approved, the profile usually returns with its reviews and history. Rankings can take a little time to settle back, so keep an eye on calls and visibility over the following weeks.",
+    "If the appeal is denied, look carefully at the reason, if one is given. Often the issue is evidence that did not clearly match the name or address. Fix what you can, strengthen the documents and try again through the proper channel.",
+    "In some cases, the profile cannot be reinstated as it was, for example if the address genuinely does not qualify. Then the right step is to set up the profile correctly for your real situation, such as a service area business, following Google's verification steps. Google offers several ways to verify a business, and the method depends on the business and location.",
+   ]},
+  {'h2': 'How Do You Protect Your Map Rankings Once the Profile Is Back?',
+   'answer': 'Keep the profile accurate and simple, keep details consistent across the web and build reviews and local signals steadily.',
+   'paras': [
+    "Once you are back, resist the urge to make big changes. Keep the name exactly as it is, keep the address and phone consistent and update hours if they change. Add photos and posts over time rather than all at once.",
+    "Make sure your name, address and phone match exactly on your website, legal directories and local listings. Mismatched details across the web can confuse Google and weaken your local ranking.",
+    "Then return to steady local SEO work: genuine reviews asked for with care, helpful pages for divorce, custody and support in each county you serve and mentions from trusted local and legal websites. Our page on [[a:local-seo-for-divorce-lawyers|local SEO for divorce lawyers]] explains the full approach.",
+   ]},
+  {'h2': 'How Can Family Law Firms Avoid Future Suspensions?',
+   'answer': 'Follow the guidelines exactly, avoid keyword stuffing and fake locations and plan changes like moves carefully.',
+   'paras': [
+    "Most repeat suspensions come from the same causes. Do not add keywords to the business name. Do not create listings for addresses where you do not have a real, staffed office. Do not create separate profiles for practice areas such as divorce and custody at the same address.",
+    "Plan changes carefully. If you move offices, update the address once, with evidence ready, and update your website and directories at the same time. If an attorney leaves or the firm name changes, change the name once and make sure it matches your new signage and documents.",
+    "Be wary of anyone who offers to rank your profile with tricks like extra keywords, fake addresses or bought reviews. These can work for a short time and then lead to a suspension that costs far more than it gained. Our guide on [[a:blog/how-to-get-family-law-clients|how to get family law clients]] covers the safer ways to grow.",
+   ]},
+  {'h2': 'Should You Handle a Suspension Yourself or Get Help?',
+   'answer': 'Simple cases can be handled in house, but complex address, duplicate or repeat suspensions often benefit from experienced help.',
+   'paras': [
+    "If the cause is obvious, such as an extra keyword in the name, and you have clear evidence, many firms can fix the profile and appeal on their own by following Google's help pages.",
+    "Cases with shared addresses, multiple offices, duplicate listings for attorneys or repeated suspensions are harder. A mistake in the appeal or an extra profile created in a hurry can make recovery slower.",
+    "If you do bring in help, ask for a clear explanation of the likely cause, the fix and the evidence needed before anything is submitted. No one can promise that Google will approve an appeal, so be wary of anyone who guarantees reinstatement.",
+   ]},
+  {'h2': 'A Note on Figures, Trademarks and Bar Rules',
+   'answer': 'This guide describes common causes and steps and does not promise any reinstatement, ranking or result.',
+   'paras': [
+    "Google, Google Business Profile and Google Maps are trademarks of Google LLC. CaseAuthority is not affiliated with, endorsed by or sponsored by Google. Descriptions of Google's guidelines and appeal process are based on what Google says on its own public pages at the time of writing, which may change.",
+    "Outcomes vary by situation, and nothing in this guide promises that a profile will be reinstated, how long a review will take or any ranking or number of clients. ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication about the lawyer's services, which also applies to how a firm describes itself online. Check your state bar's current rules on firm names and advertising. This guide is not legal advice.",
+   ]},
+ ],
+ 'faq': [
+  {'q': 'Why Was My Family Law Firm\'s Google Business Profile Suspended?', 'a': 'Common causes are extra keywords in the business name, an address Google does not accept, duplicate listings or a burst of changes. Compare your profile with Google\'s guidelines to find the likely cause.'},
+  {'q': 'Should I Delete My Suspended Profile and Start Again?', 'a': 'No. Deleting it throws away your reviews and history, and a new profile for the same firm can look like a duplicate. Fix the issue and appeal instead.'},
+  {'q': 'How Long Does a Google Business Profile Appeal Take?', 'a': 'It varies. Some appeals are reviewed in days, others take longer. Submit one clear appeal with evidence and avoid making more changes while you wait.'},
+  {'q': 'Will I Get My Reviews Back After a Suspension?', 'a': 'When an appeal is approved, the profile usually returns with its reviews. That is one of the main reasons not to delete a suspended profile.'},
+  {'q': 'Can I Use a Virtual Office Address for My Profile?', 'a': 'Google expects a real location where you serve clients in person during stated hours. Virtual offices and mailbox addresses are a common cause of suspensions.'},
+  {'q': 'Can Adding Divorce Lawyer to My Business Name Get Me Suspended?', 'a': 'Yes, if those words are not part of your firm\'s real name. Google\'s guidelines do not allow unnecessary information in the business name.'},
+ ],
+ 'related': ['local-seo-for-divorce-lawyers', 'family-law-seo', 'seo-audit-for-family-law-firms', 'family-law-marketing'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'divorce', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])

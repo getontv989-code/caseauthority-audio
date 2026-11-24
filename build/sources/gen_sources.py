@@ -81,6 +81,13 @@ def L(text, key):
 
 
 PI = {
+ 'why-is-my-law-firm-website-not-ranking-on-google': {
+  'links': [L('If page addresses change without proper redirects', 'MOVE'),
+            L('measure real-world user experience for loading performance, interactivity and visual stability', 'CWV'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('The Search Console Performance report', 'GSC'),
+            L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
+            L('there are no secrets that will automatically rank your site first', 'STARTER')]},
  'get-found-online-first-seo-for-personal-injury-lawyers': {
   'links': [L('there are no secrets that will automatically rank your site first', 'STARTER'),
             L('local results are mainly based on relevance, distance and popularity', 'GLR'),
@@ -210,6 +217,12 @@ PI = {
 }
 
 CRIMINAL = {
+ 'how-to-read-a-monthly-seo-report': {
+  'links': [L('The Search Console Performance report', 'GSC'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
+            L('there are no secrets that will automatically rank your site first', 'STARTER'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'get-found-online-first-seo-for-criminal-defense-attorneys': {
   'links': [L('there are no secrets that will automatically rank your site first', 'STARTER'),
             L('local results are mainly based on relevance, distance and popularity', 'GLR'),
@@ -274,6 +287,12 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'google-business-profile-suspended': {
+  'links': [L('including unnecessary information in your business name is not permitted', 'GBPG'),
+            L('you can submit an appeal through', 'GSUSP'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('Google offers several ways to verify a business', 'GVERIFY'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'get-found-online-first-seo-for-divorce-attorneys': {
   'links': [L('there are no secrets that will automatically rank your site first', 'STARTER'),
             L('local results are mainly based on relevance, distance and popularity', 'GLR'),
@@ -341,6 +360,12 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'link-building-for-law-firms': {
+  'links': [L('links bought or traded to manipulate rankings break its spam policies', 'LINKSPAM'),
+            L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
+            L('shall not compensate, give or promise anything of value to a person for recommending', 'ABA72')]},
  'get-found-online-first-seo-for-estate-planning-attorneys': {
   'links': [L('there are no secrets that will automatically rank your site first', 'STARTER'),
             L('local results are mainly based on relevance, distance and popularity', 'GLR'),

@@ -1,0 +1,142 @@
+#!/usr/bin/env python3
+"""2026-11-24 estate post: Link Building for Law Firms (Zutrix: 'link building for law firms' 50 KD 0 CPC $121.10). Mash approved 2026-11-24 (replaced 'how to fire an seo company', which worked against the agency). Cannibalization check against all 151 live URLs: no page on any site is about links; nearest is the PI site's press releases page. Angle: how estate planning firms earn links that help them rank (editorial placements, local press, bar and community sites).
+Facts used (sources_patch, all keys verified earlier): Google spam policies on link spam, Google SEO starter guide (no secrets), Google Do you need an SEO (no one can guarantee a #1 ranking), local ranking (relevance, distance and popularity), ABA Model Rule 7.2 (nothing of value for recommending), Gallup (46% of U.S. adults have a will)."""
+import json, os
+P = {
+ 'slug': 'link-building-for-law-firms',
+ 'keyword': 'link building for law firms',
+ 'title': 'Link Building for Law Firms: A Guide for Estate Planners',
+ 'meta': 'How estate planning law firms earn links that help them rank on Google: what counts as a good link, safe ways to earn them and what to avoid.',
+ 'h1': 'Link Building for Law Firms: How Estate Planning Attorneys Earn Links That Help Them Rank',
+ 'nav_label': 'Link Building',
+ 'tag': 'SEO Tactics',
+ 'date': '2026-11-24',
+ 'lead': "Two estate planning firms in the same town can have similar websites, similar reviews and similar experience, and one still shows up far higher on Google. Very often the difference is links: other trusted websites pointing to one firm and not the other. Link building sounds technical, and it has a reputation for shortcuts, but for a law firm it mostly means earning genuine mentions from local, legal and community websites. This guide explains what links are, why they matter for an estate planning practice, which ones are worth having, safe ways to earn them and the mistakes that can hurt your rankings. It is written for attorneys and firm owners, not SEO specialists.",
+ 'quick_answer': "Link building for law firms means earning links to your website from other trusted websites, such as local news sites, bar associations, community groups, financial and senior care partners and respected legal publications. Google treats good links as a sign that your firm is real and trusted, which helps your pages rank, and local mentions also help your map listing. For an estate planning firm, the safest ways to earn links are being quoted as a local expert, writing genuinely useful guides, speaking at community events, joining relevant professional groups and building relationships with other advisers. Avoid buying links or joining link schemes, which break Google's rules and can also raise bar rule issues.",
+ 'takeaways': [
+  ['Links Are References.', 'Trusted sites pointing to you tell Google you are real.'],
+  ['Quality Beats Quantity.', 'A few relevant local links beat many random ones.'],
+  ['Be the Local Expert.', 'Press quotes and guest pieces earn strong links.'],
+  ['Partners Count.', 'Advisers, senior groups and community bodies can link to you.'],
+  ['Never Buy Links.', 'Paid link schemes break Google rules and can cost you.'],
+  ['Steady Wins.', 'Links build up over months and keep paying off.'],
+ ],
+ 'sections': [
+  {'h2': 'What Is Link Building for a Law Firm?',
+   'answer': 'It is the work of earning links to your website from other trusted websites, so Google sees your firm as established and relevant.',
+   'paras': [
+    "A link is simply a clickable reference from one website to another. When a local newspaper quotes your firm in an article about new estate tax rules and links to your website, that is a link. When your bar association lists you in its directory with a link, that is another.",
+    "Link building is the ongoing work of earning those references. For a law firm, it is less about technical tricks and more about reputation: being visible and useful in your community and your profession, so other websites have a reason to mention you.",
+    "Search engines treat links much like references in the real world. One recommendation from someone respected carries more weight than many from people nobody knows. That is why the source of a link matters far more than the number.",
+   ]},
+  {'h2': 'Why Do Links Matter for Estate Planning Firms?',
+   'answer': 'Because they are one of the signals Google uses to judge trust, and estate planning is a trust based decision.',
+   'paras': [
+    "Estate planning is personal. Families are deciding who will raise their children, who will manage their money and how their wishes will be carried out. They want a lawyer they can trust, and Google tries to show them sources that look trustworthy.",
+    "Links from respected websites are one of the ways Google measures that trust. Two firms with similar pages on wills and living trusts can rank very differently because one has been mentioned by local media, community organizations and professional groups for years, and the other has not.",
+    "There is also plenty of room to grow. Gallup found that 46% of U.S. adults have a will, which leaves many families who have not yet planned. When those families start searching, the firms with the strongest reputation online tend to be the ones they find.",
+   ]},
+  {'h2': 'Do Links Help With the Google Map Listings Too?',
+   'answer': 'Yes. Local mentions and links support the popularity signal Google uses for map rankings.',
+   'paras': [
+    "Many estate planning clients search for an estate planning attorney near me or a wills lawyer in their town, which brings up the map listings. Those listings come from your Google Business Profile, not your website, but they are influenced by your wider reputation.",
+    "Google says local results are mainly based on relevance, distance and popularity. Popularity includes how well known your firm is, and links and mentions from local websites, news sites and directories are part of how Google judges that.",
+    "So a link from your local chamber of commerce or a community newspaper does double duty. It helps your website pages rank and supports your map listing at the same time.",
+   ]},
+  {'h2': 'What Makes a Good Link for a Law Firm?',
+   'answer': 'Relevance, trust and a real reason to exist. The best links come from local, legal and community websites people actually read.',
+   'paras': [
+    "A good link usually comes from a website that is trusted in its own right, relevant to your practice or your location and has a genuine reason to mention you. A local news story, a bar association page, a senior center resource list or a respected legal publication all fit.",
+    "The placement matters too. A link inside a helpful article, where your firm is mentioned for a reason, is usually worth more than a link buried in a long list of unrelated businesses.",
+    "Relevance is often more valuable than size. A link from a well known local senior services organization can be more useful to an estate planning firm than a link from a large website with no connection to your work or your area.",
+   ]},
+  {'h2': 'Which Links Should Estate Planning Firms Avoid?',
+   'answer': 'Bought links, link schemes, low quality directories and any link you could not explain to a client or your state bar.',
+   'paras': [
+    "Google's spam policies are clear on this point. In its guidance, links bought or traded to manipulate rankings break its spam policies, and sites that rely on them can lose rankings. Offers of hundreds of links for a fixed fee, private blog networks and link swaps with unrelated sites all fall into this category.",
+    "Low quality directories are another trap. Some sites exist only to sell listings and offer little value to readers. A few well known legal directories and local listings are worth having. Hundreds of unknown ones are not.",
+    "There is also a professional angle. ABA Model Rule 7.2 says a lawyer shall not compensate, give or promise anything of value to a person for recommending the lawyer's services, with limited exceptions. Paying for links that read like recommendations can raise questions under your state's version of that rule, so check before paying for any placement.",
+   ]},
+  {'h2': 'How Can Estate Planning Attorneys Earn Links From Local Media?',
+   'answer': 'By being a reliable, quotable local expert on topics people care about, such as new laws, tax changes and planning for aging parents.',
+   'paras': [
+    "Local journalists regularly need experts to explain changes that affect their readers. Estate tax thresholds, changes to state probate rules, planning for a parent moving into care and what happens when someone dies without a will are all topics that come up.",
+    "Make it easy for reporters to find you. Have a clear media or about page, a short bio for each attorney and a contact who responds quickly. When a law changes, a short, clear explanation sent to a local editor can turn into a quote and a link.",
+    "Over time, being the firm reporters call first builds a steady stream of high quality mentions. It also builds trust with readers, who see your name next to helpful information rather than an ad.",
+   ]},
+  {'h2': 'Can Editorial Placements Help a Law Firm Rank?',
+   'answer': 'Yes, when they are genuine articles on relevant, respected sites that people actually read.',
+   'paras': [
+    "An editorial placement is an article or feature that mentions your firm on a respected publication, such as a local business journal, a regional news site or a professional publication. Unlike a paid ad, it appears as part of the site's content.",
+    "For an estate planning firm, good placements explain real issues in plain words: how a living trust differs from a will, what families should do after a parent's diagnosis or how to plan for a child with special needs. These pieces help readers, earn links and show expertise.",
+    "Quality and honesty matter. The publication should be real, relevant and read by people in your market, and the content should be accurate and useful. Placements built only for links on sites nobody reads carry the same risks as other link schemes.",
+   ]},
+  {'h2': 'How Do Community Events and Seminars Earn Links?',
+   'answer': 'Event listings, partner pages and local news coverage often link to the firm running a talk or workshop.',
+   'paras': [
+    "Many estate planning firms already run seminars or speak at libraries, senior centers, churches and community groups. These events are a natural source of links. Hosts often list speakers on their websites, and local event calendars and newsletters may link to registration pages.",
+    "Make sure each event has a page on your website that hosts can link to, with the date, topic and a short description. After the event, a short summary or recording on your site gives people another reason to link.",
+    "Our guide on [[a:blog/estate-planning-seminars|estate planning seminars]] covers how to run events that fill the room. From an SEO point of view, every event is also a chance to earn mentions from trusted local websites.",
+   ]},
+  {'h2': 'Can Referral Partners Help With Links?',
+   'answer': 'Yes. Financial advisers, accountants, senior care providers and other professionals often list or mention trusted attorneys.',
+   'paras': [
+    "Estate planning naturally involves other professionals. Financial planners, accountants, insurance agents, elder care advisers and senior living communities all work with families making plans. Many of them have resource pages or blogs where they mention attorneys they trust.",
+    "Build these relationships for their own sake first. Share useful guides, co-host an educational session or write a short article for a partner's audience on a topic they care about. Links tend to follow genuine collaboration.",
+    "Keep these relationships clean. Avoid arrangements where links or listings are exchanged for referrals or payment in ways that could look like paying for recommendations. When in doubt, check your state bar's guidance.",
+   ]},
+  {'h2': 'How Does Helpful Content Earn Links on Its Own?',
+   'answer': 'Clear, accurate guides on common planning questions get cited by other websites, journalists and AI tools.',
+   'paras': [
+    "Some pages earn links without any outreach because they are genuinely useful. A clear guide to how probate works in your state, a checklist of documents to gather before meeting an estate planning lawyer or an explainer on powers of attorney can be cited by other sites again and again.",
+    "These pages work best when they are accurate, specific to your state and written in simple words. Families, journalists and other professionals look for sources they can trust and understand.",
+    "The same pages also help with AI answers. Tools like Google AI Overviews look for trusted, clear sources, and pages that are widely referenced across the web are more likely to be used. Our guide on [[a:blog/how-to-rank-in-google-ai-mode|how to rank in Google AI Mode]] covers that side.",
+   ]},
+  {'h2': 'Are Legal Directories and Bar Listings Worth It?',
+   'answer': 'A few well known, relevant directories and your bar listings are worth having, but they are a foundation, not a strategy.',
+   'paras': [
+    "Your state and local bar associations, a handful of well known legal directories and local business listings are part of a solid foundation. They confirm your firm's name, address and phone and give Google consistent information to work with.",
+    "Keep these listings accurate and consistent with your website and Google Business Profile. Mismatched details across the web can confuse Google and weaken your local signals.",
+    "Do not expect directories alone to lift your rankings in a competitive market. Most of your competitors have the same listings. The links that set firms apart usually come from local media, community organizations, partners and helpful content.",
+   ]},
+  {'h2': 'How Long Does Link Building Take to Work?',
+   'answer': 'Usually months. Links build up gradually, and their effect grows over time as your reputation strengthens.',
+   'paras': [
+    "Link building is slow by nature. A press quote this month, an event listing next month and a partner article after that add up gradually. Google also takes time to find and weigh new links.",
+    "The upside is that good links tend to keep working for years. A firm that earns a steady stream of genuine mentions often finds its rankings become more stable and harder for competitors to overtake.",
+    "Be wary of anyone who promises a fixed ranking or fast results from links. Google says no one can guarantee a #1 ranking on Google, and its own SEO starter guide says there are no secrets that will automatically rank your site first in Google.",
+   ]},
+  {'h2': 'How Do You Measure Whether Link Building Is Working?',
+   'answer': 'Track new links and mentions, watch rankings for your key pages and, most of all, count consultations and signed plans from search.',
+   'paras': [
+    "Keep a simple record of new mentions and links each month: where they came from, what they link to and whether they are relevant to your practice or area. Tools like Google Search Console show which sites link to you.",
+    "Then watch the pages those links support. If your living trust page and your county probate page earn links, do they rank better over the following months? Does your map listing appear more often?",
+    "The final test is business. Track consultations and signed plans from search. If links are helping, you should see more of the right families finding and contacting your firm over time.",
+   ]},
+  {'h2': 'Should You Do Link Building Yourself or Get Help?',
+   'answer': 'Attorneys are often best placed to build relationships, while experienced help can find opportunities and handle outreach and placements.',
+   'paras': [
+    "Some link building is naturally done by attorneys: speaking at events, answering reporters, building relationships with advisers and writing about what you know. No one can replace your expertise and your local reputation.",
+    "Other parts take time and know how, such as finding the right publications, preparing editorial pieces, keeping listings consistent and checking that every link is safe and relevant. Many busy firms bring in help so the work happens steadily.",
+    "If you do hire help, ask exactly where links will come from and how they are earned. You should be comfortable showing any link to a client or your state bar. Our page on the [[a:estate-planning-seo-company|estate planning SEO company]] side of our work explains how we approach it.",
+   ]},
+  {'h2': 'A Note on Figures, Trademarks and Bar Rules',
+   'answer': 'This guide describes common practices and does not promise any ranking or result.',
+   'paras': [
+    "Google, Google Business Profile, Google Search Console and AI Overviews are trademarks of Google LLC. CaseAuthority is not affiliated with, endorsed by or sponsored by Google, the American Bar Association or Gallup. Descriptions are based on what each organization says on its own public pages at the time of writing, which may change.",
+    "Search results vary by market, competition, location and the condition of a website. Any timelines here are general estimates for illustration only, and nothing in this guide promises a ranking, a number of clients or any outcome. Lawyer advertising and referral rules vary by state, so check your state bar's current rules before paying for any listing or placement. This guide is not legal advice.",
+   ]},
+ ],
+ 'faq': [
+  {'q': 'What Is Link Building for Law Firms?', 'a': 'It is earning links to your website from other trusted websites, such as local news, bar associations, community groups and professional partners, so Google sees your firm as established.'},
+  {'q': 'Is It Safe to Buy Links for My Estate Planning Firm?', 'a': 'No. Google treats bought links meant to manipulate rankings as spam, and paying for recommendations can also raise bar rule issues. Focus on earning genuine mentions.'},
+  {'q': 'How Many Links Does a Law Firm Need to Rank?', 'a': 'There is no set number. A few relevant, trusted local and legal links often matter more than many weak ones. What you need depends on your market and competitors.'},
+  {'q': 'Do Legal Directory Listings Count as Link Building?', 'a': 'They are a useful foundation, especially for consistent contact details, but most competitors have them too. Local media, partners and helpful content usually make the difference.'},
+  {'q': 'Can Seminars and Community Talks Help My SEO?', 'a': 'Yes. Hosts, event calendars and local news often link to the firm running a talk, which can help both your website and your map listing.'},
+  {'q': 'How Long Before Links Improve My Rankings?', 'a': 'Usually months. Links build up gradually, and their effect grows as your firm earns more genuine mentions over time.'},
+ ],
+ 'related': ['estate-planning-seo-company', 'estate-planning-marketing', 'probate-law-firm-seo', 'digital-marketing-for-estate-planning-lawyers'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'estate', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])
