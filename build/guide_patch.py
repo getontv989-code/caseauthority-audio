@@ -45,6 +45,9 @@ GLOBAL = [
     ('To rank in those places, SEO for personal injury lawyers combines', 'To rank in those places, personal injury SEO combines'),
     ('That is the core of why SEO for personal injury lawyers matters:', 'That is the core of why SEO matters for injury firms:'),
     ('You can also read more on <a class="in" href="/">SEO for personal injury lawyers</a>', 'You can also read our guide to ' + link()),
+    # share-image alt text (og + twitter) on every page
+    ('content="CaseAuthority: SEO for personal injury lawyers. Rank #1. Sign more cases."',
+     'content="CaseAuthority: personal injury SEO agency. Rank #1. Sign more cases."'),
     # footer link on every page, next to the service pages
     ('<div class="fl-cols"><a href="/recommended-seo-services-personal-injury-law-firms">Personal Injury SEO Services</a>',
      '<div class="fl-cols"><a href="/recommended-seo-services-personal-injury-law-firms">Personal Injury SEO Services</a><a href="%s">PI SEO Guide</a>' % GUIDE),
@@ -146,6 +149,8 @@ for rel, sentence in LEAD_LINK[MODE].items():
 # 5. checks
 for p in files():
     s = open(p, encoding='utf-8').read()
+    if 'CaseAuthority: SEO for personal injury lawyers. Rank #1' in s:
+        errors.append('%s still has the old share-image alt text' % p)
     if OLD_SLUG in s:
         errors.append('%s still has the old guide URL' % p)
     if 'href="%s"' % GUIDE not in s and p.endswith('.html') and '</footer>' in s:
