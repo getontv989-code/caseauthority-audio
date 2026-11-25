@@ -1,4 +1,28 @@
 {
+ "how-to-get-a-knowledge-panel-on-google": {
+  "links": [
+   {
+    "text": "knowledge panels are automatically generated",
+    "url": "https://support.google.com/knowledgepanel/answer/9163198?hl=en",
+    "title": "Google Knowledge Panel Help: About knowledge panels"
+   },
+   {
+    "text": "does not manually create or delete knowledge panels",
+    "url": "https://support.google.com/knowledgepanel/answer/7534842?hl=en",
+    "title": "Google Knowledge Panel Help: Submit feedback on content about you"
+   },
+   {
+    "text": "help Google better understand your organization",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/organization",
+    "title": "Google Search Central: Organization structured data"
+   },
+   {
+    "text": "local results are mainly based on relevance, distance and popularity",
+    "url": "https://support.google.com/business/answer/7091?hl=en",
+    "title": "Google Business Profile Help: Tips to improve your local ranking on Google"
+   }
+  ]
+ },
  "why-is-my-law-firm-website-not-ranking-on-google": {
   "links": [
    {

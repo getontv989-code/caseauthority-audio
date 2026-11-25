@@ -1,0 +1,135 @@
+#!/usr/bin/env python3
+"""2026-11-25 estate post: Zero-Click Searches for Estate Planning Firms (GEO angle: AI summaries and answer boxes answer will and trust questions on the results page, so how does a firm still win the client). Semrush US 2026-11-25: zero-click searches 590 KD7 CPC $9.63, zero click searches 1300 KD50, zero click search 480 KD50, zero click seo 320 KD38, zero click content 260 KD35, what is zero click search 170 KD33 (cluster ~3,120). Mash asked for niche-matched GEO topics 2026-11-25. Nearest live page: blog/how-to-rank-in-google-ai-mode (how to appear in AI Mode); this post is about searches that end without a click and how to measure and win them.
+Facts used (sources_patch, checked 2026-11-25): SparkToro 2024 zero-click study (58.5% of US Google searches resulted in zero clicks), Pew Research 2025 (8% vs 15% clicks with and without an AI summary), Google local ranking (relevance, distance, popularity), Gallup (46% of U.S. adults have a will)."""
+import json, os
+P = {
+ 'slug': 'zero-click-searches-for-estate-planning-firms',
+ 'keyword': 'zero-click searches',
+ 'title': 'Zero-Click Searches: What They Mean for Estate Planning Firms',
+ 'meta': 'Zero-click searches explained for estate planning attorneys: why fewer people click, how AI summaries change things and how your firm can still win clients.',
+ 'h1': 'Zero-Click Searches: How Estate Planning Firms Win Clients When Nobody Clicks',
+ 'nav_label': 'Zero-Click Searches',
+ 'tag': 'AI Search',
+ 'date': '2026-11-25',
+ 'lead': "A retired teacher wants to know whether she needs a living trust or whether a will is enough. She types the question into Google. At the top of the page a summary explains the difference in four sentences, mentions probate and suggests speaking to an estate planning attorney. She reads it, nods and closes the tab. She learned something, but she never visited a single website. That is a zero-click search, and more and more of the questions estate planning clients ask now end exactly that way. If your firm's website traffic has flattened even though you are publishing good content, this is a big part of the reason. This guide explains what zero-click searches are, why they hit estate planning firms in particular, and what your firm can do to keep winning clients when fewer people click.",
+ 'quick_answer': "A zero-click search is a search that ends without the person clicking through to any website, usually because the answer appears right on the results page in an AI summary, a featured snippet, a knowledge panel or the map. Estate planning is heavily affected because so many early questions, such as what a power of attorney is or how probate works, can be answered in a few lines. The answer is not to stop publishing. It is to change what you aim for: be the source the summary draws on, own the map results for planning and probate searches, build a name people search for directly, write content that needs a lawyer's judgment, make it easy to call straight from the results page and measure success by consultations and signed plans rather than by clicks alone.",
+ 'takeaways': [
+  ['Many Searches End on Google.', 'The answer often appears before anyone clicks.'],
+  ['Estate Questions Are Easy to Summarize.', 'Basic definitions are the first to go zero click.'],
+  ['Be the Source.', 'Aim to be the site the summary relies on.'],
+  ['Own the Map.', 'Local planning searches still lead to calls.'],
+  ['Build a Name.', 'People who search your firm by name still click.'],
+  ['Measure Signed Plans.', 'Judge search by consultations, not just traffic.'],
+ ],
+ 'sections': [
+  {'h2': 'What Are Zero-Click Searches?',
+   'answer': 'They are searches that end without the person clicking on any result, because they got what they needed on the results page or gave up.',
+   'paras': [
+    "When most estate planning attorneys first learned about websites, the deal was simple. Someone searched, saw a list of links and clicked one. If your page ranked well, you got the visit. That deal has been changing for years, and AI summaries have sped it up.",
+    "Today a search for a simple question often brings up an answer at the top of the page. It might be an AI generated summary, a highlighted snippet taken from one website, a box of facts about an organization or a map with a few nearby firms. Many people read that and stop. A search that ends that way is called a zero-click search.",
+    "This is not a small trend. SparkToro's 2024 study, based on a large panel of real users, found that 58.5% of American Google searches resulted in zero clicks. Some of those people got their answer, some changed their search and some simply gave up. Either way, no website got the visit.",
+   ]},
+  {'h2': 'Why Do Zero-Click Searches Hit Estate Planning Firms So Hard?',
+   'answer': 'Because so many early estate planning questions are simple definitions that a summary can answer in a few lines.',
+   'paras': [
+    "Think about the questions people ask at the start of the planning journey. What is a revocable trust? Do I need a will if I have a trust? What does an executor do? How long does probate take? These are exactly the kinds of questions that summaries and snippets answer well, at least at a basic level.",
+    "For years, many estate planning firms built their websites around answering those questions. The plan was to rank for the definition, get the visit and then earn the consultation. That still works for some searches, but for the simplest ones the visit increasingly never comes.",
+    "The good news is that estate planning is rarely simple once you get past the definitions. A summary can explain what a trust is. It cannot tell a blended family with a disabled child and property in two states exactly what to do. That gap, between general information and personal advice, is where your firm wins.",
+   ]},
+  {'h2': 'How Do AI Summaries Change Clicks for Legal Questions?',
+   'answer': 'People who see an AI summary click on results much less often than people who do not.',
+   'paras': [
+    "AI summaries have made zero-click behavior more common. Pew Research Center studied the real browsing activity of U.S. adults and found that users who encountered an AI summary clicked on a traditional search result link in 8% of all visits. Users who did not see a summary clicked a result in 15% of visits, nearly twice as often.",
+    "Pew also found that people rarely clicked the links inside the summary itself. In other words, being cited is valuable for visibility and trust, but it does not guarantee a flood of visits. The summary does much of the work that your page used to do.",
+    "For an estate planning firm, this means the old measure of success, more visits to your blog, can be misleading. Your content may be shaping what people learn even when they never land on your site. Our guide on [[a:blog/how-to-rank-in-google-ai-mode|how to rank in Google AI Mode]] explains how to become one of the sources those AI answers draw on.",
+   ]},
+  {'h2': 'Which Estate Planning Searches Still Lead to Clicks and Calls?',
+   'answer': 'Local searches, searches for a firm by name and complex, personal questions that need a lawyer.',
+   'paras': [
+    "Not every search is a definition. When someone searches estate planning attorney near me or probate lawyer in your county, they are looking for a person, not a paragraph. Those searches still lead to calls, website visits and directions, often from the map results.",
+    "Searches for your firm or your lawyers by name are another group that still clicks. Someone who has heard your name from a financial adviser, a seminar or a friend usually wants your website, your phone number or your reviews. These are some of the warmest leads you will ever get.",
+    "Finally, complicated questions still pull people through to full pages. How do I leave a house to my children but let my spouse live in it? What happens to my estate if I own property in two states? Can I disinherit an adult child in my state? These are questions where a short summary is not enough and readers want depth from someone qualified.",
+   ]},
+  {'h2': 'How Can Your Firm Be the Source Behind the Answer?',
+   'answer': 'Write clear, accurate answers to real client questions, state your expertise and make your pages easy to quote.',
+   'paras': [
+    "If the summary is going to answer the question anyway, you want it to be built from your page. That means writing the kind of content that systems like to rely on: a clear question as a heading, a direct answer in the first sentence or two, then the detail, the exceptions and the state specific rules underneath.",
+    "Make your expertise obvious. Each page should show which attorney wrote or reviewed it, their credentials and the state or states where they practice. Estate planning rules vary a great deal from state to state, and pages that clearly say which state they cover are more useful to readers and easier for systems to trust.",
+    "Keep facts current. Tax thresholds, filing rules and probate procedures change. An outdated number in an article can lose you trust with readers and with search systems alike. A short review of your key pages each year is worth the time.",
+   ]},
+  {'h2': 'Why Do Map Results Matter More in a Zero-Click World?',
+   'answer': 'Because the map is often where a zero-click search turns into a phone call, without anyone visiting a website.',
+   'paras': [
+    "Here is the twist: many zero-click searches are good for your firm. When someone searches for an estate planning lawyer nearby and taps call on your listing in the map, they never visit your website. Analytics may record nothing. But you just got a call from someone who wants to plan.",
+    "That makes your Google Business Profile one of your most important tools. Google says local results are mainly based on relevance, distance and popularity. In practice that means the right primary category, accurate hours, real photos, a steady flow of genuine reviews and a clear description of the planning, trust, probate and elder law services you offer.",
+    "Check the profile's own reports for calls, direction requests and website clicks. Those numbers often tell a more honest story about search than your website traffic does. Do the same on Apple Maps and Bing, where many older clients search on their own devices.",
+   ]},
+  {'h2': 'How Does Building a Known Name Protect You From Zero-Click Searches?',
+   'answer': 'People who already know your name search for you directly, and those searches still lead to your site and your phone.',
+   'paras': [
+    "The firms that suffer least from zero-click searches are the ones people already know. If a family hears about your firm from their financial adviser and then searches your name, no summary is going to stop them reaching you. Brand searches are the most reliable kind of search traffic there is.",
+    "Estate planning has natural ways to build that name. Seminars, workshops at libraries and community centers, talks for financial advisers and accountants, articles in the local paper and a strong presence in senior and family organizations all put your name in people's heads before they ever search.",
+    "Search and reputation work together. When people see your firm cited in an AI summary, then hear you speak at a seminar, then see your name in the map, each touch makes the next one more powerful. Track how many people search for your firm by name over time. It is one of the clearest signs that your marketing is working.",
+   ]},
+  {'h2': 'What Kind of Content Still Earns Clicks for Estate Planning Firms?',
+   'answer': 'Content that is personal, local, detailed or practical enough that a short summary cannot replace it.',
+   'paras': [
+    "Definitions are the most exposed type of content, so lean on other kinds. Scenario guides work well, such as what to do when a parent with dementia has no power of attorney, or how to plan for a child with special needs without affecting their benefits. These are questions where people want the full picture.",
+    "State and local content is another strength. A guide to how probate works in your county, what your local court expects and how long it usually takes is useful in a way no general summary can match. So is a clear explanation of how your state treats community property, homestead rules or small estates.",
+    "Practical tools earn visits too. A checklist of documents to gather before a planning meeting, a plain guide to choosing an executor or a short video of an attorney walking through the process gives people a reason to come to your site and to remember you.",
+   ]},
+  {'h2': 'How Should Estate Planning Firms Measure SEO When Clicks Fall?',
+   'answer': 'Look at visibility, calls, consultations and signed plans, not just website traffic.',
+   'paras': [
+    "If you judge search only by website visits, zero-click searches will make it look as though things are getting worse even when they are not. A better set of measures tells a truer story. Start with impressions in Google Search Console, which show how often your pages appear in results, whether or not anyone clicks.",
+    "Then look at actions that happen without a visit, such as calls and direction requests from your map listings. Track how often your firm appears in AI summaries for the questions that matter to you. And above all, track consultations booked and plans signed from people who found you through search.",
+    "Ask new clients how they found you, every time, and write it down. You may find that clients say they saw you on Google even when your analytics shows no visit, because they read a summary, saw your name on the map or searched your firm directly later. That is search working, just not in the way old reports measured it.",
+   ]},
+  {'h2': 'Should Estate Planning Firms Stop Writing Blog Posts?',
+   'answer': 'No. They should write fewer thin definitions and more useful, specific content that shows real expertise.',
+   'paras': [
+    "It is tempting to conclude that content no longer pays because clicks are falling. That would be a mistake. Your content is how search systems and AI tools learn what your firm knows, which questions you answer well and which state and community you serve.",
+    "What changes is the mix. A post that only defines a revocable trust in three paragraphs is unlikely to earn much any more. A post that explains how a revocable trust works in your state, when it makes sense, what it costs to maintain in time and paperwork, and common mistakes families make is far more valuable to readers and more likely to be cited.",
+    "Think of each article as both a resource and a reputation builder. Even when it does not earn a click, it can earn a mention in an AI answer, a quote in local news or a link from a financial adviser's site. Those things bring clients over time.",
+   ]},
+  {'h2': 'Why Zero-Click Search Matters for Older Clients and Their Families',
+   'answer': 'Older clients and their adult children search in different ways, and both are increasingly reading answers without clicking.',
+   'paras': [
+    "Many estate planning clients are in their sixties, seventies and beyond, and their adult children are often involved too. The parent may search on a tablet or ask a voice assistant. The adult child may search on a phone at work, read an AI summary and then send a link to a sibling.",
+    "Gallup found that 46% of U.S. adults have a will, which means a large share of families still have no plan at all. Many of them start with a simple question that ends in a summary. Your job is to make sure that when they are ready to act, your firm is the name they remember and the one that is easy to reach.",
+    "That means clear contact options everywhere your firm appears: a phone number on your map listing, a simple form on every page, evening or weekend consultation options if you offer them and a friendly explanation of what the first meeting involves. Reduce the effort it takes to go from reading to calling.",
+   ]},
+  {'h2': 'Common Mistakes Estate Planning Firms Make With Zero-Click Search',
+   'answer': 'Chasing traffic for its own sake, ignoring the map, hiding expertise and measuring the wrong numbers.',
+   'paras': [
+    "The first mistake is chasing traffic. A firm that publishes dozens of short definitions in the hope of ranking will often see little return now, because those are exactly the searches that end on the results page.",
+    "The second is ignoring the map and the firm's own name. These are the parts of search that still lead straight to calls, and they deserve as much attention as the blog. The third is hiding who wrote the content. Pages with no named attorney, no state and no credentials are harder to trust for readers and for systems.",
+    "The fourth is judging the whole effort by one traffic chart. If visits fall but consultations and signed plans hold steady or rise, search is doing its job. Our page on [[a:estate-planning-seo-company|estate planning SEO]] explains how we report on the numbers that actually matter.",
+   ]},
+  {'h2': 'When Should an Estate Planning Firm Get Help Adapting to Zero-Click Search?',
+   'answer': 'When traffic is falling and you cannot tell whether it matters, or when you do not have time to rework content, listings and tracking.',
+   'paras': [
+    "Some of this a firm can start on its own, such as asking every new client how they found you, checking your Google Business Profile reports and reviewing your most visited pages to see whether they say anything a summary cannot.",
+    "Other parts take more time and experience: restructuring content so it is easier to cite, setting up tracking for calls and consultations, managing listings across Google, Apple and Bing and checking how AI tools describe your firm. That is where an SEO partner can help.",
+    "If you work with one, ask how they report on zero-click search. A good partner will talk about visibility, calls and signed plans, not just traffic. Our page on [[a:estate-planning-marketing|estate planning marketing]] covers how search fits with the rest of your marketing.",
+   ]},
+  {'h2': 'A Note on Figures, Trademarks and Bar Rules',
+   'answer': 'This guide explains zero-click search in general terms and does not promise any ranking or result.',
+   'paras': [
+    "Google, Google Search Console and Google Business Profile are trademarks of Google LLC. Apple Maps is a trademark of Apple Inc. Bing is a trademark of Microsoft Corporation. CaseAuthority is not affiliated with, endorsed by or sponsored by any of these companies, or by SparkToro, Pew Research Center or Gallup. Figures from those organizations are quoted from their own published research at the time of writing and describe broad patterns, not results for any particular firm.",
+    "Search behavior varies by market, device, age group and type of question. Nothing in this guide promises a ranking, a number of consultations or any outcome. Lawyer advertising rules vary by state, so check your state bar's current rules before changing your website or listings. This guide is not legal advice.",
+   ]},
+ ],
+ 'faq': [
+  {'q': 'What Is a Zero-Click Search?', 'a': 'It is a search that ends without the person clicking any result, often because the answer appears on the results page in an AI summary, snippet, panel or map.'},
+  {'q': 'Are Zero-Click Searches Bad for Estate Planning Firms?', 'a': 'Not always. They reduce clicks on simple questions, but a call from your map listing or a brand search after seeing your firm in a summary are zero-click wins.'},
+  {'q': 'Why Is My Estate Planning Website Getting Fewer Visits?', 'a': 'One common reason is that AI summaries and answer boxes now answer basic planning questions on the results page, so fewer people click through even when you rank.'},
+  {'q': 'How Do I Get Cited in Google AI Summaries?', 'a': 'Answer real client questions clearly, state the attorney and the state the page covers, keep facts current and follow standard SEO best practices.'},
+  {'q': 'What Should I Measure Instead of Clicks?', 'a': 'Impressions, calls and direction requests from your map listings, searches for your firm by name, consultations booked and plans signed from search.'},
+  {'q': 'Should We Still Publish Blog Posts?', 'a': 'Yes, but focus on detailed, state specific and scenario based content that shows real expertise, rather than short definitions a summary can replace.'},
+ ],
+ 'related': ['estate-planning-seo-company', 'estate-planning-marketing', 'probate-law-firm-seo', 'digital-marketing-for-estate-planning-lawyers'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'estate', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])

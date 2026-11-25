@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'how-to-get-a-knowledge-panel-on-google': {
+  'title': 'Knowledge Panels in 60 Seconds',
+  'sub': 'How a personal injury firm becomes a name Google and AI tools recognise.',
+  'bubble': 'Here is how Google decides who your firm is.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'The Name Search Moment',
+     'p': 'Before they call, people search your firm by name. What they see decides it.',
+     'v': {'kind': 'search', 'q': 'your firm name injury lawyers', 'results': [('Your Firm', True), ('Legal Directory', False), ('Old News Story', False)]}},
+    {'h': 'You Cannot Buy One', 'p': 'Google builds the panel itself once it trusts the facts about you.',
+     'v': {'kind': 'shield', 'chips': ['No fee', 'No form', 'Earned from the web']}},
+    {'h': 'Say Who You Are', 'p': 'Clear about page, lawyer bios and organization markup on your site.',
+     'v': {'kind': 'pages', 'pages': [('About the Firm', 'Who we are'), ('Lawyer Bios', 'Full names'), ('Offices', 'Real addresses'), ('Profiles', 'Linked together')]}},
+    {'h': 'Same Facts Everywhere', 'p': 'One name, address and phone across every listing and profile.',
+     'v': {'kind': 'compare', 'cols': ['Mixed details', 'Consistent details'], 'rows': [('One firm name', (False, True)), ('One main phone', (False, True)), ('Easy for Google to confirm', (False, True))]}},
+    {'h': 'Others Vouch for You', 'p': 'Local news, bar groups and legal publications confirm the facts.',
+     'v': {'kind': 'checklist', 'title': 'Trusted mentions', 'items': ['Local news quotes', 'Bar association listing', 'Legal publications', 'Community groups']}},
+    {'h': 'Claim It and Keep It Right', 'p': 'Verify when it appears, then suggest fixes with proof.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('First', 'Clean up the facts', 0), ('Next', 'Panel appears', 50), ('Later', 'Claim and maintain', 100)], 'tag': 'Illustrative path'}},
+  ],
+  'cta': CTA('Does Google Know Who Your Firm Is?', 'Get a free audit of how Google and AI tools describe your firm.'),
+},
 'why-is-my-law-firm-website-not-ranking-on-google': {
   'title': 'Not Ranking on Google? 60 Seconds',
   'sub': 'The usual reasons a personal injury firm website does not rank, and the order to fix them.',

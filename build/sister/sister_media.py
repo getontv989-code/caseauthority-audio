@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'bing-seo-for-criminal-defense-lawyers': {
+  'title': 'Bing SEO in 60 Seconds',
+  'sub': 'Why the search engine many families use by default matters for defense firms.',
+  'bubble': 'Here is why Bing matters after an arrest.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'The 2 A.M. Search',
+     'p': 'A parent on a Windows laptop searches for a lawyer. That search goes to Bing.',
+     'v': {'kind': 'search', 'q': 'criminal defense lawyer near me', 'results': [('Your Firm', True), ('County Defense Group', False), ('Legal Directory', False)]}},
+    {'h': 'Bing Feeds AI Answers', 'p': 'Assistants like Copilot run searches and summarize what they find.',
+     'v': {'kind': 'chat', 'title': 'AI assistant', 'q': 'Who is a good DUI lawyer near me?', 'a': 'Here are a few defense firms in your county.'}},
+    {'h': 'Claim Your Tools', 'p': 'Set up Bing Webmaster Tools, submit a sitemap and turn on IndexNow.',
+     'v': {'kind': 'checklist', 'title': 'Bing setup', 'items': ['Verify your site', 'Submit your sitemap', 'Turn on IndexNow', 'Claim Bing Places']}},
+    {'h': 'One Page per Charge', 'p': 'Clear charge and court pages help Bing, Google and AI tools alike.',
+     'v': {'kind': 'pages', 'pages': [('DUI Defense', 'Your county'), ('Drug Charges', 'Your city'), ('Assault', 'Your court'), ('Warrants', 'Your county')]}},
+    {'h': 'Fewer Rivals on Bing', 'p': 'Most firms never check Bing, so steady work moves you up faster.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Main Street Law', 'County Defense Group']}},
+    {'h': 'Check What Copilot Says', 'p': 'Ask about your firm by name and fix what it gets wrong.',
+     'v': {'kind': 'shield', 'chips': ['Accurate details', 'Indexed pages', 'Trusted mentions']}},
+  ],
+  'cta': CTA('Does Bing Know Your Firm?', 'Get a free audit of your Bing, Google and AI visibility.'),
+},
 'how-to-read-a-monthly-seo-report': {
   'title': 'Your SEO Report in 60 Seconds',
   'sub': 'Which numbers in a monthly SEO report matter for a criminal defense firm.',
@@ -285,6 +306,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'apple-maps-business-listing-for-divorce-lawyers': {
+  'title': 'Apple Maps in 60 Seconds',
+  'sub': 'How a family law firm gets found when people search privately on an iPhone.',
+  'bubble': 'Here is how iPhone searches find a divorce lawyer.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'A Private Search',
+     'p': 'Many people start a divorce search quietly on their own iPhone.',
+     'v': {'kind': 'phone', 'title': 'Searching on an iPhone', 'rows': ['Divorce lawyer near me', 'Family law firm nearby', 'Tap to call']}},
+    {'h': 'Apple Uses Its Own Map', 'p': 'Siri, Spotlight and Apple Maps lean on Apple place data, not Google.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Family Law', 'Main Street Law']}},
+    {'h': 'Claim Your Place Card', 'p': 'Sign in to Apple Business with a firm account and verify your office.',
+     'v': {'kind': 'checklist', 'title': 'Place card basics', 'items': ['Real firm name only', 'Right category', 'Accurate hours', 'Genuine photos']}},
+    {'h': 'Match Google Exactly', 'p': 'The same name, address and phone everywhere builds trust.',
+     'v': {'kind': 'compare', 'cols': ['Unclaimed card', 'Claimed card'], 'rows': [('Current address', (False, True)), ('Website link', (False, True)), ('Office photos', (False, True))]}},
+    {'h': 'Protect Client Privacy', 'p': 'Never confirm someone was a client when replying to feedback.',
+     'v': {'kind': 'shield', 'chips': ['No pressure', 'Nothing in return', 'Confidential replies']}},
+    {'h': 'Keep It Current', 'p': 'Update Apple Maps the same day you update Google and your site.',
+     'v': {'kind': 'timeline', 'title': 'A typical path', 'points': [('First', 'Claim and verify', 0), ('Next', 'Complete the card', 50), ('Later', 'Keep it current', 100)], 'tag': 'Illustrative path'}},
+  ],
+  'cta': CTA('Is Your Firm on Every iPhone Map?', 'Get a free audit of your Apple, Google and Bing listings.'),
+},
 'google-business-profile-suspended': {
   'title': 'Profile Suspended? 60 Seconds',
   'sub': 'How a family law firm gets a suspended Google profile back on the map.',
@@ -558,6 +600,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'zero-click-searches-for-estate-planning-firms': {
+  'title': 'Zero-Click Searches in 60 Seconds',
+  'sub': 'How estate planning firms win clients when people read the answer and never click.',
+  'bubble': 'Here is what to do when fewer people click.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'The Answer Comes First',
+     'p': 'Many planning questions are now answered at the top of the results page.',
+     'v': {'kind': 'search', 'q': 'do I need a living trust', 'results': [('AI summary', False), ('Your Firm', True), ('Legal Directory', False)]}},
+    {'h': 'Definitions Go First', 'p': 'Simple what is questions are the easiest to answer without a click.',
+     'v': {'kind': 'shrink', 'title': 'What a summary can answer', 'keep': ['What is a trust', 'What is probate', 'What an executor does'], 'tag': 'Often read on the page', 'later': 'Your family, your plan'}},
+    {'h': 'Be the Source', 'p': 'Clear answers, a named attorney and the state you cover.',
+     'v': {'kind': 'checklist', 'title': 'Easy to cite', 'items': ['Question as the heading', 'Direct first answer', 'Named attorney', 'State specific detail']}},
+    {'h': 'The Map Still Calls', 'p': 'A tap to call from the map is a zero-click win.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Legacy Law Group', 'Main Street Trusts']}},
+    {'h': 'Build a Name', 'p': 'People who already know your firm search for you directly.',
+     'v': {'kind': 'pages', 'pages': [('Seminars', 'Local talks'), ('Advisers', 'Referrals'), ('Local News', 'Expert quotes'), ('Brand Search', 'Your name')]}},
+    {'h': 'Measure Signed Plans', 'p': 'Judge search by consultations and signed plans, not clicks alone.',
+     'v': {'kind': 'sources', 'title': 'From search to signed plan', 'items': [('Impressions', 95), ('Calls', 55), ('Consultations', 38), ('Signed plans', 24)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Is Zero-Click Search Costing Your Firm Clients?', 'Get a free audit of your visibility, map listing and tracking.'),
+},
 'link-building-for-law-firms': {
   'title': 'Link Building in 60 Seconds',
   'sub': 'How estate planning firms earn links that help them rank.',

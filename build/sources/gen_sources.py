@@ -70,6 +70,15 @@ S = {
  'GSCPERM': ('https://support.google.com/webmasters/answer/7687615?hl=en', 'Google Search Console Help: Managing owners, users, and permissions'),
  'OAIBOTS': ('https://platform.openai.com/docs/bots', 'OpenAI: Overview of OpenAI crawlers'),
  'EVENT': ('https://developers.google.com/search/docs/appearance/structured-data/event', 'Google Search Central: Event structured data'),
+ 'KPABOUT': ('https://support.google.com/knowledgepanel/answer/9163198?hl=en', 'Google Knowledge Panel Help: About knowledge panels'),
+ 'KPFEED': ('https://support.google.com/knowledgepanel/answer/7534842?hl=en', 'Google Knowledge Panel Help: Submit feedback on content about you'),
+ 'ORGSD': ('https://developers.google.com/search/docs/appearance/structured-data/organization', 'Google Search Central: Organization structured data'),
+ 'OAISEARCH': ('https://help.openai.com/en/articles/9237897-chatgpt-search', 'OpenAI Help Center: ChatGPT search'),
+ 'INDEXNOW': ('https://www.indexnow.org/', 'IndexNow.org: What is IndexNow?'),
+ 'APPLEB': ('https://business.apple.com/', 'Apple Business: Put your business on the map'),
+ 'APPLEGROW': ('https://business.apple.com/grow', 'Apple Business: Grow your business (place cards)'),
+ 'SPARK0': ('https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/', 'SparkToro: 2024 Zero-Click Search Study'),
+ 'PEWAI': ('https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/', 'Pew Research Center: Google users are less likely to click on links when an AI summary appears in the results'),
 }
 
 SCREENED = ('Google Screened badge', 'Google Verified badge')
@@ -81,6 +90,11 @@ def L(text, key):
 
 
 PI = {
+ 'how-to-get-a-knowledge-panel-on-google': {
+  'links': [L('knowledge panels are automatically generated', 'KPABOUT'),
+            L('does not manually create or delete knowledge panels', 'KPFEED'),
+            L('help Google better understand your organization', 'ORGSD'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR')]},
  'why-is-my-law-firm-website-not-ranking-on-google': {
   'links': [L('If page addresses change without proper redirects', 'MOVE'),
             L('measure real-world user experience for loading performance, interactivity and visual stability', 'CWV'),
@@ -217,6 +231,11 @@ PI = {
 }
 
 CRIMINAL = {
+ 'bing-seo-for-criminal-defense-lawyers': {
+  'links': [L('ChatGPT search sometimes partners with other search providers', 'OAISEARCH'),
+            L('an easy way for websites owners to instantly inform search engines about latest content changes', 'INDEXNOW'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'how-to-read-a-monthly-seo-report': {
   'links': [L('The Search Console Performance report', 'GSC'),
             L('local results are mainly based on relevance, distance and popularity', 'GLR'),
@@ -287,6 +306,11 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'apple-maps-business-listing-for-divorce-lawyers': {
+  'links': [L('claim your location on Maps so millions of customers can connect with your business', 'APPLEB'),
+            L('Apple says claimed businesses get 30 percent more views', 'APPLEGROW'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'google-business-profile-suspended': {
   'links': [L('including unnecessary information in your business name is not permitted', 'GBPG'),
             L('you can submit an appeal through', 'GSUSP'),
@@ -360,6 +384,11 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'zero-click-searches-for-estate-planning-firms': {
+  'links': [L('found that 58.5% of American Google searches resulted in zero clicks', 'SPARK0'),
+            L('clicked on a traditional search result link in 8% of all visits', 'PEWAI'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('Gallup found that 46% of U.S. adults have a will', 'GALLUP')]},
  'link-building-for-law-firms': {
   'links': [L('links bought or traded to manipulate rankings break its spam policies', 'LINKSPAM'),
             L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),

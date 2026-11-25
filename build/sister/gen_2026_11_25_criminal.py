@@ -1,0 +1,135 @@
+#!/usr/bin/env python3
+"""2026-11-25 criminal post: Bing SEO for Criminal Defense Lawyers (GEO angle: Bing results feed Microsoft Copilot and, through search partners, other AI assistants). Semrush US 2026-11-25: bing seo 3600 KD29 CPC $11.49, bing search engine optimization 210 KD18, how to rank on bing 90 KD28, bing ranking factors 50, bing local seo 40 (cluster ~3,990). Mash asked for niche-matched GEO topics 2026-11-25. Nearest live page: blog/how-to-rank-in-ai-overviews (Google AI); nothing on any site covers Bing.
+Facts used (sources_patch, checked 2026-11-25): OpenAI ChatGPT search help (sometimes partners with other search providers), IndexNow.org (instantly inform search engines about content changes), Google local ranking (relevance, distance, popularity), ABA Model Rule 7.1."""
+import json, os
+P = {
+ 'slug': 'bing-seo-for-criminal-defense-lawyers',
+ 'keyword': 'bing seo',
+ 'title': 'Bing SEO for Criminal Defense Lawyers: Why It Matters Now',
+ 'meta': 'Why Bing SEO matters for criminal defense lawyers, how Bing feeds AI assistants like Copilot, and the steps to get your firm found on Bing and Bing Places.',
+ 'h1': 'Bing SEO for Criminal Defense Lawyers: The Search Engine Your Competitors Forget',
+ 'nav_label': 'Bing SEO',
+ 'tag': 'AI Search',
+ 'date': '2026-11-25',
+ 'lead': "It is 1:40 in the morning. A mother has just had a call from the county jail. Her son has been arrested and she needs a lawyer before his first appearance. She does not reach for her phone. She is already at the family computer, a Windows laptop with Edge open, and she types criminal defense lawyer near me into the bar at the top. That search goes to Bing, not Google. Most defense firms put all of their effort into Google and never check what Bing shows. That leaves a gap, and the gap is getting bigger, because Bing results now feed AI assistants like Microsoft Copilot. This guide explains why Bing SEO matters for criminal defense lawyers, how it connects to AI search and the practical steps to show up when people search on Bing.",
+ 'quick_answer': "Bing SEO is the work of getting your firm to rank in Bing search and Bing's map results. It matters for criminal defense firms for two reasons. Bing is the default search engine on many Windows computers and in the Edge browser, so plenty of worried family members use it without thinking about it. And Bing's index helps power AI assistants like Microsoft Copilot, so a firm Bing understands well has a better chance of being mentioned in AI answers. Most of the work overlaps with good Google SEO: clear charge and court pages, a fast site, accurate local listings and trusted mentions. The Bing specific steps are claiming your site in Bing Webmaster Tools, submitting a sitemap, using IndexNow, claiming a Bing Places listing and checking how Copilot describes your firm.",
+ 'takeaways': [
+  ['Bing Is the Default for Many.', 'Windows and Edge send searches to Bing automatically.'],
+  ['It Feeds AI Answers.', 'Copilot and other assistants draw on Bing results.'],
+  ['Most Work Overlaps.', 'Good Google SEO already helps you on Bing.'],
+  ['Claim Your Site.', 'Bing Webmaster Tools shows how Bing sees your firm.'],
+  ['Claim Bing Places.', 'The map listing on Bing is separate from Google.'],
+  ['Check Copilot.', 'Ask it about your firm and fix what it gets wrong.'],
+ ],
+ 'sections': [
+  {'h2': 'What Is Bing SEO?',
+   'answer': 'It is the work of making your firm easy for Bing to find, understand and show, both in its regular results and on its map.',
+   'paras': [
+    "SEO stands for search engine optimization. Most of the time when lawyers hear it they think of Google, and for good reason, because Google handles most searches in the United States. Bing is Microsoft's search engine. It has its own crawler, its own index of the web, its own ranking systems and its own map listings, called Bing Places.",
+    "Bing SEO is simply the same discipline aimed at Bing. You make sure Bing can reach every important page, that it understands what each page is about and where your firm practices, and that it has enough trust in your firm to show it near the top when someone searches for a DUI lawyer or an assault defense attorney in your county.",
+    "The good news is that Bing and Google mostly reward the same things. The bad news is that most firms never check Bing at all, so small problems there go unnoticed for years. A page Bing has never indexed or a map listing that still shows an old office can quietly cost you calls.",
+   ]},
+  {'h2': 'Why Should Criminal Defense Lawyers Care About Bing?',
+   'answer': 'Because the people who search for a defense lawyer are often using a computer where Bing is the default, and because Bing now feeds AI answers.',
+   'paras': [
+    "Think about who actually searches for a criminal defense lawyer. Often it is not the person who was arrested. It is a parent, a spouse, a sibling or an employer, searching at night or from work. Many of those searches happen on Windows computers, where Edge and Windows search send queries to Bing unless someone has changed the settings. Plenty of people never do.",
+    "Office computers matter here too. A business owner whose employee has been arrested, or a relative searching on a work laptop over lunch, is often on a company managed Windows machine. Those people are not choosing Bing. They are just typing into whatever is in front of them.",
+    "Then there is competition. In many cities, the top defense firms have spent years fighting for the same Google positions. On Bing, the field is often thinner because fewer firms pay attention to it. A modest amount of work can move your firm up faster than the same work would on Google.",
+   ]},
+  {'h2': 'How Does Bing Connect to AI Search and Copilot?',
+   'answer': "Bing's index helps power Microsoft Copilot, and AI assistants often work by running searches behind the scenes and summarizing what they find.",
+   'paras': [
+    "This is the part that turns Bing from a side project into a GEO priority. GEO, or generative engine optimization, is about getting your firm mentioned when people ask AI tools questions instead of searching the old way. Microsoft Copilot, built into Windows, Edge and Microsoft 365, draws on Bing search when it answers questions about the world, including questions about local lawyers.",
+    "Other assistants work in a similar way. OpenAI's own help page explains that ChatGPT search sometimes partners with other search providers, rewriting a question into more targeted searches and sending them to those providers. In plain words, when someone asks an assistant for a good DUI lawyer near them, the assistant may run a search, read the top results and summarize them.",
+    "So if Bing does not know your firm well, you can be missing from the answers as well as the results. If Bing ranks your DUI page well and understands your firm's name, location and charges, you have a better chance of being one of the firms an assistant mentions. Our guide on [[a:blog/how-to-rank-in-ai-overviews|how to rank in AI Overviews]] covers the Google side of AI search.",
+   ]},
+  {'h2': 'How Is Bing SEO Different From Google SEO?',
+   'answer': 'The foundations are the same, but Bing has its own tools, its own map listings and tends to reward clear, literal signals.',
+   'paras': [
+    "You do not need a separate website or separate content for Bing. Clear charge pages, a fast site, honest content, a solid map listing and links from trusted sites help on both. If your Google SEO is in good shape, you are already most of the way there.",
+    "The differences are mostly practical. Bing has its own webmaster tools and its own business listings, and both need to be set up separately. Bing also supports IndexNow, a way to tell it straight away when a page has been added or changed, which Google does not use.",
+    "Many SEO practitioners also find that Bing leans a little more on clear, literal signals, such as a page title and main heading that plainly say what the page is about. For a defense firm that means titles like DUI Defense Lawyer in your county rather than clever slogans. That kind of clarity is good practice on Google too, so there is no trade off.",
+   ]},
+  {'h2': 'How Do You Get Your Site Into Bing Webmaster Tools?',
+   'answer': 'Create a free account, add and verify your site, and submit your sitemap so Bing can find every page.',
+   'paras': [
+    "Bing Webmaster Tools is Microsoft's free equivalent of Google Search Console. It shows which of your pages Bing has indexed, which searches you appear for, which pages have errors and which other sites link to you. If nobody at your firm has ever logged in, this is the first job.",
+    "Setting it up is quick. You sign in, add your website and verify that you own it. If you already use Google Search Console, Bing lets you import your verified sites from it, which saves a step. Then submit your sitemap, the file that lists your important pages, so Bing does not have to discover them one link at a time.",
+    "Make sure the account is owned by the firm, not by a former web developer or an agency that might disappear. Your data belongs to your firm. Give your SEO partner access as a user, the same way you should with Google Search Console.",
+   ]},
+  {'h2': 'What Is IndexNow and Should a Defense Firm Use It?',
+   'answer': 'IndexNow lets your website tell Bing immediately when a page changes, and it is worth turning on.',
+   'paras': [
+    "Search engines normally find changes by crawling, which means visiting your site from time to time to see what is new. That can take days or weeks. The IndexNow project describes itself as an easy way for websites owners to instantly inform search engines about latest content changes on their website. Bing supports it, along with several other search engines.",
+    "For a defense firm, speed can matter. If a new law changes DUI penalties in your state, or you publish a page about a new diversion program in your county, you want that page found quickly while people are searching for it. IndexNow helps with that.",
+    "Many website platforms and SEO plugins now support IndexNow with a simple setting. Ask whoever manages your site whether it is switched on. It is a small, low risk step that costs nothing.",
+   ]},
+  {'h2': 'How Do You Rank on Bing Places for Criminal Defense Searches?',
+   'answer': 'Claim your Bing Places listing, match your details to your Google profile and keep categories, hours and photos accurate.',
+   'paras': [
+    "Bing Places is Bing's version of Google Business Profile. It controls how your firm appears on Bing Maps and in the map pack on Bing results. It is also one of the places AI assistants may look when someone asks for a lawyer nearby, which makes it more important than it used to be.",
+    "Claim the listing and check every detail. Use the same firm name, address and main phone number as your Google profile and your website. Choose the most accurate category, add your real hours, including whether you take calls after hours, and add genuine photos of your office and team. Bing lets you import details from Google Business Profile, which is a quick way to start, but check the result carefully afterwards.",
+    "The ranking ideas will feel familiar. On the Google side, Google says local results are mainly based on relevance, distance and popularity, and Bing's map results reward similar things. Our page on [[a:local-seo-for-criminal-defense-lawyers|local SEO for criminal defense lawyers]] covers those local signals in more depth.",
+   ]},
+  {'h2': 'Which Pages Help a Defense Firm Rank on Bing?',
+   'answer': 'Clear pages for each charge and each court or county you serve, written in plain words that match how people search.',
+   'paras': [
+    "People rarely search for a criminal defense lawyer in general. They search for a DUI lawyer, a domestic violence attorney, a lawyer for a drug charge or a warrant lawyer, usually with a city or county. A firm with one general practice areas page is asking that page to match every one of those searches, and it usually matches none of them well.",
+    "Give each important charge its own page. Explain what the charge means in your state, what happens after an arrest, what the penalties can be and how a lawyer helps. Add pages for the courts and counties you appear in most. That is how Bing, Google and AI assistants learn exactly what your firm handles and where.",
+    "Write for the person searching, not for a search engine. A frightened parent reading at 2 a.m. wants to know what happens next, whether their son will be released and how fast you can help. Pages that answer those questions plainly tend to earn both rankings and calls. Our page on [[a:criminal-law-seo|criminal law SEO]] explains how we structure these pages.",
+   ]},
+  {'h2': 'Do Links and Mentions Matter on Bing?',
+   'answer': 'Yes. Like Google, Bing uses links and mentions from trusted sites as a sign that your firm is real and respected.',
+   'paras': [
+    "A link from a local news site, a bar association, a law school or a respected legal publication tells Bing that others trust your firm. So does being mentioned by name in coverage of a case or a change in the law, even without a link. These signals help on every search engine and in AI answers.",
+    "Defense lawyers are in a good position here. Reporters often need a lawyer to explain a new statute, a high profile arrest or how bail works in your county. Being the lawyer who answers clearly and quickly can earn coverage that builds your reputation for years.",
+    "Avoid shortcuts. Bought links, link swaps and networks of low quality sites can do real damage, and they may also raise questions under your state's lawyer advertising rules. A handful of genuine mentions is worth far more.",
+   ]},
+  {'h2': 'How Do You Check What Copilot Says About Your Firm?',
+   'answer': 'Ask it directly, in the way a client would, and compare the answer with the facts.',
+   'paras': [
+    "Open Copilot and ask a few plain questions. Who are good DUI lawyers in your city? What do you know about your firm by name? Which lawyers handle domestic violence cases in your county? Note which firms it mentions, what it says about yours and which sources it shows.",
+    "If it leaves you out, check whether your charge and city pages are indexed in Bing Webmaster Tools and whether your Bing Places listing is complete. If it gets details wrong, such as an old address or a practice area you no longer handle, look for the sources it cites and fix the information there first.",
+    "Repeat the check every month or two. AI answers change as the web changes. Keeping a simple record of what Copilot says, alongside what Google AI features say, gives you an honest picture of your firm's AI visibility over time.",
+   ]},
+  {'h2': 'Common Bing SEO Mistakes Defense Firms Make',
+   'answer': 'Never checking Bing at all, leaving Bing Places unclaimed, blocking Bing by accident and letting old details linger.',
+   'paras': [
+    "The biggest mistake is simply ignoring Bing. Many firms have never searched their own name on it. When they finally do, they find an unclaimed map listing, a former partner's name or a phone number from five years ago.",
+    "The second is blocking Bing without meaning to. A website setting meant to stop spam bots, or a security service with strict rules, can stop Bing's crawler from reaching your pages. Bing Webmaster Tools will usually show this, which is another reason to set it up.",
+    "The third is treating Bing as an afterthought for AI search. As more people ask assistants for recommendations instead of scrolling through results, the search engines those assistants rely on matter more, not less. Firms that tidy up Bing now are setting themselves up for that shift.",
+   ]},
+  {'h2': 'How Long Does Bing SEO Take to Work?',
+   'answer': 'Set up steps can show results within weeks, while rankings for competitive charges take months of steady work.',
+   'paras': [
+    "Fixing a blocked crawler, submitting a sitemap or claiming a Bing Places listing can make a difference fairly quickly once Bing revisits your site. These are the quick wins and they are worth doing first.",
+    "Ranking for competitive searches, such as DUI lawyer in a large city, takes longer. It depends on how strong your pages are, how many trusted mentions you have and how much the firms above you have invested. Because fewer firms compete hard on Bing, progress there is often faster than on Google for the same effort.",
+    "Be wary of anyone who promises a guaranteed position on any search engine. No honest SEO partner can promise that. What they can promise is a clear plan, regular reporting and work you can see.",
+   ]},
+  {'h2': 'When Should a Defense Firm Get Help With Bing SEO?',
+   'answer': 'When the basic checks raise problems you cannot fix yourself, or when you simply do not have time to keep both search engines in shape.',
+   'paras': [
+    "Some of this is easy for a firm owner to do, such as searching your firm on Bing, asking Copilot about your firm and checking your Bing Places listing. Other parts, such as crawl problems, structured data, charge page strategy and earning press mentions, take time and experience.",
+    "If you work with an SEO partner, ask whether they check Bing as well as Google, and whether their reports include Bing Webmaster Tools data and AI visibility checks. A partner focused only on Google rankings may be missing part of the picture.",
+    "Our team works with defense firms on exactly this kind of joined up search work. Our page on [[a:criminal-defense-law-firm-seo|criminal defense law firm SEO]] explains how we approach it.",
+   ]},
+  {'h2': 'A Note on Trademarks, Figures and Bar Rules',
+   'answer': 'This guide explains how Bing SEO generally works and does not promise any ranking or result.',
+   'paras': [
+    "Microsoft, Bing, Bing Places, Bing Webmaster Tools, Copilot, Edge and Windows are trademarks of Microsoft Corporation. Google is a trademark of Google LLC. ChatGPT is a trademark of OpenAI. CaseAuthority is not affiliated with, endorsed by or sponsored by any of these companies. Descriptions of their products are based on what they publish on their own public pages at the time of writing, which may change.",
+    "Search results and AI answers vary by market, competition, location and device. Any timelines here are general estimates for illustration only, and nothing in this guide promises a ranking, a number of calls or any outcome. ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication about the lawyer's services, and each state has its own advertising rules. Check your state bar's current rules. This guide is not legal advice.",
+   ]},
+ ],
+ 'faq': [
+  {'q': 'Is Bing SEO Worth It for a Criminal Defense Firm?', 'a': 'Yes for most firms. Many family members search on Windows computers where Bing is the default, competition on Bing is often lighter and Bing results feed AI assistants like Copilot.'},
+  {'q': 'Do I Need Different Content for Bing?', 'a': 'No. Clear charge and court pages, a fast site and trusted mentions help on both Bing and Google. The Bing specific work is mostly setting up its tools and listings.'},
+  {'q': 'What Is Bing Places?', 'a': "It is Bing's business listing, similar to Google Business Profile. It controls how your firm appears on Bing Maps and in Bing's local results."},
+  {'q': 'Does Bing Affect What AI Assistants Say About My Firm?', 'a': 'It can. Microsoft Copilot draws on Bing search, and AI assistants often run searches and summarize the results when answering questions about local lawyers.'},
+  {'q': 'How Do I Know if Bing Has Indexed My Site?', 'a': 'Set up Bing Webmaster Tools, verify your site and check its indexing reports. You can also search site: followed by your domain on Bing for a rough check.'},
+  {'q': 'Should I Turn On IndexNow?', 'a': 'Usually yes. It lets your site tell Bing and other supporting search engines straight away when you add or change a page, and many platforms support it with a simple setting.'},
+ ],
+ 'related': ['local-seo-for-criminal-defense-lawyers', 'criminal-law-seo', 'criminal-defense-law-firm-seo', 'digital-marketing-for-criminal-defense-attorneys'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'criminal', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])
