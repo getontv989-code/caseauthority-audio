@@ -8,6 +8,8 @@ Runs after split.py/verify.py and BEFORE positioning_patch.py (schema_patch then
 - Homepage: new title, meta, H1, H2, body uses of the phrase rewritten, one link to the guide.
 - Why-SEO post retitled, phrase cut to one use (a link to the guide).
 - Six posts + /services get a guide link in the opening paragraph; every footer gets "PI SEO Guide".
+- 2026-11-25: six pages get one in-text "personal injury SEO" link to the homepage; Why-SEO q1 section,
+  q8 heading and FAQ question reworded so the post no longer targets "personal injury SEO".
 Fails the build if any change did not apply or the old guide URL is left anywhere.
 """
 import os, re, sys
@@ -145,6 +147,78 @@ for rel, sentence in LEAD_LINK[MODE].items():
     if ('href="%s"' % GUIDE) not in m.group(1):
         s = s[:m.end(1)] + ' ' + (sentence % link()) + s[m.end(1):]
         open(p, 'w', encoding='utf-8').write(s)
+
+# 4b. (2026-11-25, Mash) one in-text "personal injury SEO" link to the homepage on six pages,
+#     and the Why-SEO post stops defining "personal injury SEO" itself.
+HOME = '<a class="in" href="/">personal injury SEO</a>'
+WHY = 'blog/why-seo-for-personal-injury-lawyers-matters.html'
+WHY_Q1 = ('<div class="post-sec" id="q1"><h2>What does SEO cover for an injury firm?</h2>'
+          '<p class="sec-ans"><b>Short answer:</b> It is the work that gets an injury firm found first on Google: '
+          'in the Map Pack, the organic results and AI answers.</p><div class="prose"><p>That means a well-run Google '
+          'Business Profile, focused pages for each case type and city, a fast and technically clean website, and links '
+          'and citations from credible legal sources. See how CaseAuthority approaches ' + HOME +
+          ' for injury firms.</p></div></div>')
+HOME_LINK = {
+    'main': {
+        'case-studies.html': [('These personal injury SEO case studies show what happens',
+                               'These ' + HOME + ' case studies show what happens', 1)],
+        'recommended-seo-services-personal-injury-law-firms.html': [
+            ('CaseAuthority is a personal injury SEO company.', 'CaseAuthority is a ' + HOME + ' company.', 1)],
+    },
+    'blog': {
+        'blog/index.html': [('written by the team that does the work.',
+                             'written by the team that does the ' + HOME + ' work.', 1)],
+        'blog/seo-roi-case-studies-personal-injury-attorneys.html': [
+            ('three real CaseAuthority case studies', 'three real CaseAuthority ' + HOME + ' case studies', 1)],
+        'blog/how-to-compare-seo-proposals-for-personal-injury-law-firms.html': [
+            ('two or three SEO proposals on your desk', 'two or three ' + HOME + ' proposals on your desk', 1)],
+        WHY: [
+            ('>What is personal injury SEO?</a>', '>What does SEO cover for an injury firm?</a>', 2),
+            ('How long does personal injury SEO take, and what results should you expect?',
+             'How long does SEO take for an injury firm, and what results should you expect?', 3),
+            ('"name":"What is personal injury SEO?"', '"name":"What does SEO cover for a personal injury firm?"', 1),
+            ('fq">What is personal injury SEO?</h3>', 'fq">What does SEO cover for a personal injury firm?</h3>', 1),
+            ('Personal injury SEO is the work that makes a PI law firm show up first',
+             'It is the work that makes a PI law firm show up first', 2),
+        ],
+    },
+}
+for rel, reps in HOME_LINK[MODE].items():
+    p = os.path.join(OUT, rel)
+    if not os.path.isfile(p):
+        errors.append('missing ' + rel); continue
+    s = open(p, encoding='utf-8').read()
+    if rel == WHY:
+        m = re.search(r'<div class="post-sec" id="q1"><h2>What is personal injury SEO\?</h2>.*?(?=<div class="post-sec" id="q2">)', s, re.S)
+        if not m:
+            errors.append('why-seo: q1 section not found')
+        else:
+            s = s[:m.start()] + WHY_Q1 + s[m.end():]
+    for a, b, n in reps:
+        c = s.count(a)
+        if c != n:
+            errors.append('%s: expected %d of %r, found %d' % (rel, n, a[:70], c))
+        s = s.replace(a, b)
+    open(p, 'w', encoding='utf-8').write(s)
+    # checks: exactly one in-text homepage link with that text, no em dashes
+    if s.count(HOME) != 1 or len(re.findall(r'<a class="in" href="/">(?i:personal injury seo)</a>', s)) != 1:
+        errors.append(rel + ': expected exactly 1 "personal injury SEO" link to the homepage')
+    if '—' in s:
+        errors.append(rel + ': em dash')
+if MODE == 'blog':
+    w = open(os.path.join(OUT, WHY), encoding='utf-8').read()
+    main = w.split('</header>', 1)[1].split('<footer', 1)[0]
+    vis = re.sub(r'<script.*?</script>|<style.*?</style>', ' ', main, flags=re.S)
+    vis = re.sub(r'<[^>]+>', ' ', vis)
+    n = len(re.findall(r'(?i)personal injury seo', vis))
+    if n > 3:
+        errors.append('why-seo: %d uses of "personal injury SEO" in the body (max 3)' % n)
+    if 'What is personal injury SEO' in w or 'How long does personal injury SEO take' in w:
+        errors.append('why-seo: old heading/question left')
+    fq = re.search(r'"name":"What does SEO cover for a personal injury firm\?","acceptedAnswer":\{"@type":"Answer","text":"(.*?)"\}', w)
+    hq = re.search(r'fq">What does SEO cover for a personal injury firm\?</h3>.*?<p class="t-small muted">(.*?)</p>', w, re.S)
+    if not fq or not hq or fq.group(1) != hq.group(1):
+        errors.append('why-seo: FAQ schema does not match the page')
 
 # 5. checks
 for p in files():
