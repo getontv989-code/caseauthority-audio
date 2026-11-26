@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'seo-kpis-for-personal-injury-law-firms': {
+  'title': 'SEO KPIs in 60 Seconds',
+  'sub': 'The numbers that show whether SEO is bringing a personal injury firm signed cases.',
+  'bubble': 'Here is how to tell if SEO is working.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Charts Are Not Cases',
+     'p': 'A report full of rising lines means little unless the phone rings with real cases.',
+     'v': {'kind': 'shrink', 'title': 'What a report can show', 'keep': ['Calls from search', 'Qualified leads', 'Signed cases'], 'tag': 'The numbers that count', 'later': 'Traffic and keyword counts'}},
+    {'h': 'Climb the Ladder', 'p': 'Leads, then qualified leads, then signed cases, then fees.',
+     'v': {'kind': 'sources', 'title': 'From search to signed case', 'items': [('Calls and forms', 90), ('Qualified leads', 60), ('Signed cases', 35), ('Fees', 25)], 'tag': 'Illustrative example'}},
+    {'h': 'Track Every Call', 'p': 'Most injury clients phone, so give search visitors their own number.',
+     'v': {'kind': 'phone', 'title': 'Calls by source', 'rows': ['Organic search', 'Map listing', 'Billboard and TV']}},
+    {'h': 'Watch the Map', 'p': 'Top three map spots for your case types are an early sign of progress.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Highway Injury Law', 'Metro Accident Group']}},
+    {'h': 'Skip Vanity Numbers', 'p': 'Traffic and tool scores help diagnose, but they are not results.',
+     'v': {'kind': 'compare', 'cols': ['Vanity metric', 'Real KPI'], 'rows': [('Linked to cases', (False, True)), ('Partners care', (False, True)), ('Easy to inflate', (True, False))]}},
+    {'h': 'Agree Them Up Front', 'p': 'Write the KPIs down with your agency before the work starts.',
+     'v': {'kind': 'checklist', 'title': 'Before you sign', 'items': ['Which numbers count', 'How calls are tracked', 'Who owns the data', 'When you review']}},
+  ],
+  'cta': CTA('Not Sure Which Numbers to Trust?', 'Get a free audit of how your firm tracks calls, leads and cases from search.'),
+},
 'how-to-get-a-knowledge-panel-on-google': {
   'title': 'Knowledge Panels in 60 Seconds',
   'sub': 'How a personal injury firm becomes a name Google and AI tools recognise.',

@@ -90,6 +90,12 @@ def L(text, key):
 
 
 PI = {
+ 'seo-kpis-for-personal-injury-law-firms': {
+  'links': [L('The Search Console Performance report', 'GSC'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('Set up conversion tracking for the actions that matter', 'GCONV'),
+            L('no one can guarantee a #1 ranking on Google', 'DOINEED'),
+            L('some changes might take effect in a few hours, others could take several months', 'STARTER')]},
  'how-to-get-a-knowledge-panel-on-google': {
   'links': [L('knowledge panels are automatically generated', 'KPABOUT'),
             L('does not manually create or delete knowledge panels', 'KPFEED'),
@@ -231,6 +237,12 @@ PI = {
 }
 
 CRIMINAL = {
+ 'what-does-an-seo-agency-do-for-criminal-defense-lawyers': {
+  'links': [L('a review of your site content or structure', 'DOINEED'),
+            L('there are no secrets that will automatically rank your site first', 'STARTER'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('links bought or traded to manipulate rankings break its spam policies', 'LINKSPAM'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'bing-seo-for-criminal-defense-lawyers': {
   'links': [L('ChatGPT search sometimes partners with other search providers', 'OAISEARCH'),
             L('an easy way for websites owners to instantly inform search engines about latest content changes', 'INDEXNOW'),
@@ -306,6 +318,12 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'on-page-vs-off-page-seo-for-divorce-lawyers': {
+  'links': [L('title links are generated automatically', 'TITLE'),
+            L('measure real-world user experience for loading performance, interactivity and visual stability', 'CWV'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('links bought or traded to manipulate rankings break its spam policies', 'LINKSPAM'),
+            L('spam policies on keyword stuffing', 'KWSTUFF')]},
  'apple-maps-business-listing-for-divorce-lawyers': {
   'links': [L('claim your location on Maps so millions of customers can connect with your business', 'APPLEB'),
             L('Apple says claimed businesses get 30 percent more views', 'APPLEGROW'),
@@ -384,6 +402,11 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'seo-vs-ppc-for-estate-planning-attorneys': {
+  'links': [L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
+            L('charge per lead rather than per click', 'LSA'),
+            L('some changes might take effect in a few hours, others could take several months', 'STARTER'),
+            L('Set up conversion tracking for the actions that matter', 'GCONV')]},
  'zero-click-searches-for-estate-planning-firms': {
   'links': [L('found that 58.5% of American Google searches resulted in zero clicks', 'SPARK0'),
             L('clicked on a traditional search result link in 8% of all visits', 'PEWAI'),

@@ -1,4 +1,33 @@
 {
+ "seo-kpis-for-personal-injury-law-firms": {
+  "links": [
+   {
+    "text": "The Search Console Performance report",
+    "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+    "title": "Google Search Console Help: Performance report"
+   },
+   {
+    "text": "local results are mainly based on relevance, distance and popularity",
+    "url": "https://support.google.com/business/answer/7091?hl=en",
+    "title": "Google Business Profile Help: Tips to improve your local ranking on Google"
+   },
+   {
+    "text": "Set up conversion tracking for the actions that matter",
+    "url": "https://support.google.com/google-ads/answer/1722022?hl=en",
+    "title": "Google Ads Help: About conversion measurement"
+   },
+   {
+    "text": "no one can guarantee a #1 ranking on Google",
+    "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+    "title": "Google Search Central: Do you need an SEO?"
+   },
+   {
+    "text": "some changes might take effect in a few hours, others could take several months",
+    "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "title": "Google Search Central: SEO starter guide"
+   }
+  ]
+ },
  "how-to-get-a-knowledge-panel-on-google": {
   "links": [
    {

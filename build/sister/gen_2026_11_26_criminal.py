@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""2026-11-26 criminal post: What Does an SEO Agency Do for Criminal Defense Lawyers (basic SEO, agency angle). Zutrix 2026-11-26 (Google Ads volume, Zutrix KD): what does an seo agency do 70 KD0. Semrush connector returned ERROR 122 that day. Mash dropped the first pick (black hat seo) and approved this one 2026-11-26 ("tie it to their niches, 2000 plus words, our assets").
+Nearest live pages: blog/questions-to-ask-when-hiring-an-seo-company (hiring questions), blog/how-to-read-a-monthly-seo-report (reports), criminal-defense-marketing-agency (service page). This post explains the work itself, month by month, not how to hire or how to read the report.
+Facts used (sources_patch, keys checked in earlier rounds): Google Search Central "Do you need an SEO" (a review of your site content or structure), Google SEO starter guide (no secrets that will automatically rank your site first), Google local ranking (relevance, distance, popularity), Google spam policies (link spam), ABA Model Rule 7.1. No pricing figures, no internal methods."""
+import json, os
+P = {
+ 'slug': 'what-does-an-seo-agency-do-for-criminal-defense-lawyers',
+ 'keyword': 'what does an seo agency do',
+ 'title': 'What Does an SEO Agency Do for Criminal Defense Lawyers?',
+ 'meta': 'What an SEO agency actually does for a criminal defense firm each month, from charge pages and Google Business Profile work to links, tracking and reports.',
+ 'h1': 'What Does an SEO Agency Do? A Plain Look at the Work Behind a Criminal Defense Firm',
+ 'nav_label': 'What an SEO Agency Does',
+ 'tag': 'SEO Basics',
+ 'date': '2026-11-26',
+ 'lead': "Ask ten criminal defense lawyers what their SEO agency does each month and you will hear ten versions of the same shrug. Something technical. Some blog posts, maybe. A report arrives. The phone rings, or it does not. That vagueness is a problem, because you are trusting an outside team with the way people find you at the worst moment of their lives, when a son has just been arrested or a driver is sitting in a holding cell after a DUI stop. You should know exactly what that team is doing and why. This guide opens the hood. It walks through what a good SEO agency actually does for a defense firm, from the first audit to the monthly routine, what you should expect to see, and what a defense firm needs that a generic agency often misses.",
+ 'quick_answer': "An SEO agency helps your firm show up when people search for a criminal defense lawyer, then turns that visibility into calls. In practice that means auditing your website and fixing technical problems, researching what people in your area actually search after an arrest, building and improving pages for each charge and court you handle, managing your Google Business Profile and reviews, earning mentions and links from trusted local and legal sites, tracking calls and forms back to search and reporting on all of it in plain terms. For a defense firm the work has to be fast, local and careful with bar rules, because most clients search in a hurry and choose a lawyer within hours.",
+ 'takeaways': [
+  ['It Starts With an Audit.', 'A good agency checks what is broken before building anything new.'],
+  ['Pages for Every Charge.', 'DUI, drug, assault and theft each need their own clear page.'],
+  ['The Map Is Half the Job.', 'Your Google Business Profile drives many urgent calls.'],
+  ['Links Must Be Earned.', 'Trusted local mentions beat bought links every time.'],
+  ['Tracking Proves It.', 'Calls and forms from search should be counted, not guessed.'],
+  ['You Should See the Work.', 'A clear monthly list of what was done and why.'],
+ ],
+ 'sections': [
+  {'h2': 'What Does an SEO Agency Do, in Plain Terms?',
+   'answer': 'It makes your firm easier to find, easier to trust and easier to call when someone searches for a defense lawyer, and it shows you the results.',
+   'paras': [
+    "SEO stands for search engine optimization. Strip away the jargon and an SEO agency has three jobs. First, make sure search engines can find and understand your website and your map listing. Second, make your firm the most useful, trustworthy answer for the searches your future clients type. Third, prove that the work is bringing in calls, so you can judge whether it is worth paying for.",
+    "Google describes the kind of services an SEO provider can offer, and the list is fairly ordinary: a review of your site content or structure, technical advice on development, content development, keyword research, help with online business development campaigns and expertise in specific markets and places. None of that is magic. What separates a good agency from a weak one is how well they do those ordinary things for your practice and your market.",
+    "It also helps to know what an SEO agency does not do. It does not control Google. Google's own starter guide says there are no secrets that will automatically rank your site first. Anyone who claims a secret method, a special relationship with Google or a guaranteed top spot is selling something other than SEO.",
+   ]},
+  {'h2': 'Why Is SEO Different for a Criminal Defense Firm?',
+   'answer': 'Because defense clients search in a crisis, often late at night, close to a specific court, and choose a lawyer within hours.',
+   'paras': [
+    "Most businesses can afford to be found slowly. A family shopping for a kitchen remodel will compare quotes for weeks. A person whose brother was just arrested for a felony has no such luxury. They search on a phone, often after midnight, for a lawyer near the jail or the courthouse, and they call the first firm that looks capable and answers.",
+    "That changes what an agency should prioritize. Speed on mobile matters more. The map listing matters more, because many urgent searches show the map first. Pages for specific charges and courts matter more, because people search for exactly what happened: DUI lawyer in a named county, drug possession attorney near a named city, what happens at an arraignment. A generic page that says we handle all criminal matters rarely wins those searches.",
+    "Defense firms also carry extra sensitivity. Clients worry about privacy, and the firm has to be careful about how it describes past results and how it handles reviews. A good agency for a defense firm knows these lines and builds around them, rather than copying tactics from retail businesses.",
+   ]},
+  {'h2': 'What Happens in the First Month With an SEO Agency?',
+   'answer': 'An audit of your site, map listing and competitors, a check of your tracking, and a plan that ranks the fixes by how much they matter.',
+   'paras': [
+    "A good agency starts by looking before it builds. It crawls your website to find broken pages, slow pages, missing titles, duplicate content and pages Google cannot reach. It reviews your Google Business Profile, your reviews and your listings on legal directories. It looks at the firms that rank above you for the charges and towns you care about and works out why.",
+    "It also checks your measurement. Are calls from your website tracked? Do contact forms record where the visitor came from? Is Google Search Console set up and owned by the firm? If the answer is no, fixing that comes first, because without it nobody can prove whether the rest of the work helped.",
+    "The output of the first month should be a written plan in plain language: what is wrong, what will be fixed first and why, and which charges and locations the work will focus on. If you get a long technical report with no priorities, ask for the short version. You should be able to explain the plan to a partner in two minutes.",
+   ]},
+  {'h2': 'How Does an Agency Choose Which Searches to Target?',
+   'answer': 'By researching what people in your area actually type after an arrest, then matching those searches to the cases your firm wants.',
+   'paras': [
+    "Keyword research sounds technical, but for a defense firm it is mostly common sense backed by data. The agency looks at how often people search for each charge, court and town, how hard those searches are to win and how closely each one signals someone who needs a lawyer now. DUI lawyer near me and a named county is a hiring search. What is the legal limit for alcohol is usually a curious one.",
+    "The best agencies also ask the firm. Which charges do you most want? Which courts do you appear in every week? Which towns are you willing to drive to? There is no point ranking for federal fraud if the firm does not take federal cases. Our guide on [[a:blog/seo-keywords-for-criminal-defense-lawyers|SEO keywords for criminal defense lawyers]] goes deeper into how those searches break down.",
+    "The result should be a short list of priority searches grouped by charge and location, not a spreadsheet of thousands of terms. That list then guides which pages get built, which get improved and what gets measured.",
+   ]},
+  {'h2': 'What On-Site Work Does an SEO Agency Do?',
+   'answer': 'Fixes technical problems, improves page titles and structure, speeds up the site and makes sure every important page can be found.',
+   'paras': [
+    "On-site work, also called on-page and technical SEO, is everything done on your own website. It includes fixing broken links and error pages, setting up redirects when pages move, making sure the site loads quickly on a phone, and checking that Google can crawl and index every page that matters.",
+    "It also includes the basics on each page. A clear title that says what the page is about and where. A heading that matches what the searcher wanted. A short, direct answer near the top. Internal links that help visitors and search engines move between related pages, such as from a DUI page to a page about license suspension hearings. Structured data that tells search engines the firm's name, address, phone and practice areas.",
+    "None of this is glamorous, and much of it is invisible to visitors. But a defense firm with a slow, confusing site will lose calls no matter how good its content is. The person searching at 2 a.m. will not wait for a page to load.",
+   ]},
+  {'h2': 'What Content Does an Agency Create for a Defense Firm?',
+   'answer': 'Clear pages for each charge and court you handle, plus helpful answers to the questions people ask after an arrest.',
+   'paras': [
+    "The core of a defense firm's content is its practice pages. One page for each major charge, written for the people in your area: what the charge means, what penalties are possible in general terms, what happens next in your local courts and how your firm helps. Many firms also benefit from pages for specific courts or counties, because people search that way.",
+    "Around those pages sits helpful content that answers the questions people ask in the hours and days after an arrest. How bail works in your county. What to expect at an arraignment. Whether to talk to police. What a first DUI typically involves. Written well, these pages build trust and bring in searches the practice pages would miss, and they give AI tools clear answers to draw from.",
+    "Good agencies write with the firm, not around it. A lawyer should review anything that describes the law, and the content should never promise outcomes. If an agency publishes generic articles that could belong to any firm in any state, that is a sign the content is built for volume rather than for your clients.",
+   ]},
+  {'h2': 'How Does an Agency Handle Your Google Business Profile?',
+   'answer': 'It keeps the listing complete and accurate, helps you earn reviews the right way and watches your visibility on the map.',
+   'paras': [
+    "For many urgent searches, the map comes first. Google says local results are mainly based on relevance, distance and popularity, so an agency works on the parts it can influence: the right categories, an accurate address and hours, a real office that matches the listing, photos, services and posts, and a steady flow of genuine reviews.",
+    "Reviews take care in defense work. Many clients do not want their name attached to a review about a criminal case, and replies must never confirm that someone was a client or discuss their matter. A good agency helps you set up a respectful review request process and drafts replies that are warm without revealing anything. Our guide on [[a:blog/google-business-profile-for-criminal-defense-lawyers|Google Business Profile for criminal defense lawyers]] covers the details.",
+    "The agency should also watch for problems, such as edits suggested by the public, duplicate listings, spam competitors with fake addresses and suspensions. These can wipe out map visibility overnight, and fixing them quickly is part of the job.",
+   ]},
+  {'h2': 'What Is Link Building, and How Should an Agency Do It?',
+   'answer': 'Earning mentions and links from trusted sites, such as local news, bar groups and legal publications, never buying them.',
+   'paras': [
+    "Links from other websites act like references. When a respected local news site quotes your firm about a change in DUI law, or a bar association lists your lawyers, that tells search engines your firm is real and trusted. Over time, these references help your pages rank.",
+    "How the links are earned matters enormously. Google's spam policies make clear that links bought or traded to manipulate rankings break its spam policies, and sites caught doing it can lose rankings. A good agency earns links through real activity: media commentary, community involvement, legal publications, local sponsorships and useful resources other sites want to cite.",
+    "Ask any agency to describe the kinds of sites they get links from. If the answer is vague, or involves networks of blogs nobody reads, be careful. One genuine mention from a local paper is usually worth more than a pile of links from sites that exist only to sell them.",
+   ]},
+  {'h2': 'How Does an Agency Track Results for a Defense Firm?',
+   'answer': 'By counting calls, forms and chats from search, tying them to signed cases where possible and watching visibility for priority charges.',
+   'paras': [
+    "Most defense clients call. An agency that cannot tell you how many calls came from search is reporting on guesswork. Call tracking, which shows a unique number to visitors from search, is usually the first measurement step. Form and chat tracking come next, along with Google Business Profile call data.",
+    "Behind the leads sit the leading indicators: visibility in the map pack across your area, rankings and clicks for your priority charges and courts, and how many searches show your pages at all. These move before the phone does, so they show whether the work is heading the right way.",
+    "The best agencies go one step further and work with your intake team to see which leads became clients. That closes the loop and lets you judge SEO on signed cases, not just activity. Our guide on [[a:blog/how-to-read-a-monthly-seo-report|how to read a monthly SEO report]] explains which numbers deserve your attention.",
+   ]},
+  {'h2': 'What Should a Monthly SEO Routine Look Like?',
+   'answer': 'A mix of fixes, new and improved pages, map listing work, earned mentions and a clear report on what changed and what comes next.',
+   'paras': [
+    "Once the setup is done, a good month usually includes some technical upkeep, a few pages created or improved for priority charges and locations, map listing updates and review replies, some outreach for mentions and links, and a check of tracking to make sure nothing has broken.",
+    "The exact mix should change with your needs. A firm with a weak website may spend months on rebuilding pages. A firm with strong pages but few reviews may focus on reputation. A firm in a crowded city may need more work on earned mentions to stand out. A good agency explains why the mix looks the way it does.",
+    "You should receive a list of the work done, not just charts. If you cannot tell what the agency did last month, ask. A reasonable partner will be happy to show you, because they know clear work builds trust.",
+   ]},
+  {'h2': 'How Long Before an SEO Agency Shows Results?',
+   'answer': 'Fixes and map work can show early signs within a few months, while competitive charge searches usually take longer.',
+   'paras': [
+    "Some wins come quickly. Fixing a page Google could not reach, cleaning up a messy map listing or adding missing charge pages can lift visibility within weeks of Google revisiting the site. Those early signs are worth watching for.",
+    "Ranking for competitive searches, such as DUI lawyer in a large city, takes longer. It depends on how strong the firms above you are, how much trusted content and how many genuine mentions you build, and how consistently the work continues. Months, not weeks, is the honest answer for most markets.",
+    "Be wary of anyone who promises a ranking or a number of cases by a set date. Nobody can guarantee where Google will place a site. What a good agency can promise is clear work, steady reporting and an honest view of progress.",
+   ]},
+  {'h2': 'What Should a Defense Firm Expect From the Relationship?',
+   'answer': 'Clear communication, ownership of your own accounts and data, careful handling of bar rules and a partner who understands criminal practice.',
+   'paras': [
+    "You should own your website, your domain, your Google Business Profile, your Search Console and your analytics, with the agency given access. That way your history and your listings stay with the firm no matter what happens.",
+    "You should expect plain communication. A short call or written update each month, answers when you ask questions and honesty when something did not work. You should also expect the agency to respect the ethics rules that govern lawyer advertising. ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication about the lawyer's services, and each state adds its own rules on results, testimonials and specialist claims.",
+    "Above all, you should expect an agency that understands what defense clients go through. Our guide on [[a:blog/questions-to-ask-when-hiring-an-seo-company|questions to ask when hiring an SEO company]] lists what to ask before you choose, and our page on [[a:criminal-defense-marketing-agency|working with a criminal defense marketing agency]] explains how we approach it.",
+   ]},
+  {'h2': 'Can a Defense Firm Do SEO Without an Agency?',
+   'answer': 'Some of it, yes, but most busy firms lack the time and specialist skills to do all of it consistently.',
+   'paras': [
+    "A firm owner can handle a fair amount of the basics: keeping the Google Business Profile accurate, asking happy clients for reviews, answering common questions on the website and making sure contact details are consistent across directories. These steps are worth doing whatever else you decide.",
+    "The harder parts take time and specialist skill. Technical site work, keyword research, structured data, earning genuine media mentions and setting up reliable call and form tracking are where most firms get stuck. They are also the parts where mistakes cost the most, because a technical error can hide your site from Google for months without anyone noticing.",
+    "Many firms land somewhere in between. The firm keeps control of reviews and client communication, and an agency handles the technical work, content support, links and measurement. What matters is that someone owns each part and that the results are tracked.",
+   ]},
+  {'h2': 'A Note on Trademarks, Figures and Bar Rules',
+   'answer': 'This guide explains what SEO agencies generally do and does not promise any ranking or result.',
+   'paras': [
+    "Google and Google Business Profile are trademarks of Google LLC. CaseAuthority is not affiliated with, endorsed by or sponsored by Google. Descriptions of Google's tools and policies are based on what Google publishes on its own public pages at the time of writing, which can change.",
+    "Search results vary by market, competition, location and device. Any timelines here are general estimates for illustration only, and nothing in this guide promises a ranking, a number of calls or any outcome. Lawyer advertising rules vary by state, so check your state bar's current rules before publishing content, results or testimonials.",
+   ]},
+ ],
+ 'faq': [
+  {'q': 'What Does an SEO Agency Do Each Month?', 'a': 'Typically technical upkeep, new and improved pages for priority charges and locations, Google Business Profile and review work, outreach for genuine mentions and links, tracking checks and a report on what changed.'},
+  {'q': 'Is an SEO Agency Worth It for a Criminal Defense Firm?', 'a': 'For many firms, yes, because defense clients search in a hurry and choose quickly. Judge it by calls and signed cases from search, not by traffic alone.'},
+  {'q': 'How Is an SEO Agency Different From a Web Designer?', 'a': 'A web designer builds how the site looks and works. An SEO agency focuses on getting the site and map listing found for the right searches and turning that into calls. Some firms do both.'},
+  {'q': 'Can an SEO Agency Guarantee First Place on Google?', 'a': 'No. Nobody controls Google results. Be cautious of anyone who guarantees a ranking or a set number of cases.'},
+  {'q': 'Should I Own My Website and Google Accounts?', 'a': 'Yes. Your domain, website, Google Business Profile, Search Console and analytics should be in the firm name, with the agency given access.'},
+  {'q': 'What Should I Ask an SEO Agency Before Hiring?', 'a': 'Ask how they choose target searches, what work they do each month, how they earn links, how they track calls and which numbers they report.'},
+ ],
+ 'related': ['criminal-defense-marketing-agency', 'criminal-defense-law-firm-seo', 'local-seo-for-criminal-defense-lawyers', 'criminal-defense-seo-expert'],
+}
+here = os.path.dirname(os.path.abspath(__file__))
+json.dump(P, open(os.path.join(here, 'criminal', P['slug'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('ok', P['slug'])

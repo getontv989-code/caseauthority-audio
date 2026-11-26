@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'what-does-an-seo-agency-do-for-criminal-defense-lawyers': {
+  'title': 'What an SEO Agency Does in 60 Seconds',
+  'sub': 'The work behind a criminal defense firm showing up when someone searches after an arrest.',
+  'bubble': 'Here is what an SEO agency actually does.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Found in a Crisis',
+     'p': 'Defense clients search late at night and call the first firm that looks capable.',
+     'v': {'kind': 'search', 'q': 'dui lawyer near me', 'results': [('Your Firm', True), ('County Defense Group', False), ('Legal Directory', False)]}},
+    {'h': 'Audit First', 'p': 'Check the site, the map listing, competitors and tracking before building.',
+     'v': {'kind': 'checklist', 'title': 'Month one', 'items': ['Fix broken pages', 'Review the map listing', 'Study competitors', 'Set up call tracking']}},
+    {'h': 'A Page for Every Charge', 'p': 'Clear pages for each charge and court you handle.',
+     'v': {'kind': 'pages', 'pages': [('DUI Defense', 'Your county'), ('Drug Charges', 'Your city'), ('Assault', 'Your court'), ('Theft', 'Your county')]}},
+    {'h': 'Win the Map', 'p': 'An accurate profile and genuine reviews drive urgent calls.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Main Street Law', 'County Defense Group']}},
+    {'h': 'Earn Trust Elsewhere', 'p': 'Local news, bar groups and legal sites vouch for the firm.',
+     'v': {'kind': 'shield', 'chips': ['Local news quotes', 'Bar listings', 'No bought links']}},
+    {'h': 'Prove It Monthly', 'p': 'Count calls from search and show the work that was done.',
+     'v': {'kind': 'sources', 'title': 'From search to signed client', 'items': [('Searches', 95), ('Calls', 55), ('Consultations', 35), ('Signed clients', 22)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Want to See What SEO Could Do for Your Firm?', 'Get a free audit of your site, map listing and tracking.'),
+},
 'bing-seo-for-criminal-defense-lawyers': {
   'title': 'Bing SEO in 60 Seconds',
   'sub': 'Why the search engine many families use by default matters for defense firms.',
@@ -306,6 +327,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'on-page-vs-off-page-seo-for-divorce-lawyers': {
+  'title': 'On-Page vs Off-Page SEO in 60 Seconds',
+  'sub': 'What each kind of SEO means for a divorce and family law firm.',
+  'bubble': 'Here is the difference in plain terms.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Your Case and Your Reputation',
+     'p': 'On-page is the case you present. Off-page is what others say about you.',
+     'v': {'kind': 'compare', 'cols': ['On-page', 'Off-page'], 'rows': [('Your own website', (True, False)), ('Reviews and mentions', (False, True)), ('Map listing', (False, True))]}},
+    {'h': 'Pages for Each Service', 'p': 'Divorce, custody, support and mediation each need their own page.',
+     'v': {'kind': 'pages', 'pages': [('Divorce', 'Your county'), ('Child Custody', 'Your court'), ('Child Support', 'Your state'), ('Mediation', 'Your city')]}},
+    {'h': 'Clear Titles and Headings', 'p': 'Name the service and the place so searchers know they found the right page.',
+     'v': {'kind': 'search', 'q': 'child custody lawyer near me', 'results': [('Your Firm', True), ('County Family Law', False), ('Legal Directory', False)]}},
+    {'h': 'Fast on a Phone', 'p': 'Technical SEO keeps pages quick, secure and easy to crawl.',
+     'v': {'kind': 'phone', 'title': 'A private search', 'rows': ['Divorce lawyer near me', 'Page loads fast', 'Tap to call']}},
+    {'h': 'The Map Is Off-Page', 'p': 'Your Google profile and reviews live outside your site.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Family Law', 'Main Street Law']}},
+    {'h': 'Earned, Not Bought', 'p': 'Real mentions from respected sites build lasting trust.',
+     'v': {'kind': 'shield', 'chips': ['Local news', 'Family law groups', 'No paid links']}},
+  ],
+  'cta': CTA('Which Side of SEO Is Holding You Back?', 'Get a free audit of your pages, map listing and reputation.'),
+},
 'apple-maps-business-listing-for-divorce-lawyers': {
   'title': 'Apple Maps in 60 Seconds',
   'sub': 'How a family law firm gets found when people search privately on an iPhone.',
@@ -600,6 +642,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'seo-vs-ppc-for-estate-planning-attorneys': {
+  'title': 'SEO vs PPC in 60 Seconds',
+  'sub': 'Which search channel suits an estate planning firm, and how they work together.',
+  'bubble': 'Here is how SEO and ads compare.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Rent or Own',
+     'p': 'Ads rent the top of the page. SEO earns a place that keeps working.',
+     'v': {'kind': 'compare', 'cols': ['PPC ads', 'SEO'], 'rows': [('Fast to start', (True, False)), ('Keeps working when paused', (False, True)), ('Builds trust over time', (False, True))]}},
+    {'h': 'Planning Takes Time', 'p': 'Most people research quietly for weeks before they book.',
+     'v': {'kind': 'search', 'q': 'do I need a living trust', 'results': [('Your Firm', True), ('Legal Directory', False), ('Ad', False)]}},
+    {'h': 'Ads for Urgent Moments', 'p': 'Probate after a death or a sudden incapacity can need help now.',
+     'v': {'kind': 'phone', 'title': 'An urgent search', 'rows': ['Probate lawyer near me', 'Ad at the top', 'Call today']}},
+    {'h': 'SEO Builds Trust', 'p': 'Helpful pages, reviews and the map earn the call.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'Legacy Law Group', 'Main Street Trusts']}},
+    {'h': 'Use Both Together', 'p': 'Ads fill gaps and test ideas while SEO grows.',
+     'v': {'kind': 'timeline', 'title': 'A typical balance', 'points': [('Start', 'Ads and SEO', 0), ('Middle', 'SEO grows', 50), ('Later', 'Ads for gaps', 100)], 'tag': 'Illustrative path'}},
+    {'h': 'Measure Signed Plans', 'p': 'Judge both channels by consultations and clients, not clicks.',
+     'v': {'kind': 'sources', 'title': 'From click to signed plan', 'items': [('Clicks', 95), ('Calls', 55), ('Consultations', 38), ('Signed plans', 24)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('SEO, Ads or Both for Your Firm?', 'Get a free audit of your search visibility, ads and tracking.'),
+},
 'zero-click-searches-for-estate-planning-firms': {
   'title': 'Zero-Click Searches in 60 Seconds',
   'sub': 'How estate planning firms win clients when people read the answer and never click.',
