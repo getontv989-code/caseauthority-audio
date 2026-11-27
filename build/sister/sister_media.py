@@ -12,6 +12,27 @@ G, K, S = '#CEAA32', '#0E0E0F', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 SISTER_SPECS = {
 'criminal': {
+'what-access-to-give-your-seo-agency': {
+  'title': 'Agency Access in 60 Seconds',
+  'sub': 'What a criminal defense firm should give its SEO agency, and what it must always own.',
+  'bubble': 'Here is how to give access safely.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Users, Not Passwords',
+     'p': 'Add each agency person with their own login instead of sharing yours.',
+     'v': {'kind': 'compare', 'cols': ['Shared password', 'Own user access'], 'rows': [('Shows who changed what', (False, True)), ('Easy to remove', (False, True)), ('Protects your email', (False, True))]}},
+    {'h': 'Manager on the Map', 'p': 'The agency can manage your profile without controlling who gets in.',
+     'v': {'kind': 'map', 'names': ['Your Firm', 'County Defense Group', 'Main Street Law']}},
+    {'h': 'The Firm Owns It All', 'p': 'Domain, website, profile, Search Console and analytics stay in your name.',
+     'v': {'kind': 'checklist', 'title': 'Owned by the firm', 'items': ['Domain and hosting', 'Google Business Profile', 'Search Console', 'Analytics and call tracking']}},
+    {'h': 'Only What the Work Needs', 'p': 'No access to client files, email or billing.',
+     'v': {'kind': 'shield', 'chips': ['Least access', 'Named users', 'Two-step sign in']}},
+    {'h': 'Keep a Register', 'p': 'One page listing who has access to what, reviewed every few months.',
+     'v': {'kind': 'pages', 'pages': [('Business Profile', 'Manager'), ('Search Console', 'Full user'), ('Analytics', 'Editor'), ('Website', 'Editor')]}},
+    {'h': 'Ask Before You Sign', 'p': 'Which accounts, what role, in whose name and what happens if you part ways.',
+     'v': {'kind': 'phone', 'title': 'Questions to ask', 'rows': ['Which accounts?', 'Which role?', 'In whose name?']}},
+  ],
+  'cta': CTA('Not Sure Who Controls Your Accounts?', 'Get a free audit of your map listing, website and tracking access.'),
+},
 'what-does-an-seo-agency-do-for-criminal-defense-lawyers': {
   'title': 'What an SEO Agency Does in 60 Seconds',
   'sub': 'The work behind a criminal defense firm showing up when someone searches after an arrest.',
@@ -327,6 +348,27 @@ SISTER_SPECS = {
 },
 },
 'divorce': {
+'outsource-seo-for-family-law-firms': {
+  'title': 'Outsourcing SEO in 60 Seconds',
+  'sub': 'Agency, freelancer or in-house: who should handle SEO for a family law firm.',
+  'bubble': 'Here is how the three options compare.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'SEO Is Several Jobs',
+     'p': 'Technical work, content, the map, links and tracking all need skill.',
+     'v': {'kind': 'checklist', 'title': 'What SEO covers', 'items': ['Technical fixes', 'Divorce and custody pages', 'Map listing and reviews', 'Calls and tracking']}},
+    {'h': 'Three Ways to Do It', 'p': 'Hire in-house, bring in a freelancer or work with an agency.',
+     'v': {'kind': 'compare', 'cols': ['Freelancer', 'Agency'], 'rows': [('Several specialists', (False, True)), ('Cover when away', (False, True)), ('Suits a small project', (True, True))]}},
+    {'h': 'In-House Needs Scale', 'p': 'Usually worth it for larger, multi-office family law firms.',
+     'v': {'kind': 'pages', 'pages': [('Solo practice', 'Outsource'), ('Small firm', 'Outsource'), ('Multi-office firm', 'In-house plus help')]}},
+    {'h': 'Keep Ownership', 'p': 'Whoever does the work, the firm owns every account.',
+     'v': {'kind': 'shield', 'chips': ['Firm owns domain', 'Firm owns profile', 'Lawyer reviews content']}},
+    {'h': 'Found in a Private Search', 'p': 'The right partner understands how people search for a divorce lawyer.',
+     'v': {'kind': 'search', 'q': 'divorce lawyer near me', 'results': [('Your Firm', True), ('County Family Law', False), ('Legal Directory', False)]}},
+    {'h': 'Judge by Signed Clients', 'p': 'Consultations and retainers decide whether it works.',
+     'v': {'kind': 'sources', 'title': 'From search to retained client', 'items': [('Searches', 95), ('Calls', 55), ('Consultations', 35), ('Retained clients', 22)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Weighing Who Should Run Your SEO?', 'Get a free audit of your site, map listing and tracking first.'),
+},
 'on-page-vs-off-page-seo-for-divorce-lawyers': {
   'title': 'On-Page vs Off-Page SEO in 60 Seconds',
   'sub': 'What each kind of SEO means for a divorce and family law firm.',
@@ -642,6 +684,27 @@ SISTER_SPECS = {
 },
 },
 'estate': {
+'website-redesign-seo-for-estate-planning-firms': {
+  'title': 'Redesign SEO in 60 Seconds',
+  'sub': 'How an estate planning firm gets a new website without losing its rankings.',
+  'bubble': 'Here is how to redesign safely.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Pretty Is Not Enough',
+     'p': 'Google ranks content, structure and links, and a redesign can change all three.',
+     'v': {'kind': 'search', 'q': 'living trust lawyer near me', 'results': [('Your Firm', True), ('Legacy Law Group', False), ('Legal Directory', False)]}},
+    {'h': 'Record What Ranks', 'p': 'Note your top pages, searches and enquiries before anything changes.',
+     'v': {'kind': 'checklist', 'title': 'Before the redesign', 'items': ['Top pages by clicks', 'Pages that bring calls', 'Every current URL', 'Map pack position']}},
+    {'h': 'Map Every URL', 'p': 'Each old page gets a new home and a permanent redirect.',
+     'v': {'kind': 'pages', 'pages': [('Old trusts page', 'New living trusts page'), ('Old probate page', 'New probate page'), ('Old blog post', 'Closest new page')]}},
+    {'h': 'Keep the Helpful Pages', 'p': 'Do not trim the long answers that bring in trust and probate enquiries.',
+     'v': {'kind': 'compare', 'cols': ['Cut content', 'Kept content'], 'rows': [('Answers questions', (False, True)), ('Still ranks', (False, True)), ('Looks tidy', (True, True))]}},
+    {'h': 'Fast on a Phone', 'p': 'Test speed and mobile use on the new site before launch.',
+     'v': {'kind': 'phone', 'title': 'Launch day checks', 'rows': ['Open to search engines', 'Redirects work', 'Forms arrive']}},
+    {'h': 'Watch the Weeks After', 'p': 'Compare clicks and enquiries against your baseline.',
+     'v': {'kind': 'timeline', 'title': 'After launch', 'points': [('Launch', 'Check everything', 0), ('Weeks 1 to 4', 'Fix what breaks', 50), ('Later', 'Settled and growing', 100)], 'tag': 'Illustrative path'}},
+  ],
+  'cta': CTA('Planning a New Website?', 'Get a free audit of what your current site ranks for before you change it.'),
+},
 'seo-vs-ppc-for-estate-planning-attorneys': {
   'title': 'SEO vs PPC in 60 Seconds',
   'sub': 'Which search channel suits an estate planning firm, and how they work together.',

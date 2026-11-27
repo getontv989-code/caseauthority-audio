@@ -1,0 +1,188 @@
+{
+ "slug": "what-access-to-give-your-seo-agency",
+ "keyword": "how to add a manager to google business profile",
+ "title": "What Access to Give Your SEO Agency: A Defense Firm Guide",
+ "meta": "What access a criminal defense firm should give its SEO agency, from Google Business Profile manager to Search Console and GA4, and what the firm must always own.",
+ "h1": "What Access Should You Give Your SEO Agency? A Guide for Criminal Defense Firms",
+ "nav_label": "Access for Your SEO Agency",
+ "tag": "Working With an Agency",
+ "date": "2026-11-27",
+ "lead": "The first week with a new SEO agency usually brings a flurry of emails. Can you add us to your Google Business Profile? Can you give us access to Search Console? We need a login for the website. For a busy defense lawyer juggling court dates and jail calls, the easy answer is to hand over the passwords and get back to work. That shortcut causes more trouble than almost anything else in the relationship. Shared passwords get lost, accounts end up in the wrong names and firms discover years later that they do not actually control their own map listing. This guide explains exactly what access a criminal defense firm should give its SEO agency, how to give it safely and what the firm must always keep in its own hands.",
+ "quick_answer": "Give your SEO agency its own user access, never your passwords. In practice that means adding the agency as a manager on your Google Business Profile, a full user on Google Search Console, an editor or marketer in Google Analytics, a user account on your website and, if needed, access to your call tracking and ad accounts. The firm should stay the owner of every one of these accounts, along with your domain name and website hosting. That way the agency can do its work, every change is tied to a named person, and the firm keeps control of its listings, data and history whatever happens.",
+ "takeaways": [
+  [
+   "Users, Not Passwords.",
+   "Each agency person should have their own login, added by you."
+  ],
+  [
+   "Manager, Not Owner.",
+   "On Google Business Profile, the agency rarely needs to be an owner."
+  ],
+  [
+   "The Firm Owns Everything.",
+   "Domain, website, profile, Search Console and analytics stay in your name."
+  ],
+  [
+   "Give What the Work Needs.",
+   "Grant the access each task requires, nothing more."
+  ],
+  [
+   "Keep a Simple Register.",
+   "A one page list of who has access to what."
+  ],
+  [
+   "Review It Regularly.",
+   "Check users every few months and remove anyone who has left."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Why Does Access Matter So Much for a Defense Firm?",
+   "answer": "Because your map listing, website and data are how new clients find you, and losing control of them can cost months of calls.",
+   "paras": [
+    "For a criminal defense firm, the Google Business Profile and the website are not marketing extras. They are the front door. People search after an arrest, often late at night, and call the first firm that looks capable. If that listing is suspended, edited by the wrong person or stuck in an account nobody can reach, the phone goes quiet at once.",
+    "Access is also a matter of trust and confidentiality. Your website may hold contact forms with sensitive details about someone's case. Your analytics and call tracking may show who contacted the firm and when. Defense firms take client confidentiality seriously everywhere else, and the same care should apply to the digital accounts that collect enquiries.",
+    "Finally, access decides who holds your history. Years of reviews, rankings data and search performance live inside these accounts. If they sit in an agency's name rather than the firm's, you are relying on that agency to hand them back one day. Setting access up properly from the start removes that risk entirely."
+   ]
+  },
+  {
+   "h2": "Why Should You Never Share Your Passwords?",
+   "answer": "Shared passwords cannot be traced, are hard to take back and can lock the firm out of its own accounts.",
+   "paras": [
+    "When several people use the same login, nobody can tell who changed what. If a phone number on your listing changes or a page disappears from your website, a shared password leaves no trail. Named user accounts record who did each thing, which protects both the firm and the agency.",
+    "Shared passwords are also hard to take back. To remove one person, you have to change the password and tell everyone else. Many firms never do, so former staff and former vendors keep working logins for years. Google's own tools are built around individual accounts for this reason. Google Business Profile, for example, asks each user to have their own Google Account so the profile can be managed without sharing a password.",
+    "There is a security risk too. Many Google accounts are tied to email, documents and other services. Handing over the password to a firm Gmail account to get map access can expose far more than the listing. Separate user access avoids that entirely."
+   ]
+  },
+  {
+   "h2": "How Do You Add a Manager to Your Google Business Profile?",
+   "answer": "As the owner, open the profile settings, choose people and access, add the agency email and select the manager role.",
+   "paras": [
+    "Adding your agency to the profile takes a few minutes. Sign in with the Google Account that owns the profile, open your Business Profile on Google Search or Maps, go to the menu for profile settings and find the section for people and access. Add the email address your agency gives you and choose a role. The agency person accepts the invitation from their own account and can start work.",
+    "Google lists the steps and the difference between roles on its help pages, and the exact menu names change from time to time, so follow the current version there. The important choice is the role. For almost all SEO work, the right answer is manager.",
+    "If you cannot find the owner account, solve that before anything else. Ask whoever set up the listing, check old staff email accounts and look for the original verification records. Google has a process for requesting ownership when the current owner cannot be reached, but it takes time, and it is far easier to sort out before an emergency."
+   ]
+  },
+  {
+   "h2": "What Is the Difference Between an Owner and a Manager?",
+   "answer": "Owners control who has access and can remove the profile. Managers can do almost everything else.",
+   "paras": [
+    "Google says managers have mostly the same access to the profile as owners. They can edit your hours, services and description, add photos, publish posts, respond to reviews and download performance data. The only exception is that managers cannot add or remove users or remove the profile itself.",
+    "That exception is exactly why the agency should be a manager, not an owner. An agency can do all of its profile work as a manager. The firm keeps the power to decide who else gets in and to remove anyone who should no longer have access, including the agency.",
+    "Every profile has one primary owner, and that should be a Google Account the firm controls, ideally one tied to a firm email address rather than a single lawyer's personal account. Adding a second owner from within the firm, such as a managing partner or office manager, is sensible so the firm is never locked out if one person leaves."
+   ]
+  },
+  {
+   "h2": "What Access Does an Agency Need in Google Search Console?",
+   "answer": "Usually a full user. The firm should remain the verified owner of the property.",
+   "paras": [
+    "Google Search Console shows how your site performs in Google Search: which searches show your pages, how many clicks you get, which pages are indexed and whether Google has found problems. Your agency needs it to diagnose issues, submit sitemaps and track progress on searches like DUI lawyer or drug possession attorney in your area.",
+    "Search Console has owners and users. Owners have full control and can add or remove others. Users can see the data and use most tools. A property must have at least one verified owner, and that owner should be the firm. Most agencies can do everything they need as a full user. If a task genuinely needs owner rights, such as setting up a change of address after a domain move, the firm can grant it for that task and remove it afterward.",
+    "If your firm has never set up Search Console, your agency can help, but the verification should be done under the firm's own Google Account. That keeps years of search data with the firm, and it means a new agency can pick up where the old one left off."
+   ]
+  },
+  {
+   "h2": "What Access Does an Agency Need in Google Analytics?",
+   "answer": "Usually an editor or marketer role on your property, with the firm keeping the administrator role.",
+   "paras": [
+    "Google Analytics shows what people do on your website: where they came from, which pages they read and whether they called or sent a form. For a defense firm, the most important use is tracking calls and form leads from search, so you can see whether SEO is producing enquiries.",
+    "Google Analytics has several roles. To add, change or remove users, you need to have the Administrator role, and that should stay with the firm. An agency setting up tracking usually needs the editor role so it can configure events and key events. An agency that only reports may need just viewer or analyst access.",
+    "Be thoughtful about what analytics collects. Contact forms on a criminal defense site can include sensitive details. Make sure no names, phone numbers or case details are sent into analytics, and ask your agency to confirm how forms are tracked. Good tracking counts that a lead happened and where it came from, not what the person wrote."
+   ]
+  },
+  {
+   "h2": "Should Your Agency Have Access to Your Website?",
+   "answer": "Usually yes, through its own user account with the right role, while the firm keeps the main administrator login.",
+   "paras": [
+    "Most SEO work touches the website: fixing technical problems, improving page titles, adding pages for charges and courts, setting up redirects and adding structured data. An agency usually needs its own user account on your website platform with enough rights to make those changes.",
+    "The firm should keep the main administrator account and decide what level of access each outside user gets. On many platforms you can give an editor role for content changes and a higher role only when technical work requires it. If your website was built by a separate developer, agree up front who is allowed to change what, so nobody undoes anyone else's work.",
+    "Hosting and server access is a separate question. Some technical SEO work needs it, but many tasks do not. Google's advice on hiring an SEO is worth remembering here: ultimately, you are responsible for the actions of any companies you hire. Anyone with deep access to your server should be willing to explain the changes they make."
+   ]
+  },
+  {
+   "h2": "Who Should Own Your Domain Name and Hosting?",
+   "answer": "The firm, always, in an account the firm controls, with renewal details the firm can see.",
+   "paras": [
+    "Your domain name is your firm's address on the internet, and losing it is one of the worst things that can happen to a law firm's search presence. Every link, review link, citation and ranking points to it. The domain should be registered in the firm's name, in a registrar account the firm controls, with renewal set to automatic and billing details the firm keeps up to date.",
+    "Problems usually start innocently. A web designer registers the domain on the firm's behalf years ago, in their own account. Later the relationship ends, the designer moves on and nobody knows where the domain lives until it is about to expire. Check where your domain is registered today and move it into a firm account if it is not already there.",
+    "Hosting deserves the same care. The firm should have its own hosting account, or at least full access to it, and a recent backup of the website. If your website lives on an agency's hosting, ask how you would move it if you ever needed to. A good agency will have a clear answer."
+   ]
+  },
+  {
+   "h2": "What Other Accounts Might an Agency Need?",
+   "answer": "Call tracking, Google Ads, Bing Webmaster Tools and key directory listings, each with its own user access.",
+   "paras": [
+    "Call tracking is central for defense firms because most clients phone. If you use a call tracking service, the agency may need access to set up numbers for search visitors and to report on calls. The firm should own the account and the numbers, so calls keep reaching you whatever happens.",
+    "If you run paid search, the agency may need access to Google Ads to link it with analytics and avoid overlap with SEO work. Bing Webmaster Tools, the Bing equivalent of Search Console, is worth setting up too. Legal directories such as Avvo, Justia and state bar listings may need updates from time to time, and many offer separate user or manager access.",
+    "For each account, the rule is the same. The firm owns it, the agency gets its own access at the level the work needs and the firm can remove that access at any time."
+   ]
+  },
+  {
+   "h2": "How Much Access Is Too Much?",
+   "answer": "Anything beyond what the current work needs, such as ownership roles, billing control or access to unrelated systems.",
+   "paras": [
+    "A simple principle helps here: give each person the least access they need to do their job. An agency managing your map listing needs manager access, not ownership. An agency writing content needs to edit pages, not change hosting settings. An agency reporting on traffic needs to view analytics, not delete it.",
+    "Be careful with access that is not about SEO at all. An agency rarely needs access to your case management software, your client files, your email or your billing system. If a request seems broad, ask what task it is for. A reasonable agency will explain, and will be happy with narrower access if it does the job.",
+    "Some agencies ask to create accounts in their own name and add you as a user. Politely decline. It may feel like a small detail at the start, but it reverses the relationship. The firm should own and invite, and the agency should be the guest."
+   ]
+  },
+  {
+   "h2": "How Do You Keep Track of Who Has Access?",
+   "answer": "Keep a short access register and review it every few months and whenever staff or vendors change.",
+   "paras": [
+    "Most firms have no idea who has access to their accounts. A simple one page register fixes that: each account, who owns it, which outside people have access, at what level and when it was granted. It takes an hour to set up and saves days of confusion later.",
+    "Review the list regularly, perhaps once a quarter, and always when someone leaves the firm or a vendor relationship ends. Remove people who no longer need access. Check that the firm still holds owner or administrator rights everywhere. Make sure two-step verification is turned on for the firm's own accounts.",
+    "Your agency can help keep the register up to date, but the firm should hold it. It is one of the simplest ways to protect the listings and data that bring in your clients. Our guide on [[a:blog/what-does-an-seo-agency-do-for-criminal-defense-lawyers|what an SEO agency does for criminal defense lawyers]] explains the work that this access makes possible."
+   ]
+  },
+  {
+   "h2": "What Should You Ask an Agency About Access Before You Sign?",
+   "answer": "Ask which accounts they need, at what level, in whose name and how access is handled if you part ways.",
+   "paras": [
+    "Before work starts, ask the agency for a written list of the accounts they will need and the role they need in each. A good agency will have this ready. It shows they have thought about the setup and that they respect the firm's ownership.",
+    "Ask whose name any new accounts will be created in, and make sure the answer is the firm's. Ask how they protect logins on their side and who on their team will have access. Ask what happens to access, data and any work in progress if the relationship ends, so there are no surprises later.",
+    "These questions fit alongside the others in our guide on [[a:blog/questions-to-ask-when-hiring-an-seo-company|questions to ask when hiring an SEO company]]. If an agency is reluctant to answer them clearly, treat that as useful information about how the relationship would run."
+   ]
+  },
+  {
+   "h2": "A Note on Trademarks, Figures and Bar Rules",
+   "answer": "This guide explains common account access practices and does not promise any ranking or result.",
+   "paras": [
+    "Google, Google Business Profile, Google Search Console, Google Analytics and Google Ads are trademarks of Google LLC. Bing is a trademark of Microsoft Corporation. Avvo and Justia are trademarks of their respective owners. CaseAuthority is not affiliated with, endorsed by or sponsored by any of these companies. Descriptions of their tools are based on what they publish on their own help pages at the time of writing, and menus and roles can change.",
+    "Nothing in this guide promises a ranking, a number of calls or any outcome. Confidentiality duties and lawyer advertising rules vary by state, so check your state bar's current rules on client data and technology vendors when deciding who can access your systems."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Should I Give My SEO Agency Owner Access to Google Business Profile?",
+   "a": "Usually not. Managers can do almost all profile work. Owners can add and remove users and remove the profile, so that role should stay with the firm."
+  },
+  {
+   "q": "How Do I Add a Manager to My Google Business Profile?",
+   "a": "Sign in as the owner, open your profile settings, go to people and access, add the agency's email address and choose the manager role. They accept from their own account."
+  },
+  {
+   "q": "Is It Safe to Share My Google Password With an Agency?",
+   "a": "No. Add each agency person as a user with their own Google Account instead. Shared passwords cannot be traced and are hard to take back."
+  },
+  {
+   "q": "What Role Should an Agency Have in Google Search Console?",
+   "a": "A full user is enough for most SEO work. The firm should stay the verified owner of the property."
+  },
+  {
+   "q": "Who Should Own My Law Firm Website and Domain?",
+   "a": "The firm. Register the domain and hosting in accounts the firm controls, and give the agency its own user access to the website."
+  },
+  {
+   "q": "What Should I Do if I Do Not Know Who Owns My Accounts?",
+   "a": "Find out now. Check old staff and vendor emails, ask whoever set the accounts up and use Google ownership request processes if needed."
+  }
+ ],
+ "related": [
+  "criminal-defense-marketing-agency",
+  "local-seo-for-criminal-defense-lawyers",
+  "criminal-defense-law-firm-seo",
+  "criminal-defense-seo-expert"
+ ]
+}

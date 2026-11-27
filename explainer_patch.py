@@ -452,6 +452,27 @@ G, K, B, S = '#CEAA32', '#0E0E0F', '#a8842a', '#d9d2c3'
 CTA = lambda h, p: {'h': h, 'p': p, 'btn': 'Get my free audit', 'href': '/sales'}
 
 SPECS = {
+'multi-location-seo-for-personal-injury-law-firms': {
+  'title': 'Multi Location SEO in 60 Seconds',
+  'sub': 'How a personal injury firm with several offices ranks in every city it serves.',
+  'bubble': 'Here is how each office gets found.',
+  'scenes': [
+    {'kind': 'answer', 'h': 'Every Office Needs Its Own Signals',
+     'p': 'A new office does not inherit the rankings of headquarters.',
+     'v': {'kind': 'map', 'names': ['Your Firm, Eastside', 'Highway Injury Law', 'Your Firm, Downtown']}},
+    {'h': 'One Office, One Profile', 'p': 'Each real, staffed office gets one verified Google Business Profile.',
+     'v': {'kind': 'checklist', 'title': 'For every office', 'items': ['Real address and signage', 'Staffed during listed hours', 'Local phone number', 'One profile only']}},
+    {'h': 'One Office, One Page', 'p': 'Location pages with genuine local detail, not copied templates.',
+     'v': {'kind': 'pages', 'pages': [('Downtown Office', 'Your city'), ('Eastside Office', 'Your suburb'), ('North County Office', 'Your county')]}},
+    {'h': 'No Virtual Offices', 'p': 'Listings for addresses where nobody works put every office at risk.',
+     'v': {'kind': 'compare', 'cols': ['Real office', 'Virtual office'], 'rows': [('Staffed daily', (True, False)), ('Meets clients', (True, False)), ('Safe to list', (True, False))]}},
+    {'h': 'Reviews by Location', 'p': 'Clients review the office that actually handled their case.',
+     'v': {'kind': 'shield', 'chips': ['Review link per office', 'Same process everywhere', 'Local mentions']}},
+    {'h': 'Track Each Office', 'p': 'Report calls and signed cases separately for every location.',
+     'v': {'kind': 'sources', 'title': 'Signed cases by office', 'items': [('Downtown', 90), ('Eastside', 55), ('North County', 30)], 'tag': 'Illustrative example'}},
+  ],
+  'cta': CTA('Is Every Office Pulling Its Weight?', 'Get a free audit of the map profile and location page for each of your offices.'),
+},
 'seo-kpis-for-personal-injury-law-firms': {
   'title': 'SEO KPIs in 60 Seconds',
   'sub': 'The numbers that show whether SEO is bringing a personal injury firm signed cases.',

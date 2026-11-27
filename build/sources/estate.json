@@ -1,4 +1,28 @@
 {
+ "website-redesign-seo-for-estate-planning-firms": {
+  "links": [
+   {
+    "text": "the earlier, the better",
+    "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+    "title": "Google Search Central: Do you need an SEO?"
+   },
+   {
+    "text": "prepare a URL mapping from the current URLs to their corresponding new format",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+    "title": "Google Search Central: Site moves and migrations"
+   },
+   {
+    "text": "a permanent server-side redirect",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+    "title": "Google Search Central: Redirects and Google Search"
+   },
+   {
+    "text": "measure real-world user experience for loading performance, interactivity and visual stability",
+    "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+    "title": "Google Search Central: Understanding Core Web Vitals and Google search results"
+   }
+  ]
+ },
  "seo-vs-ppc-for-estate-planning-attorneys": {
   "links": [
    {

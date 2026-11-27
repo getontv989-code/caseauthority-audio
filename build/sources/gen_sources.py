@@ -79,6 +79,10 @@ S = {
  'APPLEGROW': ('https://business.apple.com/grow', 'Apple Business: Grow your business (place cards)'),
  'SPARK0': ('https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/', 'SparkToro: 2024 Zero-Click Search Study'),
  'PEWAI': ('https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/', 'Pew Research Center: Google users are less likely to click on links when an AI summary appears in the results'),
+ 'GBPUSERS': ('https://support.google.com/business/answer/3403100?hl=en', 'Google Business Profile Help: Manage your Business Profile owners and managers'),
+ 'GAUSERS': ('https://support.google.com/analytics/answer/9305788?hl=en', 'Google Analytics Help: Add, edit, and delete Analytics users and user groups'),
+ 'DOORWAY': ('https://developers.google.com/search/docs/essentials/spam-policies#doorways', 'Google Search Central: Spam policies (doorway abuse)'),
+ 'REDIRECT': ('https://developers.google.com/search/docs/crawling-indexing/301-redirects', 'Google Search Central: Redirects and Google Search'),
 }
 
 SCREENED = ('Google Screened badge', 'Google Verified badge')
@@ -90,6 +94,10 @@ def L(text, key):
 
 
 PI = {
+ 'multi-location-seo-for-personal-injury-law-firms': {
+  'links': [L('do not create more than one page for each location of your business', 'GBPG'),
+            L('local results are mainly based on relevance, distance and popularity', 'GLR'),
+            L('Doorway abuse is when sites or pages are created to rank for specific, similar search queries', 'DOORWAY')]},
  'seo-kpis-for-personal-injury-law-firms': {
   'links': [L('The Search Console Performance report', 'GSC'),
             L('local results are mainly based on relevance, distance and popularity', 'GLR'),
@@ -237,6 +245,11 @@ PI = {
 }
 
 CRIMINAL = {
+ 'what-access-to-give-your-seo-agency': {
+  'links': [L('managers have mostly the same access to the profile as owners', 'GBPUSERS'),
+            L('A property must have at least one verified owner', 'GSCPERM'),
+            L('you need to have the Administrator role', 'GAUSERS'),
+            L('ultimately, you are responsible for the actions of any companies you hire', 'DOINEED')]},
  'what-does-an-seo-agency-do-for-criminal-defense-lawyers': {
   'links': [L('a review of your site content or structure', 'DOINEED'),
             L('there are no secrets that will automatically rank your site first', 'STARTER'),
@@ -318,6 +331,11 @@ CRIMINAL = {
 }
 
 DIVORCE = {
+ 'outsource-seo-for-family-law-firms': {
+  'links': [L('sometimes hiring a professional can be helpful', 'DOINEED'),
+            L('there are no secrets that will automatically rank your site first', 'STARTER'),
+            L('links bought or traded to manipulate rankings break its spam policies', 'LINKSPAM'),
+            L('ABA Model Rule 7.1 says a lawyer shall not make a false or misleading communication', 'ABA71')]},
  'on-page-vs-off-page-seo-for-divorce-lawyers': {
   'links': [L('title links are generated automatically', 'TITLE'),
             L('measure real-world user experience for loading performance, interactivity and visual stability', 'CWV'),
@@ -402,6 +420,11 @@ DIVORCE = {
 
 here = os.path.dirname(os.path.abspath(__file__))
 ESTATE = {
+ 'website-redesign-seo-for-estate-planning-firms': {
+  'links': [L('the earlier, the better', 'DOINEED'),
+            L('prepare a URL mapping from the current URLs to their corresponding new format', 'MOVE'),
+            L('a permanent server-side redirect', 'REDIRECT'),
+            L('measure real-world user experience for loading performance, interactivity and visual stability', 'CWV')]},
  'seo-vs-ppc-for-estate-planning-attorneys': {
   'links': [L('Gallup found that 46% of U.S. adults have a will', 'GALLUP'),
             L('charge per lead rather than per click', 'LSA'),
