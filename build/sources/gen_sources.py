@@ -97,7 +97,7 @@ PI = {
  'multi-location-seo-for-personal-injury-law-firms': {
   'links': [L('do not create more than one page for each location of your business', 'GBPG'),
             L('local results are mainly based on relevance, distance and popularity', 'GLR'),
-            L('Doorway abuse is when sites or pages are created to rank for specific, similar search queries', 'DOORWAY')]},
+            L('doorway abuse is when sites or pages are created to rank for specific, similar search queries', 'DOORWAY')]},
  'seo-kpis-for-personal-injury-law-firms': {
   'links': [L('The Search Console Performance report', 'GSC'),
             L('local results are mainly based on relevance, distance and popularity', 'GLR'),
