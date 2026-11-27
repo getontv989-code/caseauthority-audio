@@ -1,5 +1,5 @@
 set -e
-R=https://raw.githubusercontent.com/getontv989-code/caseauthority-audio/75b26058dc11ec9a41f342b6b176444ab6f376e2
+R=https://raw.githubusercontent.com/getontv989-code/caseauthority-audio/177bcf9dedce746e733125daafcfefd89d301dc2
 get(){ for i in 1 2 3 4; do if curl -fsSL "$R/$1" -o "$2" && [ "$(sha1sum < "$2" | cut -c1-40)" = "$3" ]; then return 0; fi; sleep $((2**i)); done; echo "build input fetch failed: $1"; exit 1; }
 get build/engine-2026-11-08.txz engine.txz fc7528cffa2cf2b8002ae1ed184ea67deeff3e61
 python3 -c "import glob,tarfile;[tarfile.open(f).extractall() for f in sorted(glob.glob('*.txz'))]"

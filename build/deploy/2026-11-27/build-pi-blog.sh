@@ -1,5 +1,5 @@
 set -e
-B=https://raw.githubusercontent.com/getontv989-code/caseauthority-audio/75b26058dc11ec9a41f342b6b176444ab6f376e2/build
+B=https://raw.githubusercontent.com/getontv989-code/caseauthority-audio/177bcf9dedce746e733125daafcfefd89d301dc2/build
 get(){ for i in 1 2 3 4; do if curl -fsSL "$B/$1" -o "$2" && [ "$(sha1sum < "$2" | cut -c1-40)" = "$3" ]; then return 0; fi; sleep $((2**i)); done; echo "build input fetch failed: $1"; exit 1; }
 mkdir -p src audio
 get posts__z21-multi-location-seo-for-personal-injury-law-firms.py src/posts__z21-multi-location-seo-for-personal-injury-law-firms.py.part00 13f077c6eeca23fd039c4c85cab562f43ce1d060
@@ -44,7 +44,7 @@ python3 explainer_patch.py public
 python3 linkedin_patch.py public
 python3 author_patch.py public
 get sources_patch.py sources_patch.py f32120f9bf958c4a78a902967c8ceb279efe7e5d
-get sources/pi.json sources.json c6ae551f56a5ce3d404eada89cbb49b6bdce280a
+get sources/pi.json sources.json cdf3feee56add5f296b7abc48f0388cdb24dd736
 python3 sources_patch.py public sources.json
 A=https://raw.githubusercontent.com/getontv989-code/caseauthority-audio/e25e6ba7197edf7e3ada2c10b638e65aa18c198a/build
 for i in 1 2 3 4; do if curl -fsSL "$A/a11y_patch.py" -o a11y_patch.py && [ "$(sha1sum < a11y_patch.py | cut -c1-40)" = "8e28d9077a486ba8426f24f0905072fb40181f7c" ]; then break; fi; [ $i = 4 ] && { echo "build input fetch failed: a11y_patch.py"; exit 1; }; sleep $((2**i)); done
